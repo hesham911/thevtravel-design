@@ -1,0 +1,62 @@
+{
+  "/assets/photos/home-hero-clean.png": {
+    "src": "/assets/lcp/home-hero-clean.334dcd09786e.webp",
+    "width": 514,
+    "height": 330,
+    "bytes": 192788
+  },
+  "/assets/photos/how-booking-hero-light.png": {
+    "src": "/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+    "width": 577,
+    "height": 345,
+    "bytes": 245480
+  },
+  "/assets/photos/how-booking-hero-dark.png": {
+    "src": "/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+    "width": 577,
+    "height": 345,
+    "bytes": 249648
+  },
+  "/assets/photos/hero-colossi-wide.png": {
+    "src": "/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+    "width": 434,
+    "height": 312,
+    "bytes": 162338
+  },
+  "/assets/journeys/journey-karnak.png": {
+    "src": "/assets/lcp/journey-karnak.db5695a97af9.webp",
+    "width": 244,
+    "height": 142,
+    "bytes": 45842
+  },
+  "/assets/journeys/journey-abu-simbel.png": {
+    "src": "/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+    "width": 244,
+    "height": 142,
+    "bytes": 51644
+  },
+  "/assets/journeys/journey-felucca.png": {
+    "src": "/assets/lcp/journey-felucca.c6d8352771c2.webp",
+    "width": 244,
+    "height": 142,
+    "bytes": 43528
+  },
+  "/assets/journeys/journey-sinai.png": {
+    "src": "/assets/lcp/journey-sinai.16cee3d94753.webp",
+    "width": 244,
+    "height": 142,
+    "bytes": 53766
+  },
+  "/assets/journeys/journey-alexandria.png": {
+    "src": "/assets/lcp/journey-alexandria.f288a0884368.webp",
+    "width": 244,
+    "height": 142,
+    "bytes": 41812
+  },
+  "/assets/journeys/journey-pyramids.png": {
+    "src": "/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+    "width": 244,
+    "height": 142,
+    "bytes": 40244
+  }
+}

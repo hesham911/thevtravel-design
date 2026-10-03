@@ -1,0 +1,52 @@
+[
+  {
+    "source": "/assets/photos/home-hero-clean.png",
+    "optimized": "/assets/lcp/home-hero-clean.334dcd09786e.webp",
+    "identicalDecodedPixels": true
+  },
+  {
+    "source": "/assets/photos/how-booking-hero-light.png",
+    "optimized": "/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+    "identicalDecodedPixels": true
+  },
+  {
+    "source": "/assets/photos/how-booking-hero-dark.png",
+    "optimized": "/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+    "identicalDecodedPixels": true
+  },
+  {
+    "source": "/assets/photos/hero-colossi-wide.png",
+    "optimized": "/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+    "identicalDecodedPixels": true
+  },
+  {
+    "source": "/assets/journeys/journey-karnak.png",
+    "optimized": "/assets/lcp/journey-karnak.db5695a97af9.webp",
+    "identicalDecodedPixels": true
+  },
+  {
+    "source": "/assets/journeys/journey-abu-simbel.png",
+    "optimized": "/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+    "identicalDecodedPixels": true
+  },
+  {
+    "source": "/assets/journeys/journey-felucca.png",
+    "optimized": "/assets/lcp/journey-felucca.c6d8352771c2.webp",
+    "identicalDecodedPixels": true
+  },
+  {
+    "source": "/assets/journeys/journey-sinai.png",
+    "optimized": "/assets/lcp/journey-sinai.16cee3d94753.webp",
+    "identicalDecodedPixels": true
+  },
+  {
+    "source": "/assets/journeys/journey-alexandria.png",
+    "optimized": "/assets/lcp/journey-alexandria.f288a0884368.webp",
+    "identicalDecodedPixels": true
+  },
+  {
+    "source": "/assets/journeys/journey-pyramids.png",
+    "optimized": "/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+    "identicalDecodedPixels": true
+  }
+]

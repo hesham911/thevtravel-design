@@ -56,3 +56,42 @@ Both maps retain Leaflet interaction/markers and use OpenFreeMap vector tiles re
 The default OpenFreeMap Liberty style requires no account or key. `NUXT_PUBLIC_MAP_STYLE_URL` optionally selects an OpenMapTiles-compatible style; it is a public browser URL, never a place for a secret credential. OpenFreeMap advertises free public hosting with no request/map-view limits, but the public service is still an external dependency. Retain its attribution. WebGL is required for the vector renderer. MapLibre's worker is bundled locally; no remote worker script or RTL plugin is needed with MapLibre 6.
 
 See [the basemap change report](docs/multilingual-basemap.md) for provider research and verification. The earlier migration parity report describes the approved raster-map baseline before this explicitly requested basemap change.
+
+### Mobile LCP verification
+
+The scoped optimization findings and limits are in `docs/mobile-lcp-report.md`.
+Start an isolated production preview to avoid measuring a stale running build:
+
+```sh
+npm run build
+HOST=127.0.0.1 PORT=3014 node .output/server/index.mjs
+```
+
+With Playwright available through `NODE_PATH`, run:
+
+```sh
+LCP_ORIGIN=http://127.0.0.1:3014 node scripts/measure-lcp.cjs after
+LCP_ORIGIN=http://127.0.0.1:3014 node scripts/verify-lcp-routes.cjs
+NUXT_PREVIEW_ORIGIN=http://127.0.0.1:3014 npm run test:ssr
+```
+
+The measurement script records Chrome's actual LCP node, resource timing, FCP,
+CLS, long-task blocking time, hero bounds, and screenshots at 320/360/390/430px
+plus desktop. Only the 390px cases use a cold cache, 150ms latency, 1.6Mbps
+download, and 4× CPU throttling; the other widths check element identity/layout.
+Long-task blocking time is a diagnostic, not Lighthouse's TBT metric.
+The route audit checks every Journey detail route, both Home/listing themes,
+theme preference initialization, and on-demand map loading.
+
+With Sharp available through `NODE_PATH`, regenerate the lossless hero assets:
+
+```sh
+node scripts/optimize-lcp-images.cjs
+```
+
+Generated filenames hash the encoded contents. Rebuild after regeneration. New
+CMS image URLs fall back to their original source until optimized variants exist.
+Nuxt/Nitro serves precompressed static assets and cache headers in Node preview.
+If Hostinger or a CDN serves `.output/public` directly, its own static configuration
+must retain these headers and negotiate `.br`/`.gz` using `Accept-Encoding` with
+`Vary: Accept-Encoding`. Do not apply immutable caching to SSR HTML.

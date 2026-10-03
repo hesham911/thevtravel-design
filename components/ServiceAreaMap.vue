@@ -1,6 +1,8 @@
 <script setup>
 import { onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import L from 'leaflet'
+import 'leaflet/dist/leaflet.css'
+import 'maplibre-gl/dist/maplibre-gl.css'
 import { addLocalizedBasemap } from '~/services/leafletBasemap.client'
 import { egyptBounds, serviceAreaLocations } from '~/data/serviceAreaLocations'
 import { useI18n } from '~/utils/i18n'

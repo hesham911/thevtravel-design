@@ -1,0 +1,142 @@
+[
+  {
+    "route": "/",
+    "width": 320,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 32930,
+    "totalChannels": 3456000
+  },
+  {
+    "route": "/",
+    "width": 360,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 0,
+    "totalChannels": 3888000
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 0,
+    "totalChannels": 4212000
+  },
+  {
+    "route": "/",
+    "width": 430,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 0,
+    "totalChannels": 4644000
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 0,
+    "totalChannels": 3888000
+  },
+  {
+    "route": "/journeys",
+    "width": 320,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 0,
+    "totalChannels": 3456000
+  },
+  {
+    "route": "/journeys",
+    "width": 360,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 809,
+    "totalChannels": 3888000
+  },
+  {
+    "route": "/journeys",
+    "width": 390,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 0,
+    "totalChannels": 4212000
+  },
+  {
+    "route": "/journeys",
+    "width": 430,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 0,
+    "totalChannels": 4644000
+  },
+  {
+    "route": "/journeys",
+    "width": 1440,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 0,
+    "totalChannels": 3888000
+  },
+  {
+    "route": "/journeys/luxor-west-bank-at-dawn",
+    "width": 320,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 0,
+    "totalChannels": 3456000
+  },
+  {
+    "route": "/journeys/luxor-west-bank-at-dawn",
+    "width": 360,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 492,
+    "totalChannels": 3888000
+  },
+  {
+    "route": "/journeys/luxor-west-bank-at-dawn",
+    "width": 390,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 1277,
+    "totalChannels": 4212000
+  },
+  {
+    "route": "/journeys/luxor-west-bank-at-dawn",
+    "width": 430,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 818,
+    "totalChannels": 4644000
+  },
+  {
+    "route": "/journeys/luxor-west-bank-at-dawn",
+    "width": 1440,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 0,
+    "totalChannels": 3888000
+  },
+  {
+    "route": "/journeys/abu-simbel-day-tour",
+    "width": 320,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 0,
+    "totalChannels": 3456000
+  },
+  {
+    "route": "/journeys/abu-simbel-day-tour",
+    "width": 360,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 70,
+    "totalChannels": 3888000
+  },
+  {
+    "route": "/journeys/abu-simbel-day-tour",
+    "width": 390,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 944,
+    "totalChannels": 4212000
+  },
+  {
+    "route": "/journeys/abu-simbel-day-tour",
+    "width": 430,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 0,
+    "totalChannels": 4644000
+  },
+  {
+    "route": "/journeys/abu-simbel-day-tour",
+    "width": 1440,
+    "geometryIdentical": true,
+    "screenshotChangedChannels": 33,
+    "totalChannels": 3888000
+  }
+]

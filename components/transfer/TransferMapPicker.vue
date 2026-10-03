@@ -1,6 +1,8 @@
 <script setup>
 import { computed, onMounted, onBeforeUnmount, ref, useId, watch } from 'vue'
 import L from 'leaflet'
+import 'leaflet/dist/leaflet.css'
+import 'maplibre-gl/dist/maplibre-gl.css'
 import { addLocalizedBasemap } from '~/services/leafletBasemap.client'
 import { useI18n } from '~/utils/i18n'
 const { locale, translate } = useI18n()

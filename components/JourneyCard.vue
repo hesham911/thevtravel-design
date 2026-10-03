@@ -12,7 +12,7 @@ defineProps({
 <template>
   <article class="listing-card" :class="`listing-card--${layout}`">
     <div class="listing-card-media">
-      <NuxtLink class="listing-image-link" :to="journey.detailsHref" :aria-label="`${$t('View journey')}: ${$t(journey.title)}`"><img :src="journey.image" :alt="$t(journey.alt)" :style="{ objectPosition: journey.imagePosition || 'center' }" width="520" height="325" loading="lazy" /></NuxtLink>
+      <NuxtLink class="listing-image-link" :to="journey.detailsHref" :aria-label="`${$t('View journey')}: ${$t(journey.title)}`"><img :src="journey.image" :alt="$t(journey.alt)" :style="{ objectPosition: journey.imagePosition || 'center' }" width="520" height="325" loading="lazy" fetchpriority="low" /></NuxtLink>
       <span v-if="journey.badge" class="listing-badge">{{ $t(journey.badge) }}</span>
     </div>
 

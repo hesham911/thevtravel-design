@@ -1,0 +1,2150 @@
+{
+  "engineFiles": [
+    "fJ4pjATG.js",
+    "maplibre-gl-worker-DttxN3zb.js"
+  ],
+  "rows": [
+    {
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp\" alt=\"The Colossi of Memnon in the warm morning light\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/assets/decorative/cta-lineart-left.svg",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/luxor-highlights",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-karnak.db5695a97af9.webp\" alt=\"Luxor Highlights in Luxor\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "time": 92
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/abu-simbel-day-tour",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-abu-simbel.538fc752cd58.webp\" alt=\"Abu Simbel Day Tour in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/felucca-on-the-nile",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-felucca.c6d8352771c2.webp\" alt=\"Felucca on the Nile in Luxor\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp",
+        "time": 88
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/luxor-hot-air-balloon",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-sinai.16cee3d94753.webp\" alt=\"Luxor Hot Air Balloon in Luxor\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "time": 56
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/giftun-island-snorkeling",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-alexandria.f288a0884368.webp\" alt=\"Giftun Island Snorkeling in Hurghada\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "time": 68
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/white-desert-adventure",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-sinai.16cee3d94753.webp\" alt=\"White Desert Adventure in Farafra\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/cairo-city-tour",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-pyramids.e5c6965ab5b0.webp\" alt=\"Cairo City Tour in Cairo\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+        "time": 76
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/philae-temple-aswan",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-abu-simbel.538fc752cd58.webp\" alt=\"Philae Temple &amp; Aswan in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "time": 76
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/desert-safari-by-quad",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-sinai.16cee3d94753.webp\" alt=\"Desert Safari by Quad in Hurghada\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "time": 68
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/hurghada-paradise",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-alexandria.f288a0884368.webp\" alt=\"Hurghada Paradise in Hurghada\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "time": 56
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/dendera-temple-tour",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-karnak.db5695a97af9.webp\" alt=\"Dendera Temple Tour in Qena\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/siwa-oasis-escape",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-sinai.16cee3d94753.webp\" alt=\"Siwa Oasis Escape in Siwa\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "time": 80
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/pyramids-sphinx-private-tour",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-pyramids.e5c6965ab5b0.webp\" alt=\"Pyramids &amp; Sphinx Private Tour in Cairo\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+        "time": 76
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/nubian-village-visit",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-abu-simbel.538fc752cd58.webp\" alt=\"Nubian Village Visit in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/alexandria-coastal-day",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-alexandria.f288a0884368.webp\" alt=\"Alexandria Coastal Day in Alexandria\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "time": 76
+      },
+      "resources": [
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/karnak-by-night",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-karnak.db5695a97af9.webp\" alt=\"Karnak by Night in Luxor\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/sunset-nile-dinner-cruise",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-felucca.c6d8352771c2.webp\" alt=\"Sunset Nile Dinner Cruise in Cairo\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp",
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/ras-mohammed-snorkeling",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-alexandria.f288a0884368.webp\" alt=\"Ras Mohammed Snorkeling in Sharm El Sheikh\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/mount-sinai-sunrise-hike",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-sinai.16cee3d94753.webp\" alt=\"Mount Sinai Sunrise Hike in Sinai\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "time": 76
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/edfu-kom-ombo-temples",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-karnak.db5695a97af9.webp\" alt=\"Edfu &amp; Kom Ombo Temples in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "time": 60
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/family-pyramids-discovery",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-pyramids.e5c6965ab5b0.webp\" alt=\"Family Pyramids Discovery in Cairo\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+        "time": 60
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/aswan-botanical-island",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-felucca.c6d8352771c2.webp\" alt=\"Aswan Botanical Island in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp",
+        "time": 52
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/orange-bay-beach-day",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-alexandria.f288a0884368.webp\" alt=\"Orange Bay Beach Day in Hurghada\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "time": 68
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/valley-of-the-kings",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-karnak.db5695a97af9.webp\" alt=\"Valley of the Kings in Luxor\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "time": 68
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/fayoum-lakes-waterfalls",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-sinai.16cee3d94753.webp\" alt=\"Fayoum Lakes &amp; Waterfalls in Fayoum\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "time": 76
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/old-cairo-family-walk",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-pyramids.e5c6965ab5b0.webp\" alt=\"Old Cairo Family Walk in Cairo\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+        "time": 68
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/aswan-sunset-felucca",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-felucca.c6d8352771c2.webp\" alt=\"Aswan Sunset Felucca in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/dahab-blue-hole-day",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-alexandria.f288a0884368.webp\" alt=\"Dahab Blue Hole Day in Dahab\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "time": 76
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/luxor-east-bank-evening",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-karnak.db5695a97af9.webp\" alt=\"Luxor East Bank Evening in Luxor\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "time": 68
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/siwa-salt-lakes-retreat",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-sinai.16cee3d94753.webp\" alt=\"Siwa Salt Lakes Retreat in Siwa\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/cairo-food-market-walk",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-pyramids.e5c6965ab5b0.webp\" alt=\"Cairo Food &amp; Market Walk in Cairo\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-pyramids.e5c6965ab5b0.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/nile-islands-picnic",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-felucca.c6d8352771c2.webp\" alt=\"Nile Islands Picnic in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-felucca.c6d8352771c2.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/red-sea-glass-boat",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-alexandria.f288a0884368.webp\" alt=\"Red Sea Glass Boat in Hurghada\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "time": 72
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/abydos-sacred-temples",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-karnak.db5695a97af9.webp\" alt=\"Abydos Sacred Temples in Luxor\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "time": 60
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-karnak.db5695a97af9.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/sinai-canyon-adventure",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-sinai.16cee3d94753.webp\" alt=\"Sinai Canyon Adventure in Sinai\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-sinai.16cee3d94753.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys/mediterranean-heritage-walk",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<img src=\"/assets/lcp/journey-alexandria.f288a0884368.webp\" alt=\"Mediterranean Heritage Walk in Alexandria\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "time": 56
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/journey-alexandria.f288a0884368.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/",
+      "theme": "light",
+      "width": 320,
+      "lcp": {
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "time": 56
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/",
+      "theme": "dark",
+      "width": 320,
+      "lcp": {
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "time": 68
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/",
+      "theme": "light",
+      "width": 360,
+      "lcp": {
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "time": 56
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/",
+      "theme": "dark",
+      "width": 360,
+      "lcp": {
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "time": 48
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/",
+      "theme": "dark",
+      "width": 390,
+      "lcp": {
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/",
+      "theme": "light",
+      "width": 430,
+      "lcp": {
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "time": 60
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/",
+      "theme": "dark",
+      "width": 430,
+      "lcp": {
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/",
+      "theme": "light",
+      "width": 1440,
+      "lcp": {
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "time": 76
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-pyramids.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/",
+      "theme": "dark",
+      "width": 1440,
+      "lcp": {
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "time": 60
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-pyramids.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp"
+      ],
+      "bg": "none",
+      "errors": []
+    },
+    {
+      "route": "/journeys",
+      "theme": "light",
+      "width": 320,
+      "lcp": {
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "time": 76
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp"
+      ],
+      "bg": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp\")",
+      "errors": []
+    },
+    {
+      "route": "/journeys",
+      "theme": "dark",
+      "width": 320,
+      "lcp": {
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+        "time": 72
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+        "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp"
+      ],
+      "bg": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp\")",
+      "errors": []
+    },
+    {
+      "route": "/journeys",
+      "theme": "light",
+      "width": 360,
+      "lcp": {
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "time": 72
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp"
+      ],
+      "bg": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp\")",
+      "errors": []
+    },
+    {
+      "route": "/journeys",
+      "theme": "dark",
+      "width": 360,
+      "lcp": {
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+        "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp"
+      ],
+      "bg": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp\")",
+      "errors": []
+    },
+    {
+      "route": "/journeys",
+      "theme": "light",
+      "width": 390,
+      "lcp": {
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "time": 72
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp"
+      ],
+      "bg": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp\")",
+      "errors": []
+    },
+    {
+      "route": "/journeys",
+      "theme": "dark",
+      "width": 390,
+      "lcp": {
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+        "time": 72
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart-dark.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp"
+      ],
+      "bg": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp\")",
+      "errors": []
+    },
+    {
+      "route": "/journeys",
+      "theme": "light",
+      "width": 430,
+      "lcp": {
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "time": 80
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp"
+      ],
+      "bg": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp\")",
+      "errors": []
+    },
+    {
+      "route": "/journeys",
+      "theme": "dark",
+      "width": 430,
+      "lcp": {
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+        "time": 64
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+        "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp"
+      ],
+      "bg": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp\")",
+      "errors": []
+    },
+    {
+      "route": "/journeys",
+      "theme": "light",
+      "width": 1440,
+      "lcp": {
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "time": 92
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart.png",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-sinai.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-alexandria.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-pyramids.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp"
+      ],
+      "bg": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp\")",
+      "errors": []
+    },
+    {
+      "route": "/journeys",
+      "theme": "dark",
+      "width": 1440,
+      "lcp": {
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+        "time": 72
+      },
+      "resources": [
+        "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+        "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart-dark.png",
+        "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-sinai.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-alexandria.png",
+        "http://127.0.0.1:3014/assets/journeys/journey-pyramids.png",
+        "http://127.0.0.1:3014/assets/icons/favicon.svg"
+      ],
+      "preloads": [
+        "http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp"
+      ],
+      "bg": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp\")",
+      "errors": []
+    }
+  ]
+}

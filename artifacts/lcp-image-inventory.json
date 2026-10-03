@@ -1,0 +1,72 @@
+[
+  {
+    "src": "/assets/photos/home-hero-clean.png",
+    "width": 514,
+    "height": 330,
+    "format": "png",
+    "bytes": 273842
+  },
+  {
+    "src": "/assets/photos/how-booking-hero-light.png",
+    "width": 577,
+    "height": 345,
+    "format": "png",
+    "bytes": 319446
+  },
+  {
+    "src": "/assets/photos/how-booking-hero-dark.png",
+    "width": 577,
+    "height": 345,
+    "format": "png",
+    "bytes": 325550
+  },
+  {
+    "src": "/assets/photos/hero-colossi-wide.png",
+    "width": 434,
+    "height": 312,
+    "format": "png",
+    "bytes": 309279
+  },
+  {
+    "src": "/assets/journeys/journey-karnak.png",
+    "width": 244,
+    "height": 142,
+    "format": "png",
+    "bytes": 89057
+  },
+  {
+    "src": "/assets/journeys/journey-abu-simbel.png",
+    "width": 244,
+    "height": 142,
+    "format": "png",
+    "bytes": 98125
+  },
+  {
+    "src": "/assets/journeys/journey-felucca.png",
+    "width": 244,
+    "height": 142,
+    "format": "png",
+    "bytes": 88786
+  },
+  {
+    "src": "/assets/journeys/journey-sinai.png",
+    "width": 244,
+    "height": 142,
+    "format": "png",
+    "bytes": 100129
+  },
+  {
+    "src": "/assets/journeys/journey-alexandria.png",
+    "width": 244,
+    "height": 142,
+    "format": "png",
+    "bytes": 81846
+  },
+  {
+    "src": "/assets/journeys/journey-pyramids.png",
+    "width": 244,
+    "height": 142,
+    "format": "png",
+    "bytes": 83320
+  }
+]

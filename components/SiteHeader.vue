@@ -29,8 +29,8 @@ function isActive(name) {
 <template>
   <header ref="header" class="site-header">
     <NuxtLink class="brand-link" to="/" :aria-label='$t("TheVTravel home")'>
-      <img class="logo-light" src="/assets/brand/logo-transparent.png" :alt='$t("TheVTravel")' width="174" height="58" />
-      <img class="logo-dark" src="/assets/brand/logo-transparent-dark.png" :alt='$t("TheVTravel")' width="174" height="58" />
+      <img class="logo-light" src="/assets/brand/logo-transparent.png" :alt='$t("TheVTravel")' width="174" height="58" fetchpriority="low" />
+      <img class="logo-dark" src="/assets/brand/logo-transparent-dark.png" :alt='$t("TheVTravel")' width="174" height="58" fetchpriority="low" />
     </NuxtLink>
     <nav class="desktop-nav" :aria-label='$t("Main navigation")'>
       <NuxtLink to="/journeys" :class="{ active: isActive('journeys') }" :aria-current="isActive('journeys') ? 'page' : undefined">{{ $t("Journeys") }}</NuxtLink>

@@ -1,0 +1,53 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "headers": {
+      "connection": "close",
+      "content-type": "text/html;charset=utf-8",
+      "date": "Sat, 03 Oct 2026 19:59:23 GMT",
+      "x-powered-by": "Nuxt"
+    }
+  },
+  {
+    "path": "/_nuxt/entry.CzVS7mCu.css",
+    "status": 200,
+    "headers": {
+      "cache-control": "public, max-age=31536000, immutable",
+      "connection": "close",
+      "content-encoding": "br",
+      "content-length": "19794",
+      "content-type": "text/css; charset=utf-8",
+      "date": "Sat, 03 Oct 2026 19:59:23 GMT",
+      "etag": "\"4d52-bdWEaiKU5mOffBGAdD0Ocf48Y6Y\"",
+      "last-modified": "Sat, 03 Oct 2026 19:58:40 GMT",
+      "vary": "Accept-Encoding"
+    }
+  },
+  {
+    "path": "/assets/lcp/home-hero-clean.334dcd09786e.webp",
+    "status": 200,
+    "headers": {
+      "cache-control": "public, max-age=31536000, immutable",
+      "connection": "close",
+      "content-length": "192788",
+      "content-type": "image/webp",
+      "date": "Sat, 03 Oct 2026 19:59:23 GMT",
+      "etag": "\"2f114-dl025U1XRInKKYCfcQFIqfYXqfY\"",
+      "last-modified": "Sat, 03 Oct 2026 19:58:40 GMT"
+    }
+  },
+  {
+    "path": "/assets/photos/home-hero-clean.png",
+    "status": 200,
+    "headers": {
+      "cache-control": "public, max-age=86400",
+      "connection": "close",
+      "content-length": "273842",
+      "content-type": "image/png",
+      "date": "Sat, 03 Oct 2026 19:59:23 GMT",
+      "etag": "\"42db2-qPo3TLgeuBwqQBp51xJ/zUl7TEI\"",
+      "last-modified": "Sat, 03 Oct 2026 19:58:40 GMT"
+    }
+  }
+]

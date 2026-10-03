@@ -1,4 +1,5 @@
 <script setup>
+import { lcpImage } from '~/utils/lcpImage'
 import { formatUSD } from '~/utils/currency'
 import JourneyIcon from './JourneyIcon.vue'
 defineProps({ journey: Object })
@@ -17,6 +18,6 @@ defineEmits(['reviews', 'request'])
       <div class="jd-actions"><button class="jd-button jd-primary" @click="$emit('request')">{{ $t("Request this journey") }}</button><NuxtLink class="jd-button" :to="{ path: '/contact', query: { journey: journey.title, subject: 'question' }, hash: '#contact-form' }">{{ $t("Ask a question") }}</NuxtLink></div>
       <p class="jd-payment"><JourneyIcon name="shield" :size="23" />{{ $t("No online payment. Pay at the start of your trip.") }}</p>
     </div>
-    <div class="jd-hero-image"><img :src="journey.image.src" :alt="$t(journey.image.alt)" :style="{ objectPosition: journey.image.position || 'center' }" fetchpriority="high" width="900" height="600" /></div>
+    <div class="jd-hero-image"><img :src="lcpImage(journey.image.src).src" :alt="$t(journey.image.alt)" :style="{ objectPosition: journey.image.position || 'center' }" loading="eager" fetchpriority="high" width="900" height="600" /></div>
   </section>
 </template>

@@ -1,0 +1,5280 @@
+[
+  {
+    "route": "/",
+    "width": 320,
+    "throttled": false,
+    "lcp": {
+      "time": 216,
+      "size": 96000,
+      "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+      "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+      "rect": {
+        "x": 0,
+        "y": 422,
+        "width": 320,
+        "height": 300,
+        "top": 422,
+        "right": 320,
+        "bottom": 722,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 216,
+        "size": 96000,
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 320,
+          "height": 300,
+          "top": 422,
+          "right": 320,
+          "bottom": 722,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 216,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 166.39999999850988,
+        "end": 174.79999999701977,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "start": 166.60000000149012,
+        "end": 175.29999999701977,
+        "bytes": 193088,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 166.60000000149012,
+        "end": 175.89999999850988,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 166.70000000298023,
+        "end": 178.20000000298023,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 166.70000000298023,
+        "end": 179.5,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 166.70000000298023,
+        "end": 177.89999999850988,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 166.79999999701977,
+        "end": 180.20000000298023,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 166.79999999701977,
+        "end": 182.89999999850988,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 166.79999999701977,
+        "end": 181.79999999701977,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "start": 166.89999999850988,
+        "end": 182.70000000298023,
+        "bytes": 2429,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 166.89999999850988,
+        "end": 183,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 167,
+        "end": 183.29999999701977,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 167,
+        "end": 182.70000000298023,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 167.10000000149012,
+        "end": 184.20000000298023,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 182.79999999701977,
+        "end": 185.70000000298023,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 185.20000000298023,
+        "end": 188.5,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "start": 194,
+        "end": 196.20000000298023,
+        "bytes": 309579,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 194.10000000149012,
+        "end": 196.5,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 194.10000000149012,
+        "end": 196.79999999701977,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 243.89999999850988,
+        "end": 245.20000000298023,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1246.6000000014901,
+        "end": 1248,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 320,
+          "height": 300,
+          "top": 422,
+          "right": 320,
+          "bottom": 722,
+          "left": 0
+        },
+        "background": "linear-gradient(rgb(250, 246, 242) 0px, rgba(0, 0, 0, 0) 25%), linear-gradient(90deg, rgb(250, 246, 242), rgb(250, 246, 242) 20%, rgba(250, 246, 242, 0.97) 27%, rgba(250, 246, 242, 0.82) 35%, rgba(250, 246, 242, 0.55) 43%, rgba(250, 246, 242, 0.24) 51%, rgba(250, 246, 242, 0) 62%), url(\"http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp\")",
+        "position": "50% 50%, 50% 50%, 50% 50%",
+        "size": "cover, cover, cover"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "hero-copy",
+        "text": null,
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "width": 280,
+          "height": 602.65625,
+          "top": 72,
+          "right": 300,
+          "bottom": 674.65625,
+          "left": 20
+        }
+      },
+      {
+        "class": "",
+        "text": "Journeys across Egypt",
+        "rect": {
+          "x": 20,
+          "y": 134.796875,
+          "width": 240.40625,
+          "height": 84,
+          "top": 134.796875,
+          "right": 260.40625,
+          "bottom": 218.796875,
+          "left": 20
+        }
+      },
+      {
+        "class": "hero-photo",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 320,
+          "height": 300,
+          "top": 422,
+          "right": 320,
+          "bottom": 722,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/",
+    "width": 360,
+    "throttled": false,
+    "lcp": {
+      "time": 56,
+      "size": 108000,
+      "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+      "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+      "rect": {
+        "x": 0,
+        "y": 422,
+        "width": 360,
+        "height": 300,
+        "top": 422,
+        "right": 360,
+        "bottom": 722,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 56,
+        "size": 108000,
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 360,
+          "height": 300,
+          "top": 422,
+          "right": 360,
+          "bottom": 722,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 56,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 15.5,
+        "end": 19.600000001490116,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "start": 15.600000001490116,
+        "end": 21,
+        "bytes": 193088,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 15.700000002980232,
+        "end": 20.600000001490116,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 15.700000002980232,
+        "end": 20.899999998509884,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 15.800000004470348,
+        "end": 21.399999998509884,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 15.800000004470348,
+        "end": 21.399999998509884,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 15.800000004470348,
+        "end": 25.399999998509884,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 15.800000004470348,
+        "end": 25.80000000447035,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 15.800000004470348,
+        "end": 26.700000002980232,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "start": 15.899999998509884,
+        "end": 26.100000001490116,
+        "bytes": 2429,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 15.899999998509884,
+        "end": 27.100000001490116,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 16,
+        "end": 27,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 16,
+        "end": 28.700000002980232,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 16,
+        "end": 29.200000002980232,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 33.30000000447035,
+        "end": 35.70000000298023,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 35.20000000298023,
+        "end": 39.399999998509884,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "start": 44.100000001490116,
+        "end": 48,
+        "bytes": 309579,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 44.20000000298023,
+        "end": 47.80000000447035,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 44.30000000447035,
+        "end": 47.80000000447035,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 95.80000000447035,
+        "end": 97.10000000149012,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1098.3000000044703,
+        "end": 1101.1000000014901,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 360,
+          "height": 300,
+          "top": 422,
+          "right": 360,
+          "bottom": 722,
+          "left": 0
+        },
+        "background": "linear-gradient(rgb(250, 246, 242) 0px, rgba(0, 0, 0, 0) 25%), linear-gradient(90deg, rgb(250, 246, 242), rgb(250, 246, 242) 20%, rgba(250, 246, 242, 0.97) 27%, rgba(250, 246, 242, 0.82) 35%, rgba(250, 246, 242, 0.55) 43%, rgba(250, 246, 242, 0.24) 51%, rgba(250, 246, 242, 0) 62%), url(\"http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp\")",
+        "position": "50% 50%, 50% 50%, 50% 50%",
+        "size": "cover, cover, cover"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "hero-copy",
+        "text": null,
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "width": 320,
+          "height": 614.65625,
+          "top": 72,
+          "right": 340,
+          "bottom": 686.65625,
+          "left": 20
+        }
+      },
+      {
+        "class": "",
+        "text": "Journeys across Egypt",
+        "rect": {
+          "x": 20,
+          "y": 134.796875,
+          "width": 274.75,
+          "height": 96,
+          "top": 134.796875,
+          "right": 294.75,
+          "bottom": 230.796875,
+          "left": 20
+        }
+      },
+      {
+        "class": "hero-photo",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 360,
+          "height": 300,
+          "top": 422,
+          "right": 360,
+          "bottom": 722,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "throttled": true,
+    "lcp": {
+      "time": 5612,
+      "size": 117000,
+      "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+      "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+      "rect": {
+        "x": 0,
+        "y": 422,
+        "width": 390,
+        "height": 300,
+        "top": 422,
+        "right": 390,
+        "bottom": 722,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 960,
+        "size": 31106,
+        "url": "",
+        "element": "<h1 id=\"home-title\">Journeys across Egypt</h1>",
+        "rect": {
+          "x": 20,
+          "y": 134.796875,
+          "width": 350,
+          "height": 96,
+          "top": 134.796875,
+          "right": 370,
+          "bottom": 230.796875,
+          "left": 20
+        }
+      },
+      {
+        "time": 5612,
+        "size": 117000,
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 390,
+          "height": 300,
+          "top": 422,
+          "right": 390,
+          "bottom": 722,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 960,
+    "cls": 0,
+    "longTaskBlockingMs": 73,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 247.09999999403954,
+        "end": 882.0999999940395,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "start": 247.19999999552965,
+        "end": 5607.29999999702,
+        "bytes": 193088,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 248,
+        "end": 1123.1999999955297,
+        "bytes": 28851,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 248,
+        "end": 1167.5999999940395,
+        "bytes": 31844,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 248.5,
+        "end": 545.5999999940395,
+        "bytes": 5846,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 248.59999999403954,
+        "end": 619.7999999970198,
+        "bytes": 2109,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 248.79999999701977,
+        "end": 904.3999999985099,
+        "bytes": 7131,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 248.79999999701977,
+        "end": 1745.5999999940395,
+        "bytes": 44450,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 252.79999999701977,
+        "end": 1204.6999999955297,
+        "bytes": 6128,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "start": 253,
+        "end": 1137.1999999955297,
+        "bytes": 2429,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 253.09999999403954,
+        "end": 1392.7999999970198,
+        "bytes": 1422,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 253.09999999403954,
+        "end": 1429.6999999955297,
+        "bytes": 4409,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 253.5,
+        "end": 9492.5,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 253.59999999403954,
+        "end": 9515.39999999851,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 910.5999999940395,
+        "end": 3507.0999999940395,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 919.2999999970198,
+        "end": 3890.39999999851,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 955.5999999940395,
+        "end": 6372.79999999702,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 955.5999999940395,
+        "end": 6702.19999999553,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "start": 955.5999999940395,
+        "end": 8757.09999999404,
+        "bytes": 309579,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 2930.89999999851,
+        "end": 3703.39999999851,
+        "bytes": 388,
+        "type": "fetch"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 9519.19999999553,
+        "end": 9695.5,
+        "bytes": 3302,
+        "type": "other"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 390,
+          "height": 300,
+          "top": 422,
+          "right": 390,
+          "bottom": 722,
+          "left": 0
+        },
+        "background": "linear-gradient(rgb(250, 246, 242) 0px, rgba(0, 0, 0, 0) 25%), linear-gradient(90deg, rgb(250, 246, 242), rgb(250, 246, 242) 20%, rgba(250, 246, 242, 0.97) 27%, rgba(250, 246, 242, 0.82) 35%, rgba(250, 246, 242, 0.55) 43%, rgba(250, 246, 242, 0.24) 51%, rgba(250, 246, 242, 0) 62%), url(\"http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp\")",
+        "position": "50% 50%, 50% 50%, 50% 50%",
+        "size": "cover, cover, cover"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "hero-copy",
+        "text": null,
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "width": 350,
+          "height": 614.65625,
+          "top": 72,
+          "right": 370,
+          "bottom": 686.65625,
+          "left": 20
+        }
+      },
+      {
+        "class": "",
+        "text": "Journeys across Egypt",
+        "rect": {
+          "x": 20,
+          "y": 134.796875,
+          "width": 274.75,
+          "height": 96,
+          "top": 134.796875,
+          "right": 294.75,
+          "bottom": 230.796875,
+          "left": 20
+        }
+      },
+      {
+        "class": "hero-photo",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 390,
+          "height": 300,
+          "top": 422,
+          "right": 390,
+          "bottom": 722,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/",
+    "width": 430,
+    "throttled": false,
+    "lcp": {
+      "time": 52,
+      "size": 129000,
+      "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+      "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+      "rect": {
+        "x": 0,
+        "y": 422,
+        "width": 430,
+        "height": 300,
+        "top": 422,
+        "right": 430,
+        "bottom": 722,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 52,
+        "size": 129000,
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 430,
+          "height": 300,
+          "top": 422,
+          "right": 430,
+          "bottom": 722,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 52,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 10.399999998509884,
+        "end": 14.399999998509884,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "start": 10.5,
+        "end": 15.799999997019768,
+        "bytes": 193088,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 10.5,
+        "end": 17.799999997019768,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 10.599999994039536,
+        "end": 25.69999999552965,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 10.599999994039536,
+        "end": 25.799999997019768,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 10.699999995529652,
+        "end": 27.299999997019768,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 10.699999995529652,
+        "end": 30.299999997019768,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 10.699999995529652,
+        "end": 30.19999999552965,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 10.699999995529652,
+        "end": 30.599999994039536,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 10.799999997019768,
+        "end": 31.299999997019768,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "start": 10.799999997019768,
+        "end": 31.19999999552965,
+        "bytes": 2429,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 10.899999998509884,
+        "end": 31.19999999552965,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 11,
+        "end": 32.79999999701977,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 11,
+        "end": 36,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 30.69999999552965,
+        "end": 34.399999998509884,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 33,
+        "end": 39,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 41.79999999701977,
+        "end": 44,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "start": 41.79999999701977,
+        "end": 44.19999999552965,
+        "bytes": 309579,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 41.79999999701977,
+        "end": 45,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 91.29999999701977,
+        "end": 92.59999999403954,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1092.7999999970198,
+        "end": 1094.0999999940395,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 430,
+          "height": 300,
+          "top": 422,
+          "right": 430,
+          "bottom": 722,
+          "left": 0
+        },
+        "background": "linear-gradient(rgb(250, 246, 242) 0px, rgba(0, 0, 0, 0) 25%), linear-gradient(90deg, rgb(250, 246, 242), rgb(250, 246, 242) 20%, rgba(250, 246, 242, 0.97) 27%, rgba(250, 246, 242, 0.82) 35%, rgba(250, 246, 242, 0.55) 43%, rgba(250, 246, 242, 0.24) 51%, rgba(250, 246, 242, 0) 62%), url(\"http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp\")",
+        "position": "50% 50%, 50% 50%, 50% 50%",
+        "size": "cover, cover, cover"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "hero-copy",
+        "text": null,
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "width": 390,
+          "height": 614.65625,
+          "top": 72,
+          "right": 410,
+          "bottom": 686.65625,
+          "left": 20
+        }
+      },
+      {
+        "class": "",
+        "text": "Journeys across Egypt",
+        "rect": {
+          "x": 20,
+          "y": 134.796875,
+          "width": 274.75,
+          "height": 96,
+          "top": 134.796875,
+          "right": 294.75,
+          "bottom": 230.796875,
+          "left": 20
+        }
+      },
+      {
+        "class": "hero-photo",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 430,
+          "height": 300,
+          "top": 422,
+          "right": 430,
+          "bottom": 722,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "throttled": false,
+    "lcp": {
+      "time": 72,
+      "size": 169620,
+      "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+      "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+      "rect": {
+        "x": 479.984375,
+        "y": 83,
+        "width": 960.015625,
+        "height": 510,
+        "top": 83,
+        "right": 1440,
+        "bottom": 593,
+        "left": 479.984375
+      }
+    },
+    "candidates": [
+      {
+        "time": 72,
+        "size": 169620,
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "element": "<div class=\"hero-photo\" role=\"img\" aria-label=\"A felucca sailing on the Nile below desert cliffs at sunset\"></div>",
+        "rect": {
+          "x": 479.984375,
+          "y": 83,
+          "width": 960.015625,
+          "height": 510,
+          "top": 83,
+          "right": 1440,
+          "bottom": 593,
+          "left": 479.984375
+        }
+      }
+    ],
+    "fcp": 72,
+    "cls": 0.00002362105758101852,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 7.700000002980232,
+        "end": 11.900000005960464,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp",
+        "start": 7.800000004470348,
+        "end": 10.800000004470348,
+        "bytes": 193088,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 7.800000004470348,
+        "end": 12.600000001490116,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 7.800000004470348,
+        "end": 13.5,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 7.9000000059604645,
+        "end": 13.5,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 8,
+        "end": 13.400000005960464,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 8,
+        "end": 23.100000001490116,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/elIrbzOx.js",
+        "start": 8,
+        "end": 37.5,
+        "bytes": 2429,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 8,
+        "end": 37.5,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 8,
+        "end": 37.900000005960464,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 8.100000001490116,
+        "end": 37.5,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 8.100000001490116,
+        "end": 37.70000000298023,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 8.200000002980232,
+        "end": 38.5,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 8.300000004470348,
+        "end": 44.30000000447035,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 35.70000000298023,
+        "end": 43.80000000447035,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 37.80000000447035,
+        "end": 43.70000000298023,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "start": 46.70000000298023,
+        "end": 49.80000000447035,
+        "bytes": 309579,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 46.80000000447035,
+        "end": 50.30000000447035,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 46.80000000447035,
+        "end": 50.30000000447035,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-pyramids.png",
+        "start": 46.80000000447035,
+        "end": 50.600000001490116,
+        "bytes": 83620,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "start": 46.80000000447035,
+        "end": 50.70000000298023,
+        "bytes": 89086,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 96.60000000149012,
+        "end": 98,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1098.7000000029802,
+        "end": 1100,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 479.984375,
+          "y": 83,
+          "width": 960.015625,
+          "height": 510,
+          "top": 83,
+          "right": 1440,
+          "bottom": 593,
+          "left": 479.984375
+        },
+        "background": "url(\"http://127.0.0.1:3014/assets/lcp/home-hero-clean.334dcd09786e.webp\")",
+        "position": "50% 50%",
+        "size": "cover"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "hero-copy",
+        "text": null,
+        "rect": {
+          "x": 68,
+          "y": 83,
+          "width": 420,
+          "height": 497.625,
+          "top": 83,
+          "right": 488,
+          "bottom": 580.625,
+          "left": 68
+        }
+      },
+      {
+        "class": "",
+        "text": "Journeys across Egypt",
+        "rect": {
+          "x": 68,
+          "y": 196.796875,
+          "width": 377.78125,
+          "height": 132,
+          "top": 196.796875,
+          "right": 445.78125,
+          "bottom": 328.796875,
+          "left": 68
+        }
+      },
+      {
+        "class": "hero-photo",
+        "text": null,
+        "rect": {
+          "x": 479.984375,
+          "y": 83,
+          "width": 960.015625,
+          "height": 510,
+          "top": 83,
+          "right": 1440,
+          "bottom": 593,
+          "left": 479.984375
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys",
+    "width": 320,
+    "throttled": false,
+    "lcp": {
+      "time": 76,
+      "size": 86080,
+      "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+      "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+      "rect": {
+        "x": 0,
+        "y": 292,
+        "width": 320,
+        "height": 269,
+        "top": 292,
+        "right": 320,
+        "bottom": 561,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 76,
+        "size": 86080,
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "rect": {
+          "x": 0,
+          "y": 292,
+          "width": 320,
+          "height": 269,
+          "top": 292,
+          "right": 320,
+          "bottom": 561,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 76,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 11.799999997019768,
+        "end": 15.899999998509884,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 11.899999998509884,
+        "end": 18.399999998509884,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 11.899999998509884,
+        "end": 16.5,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 12,
+        "end": 17.899999998509884,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 12,
+        "end": 18.200000002980232,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 12,
+        "end": 18.100000001490116,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 12.100000001490116,
+        "end": 26.200000002980232,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 12.100000001490116,
+        "end": 19.200000002980232,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "start": 12.200000002980232,
+        "end": 27.399999998509884,
+        "bytes": 3095,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 12.200000002980232,
+        "end": 28,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "start": 12.299999997019768,
+        "end": 28.299999997019768,
+        "bytes": 1068,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 12.399999998509884,
+        "end": 31.799999997019768,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 12.399999998509884,
+        "end": 32.100000001490116,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 12.399999998509884,
+        "end": 28.399999998509884,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "start": 16.299999997019768,
+        "end": 30,
+        "bytes": 245780,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart.png",
+        "start": 37.100000001490116,
+        "end": 44.20000000298023,
+        "bytes": 105483,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 37.5,
+        "end": 46.79999999701977,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 37.5,
+        "end": 47,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "start": 60.899999998509884,
+        "end": 63.29999999701977,
+        "bytes": 309579,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 60.899999998509884,
+        "end": 63.100000001490116,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 60.899999998509884,
+        "end": 63.100000001490116,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 99.89999999850988,
+        "end": 101.60000000149012,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1102.7000000029802,
+        "end": 1103.8999999985099,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 292,
+          "width": 320,
+          "height": 269,
+          "top": 292,
+          "right": 320,
+          "bottom": 561,
+          "left": 0
+        },
+        "background": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp\")",
+        "position": "54% 50%",
+        "size": "cover"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "journeys-hero-copy",
+        "text": null,
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "width": 280,
+          "height": 158.890625,
+          "top": 72,
+          "right": 300,
+          "bottom": 230.890625,
+          "left": 20
+        }
+      },
+      {
+        "class": "",
+        "text": "All Journeys",
+        "rect": {
+          "x": 20,
+          "y": 122.140625,
+          "width": 280,
+          "height": 44,
+          "top": 122.140625,
+          "right": 300,
+          "bottom": 166.140625,
+          "left": 20
+        }
+      },
+      {
+        "class": "journeys-hero-photo",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 292,
+          "width": 320,
+          "height": 269,
+          "top": 292,
+          "right": 320,
+          "bottom": 561,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys",
+    "width": 360,
+    "throttled": false,
+    "lcp": {
+      "time": 76,
+      "size": 96840,
+      "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+      "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+      "rect": {
+        "x": 0,
+        "y": 292,
+        "width": 360,
+        "height": 269,
+        "top": 292,
+        "right": 360,
+        "bottom": 561,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 76,
+        "size": 96840,
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "rect": {
+          "x": 0,
+          "y": 292,
+          "width": 360,
+          "height": 269,
+          "top": 292,
+          "right": 360,
+          "bottom": 561,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 76,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 8.800000004470348,
+        "end": 11.800000004470348,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 8.899999998509884,
+        "end": 12.899999998509884,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 9,
+        "end": 13,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 9.100000001490116,
+        "end": 12.700000002980232,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 9.100000001490116,
+        "end": 12.200000002980232,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 9.100000001490116,
+        "end": 13.899999998509884,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 9.100000001490116,
+        "end": 16.200000002980232,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 9.100000001490116,
+        "end": 15.899999998509884,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "start": 9.200000002980232,
+        "end": 19,
+        "bytes": 3095,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 9.300000004470348,
+        "end": 19.100000001490116,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "start": 9.300000004470348,
+        "end": 19.200000002980232,
+        "bytes": 1068,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 9.300000004470348,
+        "end": 19.30000000447035,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 9.399999998509884,
+        "end": 22.30000000447035,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 9.399999998509884,
+        "end": 22.80000000447035,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "start": 14.800000004470348,
+        "end": 22,
+        "bytes": 245780,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart.png",
+        "start": 31.700000002980232,
+        "end": 35.100000001490116,
+        "bytes": 105483,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 32,
+        "end": 34.80000000447035,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 32.100000001490116,
+        "end": 36.5,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "start": 54.80000000447035,
+        "end": 59.30000000447035,
+        "bytes": 309579,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 54.899999998509884,
+        "end": 59,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 54.899999998509884,
+        "end": 59.100000001490116,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 55.899999998509884,
+        "end": 59.80000000447035,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1095.3000000044703,
+        "end": 1096.6000000014901,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 292,
+          "width": 360,
+          "height": 269,
+          "top": 292,
+          "right": 360,
+          "bottom": 561,
+          "left": 0
+        },
+        "background": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp\")",
+        "position": "54% 50%",
+        "size": "cover"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "journeys-hero-copy",
+        "text": null,
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "width": 320,
+          "height": 158.890625,
+          "top": 72,
+          "right": 340,
+          "bottom": 230.890625,
+          "left": 20
+        }
+      },
+      {
+        "class": "",
+        "text": "All Journeys",
+        "rect": {
+          "x": 20,
+          "y": 122.140625,
+          "width": 320,
+          "height": 44,
+          "top": 122.140625,
+          "right": 340,
+          "bottom": 166.140625,
+          "left": 20
+        }
+      },
+      {
+        "class": "journeys-hero-photo",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 292,
+          "width": 360,
+          "height": 269,
+          "top": 292,
+          "right": 360,
+          "bottom": 561,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys",
+    "width": 390,
+    "throttled": true,
+    "lcp": {
+      "time": 6888,
+      "size": 104910,
+      "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+      "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+      "rect": {
+        "x": 0,
+        "y": 292,
+        "width": 390,
+        "height": 269,
+        "top": 292,
+        "right": 390,
+        "bottom": 561,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 1028,
+        "size": 13700,
+        "url": "",
+        "element": "<h1 id=\"journeys-page-title\">All Journeys</h1>",
+        "rect": {
+          "x": 20,
+          "y": 122.140625,
+          "width": 350,
+          "height": 44,
+          "top": 122.140625,
+          "right": 370,
+          "bottom": 166.140625,
+          "left": 20
+        }
+      },
+      {
+        "time": 6888,
+        "size": 104910,
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "rect": {
+          "x": 0,
+          "y": 292,
+          "width": 390,
+          "height": 269,
+          "top": 292,
+          "right": 390,
+          "bottom": 561,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 1028,
+    "cls": 0,
+    "longTaskBlockingMs": 78,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "start": 186.60000000149012,
+        "end": 6882.70000000298,
+        "bytes": 245780,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 247.80000000447035,
+        "end": 950.7000000029802,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 247.90000000596046,
+        "end": 1153.7000000029802,
+        "bytes": 28851,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 247.90000000596046,
+        "end": 1214,
+        "bytes": 31844,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 248.60000000149012,
+        "end": 575.6000000014901,
+        "bytes": 5846,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 252.60000000149012,
+        "end": 815.7000000029802,
+        "bytes": 2109,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 252.70000000298023,
+        "end": 1123.6000000014901,
+        "bytes": 7131,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 252.70000000298023,
+        "end": 1513.3000000044703,
+        "bytes": 6128,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 252.70000000298023,
+        "end": 2150.60000000149,
+        "bytes": 44450,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "start": 253.5,
+        "end": 1498.6000000014901,
+        "bytes": 3095,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 253.70000000298023,
+        "end": 1767.3000000044703,
+        "bytes": 4409,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "start": 253.80000000447035,
+        "end": 1708.2000000029802,
+        "bytes": 1068,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 253.80000000447035,
+        "end": 1888,
+        "bytes": 1422,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 254.30000000447035,
+        "end": 10363.60000000149,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 254.30000000447035,
+        "end": 10407.70000000298,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart.png",
+        "start": 964.4000000059605,
+        "end": 5391.10000000149,
+        "bytes": 105483,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 966.4000000059605,
+        "end": 3552.8000000044703,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 966.7000000029802,
+        "end": 3417.9000000059605,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 1022.7000000029802,
+        "end": 6417.20000000298,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "start": 1022.7000000029802,
+        "end": 10146.30000000447,
+        "bytes": 309579,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 1023.1000000014901,
+        "end": 7911,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 3337.9000000059605,
+        "end": 3598.4000000059605,
+        "bytes": 388,
+        "type": "fetch"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 10411.60000000149,
+        "end": 10588.10000000149,
+        "bytes": 3302,
+        "type": "other"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 292,
+          "width": 390,
+          "height": 269,
+          "top": 292,
+          "right": 390,
+          "bottom": 561,
+          "left": 0
+        },
+        "background": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp\")",
+        "position": "54% 50%",
+        "size": "cover"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "journeys-hero-copy",
+        "text": null,
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "width": 350,
+          "height": 158.890625,
+          "top": 72,
+          "right": 370,
+          "bottom": 230.890625,
+          "left": 20
+        }
+      },
+      {
+        "class": "",
+        "text": "All Journeys",
+        "rect": {
+          "x": 20,
+          "y": 122.140625,
+          "width": 350,
+          "height": 44,
+          "top": 122.140625,
+          "right": 370,
+          "bottom": 166.140625,
+          "left": 20
+        }
+      },
+      {
+        "class": "journeys-hero-photo",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 292,
+          "width": 390,
+          "height": 269,
+          "top": 292,
+          "right": 390,
+          "bottom": 561,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys",
+    "width": 430,
+    "throttled": false,
+    "lcp": {
+      "time": 76,
+      "size": 115670,
+      "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+      "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+      "rect": {
+        "x": 0,
+        "y": 292,
+        "width": 430,
+        "height": 269,
+        "top": 292,
+        "right": 430,
+        "bottom": 561,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 76,
+        "size": 115670,
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "rect": {
+          "x": 0,
+          "y": 292,
+          "width": 430,
+          "height": 269,
+          "top": 292,
+          "right": 430,
+          "bottom": 561,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 76,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 10.200000002980232,
+        "end": 15,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 10.200000002980232,
+        "end": 15.600000001490116,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 10.399999998509884,
+        "end": 17,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 10.399999998509884,
+        "end": 17.200000002980232,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 10.399999998509884,
+        "end": 17.30000000447035,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 10.399999998509884,
+        "end": 17.30000000447035,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 10.5,
+        "end": 18.5,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 10.5,
+        "end": 18.600000001490116,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "start": 10.600000001490116,
+        "end": 19.100000001490116,
+        "bytes": 3095,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "start": 10.600000001490116,
+        "end": 19.30000000447035,
+        "bytes": 1068,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 10.600000001490116,
+        "end": 19.200000002980232,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 10.700000002980232,
+        "end": 22.100000001490116,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 10.700000002980232,
+        "end": 22.700000002980232,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 10.700000002980232,
+        "end": 19.80000000447035,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "start": 14.899999998509884,
+        "end": 21.899999998509884,
+        "bytes": 245780,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 39.80000000447035,
+        "end": 44.100000001490116,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 39.899999998509884,
+        "end": 44.100000001490116,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart.png",
+        "start": 40.899999998509884,
+        "end": 44.399999998509884,
+        "bytes": 105483,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 57.70000000298023,
+        "end": 60.30000000447035,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 57.70000000298023,
+        "end": 60.399999998509884,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "start": 57.70000000298023,
+        "end": 60.70000000298023,
+        "bytes": 309579,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 58.70000000298023,
+        "end": 60.100000001490116,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1098.7000000029802,
+        "end": 1099.8999999985099,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 292,
+          "width": 430,
+          "height": 269,
+          "top": 292,
+          "right": 430,
+          "bottom": 561,
+          "left": 0
+        },
+        "background": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp\")",
+        "position": "54% 50%",
+        "size": "cover"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "journeys-hero-copy",
+        "text": null,
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "width": 390,
+          "height": 158.890625,
+          "top": 72,
+          "right": 410,
+          "bottom": 230.890625,
+          "left": 20
+        }
+      },
+      {
+        "class": "",
+        "text": "All Journeys",
+        "rect": {
+          "x": 20,
+          "y": 122.140625,
+          "width": 390,
+          "height": 44,
+          "top": 122.140625,
+          "right": 410,
+          "bottom": 166.140625,
+          "left": 20
+        }
+      },
+      {
+        "class": "journeys-hero-photo",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 292,
+          "width": 430,
+          "height": 269,
+          "top": 292,
+          "right": 430,
+          "bottom": 561,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys",
+    "width": 1440,
+    "throttled": false,
+    "lcp": {
+      "time": 76,
+      "size": 199065,
+      "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+      "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+      "rect": {
+        "x": 504,
+        "y": 83,
+        "width": 936,
+        "height": 265,
+        "top": 83,
+        "right": 1440,
+        "bottom": 348,
+        "left": 504
+      }
+    },
+    "candidates": [
+      {
+        "time": 76,
+        "size": 199065,
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "element": "<div class=\"journeys-hero-photo\" role=\"img\" aria-label=\"A felucca sailing past an ancient Nile temple at sunset\"></div>",
+        "rect": {
+          "x": 504,
+          "y": 83,
+          "width": 936,
+          "height": 265,
+          "top": 83,
+          "right": 1440,
+          "bottom": 348,
+          "left": 504
+        }
+      }
+    ],
+    "fcp": 76,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 8.599999994039536,
+        "end": 12.399999998509884,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 8.699999995529652,
+        "end": 13.399999998509884,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 8.699999995529652,
+        "end": 13.399999998509884,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 8.899999998509884,
+        "end": 14.599999994039536,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 8.899999998509884,
+        "end": 14.199999995529652,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 8.899999998509884,
+        "end": 14.699999995529652,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 8.899999998509884,
+        "end": 14.899999998509884,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 9,
+        "end": 17.599999994039536,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/-tebAWjq.js",
+        "start": 9,
+        "end": 17.19999999552965,
+        "bytes": 3095,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 9,
+        "end": 18.099999994039536,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CdF_iSAx.js",
+        "start": 9.099999994039536,
+        "end": 17.5,
+        "bytes": 1068,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 9.099999994039536,
+        "end": 17.399999998509884,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 9.099999994039536,
+        "end": 22.399999998509884,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 9.099999994039536,
+        "end": 22.5,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+        "start": 12.699999995529652,
+        "end": 18.399999998509884,
+        "bytes": 245780,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/decorative/how-booking-help-lineart.png",
+        "start": 30.69999999552965,
+        "end": 35.599999994039536,
+        "bytes": 105483,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 31,
+        "end": 35.099999994039536,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 31,
+        "end": 35.399999998509884,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/photos/hero-colossi-wide.png",
+        "start": 53.5,
+        "end": 57.599999994039536,
+        "bytes": 309579,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 53.599999994039536,
+        "end": 57.19999999552965,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 53.69999999552965,
+        "end": 57.19999999552965,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "start": 53.69999999552965,
+        "end": 58,
+        "bytes": 89086,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-alexandria.png",
+        "start": 53.79999999701977,
+        "end": 58,
+        "bytes": 82146,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-sinai.png",
+        "start": 53.79999999701977,
+        "end": 58.099999994039536,
+        "bytes": 100429,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-pyramids.png",
+        "start": 53.79999999701977,
+        "end": 58.599999994039536,
+        "bytes": 83620,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 90.29999999701977,
+        "end": 91.79999999701977,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1092.3999999985099,
+        "end": 1094.0999999940395,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 504,
+          "y": 83,
+          "width": 936,
+          "height": 265,
+          "top": 83,
+          "right": 1440,
+          "bottom": 348,
+          "left": 504
+        },
+        "background": "url(\"http://127.0.0.1:3014/assets/lcp/how-booking-hero-light.2a8b181bd267.webp\")",
+        "position": "50% 48%",
+        "size": "cover"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "journeys-hero-copy",
+        "text": null,
+        "rect": {
+          "x": 68,
+          "y": 83,
+          "width": 480,
+          "height": 168.890625,
+          "top": 83,
+          "right": 548,
+          "bottom": 251.890625,
+          "left": 68
+        }
+      },
+      {
+        "class": "",
+        "text": "All Journeys",
+        "rect": {
+          "x": 68,
+          "y": 139.140625,
+          "width": 480,
+          "height": 48,
+          "top": 139.140625,
+          "right": 548,
+          "bottom": 187.140625,
+          "left": 68
+        }
+      },
+      {
+        "class": "journeys-hero-photo",
+        "text": null,
+        "rect": {
+          "x": 504,
+          "y": 83,
+          "width": 936,
+          "height": 265,
+          "top": 83,
+          "right": 1440,
+          "bottom": 348,
+          "left": 504
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys/luxor-west-bank-at-dawn",
+    "width": 320,
+    "throttled": false,
+    "lcp": {
+      "time": 80,
+      "size": 60800,
+      "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+      "element": "<img src=\"/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp\" alt=\"The Colossi of Memnon in the warm morning light\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+      "rect": {
+        "x": 0,
+        "y": 72,
+        "width": 320,
+        "height": 190,
+        "top": 72,
+        "right": 320,
+        "bottom": 262,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 80,
+        "size": 60800,
+        "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+        "element": "<img src=\"/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp\" alt=\"The Colossi of Memnon in the warm morning light\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 320,
+          "height": 190,
+          "top": 72,
+          "right": 320,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 80,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 9.399999998509884,
+        "end": 13.799999997019768,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+        "start": 9.600000001490116,
+        "end": 15,
+        "bytes": 162638,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 9.600000001490116,
+        "end": 14.899999998509884,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 9.600000001490116,
+        "end": 14.899999998509884,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 9.699999995529652,
+        "end": 14.600000001490116,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 9.699999995529652,
+        "end": 14.299999997019768,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 9.699999995529652,
+        "end": 22.799999997019768,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 9.699999995529652,
+        "end": 23.299999997019768,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 9.799999997019768,
+        "end": 23.899999998509884,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 9.799999997019768,
+        "end": 25.5,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 9.799999997019768,
+        "end": 25.69999999552965,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "start": 9.799999997019768,
+        "end": 25.600000001490116,
+        "bytes": 9756,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 9.899999998509884,
+        "end": 27.399999998509884,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/decorative/cta-lineart-left.svg",
+        "start": 10,
+        "end": 26.5,
+        "bytes": 969,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 10,
+        "end": 27.600000001490116,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 33.69999999552965,
+        "end": 39.19999999552965,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 33.69999999552965,
+        "end": 39.600000001490116,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "start": 33.79999999701977,
+        "end": 39.600000001490116,
+        "bytes": 78570,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 57.899999998509884,
+        "end": 59.79999999701977,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "start": 57.899999998509884,
+        "end": 60.19999999552965,
+        "bytes": 89086,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 96.69999999552965,
+        "end": 97.89999999850988,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1101.7999999970198,
+        "end": 1102.7999999970198,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 320,
+          "height": 190,
+          "top": 72,
+          "right": 320,
+          "bottom": 262,
+          "left": 0
+        },
+        "background": "none",
+        "position": "0% 0%",
+        "size": "auto"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "jd-summary",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 262,
+          "width": 320,
+          "height": 453.46875,
+          "top": 262,
+          "right": 320,
+          "bottom": 715.46875,
+          "left": 0
+        }
+      },
+      {
+        "class": "",
+        "text": "Luxor, west bank at dawn",
+        "rect": {
+          "x": 18,
+          "y": 295.5,
+          "width": 284,
+          "height": 71.65625,
+          "top": 295.5,
+          "right": 302,
+          "bottom": 367.15625,
+          "left": 18
+        }
+      },
+      {
+        "class": "jd-hero-image",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 320,
+          "height": 190,
+          "top": 72,
+          "right": 320,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys/luxor-west-bank-at-dawn",
+    "width": 360,
+    "throttled": false,
+    "lcp": {
+      "time": 76,
+      "size": 68400,
+      "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+      "element": "<img src=\"/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp\" alt=\"The Colossi of Memnon in the warm morning light\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+      "rect": {
+        "x": 0,
+        "y": 72,
+        "width": 360,
+        "height": 190,
+        "top": 72,
+        "right": 360,
+        "bottom": 262,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 76,
+        "size": 68400,
+        "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+        "element": "<img src=\"/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp\" alt=\"The Colossi of Memnon in the warm morning light\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 360,
+          "height": 190,
+          "top": 72,
+          "right": 360,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 76,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 10.199999995529652,
+        "end": 13,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+        "start": 10.299999997019768,
+        "end": 13.399999998509884,
+        "bytes": 162638,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 10.299999997019768,
+        "end": 15,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 10.399999998509884,
+        "end": 15,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 10.5,
+        "end": 14.799999997019768,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 10.5,
+        "end": 15,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 10.5,
+        "end": 16,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 10.600000001490116,
+        "end": 16.19999999552965,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 10.699999995529652,
+        "end": 18.299999997019768,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 10.699999995529652,
+        "end": 18.19999999552965,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "start": 10.699999995529652,
+        "end": 18.19999999552965,
+        "bytes": 9756,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 10.799999997019768,
+        "end": 19,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 10.799999997019768,
+        "end": 18.100000001490116,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/decorative/cta-lineart-left.svg",
+        "start": 10.899999998509884,
+        "end": 18.19999999552965,
+        "bytes": 969,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 10.899999998509884,
+        "end": 23.799999997019768,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 32,
+        "end": 39.600000001490116,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 32.100000001490116,
+        "end": 39.899999998509884,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "start": 32.19999999552965,
+        "end": 40.100000001490116,
+        "bytes": 78570,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 56.19999999552965,
+        "end": 60.600000001490116,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "start": 56.29999999701977,
+        "end": 60.899999998509884,
+        "bytes": 89086,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 57.100000001490116,
+        "end": 59.399999998509884,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1099,
+        "end": 1100.1999999955297,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 360,
+          "height": 190,
+          "top": 72,
+          "right": 360,
+          "bottom": 262,
+          "left": 0
+        },
+        "background": "none",
+        "position": "0% 0%",
+        "size": "auto"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "jd-summary",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 262,
+          "width": 360,
+          "height": 417.640625,
+          "top": 262,
+          "right": 360,
+          "bottom": 679.640625,
+          "left": 0
+        }
+      },
+      {
+        "class": "",
+        "text": "Luxor, west bank at dawn",
+        "rect": {
+          "x": 18,
+          "y": 295.5,
+          "width": 324,
+          "height": 35.828125,
+          "top": 295.5,
+          "right": 342,
+          "bottom": 331.328125,
+          "left": 18
+        }
+      },
+      {
+        "class": "jd-hero-image",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 360,
+          "height": 190,
+          "top": 72,
+          "right": 360,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys/luxor-west-bank-at-dawn",
+    "width": 390,
+    "throttled": true,
+    "lcp": {
+      "time": 4532,
+      "size": 74100,
+      "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+      "element": "<img src=\"/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp\" alt=\"The Colossi of Memnon in the warm morning light\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+      "rect": {
+        "x": 0,
+        "y": 72,
+        "width": 390,
+        "height": 190,
+        "top": 72,
+        "right": 390,
+        "bottom": 262,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 1012,
+        "size": 34578,
+        "url": "",
+        "element": "<p>Begin your day as the sun rises over the desert. Cross gently to the west bank and explore ancient tombs and temples in the soft morning light, before the day grows warm. A calm, unhurried journey through stories that endure.</p>",
+        "rect": {
+          "x": 18,
+          "y": 795.0625,
+          "width": 354,
+          "height": 111.953125,
+          "top": 795.0625,
+          "right": 372,
+          "bottom": 907.015625,
+          "left": 18
+        }
+      },
+      {
+        "time": 4532,
+        "size": 74100,
+        "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+        "element": "<img src=\"/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp\" alt=\"The Colossi of Memnon in the warm morning light\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 390,
+          "height": 190,
+          "top": 72,
+          "right": 390,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 1012,
+    "cls": 0.022361541132478634,
+    "longTaskBlockingMs": 85,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 240.20000000298023,
+        "end": 935,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+        "start": 240.90000000596046,
+        "end": 4519.70000000298,
+        "bytes": 162638,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 241,
+        "end": 1206.4000000059605,
+        "bytes": 31844,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 241.70000000298023,
+        "end": 567.5,
+        "bytes": 5846,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 241.70000000298023,
+        "end": 1153.8000000044703,
+        "bytes": 28851,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 241.80000000447035,
+        "end": 800.9000000059605,
+        "bytes": 2109,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 241.80000000447035,
+        "end": 1100.8000000044703,
+        "bytes": 7131,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 241.80000000447035,
+        "end": 2173.7000000029802,
+        "bytes": 44450,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 245.80000000447035,
+        "end": 1242.5,
+        "bytes": 6128,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "start": 245.90000000596046,
+        "end": 1708.4000000059605,
+        "bytes": 9756,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 245.90000000596046,
+        "end": 1992.5,
+        "bytes": 4409,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 245.90000000596046,
+        "end": 2188.10000000149,
+        "bytes": 1422,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 246.90000000596046,
+        "end": 8300.60000000149,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 246.90000000596046,
+        "end": 8353.10000000149,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/decorative/cta-lineart-left.svg",
+        "start": 297.40000000596046,
+        "end": 2361,
+        "bytes": 969,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 949.1000000014901,
+        "end": 3710.8000000044703,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 949.8000000044703,
+        "end": 3486.4000000059605,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "start": 950.2000000029802,
+        "end": 3553,
+        "bytes": 78570,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "start": 1005.9000000059605,
+        "end": 5757.9000000059605,
+        "bytes": 89086,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 1005.9000000059605,
+        "end": 5818.4000000059605,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 3368.60000000149,
+        "end": 3673,
+        "bytes": 388,
+        "type": "fetch"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 8356.10000000149,
+        "end": 8532.90000000596,
+        "bytes": 3302,
+        "type": "other"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 390,
+          "height": 190,
+          "top": 72,
+          "right": 390,
+          "bottom": 262,
+          "left": 0
+        },
+        "background": "none",
+        "position": "0% 0%",
+        "size": "auto"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "jd-summary",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 262,
+          "width": 390,
+          "height": 417.640625,
+          "top": 262,
+          "right": 390,
+          "bottom": 679.640625,
+          "left": 0
+        }
+      },
+      {
+        "class": "",
+        "text": "Luxor, west bank at dawn",
+        "rect": {
+          "x": 18,
+          "y": 295.5,
+          "width": 354,
+          "height": 35.828125,
+          "top": 295.5,
+          "right": 372,
+          "bottom": 331.328125,
+          "left": 18
+        }
+      },
+      {
+        "class": "jd-hero-image",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 390,
+          "height": 190,
+          "top": 72,
+          "right": 390,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys/luxor-west-bank-at-dawn",
+    "width": 430,
+    "throttled": false,
+    "lcp": {
+      "time": 72,
+      "size": 81700,
+      "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+      "element": "<img src=\"/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp\" alt=\"The Colossi of Memnon in the warm morning light\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+      "rect": {
+        "x": 0,
+        "y": 72,
+        "width": 430,
+        "height": 190,
+        "top": 72,
+        "right": 430,
+        "bottom": 262,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 72,
+        "size": 81700,
+        "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+        "element": "<img src=\"/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp\" alt=\"The Colossi of Memnon in the warm morning light\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 430,
+          "height": 190,
+          "top": 72,
+          "right": 430,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 72,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 8.600000001490116,
+        "end": 11.399999998509884,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+        "start": 8.699999995529652,
+        "end": 10.399999998509884,
+        "bytes": 162638,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 8.799999997019768,
+        "end": 12.199999995529652,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 8.799999997019768,
+        "end": 12.699999995529652,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 8.799999997019768,
+        "end": 12.100000001490116,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 8.799999997019768,
+        "end": 12.799999997019768,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 8.799999997019768,
+        "end": 12.100000001490116,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 8.899999998509884,
+        "end": 15.299999997019768,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "start": 8.899999998509884,
+        "end": 15.199999995529652,
+        "bytes": 9756,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 8.899999998509884,
+        "end": 15.699999995529652,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 9,
+        "end": 18.600000001490116,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 9,
+        "end": 15.399999998509884,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 9,
+        "end": 15.199999995529652,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/decorative/cta-lineart-left.svg",
+        "start": 9.100000001490116,
+        "end": 16,
+        "bytes": 969,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 9.100000001490116,
+        "end": 18,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 30.299999997019768,
+        "end": 33.100000001490116,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 30.299999997019768,
+        "end": 35.600000001490116,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "start": 30.399999998509884,
+        "end": 35.5,
+        "bytes": 78570,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "start": 52.19999999552965,
+        "end": 55.19999999552965,
+        "bytes": 89086,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 52.19999999552965,
+        "end": 55.29999999701977,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 53,
+        "end": 55,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1096.1999999955297,
+        "end": 1097.8999999985099,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 430,
+          "height": 190,
+          "top": 72,
+          "right": 430,
+          "bottom": 262,
+          "left": 0
+        },
+        "background": "none",
+        "position": "0% 0%",
+        "size": "auto"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "jd-summary",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 262,
+          "width": 430,
+          "height": 417.640625,
+          "top": 262,
+          "right": 430,
+          "bottom": 679.640625,
+          "left": 0
+        }
+      },
+      {
+        "class": "",
+        "text": "Luxor, west bank at dawn",
+        "rect": {
+          "x": 18,
+          "y": 295.5,
+          "width": 394,
+          "height": 35.828125,
+          "top": 295.5,
+          "right": 412,
+          "bottom": 331.328125,
+          "left": 18
+        }
+      },
+      {
+        "class": "jd-hero-image",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 430,
+          "height": 190,
+          "top": 72,
+          "right": 430,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys/luxor-west-bank-at-dawn",
+    "width": 1440,
+    "throttled": false,
+    "lcp": {
+      "time": 76,
+      "size": 135408,
+      "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+      "element": "<img src=\"/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp\" alt=\"The Colossi of Memnon in the warm morning light\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+      "rect": {
+        "x": 628.71875,
+        "y": 101,
+        "width": 703.28125,
+        "height": 494.203125,
+        "top": 101,
+        "right": 1332,
+        "bottom": 595.203125,
+        "left": 628.71875
+      }
+    },
+    "candidates": [
+      {
+        "time": 76,
+        "size": 135408,
+        "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+        "element": "<img src=\"/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp\" alt=\"The Colossi of Memnon in the warm morning light\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "rect": {
+          "x": 628.71875,
+          "y": 101,
+          "width": 703.28125,
+          "height": 494.203125,
+          "top": 101,
+          "right": 1332,
+          "bottom": 595.203125,
+          "left": 628.71875
+        }
+      }
+    ],
+    "fcp": 76,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 10.100000001490116,
+        "end": 17.30000000447035,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+        "start": 10.300000004470348,
+        "end": 18.700000002980232,
+        "bytes": 162638,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 10.400000005960464,
+        "end": 18.400000005960464,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 10.400000005960464,
+        "end": 18.5,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 10.5,
+        "end": 18,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 10.5,
+        "end": 18.200000002980232,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 10.5,
+        "end": 23,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 10.5,
+        "end": 23.100000001490116,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 10.5,
+        "end": 20.5,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "start": 10.5,
+        "end": 23,
+        "bytes": 9756,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 10.5,
+        "end": 22.80000000447035,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 10.600000001490116,
+        "end": 25.30000000447035,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 10.600000001490116,
+        "end": 26.200000002980232,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 10.600000001490116,
+        "end": 23.700000002980232,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/decorative/cta-lineart-left.svg",
+        "start": 10.700000002980232,
+        "end": 24.5,
+        "bytes": 969,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "start": 41.400000005960464,
+        "end": 43.900000005960464,
+        "bytes": 78570,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 42,
+        "end": 46.30000000447035,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 42.30000000447035,
+        "end": 46.5,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-abu-simbel.png",
+        "start": 60,
+        "end": 64.30000000447035,
+        "bytes": 98425,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "start": 60,
+        "end": 64.70000000298023,
+        "bytes": 89086,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 60.100000001490116,
+        "end": 64.40000000596046,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 60.900000005960464,
+        "end": 64.70000000298023,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1102,
+        "end": 1106.1000000014901,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 628.71875,
+          "y": 101,
+          "width": 703.28125,
+          "height": 494.203125,
+          "top": 101,
+          "right": 1332,
+          "bottom": 595.203125,
+          "left": 628.71875
+        },
+        "background": "none",
+        "position": "0% 0%",
+        "size": "auto"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "jd-summary",
+        "text": null,
+        "rect": {
+          "x": 108,
+          "y": 101,
+          "width": 488.71875,
+          "height": 494.203125,
+          "top": 101,
+          "right": 596.71875,
+          "bottom": 595.203125,
+          "left": 108
+        }
+      },
+      {
+        "class": "",
+        "text": "Luxor, west bank at dawn",
+        "rect": {
+          "x": 108,
+          "y": 170.1875,
+          "width": 440,
+          "height": 101.5,
+          "top": 170.1875,
+          "right": 548,
+          "bottom": 271.6875,
+          "left": 108
+        }
+      },
+      {
+        "class": "jd-hero-image",
+        "text": null,
+        "rect": {
+          "x": 628.71875,
+          "y": 101,
+          "width": 703.28125,
+          "height": 494.203125,
+          "top": 101,
+          "right": 1332,
+          "bottom": 595.203125,
+          "left": 628.71875
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys/abu-simbel-day-tour",
+    "width": 320,
+    "throttled": false,
+    "lcp": {
+      "time": 76,
+      "size": 34648,
+      "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+      "element": "<img src=\"/assets/lcp/journey-abu-simbel.538fc752cd58.webp\" alt=\"Abu Simbel Day Tour in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+      "rect": {
+        "x": 0,
+        "y": 72,
+        "width": 320,
+        "height": 190,
+        "top": 72,
+        "right": 320,
+        "bottom": 262,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 76,
+        "size": 34648,
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "element": "<img src=\"/assets/lcp/journey-abu-simbel.538fc752cd58.webp\" alt=\"Abu Simbel Day Tour in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 320,
+          "height": 190,
+          "top": 72,
+          "right": 320,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 76,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 9.100000001490116,
+        "end": 11.399999998509884,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "start": 9.200000002980232,
+        "end": 12.100000001490116,
+        "bytes": 51944,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 9.200000002980232,
+        "end": 12.200000002980232,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 9.299999997019768,
+        "end": 13,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 9.299999997019768,
+        "end": 13.200000002980232,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 9.299999997019768,
+        "end": 14.600000001490116,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 9.299999997019768,
+        "end": 13.200000002980232,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 9.399999998509884,
+        "end": 14.899999998509884,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 9.5,
+        "end": 14.700000002980232,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "start": 9.5,
+        "end": 15.600000001490116,
+        "bytes": 9756,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 9.600000001490116,
+        "end": 16.399999998509884,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 9.600000001490116,
+        "end": 15.600000001490116,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 9.600000001490116,
+        "end": 15.600000001490116,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 9.700000002980232,
+        "end": 17,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 33.5,
+        "end": 36.20000000298023,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 35.79999999701977,
+        "end": 39.70000000298023,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "start": 35.899999998509884,
+        "end": 39.600000001490116,
+        "bytes": 78570,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "start": 53.29999999701977,
+        "end": 55.600000001490116,
+        "bytes": 89086,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 53.29999999701977,
+        "end": 55.70000000298023,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 54.100000001490116,
+        "end": 56,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1093.8999999985099,
+        "end": 1095.8999999985099,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 320,
+          "height": 190,
+          "top": 72,
+          "right": 320,
+          "bottom": 262,
+          "left": 0
+        },
+        "background": "none",
+        "position": "0% 0%",
+        "size": "auto"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "jd-summary",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 262,
+          "width": 320,
+          "height": 358.75,
+          "top": 262,
+          "right": 320,
+          "bottom": 620.75,
+          "left": 0
+        }
+      },
+      {
+        "class": "",
+        "text": "Abu Simbel Day Tour",
+        "rect": {
+          "x": 18,
+          "y": 295.5,
+          "width": 284,
+          "height": 35.828125,
+          "top": 295.5,
+          "right": 302,
+          "bottom": 331.328125,
+          "left": 18
+        }
+      },
+      {
+        "class": "jd-hero-image",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 320,
+          "height": 190,
+          "top": 72,
+          "right": 320,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys/abu-simbel-day-tour",
+    "width": 360,
+    "throttled": false,
+    "lcp": {
+      "time": 64,
+      "size": 34648,
+      "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+      "element": "<img src=\"/assets/lcp/journey-abu-simbel.538fc752cd58.webp\" alt=\"Abu Simbel Day Tour in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+      "rect": {
+        "x": 0,
+        "y": 72,
+        "width": 360,
+        "height": 190,
+        "top": 72,
+        "right": 360,
+        "bottom": 262,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 64,
+        "size": 34648,
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "element": "<img src=\"/assets/lcp/journey-abu-simbel.538fc752cd58.webp\" alt=\"Abu Simbel Day Tour in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 360,
+          "height": 190,
+          "top": 72,
+          "right": 360,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 64,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 9.399999998509884,
+        "end": 19.200000002980232,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "start": 9.600000001490116,
+        "end": 19.700000002980232,
+        "bytes": 51944,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 9.600000001490116,
+        "end": 19.700000002980232,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 9.700000002980232,
+        "end": 20.700000002980232,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 9.700000002980232,
+        "end": 20.700000002980232,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 9.700000002980232,
+        "end": 20.700000002980232,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 9.799999997019768,
+        "end": 23.600000001490116,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 9.799999997019768,
+        "end": 23.899999998509884,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "start": 9.899999998509884,
+        "end": 23.5,
+        "bytes": 9756,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 9.899999998509884,
+        "end": 24.299999997019768,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 10,
+        "end": 25.5,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 10,
+        "end": 26,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 10,
+        "end": 23.399999998509884,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 10,
+        "end": 23.600000001490116,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 33.100000001490116,
+        "end": 35.600000001490116,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 35.600000001490116,
+        "end": 38.899999998509884,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "start": 35.600000001490116,
+        "end": 39,
+        "bytes": 78570,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "start": 43.899999998509884,
+        "end": 46.899999998509884,
+        "bytes": 89086,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 43.899999998509884,
+        "end": 47.100000001490116,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 97,
+        "end": 98.29999999701977,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1100.1000000014901,
+        "end": 1101.2000000029802,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 360,
+          "height": 190,
+          "top": 72,
+          "right": 360,
+          "bottom": 262,
+          "left": 0
+        },
+        "background": "none",
+        "position": "0% 0%",
+        "size": "auto"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "jd-summary",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 262,
+          "width": 360,
+          "height": 358.75,
+          "top": 262,
+          "right": 360,
+          "bottom": 620.75,
+          "left": 0
+        }
+      },
+      {
+        "class": "",
+        "text": "Abu Simbel Day Tour",
+        "rect": {
+          "x": 18,
+          "y": 295.5,
+          "width": 324,
+          "height": 35.828125,
+          "top": 295.5,
+          "right": 342,
+          "bottom": 331.328125,
+          "left": 18
+        }
+      },
+      {
+        "class": "jd-hero-image",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 360,
+          "height": 190,
+          "top": 72,
+          "right": 360,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys/abu-simbel-day-tour",
+    "width": 390,
+    "throttled": true,
+    "lcp": {
+      "time": 1652,
+      "size": 34648,
+      "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+      "element": "<img src=\"/assets/lcp/journey-abu-simbel.538fc752cd58.webp\" alt=\"Abu Simbel Day Tour in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+      "rect": {
+        "x": 0,
+        "y": 72,
+        "width": 390,
+        "height": 190,
+        "top": 72,
+        "right": 390,
+        "bottom": 262,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 992,
+        "size": 12132,
+        "url": "",
+        "element": "<h1 id=\"journey-title\">Abu Simbel Day Tour</h1>",
+        "rect": {
+          "x": 18,
+          "y": 295.5,
+          "width": 354,
+          "height": 35.828125,
+          "top": 295.5,
+          "right": 372,
+          "bottom": 331.328125,
+          "left": 18
+        }
+      },
+      {
+        "time": 1652,
+        "size": 34648,
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "element": "<img src=\"/assets/lcp/journey-abu-simbel.538fc752cd58.webp\" alt=\"Abu Simbel Day Tour in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 390,
+          "height": 190,
+          "top": 72,
+          "right": 390,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 992,
+    "cls": 0.00038871082621082616,
+    "longTaskBlockingMs": 111,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 245.69999999552965,
+        "end": 912.3999999985099,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "start": 246.59999999403954,
+        "end": 1641,
+        "bytes": 51944,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 247.09999999403954,
+        "end": 575.2999999970198,
+        "bytes": 5846,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 247.09999999403954,
+        "end": 1122.5,
+        "bytes": 28851,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 247.09999999403954,
+        "end": 1197.5,
+        "bytes": 31844,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 247.19999999552965,
+        "end": 792.2999999970198,
+        "bytes": 2109,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 247.19999999552965,
+        "end": 950,
+        "bytes": 7131,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 247.19999999552965,
+        "end": 2016.0999999940395,
+        "bytes": 44450,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 252.5,
+        "end": 1251.0999999940395,
+        "bytes": 6128,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "start": 252.69999999552965,
+        "end": 1707.6999999955297,
+        "bytes": 9756,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 253.19999999552965,
+        "end": 1902.5,
+        "bytes": 1422,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 253.19999999552965,
+        "end": 1910.7999999970198,
+        "bytes": 4409,
+        "type": "script"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 253.39999999850988,
+        "end": 7651.89999999851,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 253.39999999850988,
+        "end": 7693.29999999702,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 939.0999999940395,
+        "end": 3553.5,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 948.1999999955297,
+        "end": 3418.39999999851,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "start": 948.2999999970198,
+        "end": 3514.7999999970198,
+        "bytes": 78570,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "start": 983.7999999970198,
+        "end": 4378.39999999851,
+        "bytes": 89086,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 983.8999999985099,
+        "end": 5195.19999999553,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 3198.6999999955297,
+        "end": 3598.2999999970198,
+        "bytes": 388,
+        "type": "fetch"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 7946.69999999553,
+        "end": 8135.5,
+        "bytes": 3302,
+        "type": "other"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 390,
+          "height": 190,
+          "top": 72,
+          "right": 390,
+          "bottom": 262,
+          "left": 0
+        },
+        "background": "none",
+        "position": "0% 0%",
+        "size": "auto"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "jd-summary",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 262,
+          "width": 390,
+          "height": 358.75,
+          "top": 262,
+          "right": 390,
+          "bottom": 620.75,
+          "left": 0
+        }
+      },
+      {
+        "class": "",
+        "text": "Abu Simbel Day Tour",
+        "rect": {
+          "x": 18,
+          "y": 295.5,
+          "width": 354,
+          "height": 35.828125,
+          "top": 295.5,
+          "right": 372,
+          "bottom": 331.328125,
+          "left": 18
+        }
+      },
+      {
+        "class": "jd-hero-image",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 390,
+          "height": 190,
+          "top": 72,
+          "right": 390,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys/abu-simbel-day-tour",
+    "width": 430,
+    "throttled": false,
+    "lcp": {
+      "time": 80,
+      "size": 34648,
+      "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+      "element": "<img src=\"/assets/lcp/journey-abu-simbel.538fc752cd58.webp\" alt=\"Abu Simbel Day Tour in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+      "rect": {
+        "x": 0,
+        "y": 72,
+        "width": 430,
+        "height": 190,
+        "top": 72,
+        "right": 430,
+        "bottom": 262,
+        "left": 0
+      }
+    },
+    "candidates": [
+      {
+        "time": 80,
+        "size": 34648,
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "element": "<img src=\"/assets/lcp/journey-abu-simbel.538fc752cd58.webp\" alt=\"Abu Simbel Day Tour in Aswan\" style=\"object-position:center;\" loading=\"eager\" fetchpriority=\"high\" width=\"900\" height=\"600\">",
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 430,
+          "height": 190,
+          "top": 72,
+          "right": 430,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "fcp": 80,
+    "cls": 0,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 12.399999998509884,
+        "end": 16.200000002980232,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "start": 12.600000001490116,
+        "end": 16.700000002980232,
+        "bytes": 51944,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 12.700000002980232,
+        "end": 16.80000000447035,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 12.700000002980232,
+        "end": 17.600000001490116,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 12.700000002980232,
+        "end": 17.700000002980232,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 12.800000004470348,
+        "end": 17.600000001490116,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 12.899999998509884,
+        "end": 19.200000002980232,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 12.899999998509884,
+        "end": 19.5,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 13,
+        "end": 19.200000002980232,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "start": 13,
+        "end": 26.600000001490116,
+        "bytes": 9756,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 13.100000001490116,
+        "end": 26.5,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 13.100000001490116,
+        "end": 26.600000001490116,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 13.200000002980232,
+        "end": 28.200000002980232,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 13.200000002980232,
+        "end": 28.899999998509884,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 37.30000000447035,
+        "end": 40.100000001490116,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 40.100000001490116,
+        "end": 43.80000000447035,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "start": 40.20000000298023,
+        "end": 43.899999998509884,
+        "bytes": 78570,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "start": 58,
+        "end": 61,
+        "bytes": 89086,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 58,
+        "end": 61.100000001490116,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 98.60000000149012,
+        "end": 100,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1101.8000000044703,
+        "end": 1103.1000000014901,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 430,
+          "height": 190,
+          "top": 72,
+          "right": 430,
+          "bottom": 262,
+          "left": 0
+        },
+        "background": "none",
+        "position": "0% 0%",
+        "size": "auto"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "jd-summary",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 262,
+          "width": 430,
+          "height": 358.75,
+          "top": 262,
+          "right": 430,
+          "bottom": 620.75,
+          "left": 0
+        }
+      },
+      {
+        "class": "",
+        "text": "Abu Simbel Day Tour",
+        "rect": {
+          "x": 18,
+          "y": 295.5,
+          "width": 394,
+          "height": 35.828125,
+          "top": 295.5,
+          "right": 412,
+          "bottom": 331.328125,
+          "left": 18
+        }
+      },
+      {
+        "class": "jd-hero-image",
+        "text": null,
+        "rect": {
+          "x": 0,
+          "y": 72,
+          "width": 430,
+          "height": 190,
+          "top": 72,
+          "right": 430,
+          "bottom": 262,
+          "left": 0
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/journeys/abu-simbel-day-tour",
+    "width": 1440,
+    "throttled": false,
+    "lcp": {
+      "time": 76,
+      "size": 48251,
+      "url": "",
+      "element": "<h1 id=\"journey-title\">Abu Simbel Day Tour</h1>",
+      "rect": {
+        "x": 108,
+        "y": 170.1875,
+        "width": 440,
+        "height": 101.5,
+        "top": 170.1875,
+        "right": 548,
+        "bottom": 271.6875,
+        "left": 108
+      }
+    },
+    "candidates": [
+      {
+        "time": 76,
+        "size": 48251,
+        "url": "",
+        "element": "<h1 id=\"journey-title\">Abu Simbel Day Tour</h1>",
+        "rect": {
+          "x": 108,
+          "y": 170.1875,
+          "width": 440,
+          "height": 101.5,
+          "top": 170.1875,
+          "right": 548,
+          "bottom": 271.6875,
+          "left": 108
+        }
+      }
+    ],
+    "fcp": 76,
+    "cls": 0.00017337646484375,
+    "longTaskBlockingMs": 0,
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/entry.CzVS7mCu.css",
+        "start": 25.400000005960464,
+        "end": 29,
+        "bytes": 20094,
+        "type": "link"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CzS-1g0O.js",
+        "start": 25.600000001490116,
+        "end": 31,
+        "bytes": 31844,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/aEA9gjuO.js",
+        "start": 25.600000001490116,
+        "end": 31.100000001490116,
+        "bytes": 28851,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CR1qlkSr.js",
+        "start": 25.700000002980232,
+        "end": 30.900000005960464,
+        "bytes": 5846,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/CLfezdLn.js",
+        "start": 25.700000002980232,
+        "end": 30.900000005960464,
+        "bytes": 2109,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/Cw-hMUwH.js",
+        "start": 25.700000002980232,
+        "end": 31,
+        "bytes": 7131,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/0_bVjBN8.js",
+        "start": 25.80000000447035,
+        "end": 32.30000000447035,
+        "bytes": 9756,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BIxrg4bq.js",
+        "start": 25.80000000447035,
+        "end": 33,
+        "bytes": 4409,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/C8wseKwy.js",
+        "start": 25.80000000447035,
+        "end": 33,
+        "bytes": 6128,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/iWzhC8mj.js",
+        "start": 25.80000000447035,
+        "end": 32,
+        "bytes": 44450,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent.png",
+        "start": 25.900000005960464,
+        "end": 35.20000000298023,
+        "bytes": 395087,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/BDadvLB5.js",
+        "start": 25.900000005960464,
+        "end": 32.900000005960464,
+        "bytes": 1422,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+        "start": 26,
+        "end": 33.20000000298023,
+        "bytes": 51944,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/brand/logo-transparent-dark.png",
+        "start": 26,
+        "end": 36.600000001490116,
+        "bytes": 398487,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-500.ttf",
+        "start": 49.70000000298023,
+        "end": 57.900000005960464,
+        "bytes": 78570,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/dm-sans-variable.ttf",
+        "start": 49.900000005960464,
+        "end": 57.70000000298023,
+        "bytes": 92343,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/fonts/cormorant-garamond-600.ttf",
+        "start": 50.80000000447035,
+        "end": 58,
+        "bytes": 78857,
+        "type": "css"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-felucca.png",
+        "start": 59.600000001490116,
+        "end": 72.70000000298023,
+        "bytes": 89086,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/journeys/journey-karnak.png",
+        "start": 59.70000000298023,
+        "end": 72.90000000596046,
+        "bytes": 89357,
+        "type": "img"
+      },
+      {
+        "url": "http://127.0.0.1:3014/assets/icons/favicon.svg",
+        "start": 116.60000000149012,
+        "end": 118,
+        "bytes": 3302,
+        "type": "other"
+      },
+      {
+        "url": "http://127.0.0.1:3014/_nuxt/builds/meta/13416b52-1185-411c-9205-95af0fd58113.json",
+        "start": 1119.5,
+        "end": 1121.1000000014901,
+        "bytes": 388,
+        "type": "fetch"
+      }
+    ],
+    "hero": [
+      {
+        "rect": {
+          "x": 628.71875,
+          "y": 101,
+          "width": 703.28125,
+          "height": 424.359375,
+          "top": 101,
+          "right": 1332,
+          "bottom": 525.359375,
+          "left": 628.71875
+        },
+        "background": "none",
+        "position": "0% 0%",
+        "size": "auto"
+      }
+    ],
+    "geometry": [
+      {
+        "class": "jd-summary",
+        "text": null,
+        "rect": {
+          "x": 108,
+          "y": 101,
+          "width": 488.71875,
+          "height": 424.359375,
+          "top": 101,
+          "right": 596.71875,
+          "bottom": 525.359375,
+          "left": 108
+        }
+      },
+      {
+        "class": "",
+        "text": "Abu Simbel Day Tour",
+        "rect": {
+          "x": 108,
+          "y": 170.1875,
+          "width": 440,
+          "height": 101.5,
+          "top": 170.1875,
+          "right": 548,
+          "bottom": 271.6875,
+          "left": 108
+        }
+      },
+      {
+        "class": "jd-hero-image",
+        "text": null,
+        "rect": {
+          "x": 628.71875,
+          "y": 101,
+          "width": 703.28125,
+          "height": 424.359375,
+          "top": 101,
+          "right": 1332,
+          "bottom": 525.359375,
+          "left": 628.71875
+        }
+      }
+    ],
+    "errors": []
+  }
+]
