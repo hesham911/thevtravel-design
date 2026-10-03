@@ -1,0 +1,98 @@
+[
+  {
+    "theme": "dark",
+    "width": 390,
+    "scrollTop": 0,
+    "titleVisible": true,
+    "buttonCount": 3,
+    "noButtonOverflow": true
+  },
+  {
+    "theme": "dark",
+    "width": 430,
+    "scrollTop": 0,
+    "titleVisible": true,
+    "buttonCount": 3,
+    "noButtonOverflow": true
+  },
+  {
+    "theme": "dark",
+    "width": 768,
+    "scrollTop": 0,
+    "titleVisible": true,
+    "buttonCount": 3,
+    "noButtonOverflow": true
+  },
+  {
+    "theme": "dark",
+    "width": 900,
+    "scrollTop": 0,
+    "titleVisible": true,
+    "buttonCount": 3,
+    "noButtonOverflow": true
+  },
+  {
+    "theme": "dark",
+    "width": 1280,
+    "scrollTop": 0,
+    "titleVisible": true,
+    "buttonCount": 2,
+    "noButtonOverflow": true
+  },
+  {
+    "theme": "dark",
+    "width": 1440,
+    "scrollTop": 0,
+    "titleVisible": true,
+    "buttonCount": 2,
+    "noButtonOverflow": true
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "scrollTop": 0,
+    "titleVisible": true,
+    "buttonCount": 3,
+    "noButtonOverflow": true
+  },
+  {
+    "theme": "light",
+    "width": 430,
+    "scrollTop": 0,
+    "titleVisible": true,
+    "buttonCount": 3,
+    "noButtonOverflow": true
+  },
+  {
+    "theme": "light",
+    "width": 768,
+    "scrollTop": 0,
+    "titleVisible": true,
+    "buttonCount": 3,
+    "noButtonOverflow": true
+  },
+  {
+    "theme": "light",
+    "width": 900,
+    "scrollTop": 0,
+    "titleVisible": true,
+    "buttonCount": 3,
+    "noButtonOverflow": true
+  },
+  {
+    "theme": "light",
+    "width": 1280,
+    "scrollTop": 0,
+    "titleVisible": true,
+    "buttonCount": 2,
+    "noButtonOverflow": true
+  },
+  {
+    "theme": "light",
+    "width": 1440,
+    "scrollTop": 0,
+    "titleVisible": true,
+    "buttonCount": 2,
+    "noButtonOverflow": true
+  }
+]

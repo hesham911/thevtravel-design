@@ -1,0 +1,2094 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "route": "/",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 320,
+      "route": "/journeys",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "path",
+          {},
+          351,
+          ""
+        ]
+      ],
+      "brokenImages": [
+        "http://127.0.0.1:5175/assets/journeys/journey-sinai.png",
+        "http://127.0.0.1:5175/assets/journeys/journey-alexandria.png",
+        "http://127.0.0.1:5175/assets/journeys/journey-sinai.png"
+      ],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 320,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 320,
+      "route": "/contact",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 320,
+      "route": "/how-booking-works",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 320,
+      "route": "/faq",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "BUTTON",
+          "",
+          397,
+          "Payments"
+        ],
+        [
+          "svg",
+          {},
+          326,
+          ""
+        ],
+        [
+          "rect",
+          {},
+          325,
+          ""
+        ],
+        [
+          "line",
+          {},
+          325,
+          ""
+        ],
+        [
+          "SPAN",
+          "",
+          384,
+          "Payments"
+        ],
+        [
+          "BUTTON",
+          "",
+          497,
+          "Journeys"
+        ],
+        [
+          "svg",
+          {},
+          429,
+          ""
+        ],
+        [
+          "path",
+          {},
+          427,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 320,
+      "route": "/about",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "DIV",
+          "footer-brand",
+          399,
+          ""
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          399,
+          "Private transfersAirport transfersCity to cityHourly serviceLong "
+        ],
+        [
+          "H2",
+          "",
+          399,
+          "Private transfers"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Airport transfers"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "City to city"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Hourly service"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Long distance"
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          399,
+          "HelpFAQBooking termsPrivacy policyChange a booking"
+        ]
+      ],
+      "brokenImages": [
+        "http://127.0.0.1:5175/assets/photos/people-team.png"
+      ],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 360,
+      "route": "/",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 360,
+      "route": "/journeys",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "path",
+          {},
+          351,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 360,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 360,
+      "route": "/contact",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 360,
+      "route": "/how-booking-works",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 360,
+      "route": "/faq",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "BUTTON",
+          "",
+          397,
+          "Payments"
+        ],
+        [
+          "SPAN",
+          "",
+          384,
+          "Payments"
+        ],
+        [
+          "BUTTON",
+          "",
+          497,
+          "Journeys"
+        ],
+        [
+          "svg",
+          {},
+          429,
+          ""
+        ],
+        [
+          "path",
+          {},
+          427,
+          ""
+        ],
+        [
+          "SPAN",
+          "",
+          484,
+          "Journeys"
+        ],
+        [
+          "BUTTON",
+          "",
+          635,
+          "Private Transfers"
+        ],
+        [
+          "svg",
+          {},
+          529,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 360,
+      "route": "/about",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "DIV",
+          "footer-brand",
+          399,
+          ""
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          399,
+          "Private transfersAirport transfersCity to cityHourly serviceLong "
+        ],
+        [
+          "H2",
+          "",
+          399,
+          "Private transfers"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Airport transfers"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "City to city"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Hourly service"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Long distance"
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          399,
+          "HelpFAQBooking termsPrivacy policyChange a booking"
+        ]
+      ],
+      "brokenImages": [
+        "http://127.0.0.1:5175/assets/photos/people-team.png"
+      ],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [
+        "http://127.0.0.1:5175/assets/journeys/journey-pyramids.png",
+        "http://127.0.0.1:5175/assets/sections/hero-transfer-van.png"
+      ],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 390,
+      "route": "/journeys",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "path",
+          {},
+          351,
+          ""
+        ]
+      ],
+      "brokenImages": [
+        "http://127.0.0.1:5175/assets/journeys/journey-sinai.png",
+        "http://127.0.0.1:5175/assets/journeys/journey-alexandria.png",
+        "http://127.0.0.1:5175/assets/journeys/journey-sinai.png"
+      ],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 390,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 390,
+      "route": "/contact",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 390,
+      "route": "/how-booking-works",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 390,
+      "route": "/faq",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "BUTTON",
+          "",
+          397,
+          "Payments"
+        ],
+        [
+          "BUTTON",
+          "",
+          497,
+          "Journeys"
+        ],
+        [
+          "svg",
+          {},
+          429,
+          ""
+        ],
+        [
+          "path",
+          {},
+          427,
+          ""
+        ],
+        [
+          "SPAN",
+          "",
+          484,
+          "Journeys"
+        ],
+        [
+          "BUTTON",
+          "",
+          635,
+          "Private Transfers"
+        ],
+        [
+          "svg",
+          {},
+          529,
+          ""
+        ],
+        [
+          "path",
+          {},
+          527,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 390,
+      "route": "/about",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "DIV",
+          "footer-brand",
+          399,
+          ""
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          399,
+          "Private transfersAirport transfersCity to cityHourly serviceLong "
+        ],
+        [
+          "H2",
+          "",
+          399,
+          "Private transfers"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Airport transfers"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "City to city"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Hourly service"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Long distance"
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          399,
+          "HelpFAQBooking termsPrivacy policyChange a booking"
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 430,
+      "route": "/",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 430,
+      "route": "/journeys",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "path",
+          {},
+          351,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 430,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 430,
+      "route": "/contact",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 430,
+      "route": "/how-booking-works",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 430,
+      "route": "/faq",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "BUTTON",
+          "",
+          497,
+          "Journeys"
+        ],
+        [
+          "SPAN",
+          "",
+          484,
+          "Journeys"
+        ],
+        [
+          "BUTTON",
+          "",
+          635,
+          "Private Transfers"
+        ],
+        [
+          "svg",
+          {},
+          529,
+          ""
+        ],
+        [
+          "path",
+          {},
+          527,
+          ""
+        ],
+        [
+          "circle",
+          {},
+          518,
+          ""
+        ],
+        [
+          "path",
+          {},
+          522,
+          ""
+        ],
+        [
+          "circle",
+          {},
+          525,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 430,
+      "route": "/about",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [
+        "http://127.0.0.1:5175/assets/sections/hero-transfer-van.png"
+      ],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 768,
+      "route": "/journeys",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 768,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "light",
+      "overflow": 20,
+      "offenders": [
+        [
+          "svg",
+          {},
+          13,
+          ""
+        ],
+        [
+          "svg",
+          {},
+          777,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 768,
+      "route": "/contact",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 768,
+      "route": "/how-booking-works",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 768,
+      "route": "/faq",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 768,
+      "route": "/about",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "SECTION",
+          "footer-column",
+          918,
+          "CompanyAbout usTravel with purposeHow booking worksContact us"
+        ],
+        [
+          "H2",
+          "",
+          918,
+          "Company"
+        ],
+        [
+          "A",
+          "",
+          918,
+          "About us"
+        ],
+        [
+          "SPAN",
+          "",
+          918,
+          "Travel with purpose"
+        ],
+        [
+          "A",
+          "",
+          918,
+          "How booking works"
+        ],
+        [
+          "A",
+          "",
+          918,
+          "Contact us"
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          1054,
+          "HelpFAQBooking termsPrivacy policyChange a booking"
+        ],
+        [
+          "H2",
+          "",
+          1054,
+          "Help"
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 1024,
+      "route": "/",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 1024,
+      "route": "/journeys",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 1024,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "light",
+      "overflow": 20,
+      "offenders": [
+        [
+          "svg",
+          {},
+          13,
+          ""
+        ],
+        [
+          "svg",
+          {},
+          1033,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 1024,
+      "route": "/contact",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 1024,
+      "route": "/how-booking-works",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 1024,
+      "route": "/faq",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 1024,
+      "route": "/about",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "SECTION",
+          "footer-column",
+          1067,
+          "HelpFAQBooking termsPrivacy policyChange a booking"
+        ],
+        [
+          "H2",
+          "",
+          1067,
+          "Help"
+        ],
+        [
+          "A",
+          "",
+          1067,
+          "FAQ"
+        ],
+        [
+          "SPAN",
+          "",
+          1067,
+          "Booking terms"
+        ],
+        [
+          "SPAN",
+          "",
+          1067,
+          "Privacy policy"
+        ],
+        [
+          "SPAN",
+          "",
+          1067,
+          "Change a booking"
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 1280,
+      "route": "/",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 1280,
+      "route": "/journeys",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 1280,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "light",
+      "overflow": 8,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 1280,
+      "route": "/contact",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [
+        [
+          "FORM",
+          "contact-form",
+          1290,
+          "Send us a messageFull nameEmail addressWhatsApp number (with coun"
+        ],
+        [
+          "P",
+          "eyebrow",
+          1290,
+          "Send us a message"
+        ],
+        [
+          "DIV",
+          "form-grid",
+          1290,
+          "Full nameEmail addressWhatsApp number (with country code)SubjectC"
+        ],
+        [
+          "DIV",
+          "contact-field",
+          1290,
+          "Email address"
+        ],
+        [
+          "LABEL",
+          "",
+          1290,
+          "Email address"
+        ],
+        [
+          "INPUT",
+          "",
+          1290,
+          ""
+        ],
+        [
+          "DIV",
+          "contact-field full",
+          1290,
+          "WhatsApp number (with country code)"
+        ],
+        [
+          "LABEL",
+          "",
+          1290,
+          "WhatsApp number (with country code)"
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 1280,
+      "route": "/how-booking-works",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 1280,
+      "route": "/faq",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 1280,
+      "route": "/about",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 1440,
+      "route": "/journeys",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 1440,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 1440,
+      "route": "/contact",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 1440,
+      "route": "/how-booking-works",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 1440,
+      "route": "/faq",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 1440,
+      "route": "/about",
+      "theme": "light",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 320,
+      "route": "/",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 320,
+      "route": "/journeys",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "path",
+          {},
+          351,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 320,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 320,
+      "route": "/contact",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 320,
+      "route": "/how-booking-works",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 320,
+      "route": "/faq",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "BUTTON",
+          "",
+          397,
+          "Payments"
+        ],
+        [
+          "svg",
+          {},
+          326,
+          ""
+        ],
+        [
+          "rect",
+          {},
+          325,
+          ""
+        ],
+        [
+          "line",
+          {},
+          325,
+          ""
+        ],
+        [
+          "SPAN",
+          "",
+          384,
+          "Payments"
+        ],
+        [
+          "BUTTON",
+          "",
+          497,
+          "Journeys"
+        ],
+        [
+          "svg",
+          {},
+          429,
+          ""
+        ],
+        [
+          "path",
+          {},
+          427,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 320,
+      "route": "/about",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "DIV",
+          "footer-brand",
+          399,
+          ""
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          399,
+          "Private transfersAirport transfersCity to cityHourly serviceLong "
+        ],
+        [
+          "H2",
+          "",
+          399,
+          "Private transfers"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Airport transfers"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "City to city"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Hourly service"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Long distance"
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          399,
+          "HelpFAQBooking termsPrivacy policyChange a booking"
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 360,
+      "route": "/",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 360,
+      "route": "/journeys",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "path",
+          {},
+          351,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 360,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 360,
+      "route": "/contact",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 360,
+      "route": "/how-booking-works",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 360,
+      "route": "/faq",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "BUTTON",
+          "",
+          397,
+          "Payments"
+        ],
+        [
+          "SPAN",
+          "",
+          384,
+          "Payments"
+        ],
+        [
+          "BUTTON",
+          "",
+          497,
+          "Journeys"
+        ],
+        [
+          "svg",
+          {},
+          429,
+          ""
+        ],
+        [
+          "path",
+          {},
+          427,
+          ""
+        ],
+        [
+          "SPAN",
+          "",
+          484,
+          "Journeys"
+        ],
+        [
+          "BUTTON",
+          "",
+          635,
+          "Private Transfers"
+        ],
+        [
+          "svg",
+          {},
+          529,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 360,
+      "route": "/about",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "DIV",
+          "footer-brand",
+          399,
+          ""
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          399,
+          "Private transfersAirport transfersCity to cityHourly serviceLong "
+        ],
+        [
+          "H2",
+          "",
+          399,
+          "Private transfers"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Airport transfers"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "City to city"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Hourly service"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Long distance"
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          399,
+          "HelpFAQBooking termsPrivacy policyChange a booking"
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 390,
+      "route": "/journeys",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "path",
+          {},
+          351,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 390,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 390,
+      "route": "/contact",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 390,
+      "route": "/how-booking-works",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 390,
+      "route": "/faq",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "BUTTON",
+          "",
+          397,
+          "Payments"
+        ],
+        [
+          "BUTTON",
+          "",
+          497,
+          "Journeys"
+        ],
+        [
+          "svg",
+          {},
+          429,
+          ""
+        ],
+        [
+          "path",
+          {},
+          427,
+          ""
+        ],
+        [
+          "SPAN",
+          "",
+          484,
+          "Journeys"
+        ],
+        [
+          "BUTTON",
+          "",
+          635,
+          "Private Transfers"
+        ],
+        [
+          "svg",
+          {},
+          529,
+          ""
+        ],
+        [
+          "path",
+          {},
+          527,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 390,
+      "route": "/about",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "DIV",
+          "footer-brand",
+          399,
+          ""
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          399,
+          "Private transfersAirport transfersCity to cityHourly serviceLong "
+        ],
+        [
+          "H2",
+          "",
+          399,
+          "Private transfers"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Airport transfers"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "City to city"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Hourly service"
+        ],
+        [
+          "A",
+          "",
+          399,
+          "Long distance"
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          399,
+          "HelpFAQBooking termsPrivacy policyChange a booking"
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 430,
+      "route": "/",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 430,
+      "route": "/journeys",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "path",
+          {},
+          351,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 430,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 430,
+      "route": "/contact",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 430,
+      "route": "/how-booking-works",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 430,
+      "route": "/faq",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "BUTTON",
+          "",
+          497,
+          "Journeys"
+        ],
+        [
+          "SPAN",
+          "",
+          484,
+          "Journeys"
+        ],
+        [
+          "BUTTON",
+          "",
+          635,
+          "Private Transfers"
+        ],
+        [
+          "svg",
+          {},
+          529,
+          ""
+        ],
+        [
+          "path",
+          {},
+          527,
+          ""
+        ],
+        [
+          "circle",
+          {},
+          518,
+          ""
+        ],
+        [
+          "path",
+          {},
+          522,
+          ""
+        ],
+        [
+          "circle",
+          {},
+          525,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 430,
+      "route": "/about",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 768,
+      "route": "/journeys",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 768,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "dark",
+      "overflow": 20,
+      "offenders": [
+        [
+          "svg",
+          {},
+          13,
+          ""
+        ],
+        [
+          "svg",
+          {},
+          777,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 768,
+      "route": "/contact",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 768,
+      "route": "/how-booking-works",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 768,
+      "route": "/faq",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 768,
+      "route": "/about",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "SECTION",
+          "footer-column",
+          918,
+          "CompanyAbout usTravel with purposeHow booking worksContact us"
+        ],
+        [
+          "H2",
+          "",
+          918,
+          "Company"
+        ],
+        [
+          "A",
+          "",
+          918,
+          "About us"
+        ],
+        [
+          "SPAN",
+          "",
+          918,
+          "Travel with purpose"
+        ],
+        [
+          "A",
+          "",
+          918,
+          "How booking works"
+        ],
+        [
+          "A",
+          "",
+          918,
+          "Contact us"
+        ],
+        [
+          "SECTION",
+          "footer-column",
+          1054,
+          "HelpFAQBooking termsPrivacy policyChange a booking"
+        ],
+        [
+          "H2",
+          "",
+          1054,
+          "Help"
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 1024,
+      "route": "/",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 1024,
+      "route": "/journeys",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 1024,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "dark",
+      "overflow": 20,
+      "offenders": [
+        [
+          "svg",
+          {},
+          13,
+          ""
+        ],
+        [
+          "svg",
+          {},
+          1033,
+          ""
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 1024,
+      "route": "/contact",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 1024,
+      "route": "/how-booking-works",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 1024,
+      "route": "/faq",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 1024,
+      "route": "/about",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "SECTION",
+          "footer-column",
+          1067,
+          "HelpFAQBooking termsPrivacy policyChange a booking"
+        ],
+        [
+          "H2",
+          "",
+          1067,
+          "Help"
+        ],
+        [
+          "A",
+          "",
+          1067,
+          "FAQ"
+        ],
+        [
+          "SPAN",
+          "",
+          1067,
+          "Booking terms"
+        ],
+        [
+          "SPAN",
+          "",
+          1067,
+          "Privacy policy"
+        ],
+        [
+          "SPAN",
+          "",
+          1067,
+          "Change a booking"
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 1280,
+      "route": "/",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 1280,
+      "route": "/journeys",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 1280,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "dark",
+      "overflow": 8,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 1280,
+      "route": "/contact",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [
+        [
+          "FORM",
+          "contact-form",
+          1290,
+          "Send us a messageFull nameEmail addressWhatsApp number (with coun"
+        ],
+        [
+          "P",
+          "eyebrow",
+          1290,
+          "Send us a message"
+        ],
+        [
+          "DIV",
+          "form-grid",
+          1290,
+          "Full nameEmail addressWhatsApp number (with country code)SubjectC"
+        ],
+        [
+          "DIV",
+          "contact-field",
+          1290,
+          "Email address"
+        ],
+        [
+          "LABEL",
+          "",
+          1290,
+          "Email address"
+        ],
+        [
+          "INPUT",
+          "",
+          1290,
+          ""
+        ],
+        [
+          "DIV",
+          "contact-field full",
+          1290,
+          "WhatsApp number (with country code)"
+        ],
+        [
+          "LABEL",
+          "",
+          1290,
+          "WhatsApp number (with country code)"
+        ]
+      ],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 1280,
+      "route": "/how-booking-works",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 1280,
+      "route": "/faq",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 1280,
+      "route": "/about",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Journeys across Egypt"
+    },
+    {
+      "width": 1440,
+      "route": "/journeys",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "All Journeys"
+    },
+    {
+      "width": 1440,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Luxor, west bank at dawn"
+    },
+    {
+      "width": 1440,
+      "route": "/contact",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Let’s plan thejourney together."
+    },
+    {
+      "width": 1440,
+      "route": "/how-booking-works",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "How booking works"
+    },
+    {
+      "width": 1440,
+      "route": "/faq",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Frequently AskedQuestions"
+    },
+    {
+      "width": 1440,
+      "route": "/about",
+      "theme": "dark",
+      "overflow": 0,
+      "offenders": [],
+      "brokenImages": [],
+      "heading": "Egypt, plannedwith local care"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,140 @@
+<script setup>
+import { reactive, ref } from 'vue'
+import { useRoute } from 'vue-router'
+import SiteHeader from '../components/SiteHeader.vue'
+import SiteFooter from '../components/SiteFooter.vue'
+import AppIcon from '../components/AppIcon.vue'
+import ServiceAreaMap from '../components/ServiceAreaMap.vue'
+
+const route = useRoute()
+const requestedJourney = typeof route.query.journey === 'string' ? route.query.journey : ''
+const form = reactive({ name: '', email: '', whatsapp: '', subject: requestedJourney ? (route.query.subject === 'question' ? 'General question' : 'Journey request') : '', message: requestedJourney ? `I’m interested in ${requestedJourney}. ` : '', consent: false })
+const errors = reactive({})
+const status = ref('')
+const openFaq = ref(null)
+
+const paths = [
+  { icon: 'compass', title: 'Journey request', text: 'Planning a private journey, day tour or custom itinerary.', cta: 'Send your request', href: '#contact-form' },
+  { icon: 'car', title: 'Transfer request', text: 'Airport transfers, city to city or private car with driver.', cta: 'Request a transfer', href: '#contact-form' },
+  { icon: 'ticket', title: 'Existing booking help', text: 'Changes, questions or support with your current booking.', cta: 'Get support', href: 'mailto:support@thevtravel.com' },
+]
+
+const faqs = [
+  { q: 'How do I get a reply?', a: 'Send the form or email us. A real member of the team will reply personally.' },
+  { q: 'Can you help me plan a custom itinerary?', a: 'Yes. Tell us your dates, interests and preferred pace and we’ll help shape the right private journey.' },
+  { q: 'Can you arrange airport transfers?', a: 'Yes. We can arrange private airport and city-to-city transfers.' },
+  { q: 'Do you support existing bookings?', a: 'Yes. Email support@thevtravel.com with your booking details and the change or question.' },
+  { q: 'Is online payment available?', a: 'No. Payment details are confirmed personally after your request has been reviewed.' },
+]
+
+function validate() {
+  Object.keys(errors).forEach((key) => delete errors[key])
+  if (!form.name.trim()) errors.name = 'Please enter your full name.'
+  if (!/^\S+@\S+\.\S+$/.test(form.email)) errors.email = 'Please enter a valid email address.'
+  if (!form.subject) errors.subject = 'Please choose a subject.'
+  if (!form.message.trim()) errors.message = 'Please tell us how we can help.'
+  if (!form.consent) errors.consent = 'Please agree before sending your message.'
+  return Object.keys(errors).length === 0
+}
+
+function submitForm() {
+  status.value = ''
+  if (!validate()) {
+    status.value = 'Please review the highlighted fields.'
+    requestAnimationFrame(() => document.querySelector('.contact-field.has-error input, .contact-field.has-error select, .contact-field.has-error textarea')?.focus())
+    return
+  }
+  status.value = 'Your message is ready to send. Online delivery is not connected yet—please email hello@thevtravel.com.'
+}
+</script>
+
+<template>
+  <div class="contact-page">
+    <SiteHeader />
+
+    <main>
+      <section class="contact-hero" aria-labelledby="contact-title">
+        <div class="contact-hero-copy">
+          <p class="eyebrow">We're here for you</p>
+          <h1 id="contact-title">Let’s plan the<br />journey together.</h1>
+          <span class="heading-rule" aria-hidden="true"></span>
+          <p>Have a question or ready to plan your trip?<br />Reach out anytime—real people, real replies.</p>
+          <div class="reply-note"><span><AppIcon name="person" :size="26" /></span>We reply by message, every day.</div>
+        </div>
+        <div class="contact-hero-photo" role="img" aria-label="A felucca sailing on the Nile at sunset"></div>
+        <svg class="contact-route" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M265 594c38-79 120-53 211-55 80-2 115 1 153-55 23-34 40-44 82-40" />
+          <circle cx="629" cy="484" r="6" />
+        </svg>
+      </section>
+
+      <section class="contact-main page-container" aria-label="Contact TheVTravel">
+        <div class="contact-methods">
+          <p class="eyebrow">Get in touch</p>
+          <article class="contact-method contact-method--featured" aria-label="WhatsApp unavailable">
+            <span class="method-icon whatsapp-icon"><AppIcon name="whatsapp" :size="36" /></span>
+            <div><h2>Message us on WhatsApp</h2><p>Our preferred way to connect.<br />Quick, simple and personal.</p><button type="button" disabled aria-describedby="whatsapp-unavailable">Open WhatsApp <AppIcon name="chevron-right" :size="14" /></button><small id="whatsapp-unavailable" class="method-note">Contact link not configured yet.</small></div>
+          </article>
+          <article class="contact-method">
+            <span class="method-icon"><AppIcon name="mail" :size="31" /></span>
+            <div><h2>Email us</h2><p>Send us your questions or ideas.<br />We'll get back to you soon.</p><a href="mailto:hello@thevtravel.com">hello@thevtravel.com <AppIcon name="chevron-right" :size="14" /></a></div>
+          </article>
+          <article class="contact-method">
+            <span class="method-icon"><AppIcon name="headset" :size="33" /></span>
+            <div><h2>Booking support</h2><p>Need help with an existing booking?<br />We're here to help.</p><a href="mailto:support@thevtravel.com">support@thevtravel.com <AppIcon name="chevron-right" :size="14" /></a></div>
+          </article>
+          <aside class="contact-reassurance"><AppIcon name="shield" :size="34" /><p>Share a few details and we’ll take care of the rest,<br />with clear replies and local insight.</p></aside>
+        </div>
+
+        <form id="contact-form" class="contact-form" novalidate @submit.prevent="submitForm">
+          <p class="eyebrow">Send us a message</p>
+          <div class="form-grid">
+            <div class="contact-field" :class="{ 'has-error': errors.name }"><label for="contact-name">Full name</label><input id="contact-name" v-model="form.name" name="name" autocomplete="name" :aria-invalid="!!errors.name" :aria-describedby="errors.name ? 'name-error' : undefined" /><small v-if="errors.name" id="name-error">{{ errors.name }}</small></div>
+            <div class="contact-field" :class="{ 'has-error': errors.email }"><label for="contact-email">Email address</label><input id="contact-email" v-model="form.email" name="email" type="email" autocomplete="email" :aria-invalid="!!errors.email" :aria-describedby="errors.email ? 'email-error' : undefined" /><small v-if="errors.email" id="email-error">{{ errors.email }}</small></div>
+            <div class="contact-field full"><label for="contact-whatsapp">WhatsApp number (with country code)</label><input id="contact-whatsapp" v-model="form.whatsapp" name="whatsapp" type="tel" autocomplete="tel" placeholder="e.g. +20 10 1234 5678" /></div>
+            <div class="contact-field full" :class="{ 'has-error': errors.subject }"><label for="contact-subject">Subject</label><select id="contact-subject" v-model="form.subject" name="subject" :aria-invalid="!!errors.subject" :aria-describedby="errors.subject ? 'subject-error' : undefined"><option value="" disabled>Choose a subject</option><option>Journey request</option><option>Private transfer</option><option>Existing booking</option><option>General question</option><option>Other</option></select><small v-if="errors.subject" id="subject-error">{{ errors.subject }}</small></div>
+            <div class="contact-field full" :class="{ 'has-error': errors.message }"><label for="contact-message">Message</label><textarea id="contact-message" v-model="form.message" name="message" rows="5" placeholder="Tell us about your plans, questions or anything else..." :aria-invalid="!!errors.message" :aria-describedby="errors.message ? 'message-error' : undefined"></textarea><small v-if="errors.message" id="message-error">{{ errors.message }}</small></div>
+          </div>
+          <label class="consent" :class="{ 'has-error': errors.consent }"><input v-model="form.consent" type="checkbox" :aria-invalid="!!errors.consent" :aria-describedby="errors.consent ? 'consent-error' : undefined" /> <span>I agree to the <span class="privacy-term">privacy policy</span> and consent to being contacted about my enquiry.<small v-if="errors.consent" id="consent-error">{{ errors.consent }}</small></span></label>
+          <button class="button button-primary contact-submit" type="submit">Send message</button>
+          <p class="form-status" role="status" aria-live="polite">{{ status }}</p>
+          <div class="form-reply"><span><AppIcon name="send" :size="18" /></span>We reply by message, every day.</div>
+        </form>
+      </section>
+
+      <section class="contact-paths" aria-labelledby="path-title">
+        <div class="page-container">
+          <div class="contact-section-heading"><p class="eyebrow">Choose the right path</p><h2 id="path-title">What can we help you with?</h2><span class="heading-rule" aria-hidden="true"></span></div>
+          <div class="path-grid">
+            <article v-for="item in paths" :key="item.title" class="path-item"><span class="path-icon"><AppIcon :name="item.icon" :size="46" /></span><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p><a :href="item.href">{{ item.cta }} <AppIcon name="chevron-right" :size="14" /></a></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-area" aria-labelledby="service-title">
+        <div class="service-copy">
+          <p class="eyebrow">Where we help</p><h2 id="service-title">Our service area</h2><span class="heading-rule" aria-hidden="true"></span>
+          <p>We create private journeys and transfers across Egypt.</p><p>From Cairo and the Nile Valley to Luxor, Aswan,<br />the Red Sea and beyond.</p>
+          <a class="button button-outline" href="/#journeys">Explore journeys</a>
+        </div>
+        <div class="service-map">
+          <ServiceAreaMap />
+        </div>
+      </section>
+
+      <section class="contact-faq page-container" aria-labelledby="contact-faq-title">
+        <div><p class="eyebrow">Contact FAQ</p><h2 id="contact-faq-title">Common questions</h2></div>
+        <div class="contact-faq-list">
+          <article v-for="(item, index) in faqs" :key="item.q" :class="{ open: openFaq === index }"><h3><button type="button" :aria-expanded="openFaq === index" :aria-controls="`contact-faq-${index}`" @click="openFaq = openFaq === index ? null : index"><span>{{ item.q }}</span><span aria-hidden="true">{{ openFaq === index ? '−' : '+' }}</span></button></h3><div v-if="openFaq === index" :id="`contact-faq-${index}`" class="contact-faq-answer"><p>{{ item.a }}</p></div></article>
+        </div>
+      </section>
+
+      <section class="contact-cta" aria-labelledby="contact-cta-title">
+        <div class="contact-cta-copy"><h2 id="contact-cta-title">Ready to plan your<br />Egypt journey?</h2><p>Share your ideas and we'll create a journey<br />that feels just right.</p><a class="button button-primary" href="#contact-form">Send your request</a></div>
+        <div class="contact-cta-photo" role="img" aria-label="A felucca sailing the Nile at sunset"></div>
+      </section>
+    </main>
+
+    <SiteFooter variant="contact" />
+  </div>
+</template>

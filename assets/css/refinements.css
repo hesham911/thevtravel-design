@@ -1,0 +1,133 @@
+/* Refine the incumbent system; content lengths and imagery remain replaceable. */
+:root { --explore-orange:#fd5501; --journey-image-ratio:16 / 10; }
+.explore-cta,.header-cta { background:var(--explore-orange); color:white; gap:10px; }
+.hero-copy .explore-cta { margin-top:18px; }
+.home-page .hero { min-height:510px; height:auto; }
+.home-page .hero-copy { padding-bottom:62px; }
+.home-page .hero-photo { background-size:cover; background-position:center; }
+.home-page .hero h1 { max-width:12ch; text-wrap:balance; }
+.home-featured,.home-destinations { padding-block:52px; }
+.home-section-heading { margin-bottom:26px; }
+.home-page main h2 { font:600 clamp(32px,3vw,40px)/1.15 var(--font-display); margin:0 0 10px; }
+.home-section-heading p { color:var(--muted); margin:0; max-width:65ch; }
+.home-all-link { display:flex; justify-content:center; margin-top:28px; }
+.home-all-link a { gap:12px; }
+.home-benefits { padding-block:32px; border-block:1px solid var(--line); }
+.home-benefit-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:28px; margin-top:26px; }
+.home-benefit-grid svg { color:var(--orange); }
+.home-benefit-grid h3 { margin:12px 0 8px; font-size:16px; }
+.home-benefit-grid p { margin:0; color:var(--muted); font-size:14px; }
+.destination-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px; }
+.destination-card { display:block; text-decoration:none; overflow:hidden; border-radius:8px; background:var(--card); }
+.destination-card img { display:block; width:100%; height:auto; aspect-ratio:3/2; object-fit:cover; }
+.destination-card>span { padding:14px 16px; display:flex; align-items:center; justify-content:space-between; font:600 26px/1.2 var(--font-display); }
+.listing-card h3 { margin:0 0 9px; font:600 25px/1.15 var(--font-body); overflow-wrap:anywhere; }
+.listing-card-description { display:block; overflow:visible; min-height:0; }
+.listing-card-footer { flex-wrap:wrap; margin-top:auto; padding-top:16px; }
+.listing-card-footer a { white-space:normal; min-height:44px; }
+.listing-card--grid .listing-card-body { min-height:0; gap:4px; }
+.listing-card-media { aspect-ratio:var(--journey-image-ratio); }
+.listing-card--list .listing-card-media { height:auto; min-height:0; align-self:start; }
+.journeys-load-more { text-align:center; padding-block:28px 10px; min-height:110px; }
+.journeys-load-more p { color:var(--muted); min-height:24px; }
+.journey-loading-skeleton { height:4px; width:120px; margin:12px auto; background:var(--surface-active); }
+.jd-shared-card { flex:0 0 calc((100% - 36px)/3); scroll-snap-align:start; }
+.jd-related-track .listing-card-body { padding:17px 18px 16px; }
+.jd-related-track .listing-card h3 { font:600 25px/1.15 var(--font-body); }
+.jd-related-track .listing-card-description { max-width:none; font-size:15px; line-height:1.6; }
+.jd-related-arrow { width:44px; height:44px; }
+.jd-related-prev { left:-48px; }.jd-related-next { right:-48px; }
+.nav-transfer { border:0; padding:0; color:inherit; font:inherit; background:transparent; cursor:pointer; }
+.mobile-theme-control { display:flex; align-items:center; gap:12px; padding:14px 0; border:0; background:transparent; color:inherit; font:inherit; }
+.button { white-space:normal; text-align:center; padding-block:10px; }
+input:focus-visible,textarea:focus-visible { outline:3px solid var(--orange); outline-offset:3px; }
+input,select,textarea { min-width:0; max-width:100%; }
+svg { flex-shrink:0; }
+h1,h2,h3 { overflow-wrap:break-word; }
+@media(min-width:1024px) { .desktop-nav { gap:clamp(10px,1.4vw,24px); flex-wrap:wrap; }.site-header { height:auto; min-height:83px; grid-template-columns:150px minmax(0,1fr) auto; gap:14px; }.desktop-nav a,.desktop-nav button { white-space:normal; text-align:center; }.header-actions { gap:10px; }.header-cta { max-width:160px; }.desktop-nav a.active::after { bottom:-5px; } }
+@media(max-width:1279px) and (min-width:1024px) { .header-cta { display:none; } }
+@media(max-width:1023px) { .header-language { display:inline-flex; font-size:12px; }.header-actions>.theme-toggle { display:none; }.mobile-nav { max-height:calc(100dvh - 80px); overflow:auto; }.mobile-nav a,.mobile-nav>button { min-height:44px; }.mobile-nav .nav-transfer { text-align:left; }.home-benefit-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.home-featured .listing-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+@media(min-width:768px) and (max-width:999px) { .jd-shared-card { flex-basis:calc((100% - 18px)/2); } }
+@media(max-width:767px) { .home-featured .listing-grid,.destination-grid { grid-template-columns:1fr; }.home-page .hero { display:flex; flex-direction:column; min-height:650px; }.home-page .hero-copy { margin-inline:var(--page-gutter); padding-top:32px; padding-bottom:280px; width:auto; }.home-page .hero-photo { inset:auto 0 0; height:300px; background-size:cover; mask-image:linear-gradient(180deg,transparent,#000 30%); -webkit-mask-image:linear-gradient(180deg,transparent,#000 30%); }.home-page .hero h1 { font-size:48px; }.home-page .route-line { display:none; }.home-featured,.home-destinations { padding-block:36px; }.home-benefit-grid { gap:24px 18px; }.site-header { gap:8px; padding-inline:16px; grid-template-columns:minmax(0,1fr) auto; }.brand-link { width:122px; }.header-actions { gap:4px; }.menu-button { min-width:44px; min-height:44px; }.jd-shared-card { flex-basis:100%; }.jd-related-arrow { width:44px; height:44px; }.jd-related-prev { left:-16px; }.jd-related-next { right:-16px; }.jd-related-track { margin-inline:24px; }.jd-booking-bar { gap:16px; }.jd-booking-bar .jd-button { height:auto; }.jd-bottom-nav button { height:auto; min-height:66px; overflow-wrap:anywhere; }.jd-facts li { font-size:14px; }.results-actions { flex-wrap:wrap; }.results-actions label { flex:1; }.results-actions select { width:100%; }.interest-scroll button { min-height:44px; }.jd-summary h1 { line-height:1.12; }.jb-stepper { flex-wrap:wrap; }.jb-stepper li { min-width:0; }.jb-actions button { white-space:normal; }.jb-panel { max-width:100%; }.footer-main { min-width:0; }.footer-columns { min-width:0; } }
+@media(max-width:359px) { .home-benefit-grid { grid-template-columns:1fr; }.brand-link { width:110px; }.header-language { gap:2px; }.home-page .hero h1 { font-size:42px; }.listing-card-body { padding:16px; }.jd-booking-bar { grid-template-columns:.85fr 1.15fr; padding-inline:12px; }.tf-phone { grid-template-columns:78px auto minmax(0,1fr); } }
+@media(prefers-reduced-motion:reduce) { .listing-card { transition:none; }.listing-card:hover,.listing-card:focus-within { transform:none; } }
+
+.jd-recommendations>h3 { font-family:var(--font-display); }
+.jd-related-prev { left:0; }.jd-related-next { right:0; }
+.jd-related-track { margin-inline:50px; }
+.footer-main>*,.footer-column { min-width:0; }
+@media(max-width:767px) { .footer-main { grid-template-columns:repeat(2,minmax(0,1fr)); }.footer-main .footer-brand { grid-column:1 / -1; }.footer-column a,.footer-column>span { overflow-wrap:anywhere; }.jd-related-track { margin-inline:44px; }.jd-related-prev { left:0; }.jd-related-next { right:0; }.contact-field input,.contact-field select,.contact-field textarea { font-size:16px; }.transfer-media { display:block; }.transfer-banner { height:auto; }.transfer-copy { padding-bottom:28px; }.transfer-media img { position:static; width:100%; height:auto; aspect-ratio:16/10; object-fit:cover; }.transfer-media { min-height:0; } }
+.jd-features { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.jd-features article,.jd-features article>div { min-width:0; }
+.interest-scroll { display:flex; flex-wrap:wrap; }
+.interest-scroll button { height:auto; min-height:44px; white-space:normal; padding:10px 12px; }
+.results-actions select { width:auto; min-width:190px; min-height:44px; }
+.view-controls button { width:44px; height:44px; }
+@media(max-width:1180px) { .interest-scroll { flex-wrap:nowrap; }.interest-scroll button { white-space:nowrap; } }
+@media(max-width:430px) { .jd-features { grid-template-columns:1fr; }.jd-features article { align-items:flex-start; }.jd-features p { font-size:13px; }.results-actions label { white-space:normal; flex-wrap:wrap; }.results-actions select { min-width:0; flex:1; width:100%; }.jd-gallery-toggle { flex-wrap:wrap; }.jd-gallery-toggle button { min-width:120px; } }
+
+.explore-cta:hover,.header-cta:hover { background:var(--button-hover); color:white; }
+.listing-card-price strong,.listing-card-footer a { color:var(--accent-text); }
+.listing-card-footer a:hover { color:var(--text); }
+.listing-badge { color:white; }
+
+
+/* Mobile review continuation: approved orange CTAs and one catalog layout. */
+.button-primary,.explore-cta,.header-cta,.jd-primary,.tf-dialog button.tf-primary {
+  background:var(--explore-orange);
+  color:white;
+}
+.contact-page main .button-primary { background:var(--explore-orange); color:white; }
+@media(max-width:767px) {
+  .journeys-page .view-controls { display:none; }
+  .journeys-page .listing-grid { grid-template-columns:minmax(0,1fr); }
+  .journeys-page .listing-card--list { display:flex; flex-direction:column; }
+  .journeys-page .listing-card--list .listing-card-media { width:100%; aspect-ratio:var(--journey-image-ratio); }
+  .journeys-page .listing-card--list .listing-card-body { padding:17px 18px 16px; }
+  /* Keep card actions clear of the approved fixed floating action rail. */
+  .journeys-page .listing-card-footer { padding-inline-end:74px; justify-content:flex-start; }
+}
+@media(max-width:1023px) {
+  .site-header { height:auto; min-height:72px; }
+  .mobile-nav { position:static; grid-column:1 / -1; width:100%; margin-top:4px; padding:8px 0 4px; gap:0; border:0; box-shadow:none; background:transparent; max-height:calc(100dvh - 96px); }
+  .mobile-nav a:not(.button),.mobile-nav>.nav-transfer { display:flex; align-items:center; width:100%; min-height:48px; padding:12px 0; text-align:left; line-height:1.5; }
+  .mobile-nav a.active:not(.button) { color:var(--accent-text); font-weight:600; text-decoration:none; }
+  .mobile-nav>.button-primary { margin-block:12px 18px; justify-self:start; min-height:44px; padding-inline:20px; background:var(--explore-orange); color:white; }
+  .mobile-nav>.mobile-theme-control { width:100%; min-height:48px; padding:12px 0; text-align:left; color:var(--muted); }
+  .site-header .header-actions { justify-content:flex-end; }
+}
+.jd-main .jd-primary { color:white; }
+
+/* Shared type and header continuation. Manrope supplies missing Cyrillic glyphs. */
+:root { --site-header-height:83px; }
+.site-header { position:sticky; top:0; z-index:40; }
+.home-page,.journeys-page,.journey-details-page,.contact-page,.faq-page,.about-page,.booking-page { overflow:clip; }
+html { scroll-padding-top:calc(var(--site-header-height) + 16px); }
+.jd-content,.journeys-results,#contact-form,#transfers { scroll-margin-top:calc(var(--site-header-height) + 16px); }
+.desktop-nav { font-size:13px; font-weight:500; line-height:1.35; }
+.desktop-nav a.active { font-weight:600; }
+.header-cta { font-size:13px; }
+.language-selector { position:relative; flex:none; }
+.language-trigger { display:flex; align-items:center; justify-content:center; gap:7px; min-height:44px; padding:8px 6px; border:0; background:transparent; color:var(--header-text); font-size:13px; font-weight:600; cursor:pointer; }
+.language-trigger:hover { color:var(--accent-text); }
+.language-dropdown { position:absolute; z-index:50; right:0; top:calc(100% + 8px); width:218px; margin:0; padding:6px; list-style:none; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--text); box-shadow:0 8px 20px color-mix(in srgb,var(--brand-navy) 16%,transparent); }
+.language-dropdown button { display:flex; align-items:center; gap:12px; width:100%; min-height:44px; padding:10px 12px; border:0; border-radius:4px; background:transparent; color:var(--text); text-align:left; font-size:14px; font-weight:400; cursor:pointer; }
+.language-dropdown button[aria-selected='true'] { background:var(--surface-active); color:var(--accent-text); font-weight:600; }
+.language-dropdown button:hover,.language-dropdown button:focus-visible { background:var(--surface-hover); }
+.language-dropdown button svg { margin-left:auto; color:var(--accent-text); }
+.language-code { width:24px; flex:none; font-weight:600; }
+.listing-card h3,.jd-related-track .listing-card h3 { font-size:22px; font-weight:600; line-height:1.25; }
+.listing-title-link { text-decoration:none; color:inherit; }
+.listing-title-link:hover { color:var(--accent-text); }
+.listing-image-link { display:block; height:100%; }
+.listing-card-media .listing-image-link:focus-visible { outline-offset:-4px; }
+.jb-field>label,.jb-field>span,.contact-field>label { font-weight:500; }
+@media(max-width:1023px) { .mobile-nav a:not(.button),.mobile-nav>.nav-transfer { font-size:16px; font-weight:500; }.mobile-nav a.active:not(.button) { font-weight:600; } }
+@media(max-width:767px) { .language-trigger { gap:5px; padding-inline:4px; }.language-dropdown { width:210px; }.jd-catalog-overview { margin-inline:18px; } }
+.jd-catalog-overview { border-top:1px solid var(--line); margin-top:24px; }
+.jd-catalog-overview .jd-intro { max-width:70ch; }
+.jd-catalog-guidance { max-width:70ch; margin-top:22px!important; color:var(--muted); }
+.listing-card h3 .listing-title-link { font-size:inherit; font-weight:inherit; color:inherit; }
+
+/* Catalog status tags are informational text, never card actions. */
+.listing-card .listing-badge { display:inline-block; min-height:0; max-width:calc(100% - 24px); padding:4px 8px; border:0; border-radius:3px; background:var(--explore-orange); color:white; font:600 11px/1.25 var(--font-body); box-shadow:none; cursor:default; pointer-events:auto; transition:none; transform:none; }

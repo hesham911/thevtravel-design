@@ -1,0 +1,1274 @@
+[
+  {
+    "theme": "light",
+    "width": 390,
+    "first": {
+      "buttons": [
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 390,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "contact": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 390,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "review": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        },
+        {
+          "height": 50,
+          "label": "Confirm request",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        },
+        {
+          "height": 50,
+          "label": "Edit details",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 390,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "edit": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 390,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "remainsReview": true,
+    "preserved": true
+  },
+  {
+    "theme": "light",
+    "width": 430,
+    "first": {
+      "buttons": [
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 430,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "contact": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 430,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "review": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        },
+        {
+          "height": 50,
+          "label": "Confirm request",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        },
+        {
+          "height": 50,
+          "label": "Edit details",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 430,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "edit": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 430,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "remainsReview": true,
+    "preserved": true
+  },
+  {
+    "theme": "light",
+    "width": 768,
+    "first": {
+      "buttons": [
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "contact": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "review": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Confirm request",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Edit details",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "edit": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "remainsReview": true,
+    "preserved": true
+  },
+  {
+    "theme": "light",
+    "width": 900,
+    "first": {
+      "buttons": [
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 20.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "contact": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 20.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "review": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Confirm request",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Edit details",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 20.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "edit": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 20.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "remainsReview": true,
+    "preserved": true
+  },
+  {
+    "theme": "light",
+    "width": 1280,
+    "first": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 464.00006103515625
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 520.0000610351562,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "contact": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 130
+        },
+        {
+          "height": 52,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 316
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 520,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "review": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 130
+        },
+        {
+          "height": 52,
+          "label": "Confirm request",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 187.2734375
+        },
+        {
+          "height": 52,
+          "label": "Edit details",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 110.7265625
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 520,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "edit": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 130
+        },
+        {
+          "height": 52,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 316
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 520,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "remainsReview": true,
+    "preserved": true
+  },
+  {
+    "theme": "light",
+    "width": 1440,
+    "first": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 491.19525146484375
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 39,
+      "panelWidth": 547.1952514648438,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "contact": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 130
+        },
+        {
+          "height": 52,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 343.1953125
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 39,
+      "panelWidth": 547.1953125,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "review": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 130
+        },
+        {
+          "height": 52,
+          "label": "Confirm request",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 214.46875
+        },
+        {
+          "height": 52,
+          "label": "Edit details",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 110.7265625
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 39,
+      "panelWidth": 547.1953125,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "edit": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 130
+        },
+        {
+          "height": 52,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 343.1953125
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 39,
+      "panelWidth": 547.1953125,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "remainsReview": true,
+    "preserved": true
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "first": {
+      "buttons": [
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 390,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "contact": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 390,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "review": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        },
+        {
+          "height": 50,
+          "label": "Confirm request",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        },
+        {
+          "height": 50,
+          "label": "Edit details",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 390,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "edit": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 350
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 390,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "remainsReview": true,
+    "preserved": true
+  },
+  {
+    "theme": "dark",
+    "width": 430,
+    "first": {
+      "buttons": [
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 430,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "contact": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 430,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "review": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        },
+        {
+          "height": 50,
+          "label": "Confirm request",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        },
+        {
+          "height": 50,
+          "label": "Edit details",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 430,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "edit": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 390
+        }
+      ],
+      "locked": true,
+      "navVisible": true,
+      "pageScroll": 126.5,
+      "panelWidth": 430,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "remainsReview": true,
+    "preserved": true
+  },
+  {
+    "theme": "dark",
+    "width": 768,
+    "first": {
+      "buttons": [
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "contact": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "review": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Confirm request",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Edit details",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "edit": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "remainsReview": true,
+    "preserved": true
+  },
+  {
+    "theme": "dark",
+    "width": 900,
+    "first": {
+      "buttons": [
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 20.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "contact": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 20.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "review": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Confirm request",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Edit details",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 20.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "edit": {
+      "buttons": [
+        {
+          "height": 44.3984375,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        },
+        {
+          "height": 50,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 600
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 20.5,
+      "panelWidth": 640,
+      "scrollTop": 0,
+      "stepperFont": "12px",
+      "titleVisible": true
+    },
+    "remainsReview": true,
+    "preserved": true
+  },
+  {
+    "theme": "dark",
+    "width": 1280,
+    "first": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 463.99993896484375
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 519.9999389648438,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "contact": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 130
+        },
+        {
+          "height": 52,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 316
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 520,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "review": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 130
+        },
+        {
+          "height": 52,
+          "label": "Confirm request",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 187.2734375
+        },
+        {
+          "height": 52,
+          "label": "Edit details",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 110.7265625
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 520,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "edit": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 130
+        },
+        {
+          "height": 52,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 316
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 30.5,
+      "panelWidth": 520,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "remainsReview": true,
+    "preserved": true
+  },
+  {
+    "theme": "dark",
+    "width": 1440,
+    "first": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 491.19525146484375
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 39,
+      "panelWidth": 547.1952514648438,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "contact": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 130
+        },
+        {
+          "height": 52,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 343.1953125
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 39,
+      "panelWidth": 547.1953125,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "review": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 130
+        },
+        {
+          "height": 52,
+          "label": "Confirm request",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 214.46875
+        },
+        {
+          "height": 52,
+          "label": "Edit details",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 110.7265625
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 39,
+      "panelWidth": 547.1953125,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "edit": {
+      "buttons": [
+        {
+          "height": 52,
+          "label": "Back",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 130
+        },
+        {
+          "height": 52,
+          "label": "Continue",
+          "nowrap": "nowrap",
+          "overflow": false,
+          "width": 343.1953125
+        }
+      ],
+      "locked": true,
+      "navVisible": false,
+      "pageScroll": 39,
+      "panelWidth": 547.1953125,
+      "scrollTop": 0,
+      "stepperFont": "11px",
+      "titleVisible": true
+    },
+    "remainsReview": true,
+    "preserved": true
+  }
+]

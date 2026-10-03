@@ -1,0 +1,465 @@
+{
+  "desktopLight": [
+    {
+      "case": "?section=overview&gallery=official",
+      "missingVideoText": false,
+      "overflow": false,
+      "page": "rgb(250, 246, 242)",
+      "related": [
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        }
+      ],
+      "text": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    },
+    {
+      "case": "?section=itinerary&gallery=official",
+      "missingVideoText": false,
+      "overflow": false,
+      "page": "rgb(250, 246, 242)",
+      "related": [
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        }
+      ],
+      "text": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    },
+    {
+      "case": "?section=included&gallery=official",
+      "missingVideoText": false,
+      "overflow": false,
+      "page": "rgb(250, 246, 242)",
+      "related": [
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        }
+      ],
+      "text": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    },
+    {
+      "case": "?section=gallery&gallery=official",
+      "missingVideoText": false,
+      "overflow": false,
+      "page": "rgb(250, 246, 242)",
+      "related": [
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        }
+      ],
+      "text": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    },
+    {
+      "case": "?section=gallery&gallery=traveler-moments",
+      "missingVideoText": false,
+      "overflow": false,
+      "page": "rgb(250, 246, 242)",
+      "related": [
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        }
+      ],
+      "text": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    },
+    {
+      "case": "?section=reviews&gallery=official",
+      "missingVideoText": false,
+      "overflow": false,
+      "page": "rgb(250, 246, 242)",
+      "related": [
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        }
+      ],
+      "text": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    },
+    {
+      "case": "?section=good-to-know&gallery=official",
+      "missingVideoText": false,
+      "overflow": false,
+      "page": "rgb(250, 246, 242)",
+      "related": [
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        },
+        {
+          "fit": "cover",
+          "h": 193,
+          "w": 386
+        }
+      ],
+      "text": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    }
+  ],
+  "desktopDark": [
+    {
+      "case": "?section=overview&gallery=official",
+      "heading": "rgb(246, 238, 233)",
+      "lightSurfaces": [],
+      "overflow": false,
+      "theme": "dark",
+      "video": false
+    },
+    {
+      "case": "?section=itinerary&gallery=official",
+      "heading": "rgb(246, 238, 233)",
+      "lightSurfaces": [],
+      "overflow": false,
+      "theme": "dark",
+      "video": false
+    },
+    {
+      "case": "?section=included&gallery=official",
+      "heading": "rgb(246, 238, 233)",
+      "lightSurfaces": [],
+      "overflow": false,
+      "theme": "dark",
+      "video": false
+    },
+    {
+      "case": "?section=gallery&gallery=official",
+      "heading": "rgb(246, 238, 233)",
+      "lightSurfaces": [],
+      "overflow": false,
+      "theme": "dark",
+      "video": false
+    },
+    {
+      "case": "?section=gallery&gallery=traveler-moments",
+      "heading": "rgb(246, 238, 233)",
+      "lightSurfaces": [],
+      "overflow": false,
+      "theme": "dark",
+      "video": false
+    },
+    {
+      "case": "?section=reviews&gallery=official",
+      "heading": "rgb(246, 238, 233)",
+      "lightSurfaces": [],
+      "overflow": false,
+      "theme": "dark",
+      "video": false
+    },
+    {
+      "case": "?section=good-to-know&gallery=official",
+      "heading": "rgb(246, 238, 233)",
+      "lightSurfaces": [],
+      "overflow": false,
+      "theme": "dark",
+      "video": false
+    }
+  ],
+  "mobileDark": [
+    {
+      "booking": "rgb(0, 17, 34)",
+      "case": "?section=overview&gallery=official",
+      "overflow": false,
+      "page": "rgb(0, 17, 34)",
+      "price": "rgb(246, 238, 233)",
+      "related": [
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        }
+      ],
+      "theme": "dark",
+      "video": false
+    },
+    {
+      "booking": "rgb(0, 17, 34)",
+      "case": "?section=itinerary&gallery=official",
+      "overflow": false,
+      "page": "rgb(0, 17, 34)",
+      "price": "rgb(246, 238, 233)",
+      "related": [
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        }
+      ],
+      "theme": "dark",
+      "video": false
+    },
+    {
+      "booking": "rgb(0, 17, 34)",
+      "case": "?section=included&gallery=official",
+      "overflow": false,
+      "page": "rgb(0, 17, 34)",
+      "price": "rgb(246, 238, 233)",
+      "related": [
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        }
+      ],
+      "theme": "dark",
+      "video": false
+    },
+    {
+      "booking": "rgb(0, 17, 34)",
+      "case": "?section=gallery&gallery=official",
+      "overflow": false,
+      "page": "rgb(0, 17, 34)",
+      "price": "rgb(246, 238, 233)",
+      "related": [
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        }
+      ],
+      "theme": "dark",
+      "video": false
+    },
+    {
+      "booking": "rgb(0, 17, 34)",
+      "case": "?section=gallery&gallery=traveler-moments",
+      "overflow": false,
+      "page": "rgb(0, 17, 34)",
+      "price": "rgb(246, 238, 233)",
+      "related": [
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        }
+      ],
+      "theme": "dark",
+      "video": false
+    },
+    {
+      "booking": "rgb(0, 17, 34)",
+      "case": "?section=reviews&gallery=official",
+      "overflow": false,
+      "page": "rgb(0, 17, 34)",
+      "price": "rgb(246, 238, 233)",
+      "related": [
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        }
+      ],
+      "theme": "dark",
+      "video": false
+    },
+    {
+      "booking": "rgb(0, 17, 34)",
+      "case": "?section=good-to-know&gallery=official",
+      "overflow": false,
+      "page": "rgb(0, 17, 34)",
+      "price": "rgb(246, 238, 233)",
+      "related": [
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        },
+        {
+          "h": 154,
+          "w": 308
+        }
+      ],
+      "theme": "dark",
+      "video": false
+    }
+  ],
+  "mobileLight": [
+    {
+      "case": "?section=overview&gallery=official",
+      "missingVideoText": false,
+      "overflow": false,
+      "price": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    },
+    {
+      "case": "?section=itinerary&gallery=official",
+      "missingVideoText": false,
+      "overflow": false,
+      "price": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    },
+    {
+      "case": "?section=included&gallery=official",
+      "missingVideoText": false,
+      "overflow": false,
+      "price": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    },
+    {
+      "case": "?section=gallery&gallery=official",
+      "missingVideoText": false,
+      "overflow": false,
+      "price": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    },
+    {
+      "case": "?section=gallery&gallery=traveler-moments",
+      "missingVideoText": false,
+      "overflow": false,
+      "price": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    },
+    {
+      "case": "?section=reviews&gallery=official",
+      "missingVideoText": false,
+      "overflow": false,
+      "price": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    },
+    {
+      "case": "?section=good-to-know&gallery=official",
+      "missingVideoText": false,
+      "overflow": false,
+      "price": "rgb(1, 25, 71)",
+      "theme": "light",
+      "video": false
+    }
+  ]
+}

@@ -1,0 +1,6880 @@
+{
+  "checks": [
+    "Home: three shared cards, no full filters, orange CTA to /journeys",
+    "Mobile language selector visible; drawer theme and Escape work",
+    "Automatic append and back restoration retain loaded results and scroll",
+    "Destination filters and descending price sorting work"
+  ],
+  "matrix": [
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 19,
+      "clipped": [
+        ": Matinée paisible",
+        ": Expérience privée"
+      ],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 19,
+      "clipped": [
+        ": Matinée paisible",
+        ": Expérience privée"
+      ],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/journeys",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/contact",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/faq",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "route": "/about",
+      "overflow": 0,
+      "clipped": [],
+      "missingImages": [],
+      "fonts": {
+        "body": "Manrope, Arial, sans-serif",
+        "title": "\"Cormorant Garamond\", Georgia, serif"
+      }
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "route": "journey-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "route": "transfer-request-review",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    }
+  ],
+  "errors": [],
+  "unknown": [
+    "Français",
+    "Deutsch",
+    "8 journeys found",
+    "(128 reviews)",
+    "Step 1 of 3",
+    "🇪🇬 Egypt",
+    "🇺🇸 United States",
+    "🇬🇧 United Kingdom",
+    "🇩🇪 Germany",
+    "🇫🇷 France",
+    "🇦🇪 United Arab Emirates",
+    "🇸🇦 Saudi Arabia",
+    "OpenStreetMap contributors"
+  ]
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "title": "TheVTravel — Journeys across Egypt",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys",
+    "status": 200,
+    "title": "All Journeys — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/contact",
+    "status": 200,
+    "title": "Contact Us — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/about",
+    "status": 200,
+    "title": "About TheVTravel — Egypt, planned with local care",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/faq",
+    "status": 200,
+    "title": "Frequently Asked Questions — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/how-booking-works",
+    "status": 200,
+    "title": "How Booking Works — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/privacy-policy",
+    "status": 200,
+    "title": "Privacy Policy",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/terms-and-conditions",
+    "status": 200,
+    "title": "Terms &amp; Conditions",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/luxor-west-bank-at-dawn",
+    "status": 200,
+    "title": "Luxor, west bank at dawn — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/luxor-highlights",
+    "status": 200,
+    "title": "Luxor Highlights — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/abu-simbel-day-tour",
+    "status": 200,
+    "title": "Abu Simbel Day Tour — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/felucca-on-the-nile",
+    "status": 200,
+    "title": "Felucca on the Nile — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/luxor-hot-air-balloon",
+    "status": 200,
+    "title": "Luxor Hot Air Balloon — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/giftun-island-snorkeling",
+    "status": 200,
+    "title": "Giftun Island Snorkeling — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/white-desert-adventure",
+    "status": 200,
+    "title": "White Desert Adventure — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/cairo-city-tour",
+    "status": 200,
+    "title": "Cairo City Tour — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/philae-temple-aswan",
+    "status": 200,
+    "title": "Philae Temple &amp; Aswan — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/desert-safari-by-quad",
+    "status": 200,
+    "title": "Desert Safari by Quad — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/hurghada-paradise",
+    "status": 200,
+    "title": "Hurghada Paradise — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/dendera-temple-tour",
+    "status": 200,
+    "title": "Dendera Temple Tour — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/siwa-oasis-escape",
+    "status": 200,
+    "title": "Siwa Oasis Escape — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/pyramids-sphinx-private-tour",
+    "status": 200,
+    "title": "Pyramids &amp; Sphinx Private Tour — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/nubian-village-visit",
+    "status": 200,
+    "title": "Nubian Village Visit — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/alexandria-coastal-day",
+    "status": 200,
+    "title": "Alexandria Coastal Day — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/karnak-by-night",
+    "status": 200,
+    "title": "Karnak by Night — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/sunset-nile-dinner-cruise",
+    "status": 200,
+    "title": "Sunset Nile Dinner Cruise — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/ras-mohammed-snorkeling",
+    "status": 200,
+    "title": "Ras Mohammed Snorkeling — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/mount-sinai-sunrise-hike",
+    "status": 200,
+    "title": "Mount Sinai Sunrise Hike — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/edfu-kom-ombo-temples",
+    "status": 200,
+    "title": "Edfu &amp; Kom Ombo Temples — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/family-pyramids-discovery",
+    "status": 200,
+    "title": "Family Pyramids Discovery — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/aswan-botanical-island",
+    "status": 200,
+    "title": "Aswan Botanical Island — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/orange-bay-beach-day",
+    "status": 200,
+    "title": "Orange Bay Beach Day — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/valley-of-the-kings",
+    "status": 200,
+    "title": "Valley of the Kings — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/fayoum-lakes-waterfalls",
+    "status": 200,
+    "title": "Fayoum Lakes &amp; Waterfalls — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/old-cairo-family-walk",
+    "status": 200,
+    "title": "Old Cairo Family Walk — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/aswan-sunset-felucca",
+    "status": 200,
+    "title": "Aswan Sunset Felucca — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/dahab-blue-hole-day",
+    "status": 200,
+    "title": "Dahab Blue Hole Day — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/luxor-east-bank-evening",
+    "status": 200,
+    "title": "Luxor East Bank Evening — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/siwa-salt-lakes-retreat",
+    "status": 200,
+    "title": "Siwa Salt Lakes Retreat — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/cairo-food-market-walk",
+    "status": 200,
+    "title": "Cairo Food &amp; Market Walk — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/nile-islands-picnic",
+    "status": 200,
+    "title": "Nile Islands Picnic — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/red-sea-glass-boat",
+    "status": 200,
+    "title": "Red Sea Glass Boat — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/abydos-sacred-temples",
+    "status": 200,
+    "title": "Abydos Sacred Temples — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/sinai-canyon-adventure",
+    "status": 200,
+    "title": "Sinai Canyon Adventure — TheVTravel",
+    "hasSSRContent": true
+  },
+  {
+    "route": "/journeys/mediterranean-heritage-walk",
+    "status": 200,
+    "title": "Mediterranean Heritage Walk — TheVTravel",
+    "hasSSRContent": true
+  }
+]

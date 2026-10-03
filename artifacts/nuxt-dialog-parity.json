@@ -1,0 +1,1346 @@
+[
+  {
+    "width": 320,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 320,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 360,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 390,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 430,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 768,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1024,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1280,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "ru",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "ru",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "fr",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "fr",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Journey request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Transfer request",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "de",
+    "theme": "light",
+    "flow": "Map picker",
+    "differences": []
+  },
+  {
+    "width": 1440,
+    "locale": "de",
+    "theme": "dark",
+    "flow": "Map picker",
+    "differences": []
+  }
+]

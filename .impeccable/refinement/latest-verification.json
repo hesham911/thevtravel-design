@@ -1,0 +1,7207 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "light",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "light",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "light",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "light",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "light",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "light",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/contact",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/about",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/faq",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/how-booking-works",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "dark",
+      "route": "/journeys/white-desert-adventure",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif",
+      "ctas": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "title": "Luxor, west bank at dawn",
+      "route": "/journeys/luxor-west-bank-at-dawn",
+      "image": "/assets/photos/hero-colossi-wide.png"
+    },
+    {
+      "title": "Luxor Highlights",
+      "route": "/journeys/luxor-highlights",
+      "image": "/assets/journeys/journey-karnak.png"
+    },
+    {
+      "title": "Abu Simbel Day Tour",
+      "route": "/journeys/abu-simbel-day-tour",
+      "image": "/assets/journeys/journey-abu-simbel.png"
+    },
+    {
+      "title": "Felucca on the Nile",
+      "route": "/journeys/felucca-on-the-nile",
+      "image": "/assets/journeys/journey-felucca.png"
+    },
+    {
+      "title": "Luxor Hot Air Balloon",
+      "route": "/journeys/luxor-hot-air-balloon",
+      "image": "/assets/journeys/journey-sinai.png"
+    },
+    {
+      "title": "Giftun Island Snorkeling",
+      "route": "/journeys/giftun-island-snorkeling",
+      "image": "/assets/journeys/journey-alexandria.png"
+    },
+    {
+      "title": "White Desert Adventure",
+      "route": "/journeys/white-desert-adventure",
+      "image": "/assets/journeys/journey-sinai.png"
+    },
+    {
+      "title": "Cairo City Tour",
+      "route": "/journeys/cairo-city-tour",
+      "image": "/assets/journeys/journey-pyramids.png"
+    },
+    {
+      "title": "Philae Temple & Aswan",
+      "route": "/journeys/philae-temple-aswan",
+      "image": "/assets/journeys/journey-abu-simbel.png"
+    },
+    {
+      "title": "Desert Safari by Quad",
+      "route": "/journeys/desert-safari-by-quad",
+      "image": "/assets/journeys/journey-sinai.png"
+    },
+    {
+      "title": "Hurghada Paradise",
+      "route": "/journeys/hurghada-paradise",
+      "image": "/assets/journeys/journey-alexandria.png"
+    },
+    {
+      "title": "Dendera Temple Tour",
+      "route": "/journeys/dendera-temple-tour",
+      "image": "/assets/journeys/journey-karnak.png"
+    },
+    {
+      "title": "Siwa Oasis Escape",
+      "route": "/journeys/siwa-oasis-escape",
+      "image": "/assets/journeys/journey-sinai.png"
+    },
+    {
+      "title": "Pyramids & Sphinx Private Tour",
+      "route": "/journeys/pyramids-sphinx-private-tour",
+      "image": "/assets/journeys/journey-pyramids.png"
+    },
+    {
+      "title": "Nubian Village Visit",
+      "route": "/journeys/nubian-village-visit",
+      "image": "/assets/journeys/journey-abu-simbel.png"
+    },
+    {
+      "title": "Alexandria Coastal Day",
+      "route": "/journeys/alexandria-coastal-day",
+      "image": "/assets/journeys/journey-alexandria.png"
+    },
+    {
+      "title": "Karnak by Night",
+      "route": "/journeys/karnak-by-night",
+      "image": "/assets/journeys/journey-karnak.png"
+    },
+    {
+      "title": "Sunset Nile Dinner Cruise",
+      "route": "/journeys/sunset-nile-dinner-cruise",
+      "image": "/assets/journeys/journey-felucca.png"
+    },
+    {
+      "title": "Ras Mohammed Snorkeling",
+      "route": "/journeys/ras-mohammed-snorkeling",
+      "image": "/assets/journeys/journey-alexandria.png"
+    },
+    {
+      "title": "Mount Sinai Sunrise Hike",
+      "route": "/journeys/mount-sinai-sunrise-hike",
+      "image": "/assets/journeys/journey-sinai.png"
+    },
+    {
+      "title": "Edfu & Kom Ombo Temples",
+      "route": "/journeys/edfu-kom-ombo-temples",
+      "image": "/assets/journeys/journey-karnak.png"
+    },
+    {
+      "title": "Family Pyramids Discovery",
+      "route": "/journeys/family-pyramids-discovery",
+      "image": "/assets/journeys/journey-pyramids.png"
+    },
+    {
+      "title": "Aswan Botanical Island",
+      "route": "/journeys/aswan-botanical-island",
+      "image": "/assets/journeys/journey-felucca.png"
+    },
+    {
+      "title": "Orange Bay Beach Day",
+      "route": "/journeys/orange-bay-beach-day",
+      "image": "/assets/journeys/journey-alexandria.png"
+    },
+    {
+      "title": "Valley of the Kings",
+      "route": "/journeys/valley-of-the-kings",
+      "image": "/assets/journeys/journey-karnak.png"
+    },
+    {
+      "title": "Fayoum Lakes & Waterfalls",
+      "route": "/journeys/fayoum-lakes-waterfalls",
+      "image": "/assets/journeys/journey-sinai.png"
+    },
+    {
+      "title": "Old Cairo Family Walk",
+      "route": "/journeys/old-cairo-family-walk",
+      "image": "/assets/journeys/journey-pyramids.png"
+    },
+    {
+      "title": "Aswan Sunset Felucca",
+      "route": "/journeys/aswan-sunset-felucca",
+      "image": "/assets/journeys/journey-felucca.png"
+    },
+    {
+      "title": "Dahab Blue Hole Day",
+      "route": "/journeys/dahab-blue-hole-day",
+      "image": "/assets/journeys/journey-alexandria.png"
+    },
+    {
+      "title": "Luxor East Bank Evening",
+      "route": "/journeys/luxor-east-bank-evening",
+      "image": "/assets/journeys/journey-karnak.png"
+    },
+    {
+      "title": "Siwa Salt Lakes Retreat",
+      "route": "/journeys/siwa-salt-lakes-retreat",
+      "image": "/assets/journeys/journey-sinai.png"
+    },
+    {
+      "title": "Cairo Food & Market Walk",
+      "route": "/journeys/cairo-food-market-walk",
+      "image": "/assets/journeys/journey-pyramids.png"
+    },
+    {
+      "title": "Nile Islands Picnic",
+      "route": "/journeys/nile-islands-picnic",
+      "image": "/assets/journeys/journey-felucca.png"
+    },
+    {
+      "title": "Red Sea Glass Boat",
+      "route": "/journeys/red-sea-glass-boat",
+      "image": "/assets/journeys/journey-alexandria.png"
+    },
+    {
+      "title": "Abydos Sacred Temples",
+      "route": "/journeys/abydos-sacred-temples",
+      "image": "/assets/journeys/journey-karnak.png"
+    },
+    {
+      "title": "Sinai Canyon Adventure",
+      "route": "/journeys/sinai-canyon-adventure",
+      "image": "/assets/journeys/journey-sinai.png"
+    },
+    {
+      "title": "Mediterranean Heritage Walk",
+      "route": "/journeys/mediterranean-heritage-walk",
+      "image": "/assets/journeys/journey-alexandria.png"
+    }
+  ],
+  "assets": {
+    "/assets/brand/logo-transparent.png": {
+      "pages": [
+        "/",
+        "/journeys",
+        "/contact",
+        "/about",
+        "/faq",
+        "/how-booking-works",
+        "/journeys/luxor-west-bank-at-dawn",
+        "/journeys/white-desert-adventure"
+      ],
+      "width": 2172,
+      "height": 724
+    },
+    "/assets/brand/logo-transparent-dark.png": {
+      "pages": [
+        "/",
+        "/journeys",
+        "/contact",
+        "/about",
+        "/faq",
+        "/how-booking-works",
+        "/journeys/luxor-west-bank-at-dawn",
+        "/journeys/white-desert-adventure"
+      ],
+      "width": 2172,
+      "height": 724
+    },
+    "/assets/photos/home-hero-clean.png": {
+      "pages": [
+        "/"
+      ]
+    },
+    "/assets/photos/hero-colossi-wide.png": {
+      "pages": [
+        "/",
+        "/journeys",
+        "/journeys/luxor-west-bank-at-dawn"
+      ],
+      "width": 434,
+      "height": 312
+    },
+    "/assets/journeys/journey-karnak.png": {
+      "pages": [
+        "/",
+        "/journeys",
+        "/journeys/luxor-west-bank-at-dawn",
+        "/journeys/white-desert-adventure"
+      ],
+      "width": 244,
+      "height": 142
+    },
+    "/assets/journeys/journey-abu-simbel.png": {
+      "pages": [
+        "/",
+        "/journeys",
+        "/journeys/luxor-west-bank-at-dawn",
+        "/journeys/white-desert-adventure"
+      ],
+      "width": 244,
+      "height": 142
+    },
+    "/assets/journeys/journey-pyramids.png": {
+      "pages": [
+        "/",
+        "/journeys"
+      ],
+      "width": 244,
+      "height": 142
+    },
+    "/assets/journeys/journey-felucca.png": {
+      "pages": [
+        "/",
+        "/journeys",
+        "/journeys/luxor-west-bank-at-dawn",
+        "/journeys/white-desert-adventure"
+      ],
+      "width": 244,
+      "height": 142
+    },
+    "/assets/sections/hero-transfer-van.png": {
+      "pages": [
+        "/"
+      ],
+      "width": 602,
+      "height": 345
+    },
+    "/assets/photos/how-booking-hero-light.png": {
+      "pages": [
+        "/journeys",
+        "/how-booking-works"
+      ]
+    },
+    "/assets/journeys/journey-sinai.png": {
+      "pages": [
+        "/journeys",
+        "/journeys/white-desert-adventure"
+      ],
+      "width": 244,
+      "height": 142
+    },
+    "/assets/journeys/journey-alexandria.png": {
+      "pages": [
+        "/journeys"
+      ],
+      "width": 244,
+      "height": 142
+    },
+    "/assets/decorative/how-booking-help-lineart.png": {
+      "pages": [
+        "/journeys",
+        "/how-booking-works"
+      ]
+    },
+    "/assets/photos/hero-felucca-contact.png": {
+      "pages": [
+        "/contact"
+      ]
+    },
+    "/assets/decorative/cta-lineart-left.svg": {
+      "pages": [
+        "/contact",
+        "/faq"
+      ]
+    },
+    "/assets/decorative/cta-lineart-right.svg": {
+      "pages": [
+        "/contact",
+        "/faq"
+      ]
+    },
+    "/assets/sections/cta-felucca-mosque.png": {
+      "pages": [
+        "/contact"
+      ]
+    },
+    "/assets/photos/1.png": {
+      "pages": [
+        "/about"
+      ]
+    },
+    "/assets/photos/people-team.png": {
+      "pages": [
+        "/about"
+      ],
+      "width": 486,
+      "height": 187
+    },
+    "/assets/photos/hero-felucca-temple.png": {
+      "pages": [
+        "/faq"
+      ]
+    },
+    "/assets/photos/how-booking-hero-dark.png": {
+      "pages": [
+        "/journeys",
+        "/how-booking-works"
+      ]
+    },
+    "/assets/decorative/how-booking-help-lineart-dark.png": {
+      "pages": [
+        "/journeys",
+        "/how-booking-works"
+      ]
+    }
+  },
+  "errors": []
+}

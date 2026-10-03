@@ -1,0 +1,29 @@
+{
+  "calls": [
+    {
+      "url": "http://127.0.0.1:3002/test-geocode/reverse?latitude=30.0444&longitude=31.2357",
+      "language": "en"
+    },
+    {
+      "url": "http://127.0.0.1:3002/test-geocode/search?q=Cairo",
+      "language": "en"
+    },
+    {
+      "url": "http://127.0.0.1:3002/test-geocode/reverse?latitude=30.0444&longitude=31.2357",
+      "language": "en"
+    },
+    {
+      "url": "http://127.0.0.1:3002/test-geocode/reverse?latitude=30.0444&longitude=31.2357",
+      "language": "en"
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "Contact map",
+    "Explicit search without requests while typing",
+    "Search selection",
+    "Reverse geocoding",
+    "Current location",
+    "Pickup and drop-off confirmations"
+  ]
+}

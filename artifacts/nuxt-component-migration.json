@@ -1,0 +1,31 @@
+{
+  "unchanged": [
+    "components/JourneyListingCard.vue",
+    "components/AppIcon.vue",
+    "components/BottomJourneyCTA.vue",
+    "components/HeroRouteLine.vue",
+    "components/BrandIcon.vue",
+    "components/NeedHelpCTA.vue",
+    "components/journey/JourneyIcon.vue",
+    "components/journey/JourneyBookingSummary.vue",
+    "components/journey/RelatedJourneys.vue",
+    "components/journey/JourneyGalleryViewer.vue"
+  ],
+  "adapted": [
+    "components/SiteFooter.vue",
+    "components/ServiceAreaMap.vue",
+    "components/TransferBanner.vue",
+    "components/SiteHeader.vue",
+    "components/JourneyCard.vue",
+    "components/GlobalFloatingActions.vue",
+    "components/LanguageSelector.vue",
+    "components/LegalContentPage.vue",
+    "components/transfer/TransferRequestFlow.vue",
+    "components/transfer/TransferMapPicker.vue",
+    "components/journey/JourneyBookingFlow.vue",
+    "components/journey/JourneyHero.vue",
+    "components/journey/MobileJourneyControls.vue",
+    "components/journey/JourneySectionContent.vue",
+    "components/journey/JourneyVideo.vue"
+  ]
+}

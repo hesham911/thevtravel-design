@@ -1,0 +1,4364 @@
+{
+  "results": [
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 320,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 390,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 430,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 768,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1024,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1280,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "width": 1440,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 320,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 360,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 390,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 430,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 768,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1024,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1280,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "width": 1440,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 320,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 360,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 390,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 430,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 768,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1024,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1280,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "width": 1440,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 320,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 360,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 390,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 430,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 768,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1024,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1280,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "width": 1440,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 320,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 360,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 390,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 430,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 768,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1024,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1280,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "light",
+      "width": 1440,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 320,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 360,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 390,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 430,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 768,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1024,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1280,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "fr",
+      "theme": "dark",
+      "width": 1440,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 320,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 360,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 390,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 430,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 768,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1024,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1280,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "light",
+      "width": 1440,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 320,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 360,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 390,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 430,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 768,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1024,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1280,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "section": "overview",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "section": "itinerary",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "section": "included",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "section": "gallery",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "section": "reviews",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "section": "good-to-know",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif",
+      "titleFont": "\"Cormorant Garamond\", Georgia, serif",
+      "uiFonts": []
+    },
+    {
+      "lang": "de",
+      "theme": "dark",
+      "width": 1440,
+      "section": "map-picker",
+      "overflow": 0,
+      "bodyFont": "Manrope, Arial, sans-serif"
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "Exact loaded-count and deep-scroll restoration",
+    "Load-more fallback without IntersectionObserver",
+    "No-results state",
+    "Home transfer CTA opens existing flow",
+    "German Contact validation; original form values preserved"
+  ]
+}

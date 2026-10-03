@@ -1,0 +1,31 @@
+.legal-page { overflow:clip; }
+.legal-main { width:min(calc(100% - 2 * var(--page-gutter)), 72ch); margin-inline:auto; padding-block:36px 72px; min-height:65vh; }
+.legal-heading { padding-bottom:28px; margin-bottom:28px; border-bottom:1px solid var(--line); }
+.legal-heading nav { display:flex; flex-wrap:wrap; gap:10px; color:var(--muted); font-size:13px; margin-bottom:18px; }
+.legal-heading nav a,.legal-rich-text a { color:var(--accent-text); text-decoration:underline; text-underline-offset:3px; }
+.legal-heading h1 { margin:0; font-size:clamp(38px,5vw,52px); line-height:1.12; }
+.legal-intro { margin:16px 0 0; color:var(--text); }
+.legal-updated { margin:16px 0 0; color:var(--muted); font-size:13px; }
+.legal-rich-text,.legal-empty { font-family:var(--font-body); font-size:16px; line-height:1.8; color:var(--text); overflow-wrap:anywhere; }
+.legal-rich-text > :first-child { margin-top:0; }
+.legal-rich-text :is(h1,h2) { margin:36px 0 14px; font-size:clamp(28px,4vw,36px); line-height:1.2; }
+.legal-rich-text :is(h3,h4,h5,h6) { margin:28px 0 10px; font-size:20px; font-weight:600; line-height:1.4; }
+.legal-rich-text p { margin:0 0 18px; }
+.legal-rich-text :is(ul,ol) { margin:16px 0 24px; padding-inline-start:26px; }
+.legal-rich-text li { margin-block:8px; padding-inline-start:4px; }
+.legal-rich-text :is(ul,ol) :is(ul,ol) { margin-block:8px; }
+.legal-rich-text blockquote { margin:24px 0; padding:16px 20px; border-inline-start:1px solid var(--line); background:var(--card); }
+.legal-rich-text blockquote p:last-child { margin:0; }
+.legal-rich-text hr { border:0; border-top:1px solid var(--line); margin-block:32px; }
+.legal-rich-text pre { overflow:auto; max-width:100%; padding:16px; background:var(--card); }
+.legal-table-scroll { width:100%; max-width:100%; overflow-x:auto; margin-block:24px; overscroll-behavior-inline:contain; }
+.legal-table-scroll table { width:100%; min-width:560px; border-collapse:collapse; font-size:14px; line-height:1.6; background:var(--card); }
+.legal-table-scroll :is(th,td) { padding:12px 14px; text-align:start; vertical-align:top; border:1px solid var(--line); }
+.legal-table-scroll th { font-weight:600; background:var(--surface-active); }
+.legal-table-scroll caption { text-align:start; padding-bottom:12px; color:var(--muted); }
+.footer-socials :is(a,button,span) { display:inline-flex; align-items:center; justify-content:center; width:44px; height:44px; color:var(--text); }
+.footer-socials a:hover { color:var(--accent-text); }
+.payment-panel { gap:0; min-height:0; padding:22px 28px; justify-content:flex-start; border-color:var(--line); background:var(--card); }
+.payment-panel h2 { color:var(--accent-text); }
+.payment-panel p { font-size:14px; line-height:1.65; }
+@media(max-width:767px) { .legal-main { padding-block:26px 48px; }.legal-heading { margin-bottom:24px; padding-bottom:24px; }.payment-panel { padding:20px; } }

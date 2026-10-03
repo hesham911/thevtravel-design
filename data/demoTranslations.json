@@ -1,0 +1,3452 @@
+{
+  "(max-width: 767px)": {
+    "ru": "(макс. ширина: 767 пикселей)",
+    "fr": "(largeur maximale : 767 px)",
+    "de": "(maximale Breite: 767 Pixel)"
+  },
+  "(optional)": {
+    "ru": "(необязательно)",
+    "fr": "(facultatif)",
+    "de": "(optional)"
+  },
+  "(prefers-reduced-motion: reduce)": {
+    "ru": "(предпочитает уменьшенное движение: уменьшить)",
+    "fr": "(préfère le mouvement réduit : réduire)",
+    "de": "(prefers-reduced-motion: reduzieren)"
+  },
+  "100% verified travelers": {
+    "ru": "100% проверенные путешественники",
+    "fr": "Voyageurs 100% vérifiés",
+    "de": "100 % verifizierte Reisende"
+  },
+  "10–12 hours": {
+    "ru": "10–12 часов",
+    "fr": "10 à 12 heures",
+    "de": "10–12 Stunden"
+  },
+  "2 days / 1 night": {
+    "ru": "2 дня/1 ночь",
+    "fr": "2 jours / 1 nuit",
+    "de": "2 Tage / 1 Nacht"
+  },
+  "2 hours": {
+    "ru": "2 часа",
+    "fr": "2 heures",
+    "de": "2 Stunden"
+  },
+  "2–3 hours": {
+    "ru": "2–3 часа",
+    "fr": "2 à 3 heures",
+    "de": "2–3 Stunden"
+  },
+  "2–4 hours": {
+    "ru": "2–4 часа",
+    "fr": "2 à 4 heures",
+    "de": "2–4 Stunden"
+  },
+  "3 hours": {
+    "ru": "3 часа",
+    "fr": "3 heures",
+    "de": "3 Stunden"
+  },
+  "3–4 hours": {
+    "ru": "3–4 часа",
+    "fr": "3 à 4 heures",
+    "de": "3–4 Stunden"
+  },
+  "4 hours": {
+    "ru": "4 часа",
+    "fr": "4 heures",
+    "de": "4 Stunden"
+  },
+  "4–6 hours": {
+    "ru": "4–6 часов",
+    "fr": "4 à 6 heures",
+    "de": "4–6 Stunden"
+  },
+  "5 hours": {
+    "ru": "5 часов",
+    "fr": "5 heures",
+    "de": "5 Stunden"
+  },
+  "5–6 hours": {
+    "ru": "5–6 часов",
+    "fr": "5 à 6 heures",
+    "de": "5–6 Stunden"
+  },
+  "6 hours": {
+    "ru": "6 часов",
+    "fr": "6 heures",
+    "de": "6 Stunden"
+  },
+  "6–7 hours": {
+    "ru": "6–7 часов",
+    "fr": "6 à 7 heures",
+    "de": "6–7 Stunden"
+  },
+  "6–8 hours": {
+    "ru": "6–8 часов",
+    "fr": "6 à 8 heures",
+    "de": "6–8 Stunden"
+  },
+  "7 hours": {
+    "ru": "7 часов",
+    "fr": "7 heures",
+    "de": "7 Stunden"
+  },
+  "8 hours": {
+    "ru": "8 часов",
+    "fr": "8 heures",
+    "de": "8 Stunden"
+  },
+  "A calm, unhurried morning with time to take in the history, the landscapes and the atmosphere.": {
+    "ru": "Спокойное, неторопливое утро, позволяющее погрузиться в историю, пейзажи и атмосферу.",
+    "fr": "Une matinée calme et tranquille avec du temps pour s'imprégner de l'histoire, des paysages et de l'atmosphère.",
+    "de": "Ein ruhiger, gemächlicher Morgen mit Zeit, die Geschichte, die Landschaften und die Atmosphäre in sich aufzunehmen."
+  },
+  "A fantastic half-day tour for our family. The pacing was perfect, and our guide kept both adults and kids engaged. The temples are breathtaking in the morning light. Highly recommend this private tour!": {
+    "ru": "Фантастический тур на полдня для нашей семьи. Темп был идеальным, и наш гид увлек и взрослых, и детей. Храмы захватывают дух в утреннем свете. Очень рекомендую этот частный тур!",
+    "fr": "Une fantastique excursion d'une demi-journée pour notre famille. Le rythme était parfait et notre guide a gardé les adultes et les enfants engagés. Les temples sont à couper le souffle dans la lumière du matin. Je recommande vivement cette visite privée!",
+    "de": "Eine fantastische Halbtagestour für unsere Familie. Das Tempo war perfekt und unser Guide hielt sowohl Erwachsene als auch Kinder bei Laune. Die Tempel sind im Morgenlicht atemberaubend. Ich kann diese private Tour nur wärmstens empfehlen!"
+  },
+  "A felucca beside an Egyptian temple": {
+    "ru": "Фелюка возле египетского храма",
+    "fr": "Une felouque à côté d'un temple égyptien",
+    "de": "Eine Feluke neben einem ägyptischen Tempel"
+  },
+  "A felucca on the Nile at sunset": {
+    "ru": "Фелюга на Ниле на закате",
+    "fr": "Une felouque sur le Nil au coucher du soleil",
+    "de": "Eine Feluke auf dem Nil bei Sonnenuntergang"
+  },
+  "A felucca sailing beside ancient temple columns on the Nile at sunset": {
+    "ru": "Фелюга, плывущая рядом с колоннами древнего храма по Нилу на закате",
+    "fr": "Une felouque naviguant à côté des colonnes d'un temple antique sur le Nil au coucher du soleil",
+    "de": "Eine Feluke, die bei Sonnenuntergang neben antiken Tempelsäulen auf dem Nil segelt"
+  },
+  "A felucca sailing on the Nile at sunset": {
+    "ru": "Фелюга, плывущая по Нилу на закате",
+    "fr": "Une felouque naviguant sur le Nil au coucher du soleil",
+    "de": "Eine Feluke segelt bei Sonnenuntergang auf dem Nil"
+  },
+  "A felucca sailing on the Nile below desert cliffs at sunset": {
+    "ru": "Фелюга, плывущая по Нилу под пустынными скалами на закате.",
+    "fr": "Une felouque naviguant sur le Nil au-dessous des falaises du désert au coucher du soleil",
+    "de": "Eine Feluke segelt bei Sonnenuntergang auf dem Nil unterhalb der Wüstenklippen"
+  },
+  "A felucca sailing past a mosque at sunset": {
+    "ru": "Фелюга проплывает мимо мечети на закате",
+    "fr": "Une felouque naviguant devant une mosquée au coucher du soleil",
+    "de": "Eine Feluke segelt bei Sonnenuntergang an einer Moschee vorbei"
+  },
+  "A felucca sailing past an ancient Nile temple at sunset": {
+    "ru": "Фелюга, проплывающая мимо древнего храма Нила на закате",
+    "fr": "Une felouque naviguant devant un ancien temple du Nil au coucher du soleil",
+    "de": "Eine Feluke segelt bei Sonnenuntergang an einem alten Niltempel vorbei"
+  },
+  "A felucca sailing past ancient Egyptian temple columns on the Nile at sunset": {
+    "ru": "Фелюга, проплывающая мимо колонн древнеегипетского храма по Нилу на закате",
+    "fr": "Une felouque naviguant devant les colonnes du temple égyptien antique sur le Nil au coucher du soleil",
+    "de": "Eine Feluke segelt bei Sonnenuntergang an antiken ägyptischen Tempelsäulen auf dem Nil vorbei"
+  },
+  "A felucca sailing the Nile at sunset": {
+    "ru": "Фелюга, плывущая по Нилу на закате",
+    "fr": "Une felouque naviguant sur le Nil au coucher du soleil",
+    "de": "Eine Feluke segelt bei Sonnenuntergang auf dem Nil"
+  },
+  "A full-day journey to one of Egypt’s most extraordinary temples.": {
+    "ru": "Путешествие на целый день в один из самых необычных храмов Египта.",
+    "fr": "Une journée complète de voyage dans l’un des temples les plus extraordinaires d’Égypte.",
+    "de": "Eine ganztägige Reise zu einem der außergewöhnlichsten Tempel Ägyptens."
+  },
+  "A local TheVTravel host welcoming a guest": {
+    "ru": "Местный ведущий TheVTravel приветствует гостя",
+    "fr": "Un hôte TheVTravel local accueillant un invité",
+    "de": "Ein lokaler TheVTravel-Gastgeber begrüßt einen Gast"
+  },
+  "A morning on Luxor’s west bank": {
+    "ru": "Утро на западном берегу Луксора",
+    "fr": "Une matinée sur la rive ouest de Louxor",
+    "de": "Ein Morgen am Westufer von Luxor"
+  },
+  "A private transfer van beside the Nile at sunset": {
+    "ru": "Частный трансферный фургон на берегу Нила на закате.",
+    "fr": "Un van de transfert privé au bord du Nil au coucher du soleil",
+    "de": "Ein privater Transferwagen am Nil bei Sonnenuntergang"
+  },
+  "A real person confirms every detail before you travel, so there are no surprises on the day.": {
+    "ru": "Реальный человек уточняет каждую деталь перед поездкой, поэтому сюрпризов в этот день не будет.",
+    "fr": "Une vraie personne confirme chaque détail avant votre voyage, il n'y a donc pas de surprise le jour même.",
+    "de": "Eine echte Person bestätigt jedes Detail vor Ihrer Reise, sodass es an diesem Tag keine Überraschungen gibt."
+  },
+  "A real person helps with your questions and plans.": {
+    "ru": "Реальный человек помогает с вашими вопросами и планами.",
+    "fr": "Une vraie personne vous aide avec vos questions et vos projets.",
+    "de": "Eine echte Person hilft Ihnen bei Ihren Fragen und Plänen."
+  },
+  "A real person reviews and confirms everything with you.": {
+    "ru": "Реальный человек все проверит и подтвердит вместе с вами.",
+    "fr": "Une personne réelle examine et confirme tout avec vous.",
+    "de": "Eine echte Person überprüft und bestätigt alles mit Ihnen."
+  },
+  "A traditional felucca sailing on the Nile at sunset": {
+    "ru": "Традиционная фелюга, плывущая по Нилу на закате.",
+    "fr": "Une felouque traditionnelle naviguant sur le Nil au coucher du soleil",
+    "de": "Eine traditionelle Feluke, die bei Sonnenuntergang auf dem Nil segelt"
+  },
+  "AbortError": {
+    "ru": "Прерывание ошибки",
+    "fr": "AbandonnerErreur",
+    "de": "AbortError"
+  },
+  "Aborted": {
+    "ru": "Прервано",
+    "fr": "Avorté",
+    "de": "Abgebrochen"
+  },
+  "About TheVTravel": {
+    "ru": "О TheVTravel",
+    "fr": "À propos de TheVTravel",
+    "de": "Über TheVTravel"
+  },
+  "About TheVTravel — Egypt, planned with local care": {
+    "ru": "О TheVTravel — Египет, спланированный с заботой о местных жителях",
+    "fr": "À propos de TheVTravel — L'Égypte, planifiée avec le soin local",
+    "de": "Über TheVTravel – Ägypten, geplant mit lokaler Sorgfalt"
+  },
+  "About us": {
+    "ru": "О нас",
+    "fr": "À propos de nous",
+    "de": "Über uns"
+  },
+  "Absolutely magical! Seeing the West Bank at dawn was a once-in-a-lifetime experience. Our guide was incredibly knowledgeable and brought the history to life. The early start was so worth it — we had the temples almost to ourselves.": {
+    "ru": "Совершенно волшебно! Увидеть Западный берег на рассвете было уникальным опытом. Наш гид был невероятно хорошо осведомлен и воплотил историю в жизнь. Раннее начало того стоило — храмы были почти в нашем распоряжении.",
+    "fr": "Absolument magique ! Voir la rive ouest du Nil à l’aube était une expérience unique. Notre guide était incroyablement compétent et a donné vie à l'histoire. Le départ anticipé en valait vraiment la peine : nous avions les temples presque pour nous seuls.",
+    "de": "Absolut magisch! Das Westufer des Nils im Morgengrauen zu sehen, war ein einmaliges Erlebnis. Unser Führer war unglaublich sachkundig und erweckte die Geschichte zum Leben. Der frühe Start hat sich wirklich gelohnt – wir hatten die Tempel fast für uns allein."
+  },
+  "Abu Simbel": {
+    "ru": "Абу-Симбел",
+    "fr": "Abou Simbel",
+    "de": "Abu Simbel"
+  },
+  "Abu Simbel Day Tour": {
+    "ru": "Однодневный тур по Абу-Симбелу",
+    "fr": "Excursion d'une journée à Abou Simbel",
+    "de": "Tagestour nach Abu Simbel"
+  },
+  "Abu Simbel Temple": {
+    "ru": "Храм Абу-Симбел",
+    "fr": "Temple d'Abou Simbel",
+    "de": "Abu-Simbel-Tempel"
+  },
+  "Abu Simbel by private car": {
+    "ru": "Абу-Симбел на личном автомобиле",
+    "fr": "Abou Simbel en voiture privée",
+    "de": "Abu Simbel mit dem Privatwagen"
+  },
+  "Abydos Sacred Temples": {
+    "ru": "Священные храмы Абидоса",
+    "fr": "Temples sacrés d'Abydos",
+    "de": "Heilige Tempel von Abydos"
+  },
+  "Accessibility": {
+    "ru": "Доступность",
+    "fr": "Accessibilité",
+    "de": "Barrierefreiheit"
+  },
+  "Address / hotel / landmark details": {
+    "ru": "Подробности об адресе/отеле/достопримечательности",
+    "fr": "Adresse/hôtel/détails du point de repère",
+    "de": "Adresse/Hotel/Sehenswürdigkeiten"
+  },
+  "Address lookup failed. Search for an address or go back to enter it in the form.": {
+    "ru": "Поиск адреса не удался. Найдите адрес или вернитесь, чтобы ввести его в форму.",
+    "fr": "La recherche d'adresse a échoué. Recherchez une adresse ou revenez en arrière pour la saisir dans le formulaire.",
+    "de": "Die Adresssuche ist fehlgeschlagen. Suchen Sie nach einer Adresse oder gehen Sie zurück, um sie in das Formular einzugeben."
+  },
+  "Address search is currently unavailable. Select a location on the map or go back to enter an address.": {
+    "ru": "Поиск адреса в настоящее время недоступен. Выберите местоположение на карте или вернитесь назад, чтобы ввести адрес.",
+    "fr": "La recherche d'adresse n'est actuellement pas disponible. Sélectionnez un emplacement sur la carte ou revenez en arrière pour saisir une adresse.",
+    "de": "Die Adresssuche ist derzeit nicht verfügbar. Wählen Sie einen Ort auf der Karte aus oder gehen Sie zurück, um eine Adresse einzugeben."
+  },
+  "Address search is unavailable right now. Try again or select a location on the map.": {
+    "ru": "Поиск адреса сейчас недоступен. Попробуйте еще раз или выберите местоположение на карте.",
+    "fr": "La recherche d'adresse n'est pas disponible pour le moment. Réessayez ou sélectionnez un emplacement sur la carte.",
+    "de": "Die Adresssuche ist derzeit nicht verfügbar. Versuchen Sie es erneut oder wählen Sie einen Ort auf der Karte aus."
+  },
+  "Address suggestions": {
+    "ru": "Адресные предложения",
+    "fr": "Suggestions d'adresses",
+    "de": "Adressvorschläge"
+  },
+  "Address unavailable. Go back to enter the address in the form.": {
+    "ru": "Адрес недоступен. Вернитесь, чтобы ввести адрес в форму.",
+    "fr": "Adresse indisponible. Revenez en arrière pour saisir l'adresse dans le formulaire.",
+    "de": "Adresse nicht verfügbar. Gehen Sie zurück, um die Adresse in das Formular einzugeben."
+  },
+  "Adults": {
+    "ru": "Взрослые",
+    "fr": "Adultes",
+    "de": "Erwachsene"
+  },
+  "Adults,": {
+    "ru": "Взрослые,",
+    "fr": "Adultes,",
+    "de": "Erwachsene,"
+  },
+  "Ages 12+": {
+    "ru": "Возраст 12+",
+    "fr": "12 ans et plus",
+    "de": "Ab 12 Jahren"
+  },
+  "Ages 1–12": {
+    "ru": "Возраст 1–12 лет",
+    "fr": "1 à 12 ans",
+    "de": "Alter 1–12"
+  },
+  "Airport arrival to your next stop. Professional drivers, comfortable vehicles and door-to-door service you can trust.": {
+    "ru": "Прибытие в аэропорт до следующей остановки. Профессиональные водители, комфортабельные автомобили и комплексное обслуживание, которому можно доверять.",
+    "fr": "Arrivée à l'aéroport jusqu'à votre prochain arrêt. Des chauffeurs professionnels, des véhicules confortables et un service porte-à-porte en qui vous pouvez avoir confiance.",
+    "de": "Ankunft am Flughafen zu Ihrem nächsten Stopp. Professionelle Fahrer, komfortable Fahrzeuge und Tür-zu-Tür-Service, dem Sie vertrauen können."
+  },
+  "Airport transfers": {
+    "ru": "Трансфер из аэропорта",
+    "fr": "Transferts aéroport",
+    "de": "Flughafentransfers"
+  },
+  "Airport transfers, city to city or private car with driver.": {
+    "ru": "Трансфер из аэропорта, из города в город или на личном автомобиле с водителем.",
+    "fr": "Transferts aéroport, ville à ville ou voiture privée avec chauffeur.",
+    "de": "Flughafentransfers, Stadt-zu-Stadt-Transfers oder Privatwagen mit Fahrer."
+  },
+  "Alexandria": {
+    "ru": "Александрия",
+    "fr": "Alexandrie",
+    "de": "Alexandria"
+  },
+  "Alexandria Coastal Day": {
+    "ru": "День побережья Александрии",
+    "fr": "Journée côtière d'Alexandrie",
+    "de": "Küstentag von Alexandria"
+  },
+  "All": {
+    "ru": "Все",
+    "fr": "Tout",
+    "de": "Alle"
+  },
+  "All Journeys": {
+    "ru": "Все путешествия",
+    "fr": "Tous les voyages",
+    "de": "Alle Reisen"
+  },
+  "All Journeys — TheVTravel": {
+    "ru": "Все путешествия — TheVTravel",
+    "fr": "Tous les voyages — TheVTravel",
+    "de": "Alle Reisen – TheVTravel"
+  },
+  "All Questions": {
+    "ru": "Все вопросы",
+    "fr": "Toutes les questions",
+    "de": "Alle Fragen"
+  },
+  "All destinations": {
+    "ru": "Все направления",
+    "fr": "Toutes les destinations",
+    "de": "Alle Ziele"
+  },
+  "All entrance fees to listed sites": {
+    "ru": "Все входные билеты на указанные сайты",
+    "fr": "Tous les frais d'entrée aux sites répertoriés",
+    "de": "Alle Eintrittsgelder für die aufgeführten Sehenswürdigkeiten"
+  },
+  "All entrance fees to the temples and sites included in the itinerary.": {
+    "ru": "Все входные билеты в храмы и достопримечательности включены в маршрут.",
+    "fr": "Tous les frais d'entrée aux temples et sites inclus dans l'itinéraire.",
+    "de": "Alle Eintrittsgelder für die Tempel und Sehenswürdigkeiten sind im Reiseplan enthalten."
+  },
+  "All journeys": {
+    "ru": "Все путешествия",
+    "fr": "Tous les voyages",
+    "de": "Alle Reisen"
+  },
+  "All reviews are from real travelers who booked this journey with TheVTravel.": {
+    "ru": "Все отзывы написаны реальными путешественниками, забронировавшими путешествие через TheVTravel.",
+    "fr": "Tous les avis proviennent de vrais voyageurs qui ont réservé ce voyage avec TheVTravel.",
+    "de": "Alle Bewertungen stammen von echten Reisenden, die diese Reise bei TheVTravel gebucht haben."
+  },
+  "An unforgettable journey": {
+    "ru": "Незабываемое путешествие",
+    "fr": "Un voyage inoubliable",
+    "de": "Eine unvergessliche Reise"
+  },
+  "An unforgettable morning. The light, the atmosphere, the history — everything was perfect. My guide was friendly and very knowledgeable. A peaceful and inspiring experience.": {
+    "ru": "Незабываемое утро. Свет, атмосфера, история — все было идеально. Мой гид был дружелюбным и очень знающим. Мирный и вдохновляющий опыт.",
+    "fr": "Une matinée inoubliable. La lumière, l'ambiance, l'histoire, tout était parfait. Mon guide était sympathique et très compétent. Une expérience paisible et inspirante.",
+    "de": "Ein unvergesslicher Morgen. Das Licht, die Atmosphäre, die Geschichte – alles war perfekt. Mein Führer war freundlich und sehr kompetent. Eine friedliche und inspirierende Erfahrung."
+  },
+  "Ancient Egyptian monuments": {
+    "ru": "Древние египетские памятники",
+    "fr": "Monuments égyptiens antiques",
+    "de": "Altägyptische Denkmäler"
+  },
+  "Ancient wonders, river landscapes and a pace that feels like yours.": {
+    "ru": "Древние чудеса, речные пейзажи и темп, похожий на ваш.",
+    "fr": "Des merveilles anciennes, des paysages fluviaux et un rythme qui vous ressemble.",
+    "de": "Antike Wunder, Flusslandschaften und ein Tempo, das sich wie Ihres anfühlt."
+  },
+  "Arrange a transfer": {
+    "ru": "Организовать трансфер",
+    "fr": "Organiser un transfert",
+    "de": "Vereinbaren Sie einen Transfer"
+  },
+  "ArrowDown": {
+    "ru": "Стрелка вниз",
+    "fr": "Flèche vers le bas",
+    "de": "Pfeil nach unten"
+  },
+  "ArrowLeft": {
+    "ru": "Стрелка Влево",
+    "fr": "FlècheGauche",
+    "de": "Pfeil nach links"
+  },
+  "ArrowRight": {
+    "ru": "СтрелкаВправо",
+    "fr": "FlècheDroite",
+    "de": "PfeilRechts"
+  },
+  "ArrowUp": {
+    "ru": "СтрелкаВверх",
+    "fr": "Flèche vers le haut",
+    "de": "Pfeil nach oben"
+  },
+  "Ask a question": {
+    "ru": "Задать вопрос",
+    "fr": "Poser une question",
+    "de": "Stellen Sie eine Frage"
+  },
+  "Aswan": {
+    "ru": "Асуан",
+    "fr": "Assouan",
+    "de": "Assuan"
+  },
+  "Aswan Botanical Island": {
+    "ru": "Асуанский ботанический остров",
+    "fr": "Île botanique d'Assouan",
+    "de": "Botanische Insel Assuan"
+  },
+  "Aswan Sunset Felucca": {
+    "ru": "Асуанский закат Фелюкка",
+    "fr": "Felouque au coucher du soleil à Assouan",
+    "de": "Assuan-Sonnenuntergang-Feluke"
+  },
+  "Aug 2024": {
+    "ru": "август 2024 г.",
+    "fr": "août 2024",
+    "de": "August 2024"
+  },
+  "Back": {
+    "ru": "Назад",
+    "fr": "Retour",
+    "de": "Zurück"
+  },
+  "Back to trip details": {
+    "ru": "Вернуться к деталям поездки",
+    "fr": "Retour aux détails du voyage",
+    "de": "Zurück zu den Reisedetails"
+  },
+  "Before You Go": {
+    "ru": "Прежде чем уйти",
+    "fr": "Avant de partir",
+    "de": "Bevor Sie gehen"
+  },
+  "Begin your day as the sun rises over the desert. Cross gently to the west bank and explore ancient tombs and temples in the soft morning light, before the day grows warm. A calm, unhurried journey through stories that endure.": {
+    "ru": "Начните свой день, когда солнце поднимается над пустыней. Осторожно перейдите на западный берег и исследуйте древние гробницы и храмы в мягком утреннем свете, пока день не стал теплым. Спокойное, неторопливое путешествие по историям, которые останутся навсегда.",
+    "fr": "Commencez votre journée alors que le soleil se lève sur le désert. Traversez doucement vers la rive ouest et explorez les tombeaux et temples antiques dans la douce lumière du matin, avant que la journée ne se réchauffe. Un voyage calme et sans hâte à travers des histoires qui perdurent.",
+    "de": "Beginnen Sie Ihren Tag, während die Sonne über der Wüste aufgeht. Überqueren Sie sanft das Westufer und erkunden Sie im sanften Morgenlicht alte Gräber und Tempel, bevor der Tag warm wird. Eine ruhige, gemächliche Reise durch Geschichten, die Bestand haben."
+  },
+  "Best seller": {
+    "ru": "Бестселлер",
+    "fr": "Meilleur vendeur",
+    "de": "Bestseller"
+  },
+  "Booking & Requests": {
+    "ru": "Бронирование и запросы",
+    "fr": "Réservation et demandes",
+    "de": "Buchung & Anfragen"
+  },
+  "Booking progress": {
+    "ru": "Ход бронирования",
+    "fr": "Avancement de la réservation",
+    "de": "Buchungsfortschritt"
+  },
+  "Booking support": {
+    "ru": "Поддержка бронирования",
+    "fr": "Assistance à la réservation",
+    "de": "Buchungsunterstützung"
+  },
+  "Booking terms": {
+    "ru": "Условия бронирования",
+    "fr": "Conditions de réservation",
+    "de": "Buchungsbedingungen"
+  },
+  "Booking your private journey with TheVTravel": {
+    "ru": "Бронирование частного путешествия с TheVTravel",
+    "fr": "Réservez votre voyage privé avec TheVTravel",
+    "de": "Buchen Sie Ihre private Reise mit TheVTravel"
+  },
+  "Bottled water during the journey": {
+    "ru": "Бутилированная вода во время путешествия",
+    "fr": "Eau en bouteille pendant le voyage",
+    "de": "Wasser in Flaschen während der Reise"
+  },
+  "Breadcrumb": {
+    "ru": "хлебные крошки",
+    "fr": "Fil d'Ariane",
+    "de": "Semmelbrösel"
+  },
+  "Browse our handpicked private experiences across Egypt and find the one that inspires you.": {
+    "ru": "Просмотрите наши тщательно подобранные частные впечатления по всему Египту и найдите тот, который вас вдохновит.",
+    "fr": "Parcourez nos expériences privées triées sur le volet à travers l'Égypte et trouvez celle qui vous inspire.",
+    "de": "Stöbern Sie in unseren handverlesenen privaten Erlebnissen in ganz Ägypten und finden Sie das, das Sie inspiriert."
+  },
+  "Cairo": {
+    "ru": "Каир",
+    "fr": "Le Caire",
+    "de": "Kairo"
+  },
+  "Cairo City Tour": {
+    "ru": "Обзорная экскурсия по Каиру",
+    "fr": "Visite de la ville du Caire",
+    "de": "Stadtrundfahrt durch Kairo"
+  },
+  "Cairo Food & Market Walk": {
+    "ru": "Каирская еда и прогулка по рынку",
+    "fr": "Promenade gastronomique et marché au Caire",
+    "de": "Kairoer Essens- und Marktspaziergang"
+  },
+  "Can I book a private transfer only?": {
+    "ru": "Могу ли я заказать только частный трансфер?",
+    "fr": "Puis-je réserver un transfert privé uniquement ?",
+    "de": "Kann ich nur einen privaten Transfer buchen?"
+  },
+  "Can I customize my itinerary?": {
+    "ru": "Могу ли я настроить свой маршрут?",
+    "fr": "Puis-je personnaliser mon itinéraire ?",
+    "de": "Kann ich meine Reiseroute anpassen?"
+  },
+  "Can you arrange airport transfers?": {
+    "ru": "Можете ли вы организовать трансфер из аэропорта?",
+    "fr": "Pouvez-vous organiser des transferts aéroport ?",
+    "de": "Können Sie Flughafentransfers arrangieren?"
+  },
+  "Can you help me plan a custom itinerary?": {
+    "ru": "Можете ли вы помочь мне спланировать индивидуальный маршрут?",
+    "fr": "Pouvez-vous m'aider à planifier un itinéraire personnalisé ?",
+    "de": "Können Sie mir bei der Planung einer individuellen Reiseroute helfen?"
+  },
+  "Care": {
+    "ru": "Уход",
+    "fr": "Soins",
+    "de": "Pflege"
+  },
+  "Change a booking": {
+    "ru": "Изменить бронирование",
+    "fr": "Modifier une réservation",
+    "de": "Ändern Sie eine Buchung"
+  },
+  "Changes & Cancellations": {
+    "ru": "Изменения и отмены",
+    "fr": "Modifications et annulations",
+    "de": "Änderungen und Stornierungen"
+  },
+  "Changes, questions or support with your current booking.": {
+    "ru": "Изменения, вопросы или поддержка по вашему текущему бронированию.",
+    "fr": "Modifications, questions ou assistance concernant votre réservation actuelle.",
+    "de": "Änderungen, Fragen oder Unterstützung bei Ihrer aktuellen Buchung."
+  },
+  "Chat on WhatsApp": {
+    "ru": "Чат в WhatsApp",
+    "fr": "Discutez sur WhatsApp",
+    "de": "Chatten Sie auf WhatsApp"
+  },
+  "Children": {
+    "ru": "Дети",
+    "fr": "Enfants",
+    "de": "Kinder"
+  },
+  "Children,": {
+    "ru": "Дети,",
+    "fr": "Les enfants,",
+    "de": "Kinder,"
+  },
+  "Choose a location on the map": {
+    "ru": "Выберите местоположение на карте",
+    "fr": "Choisissez un emplacement sur la carte",
+    "de": "Wählen Sie einen Ort auf der Karte"
+  },
+  "Choose a subject": {
+    "ru": "Выберите тему",
+    "fr": "Choisissez un sujet",
+    "de": "Wählen Sie ein Thema"
+  },
+  "Choose the right path": {
+    "ru": "Выберите правильный путь",
+    "fr": "Choisissez le bon chemin",
+    "de": "Wählen Sie den richtigen Weg"
+  },
+  "Choose today or a future date.": {
+    "ru": "Выберите сегодняшнюю или будущую дату.",
+    "fr": "Choisissez aujourd'hui ou une date ultérieure.",
+    "de": "Wählen Sie heute oder ein zukünftiges Datum."
+  },
+  "Choose your preferred date, number of travelers and any special requests.": {
+    "ru": "Выберите предпочитаемую дату, количество путешественников и особые пожелания.",
+    "fr": "Choisissez votre date préférée, le nombre de voyageurs et toute demande particulière.",
+    "de": "Wählen Sie Ihr Wunschdatum, die Anzahl der Reisenden und eventuelle Sonderwünsche."
+  },
+  "Choose your travel date.": {
+    "ru": "Выберите дату путешествия.",
+    "fr": "Choisissez votre date de voyage.",
+    "de": "Wählen Sie Ihr Reisedatum."
+  },
+  "City to city": {
+    "ru": "Город в город",
+    "fr": "Ville à ville",
+    "de": "Von Stadt zu Stadt"
+  },
+  "Clear filters": {
+    "ru": "Очистить фильтры",
+    "fr": "Effacer les filtres",
+    "de": "Filter löschen"
+  },
+  "Clear human confirmation": {
+    "ru": "Ясное человеческое подтверждение",
+    "fr": "Confirmation humaine claire",
+    "de": "Klare menschliche Bestätigung"
+  },
+  "Clipboard unavailable": {
+    "ru": "Буфер обмена недоступен",
+    "fr": "Presse-papiers indisponible",
+    "de": "Zwischenablage nicht verfügbar"
+  },
+  "Close": {
+    "ru": "Закрыть",
+    "fr": "Fermer",
+    "de": "Schließen"
+  },
+  "Close booking request": {
+    "ru": "Закрыть запрос на бронирование",
+    "fr": "Fermer la demande de réservation",
+    "de": "Buchungsanfrage schließen"
+  },
+  "Close more menu": {
+    "ru": "Закрыть еще меню",
+    "fr": "Fermer plus de menu",
+    "de": "Weiteres Menü schließen"
+  },
+  "Close photo viewer": {
+    "ru": "Закрыть просмотрщик фотографий",
+    "fr": "Fermer la visionneuse de photos",
+    "de": "Schließen Sie den Fotobetrachter"
+  },
+  "Close transfer request": {
+    "ru": "Закрыть запрос на перенос",
+    "fr": "Fermer la demande de transfert",
+    "de": "Transferanfrage schließen"
+  },
+  "Colossi of Memnon": {
+    "ru": "Колоссы Мемнона",
+    "fr": "Colosses de Memnon",
+    "de": "Kolosse von Memnon"
+  },
+  "Comfortable shoes, sun hat, water-friendly clothing.": {
+    "ru": "Удобная обувь, шляпа от солнца, одежда, не пропускающая воду.",
+    "fr": "Chaussures confortables, chapeau de soleil, vêtements imperméables.",
+    "de": "Bequeme Schuhe, Sonnenhut, wasserfreundliche Kleidung."
+  },
+  "Common questions": {
+    "ru": "Общие вопросы",
+    "fr": "Questions courantes",
+    "de": "Häufige Fragen"
+  },
+  "Company": {
+    "ru": "Компания",
+    "fr": "Entreprise",
+    "de": "Unternehmen"
+  },
+  "Confirm": {
+    "ru": "Подтвердить",
+    "fr": "Confirmer",
+    "de": "Bestätigen"
+  },
+  "Contact FAQ": {
+    "ru": "Контакты Часто задаваемые вопросы",
+    "fr": "FAQ Contactez-nous",
+    "de": "Kontakt-FAQ"
+  },
+  "Contact TheVTravel": {
+    "ru": "Связаться с TheVTravel",
+    "fr": "Contacter TheVTravel",
+    "de": "Kontaktieren Sie TheVTravel"
+  },
+  "Contact Us — TheVTravel": {
+    "ru": "Свяжитесь с нами — TheVTravel",
+    "fr": "Contactez-nous — TheVTravel",
+    "de": "Kontaktieren Sie uns – TheVTravel"
+  },
+  "Contact details": {
+    "ru": "Контактные данные",
+    "fr": "Coordonnées",
+    "de": "Kontaktdaten"
+  },
+  "Contact link not configured yet.": {
+    "ru": "Контактная ссылка еще не настроена.",
+    "fr": "Lien de contact pas encore configuré.",
+    "de": "Kontaktlink noch nicht konfiguriert."
+  },
+  "Contact our team as soon as your plans change and we’ll help you review the available options.": {
+    "ru": "Свяжитесь с нашей командой, как только ваши планы изменятся, и мы поможем вам рассмотреть доступные варианты.",
+    "fr": "Contactez notre équipe dès que vos plans changent et nous vous aiderons à examiner les options disponibles.",
+    "de": "Kontaktieren Sie unser Team, sobald sich Ihre Pläne ändern, und wir helfen Ihnen, die verfügbaren Optionen zu prüfen."
+  },
+  "Contact us": {
+    "ru": "Свяжитесь с нами",
+    "fr": "Contactez-nous",
+    "de": "Kontaktieren Sie uns"
+  },
+  "Copy the page address to share this gallery.": {
+    "ru": "Скопируйте адрес страницы, чтобы поделиться этой галереей.",
+    "fr": "Copiez l'adresse de la page pour partager cette galerie.",
+    "de": "Kopieren Sie die Seitenadresse, um diese Galerie zu teilen."
+  },
+  "Country": {
+    "ru": "Страна",
+    "fr": "Pays",
+    "de": "Land"
+  },
+  "Couples": {
+    "ru": "Пары",
+    "fr": "Couples",
+    "de": "Paare"
+  },
+  "Culture & History": {
+    "ru": "Культура и история",
+    "fr": "Culture et Histoire",
+    "de": "Kultur & Geschichte"
+  },
+  "Dahab": {
+    "ru": "Дахаб",
+    "fr": "Dahab",
+    "de": "Dahab"
+  },
+  "Dahab Blue Hole Day": {
+    "ru": "День Голубой дыры в Дахабе",
+    "fr": "Journée du Trou Bleu de Dahab",
+    "de": "Dahab Blue Hole Day"
+  },
+  "Date": {
+    "ru": "Дата",
+    "fr": "Date",
+    "de": "Datum"
+  },
+  "Dendera Temple Tour": {
+    "ru": "Экскурсия по храму Дендеры",
+    "fr": "Visite du temple de Dendérah",
+    "de": "Dendera-Tempeltour"
+  },
+  "Desert Safari by Quad": {
+    "ru": "Сафари по пустыне от Quad",
+    "fr": "Safari dans le désert en quad",
+    "de": "Wüstensafari mit dem Quad"
+  },
+  "Design": {
+    "ru": "Дизайн",
+    "fr": "Conception",
+    "de": "Design"
+  },
+  "Destination": {
+    "ru": "Пункт назначения",
+    "fr": "Destination",
+    "de": "Ziel"
+  },
+  "Detailed artwork in an ancient Egyptian tomb": {
+    "ru": "Детальное произведение искусства в древней египетской гробнице",
+    "fr": "Œuvres d'art détaillées dans un tombeau égyptien antique",
+    "de": "Detailliertes Kunstwerk in einem alten ägyptischen Grab"
+  },
+  "Discover Egypt with guides who know its places and stories.": {
+    "ru": "Откройте для себя Египет с гидами, которые знают его места и истории.",
+    "fr": "Découvrez l'Égypte avec des guides qui connaissent ses lieux et ses histoires.",
+    "de": "Entdecken Sie Ägypten mit Führern, die seine Orte und Geschichten kennen."
+  },
+  "Discover a wilder side of Egypt on a privately paced outdoor experience.": {
+    "ru": "Откройте для себя более дикую сторону Египта, совершив приватный отдых на свежем воздухе.",
+    "fr": "Découvrez une facette plus sauvage de l'Égypte lors d'une expérience en plein air à un rythme privé.",
+    "de": "Entdecken Sie eine wildere Seite Ägyptens bei einem privaten Outdoor-Erlebnis."
+  },
+  "Discover the elegant terraces of one of Egypt’s most remarkable queens.": {
+    "ru": "Откройте для себя элегантные террасы одной из самых замечательных цариц Египта.",
+    "fr": "Découvrez les élégantes terrasses de l’une des reines les plus remarquables d’Égypte.",
+    "de": "Entdecken Sie die eleganten Terrassen einer der bemerkenswertesten Königinnen Ägyptens."
+  },
+  "Discover the magnificent Abu Simbel temples and the wonders of Nubian history.": {
+    "ru": "Откройте для себя великолепные храмы Абу-Симбела и чудеса нубийской истории.",
+    "fr": "Découvrez les magnifiques temples d'Abou Simbel et les merveilles de l'histoire nubienne.",
+    "de": "Entdecken Sie die prächtigen Tempel von Abu Simbel und die Wunder der nubischen Geschichte."
+  },
+  "Do you have fixed dates for the journeys?": {
+    "ru": "Есть ли у вас фиксированные даты поездок?",
+    "fr": "Avez-vous des dates fixes pour les voyages ?",
+    "de": "Gibt es feste Termine für die Reisen?"
+  },
+  "Do you support existing bookings?": {
+    "ru": "Поддерживаете ли вы существующие бронирования?",
+    "fr": "Soutenez-vous les réservations existantes ?",
+    "de": "Unterstützen Sie bestehende Buchungen?"
+  },
+  "Drag to select location": {
+    "ru": "Перетащите, чтобы выбрать место",
+    "fr": "Faites glisser pour choisir un lieu",
+    "de": "Ziehen, um einen Ort auszuwählen"
+  },
+  "Duration": {
+    "ru": "Продолжительность",
+    "fr": "Durée",
+    "de": "Dauer"
+  },
+  "During Your Trip": {
+    "ru": "Во время вашей поездки",
+    "fr": "Pendant votre voyage",
+    "de": "Während Ihrer Reise"
+  },
+  "Edfu & Kom Ombo Temples": {
+    "ru": "Храмы Эдфу и Ком-Омбо",
+    "fr": "Temples d'Edfou et de Kom Ombo",
+    "de": "Edfu- und Kom Ombo-Tempel"
+  },
+  "Edit": {
+    "ru": "Редактировать",
+    "fr": "Modifier",
+    "de": "Bearbeiten"
+  },
+  "Edit contact details": {
+    "ru": "Изменить контактные данные",
+    "fr": "Modifier les coordonnées",
+    "de": "Kontaktdaten bearbeiten"
+  },
+  "Edit details": {
+    "ru": "Изменить детали",
+    "fr": "Modifier les détails",
+    "de": "Details bearbeiten"
+  },
+  "Edit trip details": {
+    "ru": "Изменить сведения о поездке",
+    "fr": "Modifier les détails du voyage",
+    "de": "Reisedetails bearbeiten"
+  },
+  "Egypt": {
+    "ru": "Египет",
+    "fr": "Egypte",
+    "de": "Ägypten"
+  },
+  "Egypt journey?": {
+    "ru": "Путешествие в Египет?",
+    "fr": "Voyage en Egypte ?",
+    "de": "Ägyptenreise?"
+  },
+  "Egypt, planned": {
+    "ru": "Египет, планируется",
+    "fr": "Egypte, prévu",
+    "de": "Ägypten, geplant"
+  },
+  "Egyptian monuments": {
+    "ru": "Египетские памятники",
+    "fr": "Monuments égyptiens",
+    "de": "Ägyptische Denkmäler"
+  },
+  "Email": {
+    "ru": "электронная почта",
+    "fr": "Courriel",
+    "de": "E-Mail"
+  },
+  "Email address": {
+    "ru": "Адрес электронной почты",
+    "fr": "Adresse e-mail",
+    "de": "E-Mail-Adresse"
+  },
+  "Email us": {
+    "ru": "Напишите нам",
+    "fr": "Envoyez-nous un courriel",
+    "de": "Schicken Sie uns eine E-Mail"
+  },
+  "English": {
+    "ru": "английский",
+    "fr": "Anglais",
+    "de": "Englisch"
+  },
+  "Enjoy clear Red Sea waters, colorful reefs and an easy day by the coast.": {
+    "ru": "Наслаждайтесь чистыми водами Красного моря, красочными рифами и легким днем на побережье.",
+    "fr": "Profitez des eaux claires de la mer Rouge, des récifs colorés et d'une journée tranquille sur la côte.",
+    "de": "Genießen Sie das klare Wasser des Roten Meeres, farbenfrohe Riffe und einen entspannten Tag an der Küste."
+  },
+  "Enjoy your journey": {
+    "ru": "Наслаждайтесь путешествием",
+    "fr": "Profitez de votre voyage",
+    "de": "Genießen Sie Ihre Reise"
+  },
+  "Enter": {
+    "ru": "Войти",
+    "fr": "Entrez",
+    "de": "Treten Sie ein"
+  },
+  "Enter a valid email address, or leave it blank.": {
+    "ru": "Введите действительный адрес электронной почты или оставьте его пустым.",
+    "fr": "Entrez une adresse e-mail valide ou laissez-la vide.",
+    "de": "Geben Sie eine gültige E-Mail-Adresse ein oder lassen Sie das Feld leer."
+  },
+  "Enter a valid phone number.": {
+    "ru": "Введите действительный номер телефона.",
+    "fr": "Entrez un numéro de téléphone valide.",
+    "de": "Geben Sie eine gültige Telefonnummer ein."
+  },
+  "Enter an address or select a location on the map.": {
+    "ru": "Введите адрес или выберите местоположение на карте.",
+    "fr": "Entrez une adresse ou sélectionnez un emplacement sur la carte.",
+    "de": "Geben Sie eine Adresse ein oder wählen Sie einen Ort auf der Karte aus."
+  },
+  "Enter at least 3 characters to search.": {
+    "ru": "Введите не менее 3 символов для поиска.",
+    "fr": "Entrez au moins 3 caractères pour rechercher.",
+    "de": "Geben Sie für die Suche mindestens 3 Zeichen ein."
+  },
+  "Enter your full name.": {
+    "ru": "Введите свое полное имя.",
+    "fr": "Entrez votre nom complet.",
+    "de": "Geben Sie Ihren vollständigen Namen ein."
+  },
+  "Enter your phone number.": {
+    "ru": "Введите свой номер телефона.",
+    "fr": "Entrez votre numéro de téléphone.",
+    "de": "Geben Sie Ihre Telefonnummer ein."
+  },
+  "Escape": {
+    "ru": "Побег",
+    "fr": "S'échapper",
+    "de": "Flucht"
+  },
+  "Existing booking": {
+    "ru": "Существующее бронирование",
+    "fr": "Réservation existante",
+    "de": "Bestehende Buchung"
+  },
+  "Existing booking help": {
+    "ru": "Существующая справка по бронированию",
+    "fr": "Aide à la réservation existante",
+    "de": "Bestehende Buchungshilfe"
+  },
+  "Experience the otherworldly White Desert and camp beneath a canopy of stars.": {
+    "ru": "Посетите потустороннюю Белую пустыню и разбейте лагерь под сенью звезд.",
+    "fr": "Découvrez le désert blanc surnaturel et campez sous une canopée d'étoiles.",
+    "de": "Erleben Sie die jenseitige Weiße Wüste und campen Sie unter einem Sternenhimmel."
+  },
+  "Expert local guide": {
+    "ru": "Опытный местный гид",
+    "fr": "Guide local expert",
+    "de": "Erfahrener lokaler Führer"
+  },
+  "Explore Karnak, Luxor Temple and the Valley of the Kings with an expert guide.": {
+    "ru": "Исследуйте Карнак, Луксорский храм и Долину царей с опытным гидом.",
+    "fr": "Explorez Karnak, le temple de Louxor et la Vallée des Rois avec un guide expert.",
+    "de": "Erkunden Sie Karnak, den Luxor-Tempel und das Tal der Könige mit einem fachkundigen Führer."
+  },
+  "Explore ancient tombs and temples in the soft morning light on a calm private journey.": {
+    "ru": "Исследуйте древние гробницы и храмы в мягком утреннем свете в спокойном частном путешествии.",
+    "fr": "Explorez d'anciens tombeaux et temples dans la douce lumière du matin lors d'un voyage privé calme.",
+    "de": "Erkunden Sie auf einer ruhigen Privatreise antike Gräber und Tempel im sanften Morgenlicht."
+  },
+  "Explore journeys": {
+    "ru": "Открыть путешествия",
+    "fr": "Découvrir les voyages",
+    "de": "Reisen entdecken"
+  },
+  "Explore our journeys to find your next experience.": {
+    "ru": "Изучите наши путешествия, чтобы получить новые впечатления.",
+    "fr": "Explorez nos voyages pour trouver votre prochaine expérience.",
+    "de": "Entdecken Sie unsere Reisen, um Ihr nächstes Erlebnis zu finden."
+  },
+  "Explore remarkable monuments and stories with a knowledgeable private guide.": {
+    "ru": "Исследуйте замечательные памятники и истории с опытным частным гидом.",
+    "fr": "Explorez des monuments et des histoires remarquables avec un guide privé expérimenté.",
+    "de": "Entdecken Sie bemerkenswerte Denkmäler und Geschichten mit einem sachkundigen Privatführer."
+  },
+  "Explore the royal tombs carved into the desert hills.": {
+    "ru": "Исследуйте королевские гробницы, высеченные в пустынных холмах.",
+    "fr": "Explorez les tombeaux royaux creusés dans les collines du désert.",
+    "de": "Erkunden Sie die in die Wüstenhügel gehauenen Königsgräber."
+  },
+  "Explore the world’s greatest open-air museum with your private guide.": {
+    "ru": "Исследуйте величайший в мире музей под открытым небом с вашим частным гидом.",
+    "fr": "Explorez le plus grand musée en plein air du monde avec votre guide privé.",
+    "de": "Erkunden Sie mit Ihrem privaten Reiseleiter das größte Freilichtmuseum der Welt."
+  },
+  "Explore with a knowledgeable local expert guide (English).": {
+    "ru": "Исследуйте окрестности со знающим местным экспертом-гидом (на английском языке).",
+    "fr": "Explorez avec un guide expert local compétent (anglais).",
+    "de": "Erkunden Sie die Gegend mit einem sachkundigen lokalen Expertenführer (Englisch)."
+  },
+  "FAQ": {
+    "ru": "Часто задаваемые вопросы",
+    "fr": "FAQ",
+    "de": "FAQ"
+  },
+  "FAQ categories": {
+    "ru": "Категории часто задаваемых вопросов",
+    "fr": "Catégories de FAQ",
+    "de": "FAQ-Kategorien"
+  },
+  "Family": {
+    "ru": "Семья",
+    "fr": "Famille",
+    "de": "Familie"
+  },
+  "Family Experiences": {
+    "ru": "Семейный опыт",
+    "fr": "Expériences familiales",
+    "de": "Familienerlebnisse"
+  },
+  "Family Pyramids Discovery": {
+    "ru": "Открытие семейных пирамид",
+    "fr": "Découverte des Pyramides Familiales",
+    "de": "Entdeckung der Familienpyramiden"
+  },
+  "Farafra": {
+    "ru": "Фарафра",
+    "fr": "Farafra",
+    "de": "Farafra"
+  },
+  "Fayoum": {
+    "ru": "Файюм",
+    "fr": "Fayoum",
+    "de": "Fayoum"
+  },
+  "Fayoum Lakes & Waterfalls": {
+    "ru": "Фаюмские озера и водопады",
+    "fr": "Lacs et cascades du Fayoum",
+    "de": "Fayoum-Seen und Wasserfälle"
+  },
+  "Featured journeys": {
+    "ru": "Рекомендуемые путешествия",
+    "fr": "Voyages en vedette",
+    "de": "Ausgewählte Reisen"
+  },
+  "Felucca on the Nile": {
+    "ru": "Фелукка на Ниле",
+    "fr": "Felouque sur le Nil",
+    "de": "Feluke auf dem Nil"
+  },
+  "Feluccas sailing on the Nile at sunset": {
+    "ru": "Фелукки плывут по Нилу на закате",
+    "fr": "Felouques naviguant sur le Nil au coucher du soleil",
+    "de": "Feluken segeln bei Sonnenuntergang auf dem Nil"
+  },
+  "Find answers to the most common questions": {
+    "ru": "Найдите ответы на самые распространенные вопросы",
+    "fr": "Trouvez les réponses aux questions les plus courantes",
+    "de": "Finden Sie Antworten auf die häufigsten Fragen"
+  },
+  "Finding the address…": {
+    "ru": "Находим адрес…",
+    "fr": "Trouver l'adresse…",
+    "de": "Suche nach der Adresse…"
+  },
+  "Finding your location timed out.": {
+    "ru": "Время поиска вашего местоположения истекло.",
+    "fr": "La recherche de votre position a expiré.",
+    "de": "Bei der Ermittlung Ihres Standorts ist eine Zeitüberschreitung aufgetreten."
+  },
+  "Flexible and easy": {
+    "ru": "Гибкий и простой",
+    "fr": "Souple et facile",
+    "de": "Flexibel und einfach"
+  },
+  "Flexible planning": {
+    "ru": "Гибкое планирование",
+    "fr": "Planification flexible",
+    "de": "Flexible Planung"
+  },
+  "Flight number, child seat, extra luggage, extra stops...": {
+    "ru": "Номер рейса, детское кресло, дополнительный багаж, дополнительные остановки...",
+    "fr": "Numéro de vol, siège enfant, bagages supplémentaires, arrêts supplémentaires...",
+    "de": "Flugnummer, Kindersitz, zusätzliches Gepäck, zusätzliche Zwischenstopps ..."
+  },
+  "Follow in the footsteps of pharaohs and explore some of ancient Egypt’s most extraordinary sites.": {
+    "ru": "Следуйте по стопам фараонов и исследуйте некоторые из самых необычных мест Древнего Египта.",
+    "fr": "Suivez les traces des pharaons et explorez certains des sites les plus extraordinaires de l’Égypte ancienne.",
+    "de": "Treten Sie in die Fußstapfen der Pharaonen und erkunden Sie einige der außergewöhnlichsten Stätten des alten Ägypten."
+  },
+  "France": {
+    "ru": "Франция",
+    "fr": "France",
+    "de": "Frankreich"
+  },
+  "Frequently Asked": {
+    "ru": "Часто задаваемые",
+    "fr": "Foire aux questions",
+    "de": "Häufig gefragt"
+  },
+  "Frequently Asked Questions — TheVTravel": {
+    "ru": "Часто задаваемые вопросы — TheVTravel",
+    "fr": "Foire aux questions — TheVTravel",
+    "de": "Häufig gestellte Fragen – TheVTravel"
+  },
+  "Frequently asked questions": {
+    "ru": "Часто задаваемые вопросы",
+    "fr": "Questions fréquemment posées",
+    "de": "Häufig gestellte Fragen"
+  },
+  "From": {
+    "ru": "От",
+    "fr": "À partir de",
+    "de": "Ab"
+  },
+  "From Cairo and the Nile Valley to Luxor, Aswan,": {
+    "ru": "От Каира и долины Нила до Луксора, Асуана,",
+    "fr": "Du Caire et de la vallée du Nil à Louxor, Assouan,",
+    "de": "Von Kairo und dem Niltal bis Luxor, Assuan,"
+  },
+  "From your first message to your final day in Egypt, you’ll have a dedicated local team on hand—responsive, discreet and committed to your peace of mind.": {
+    "ru": "От вашего первого сообщения до последнего дня в Египте у вас будет под рукой преданная местная команда — отзывчивая, сдержанная и заботящаяся о вашем спокойствии.",
+    "fr": "De votre premier message à votre dernier jour en Égypte, vous disposerez d'une équipe locale dédiée, réactive, discrète et soucieuse de votre tranquillité d'esprit.",
+    "de": "Von Ihrer ersten Nachricht bis zu Ihrem letzten Tag in Ägypten steht Ihnen ein engagiertes Team vor Ort zur Seite – reaktionsschnell, diskret und engagiert für Ihre Sicherheit."
+  },
+  "Full day": {
+    "ru": "Полный день",
+    "fr": "Journée complète",
+    "de": "Ganzer Tag"
+  },
+  "Full name": {
+    "ru": "Полное имя",
+    "fr": "Nom complet",
+    "de": "Vollständiger Name"
+  },
+  "Gallery": {
+    "ru": "Галерея",
+    "fr": "Galerie",
+    "de": "Galerie"
+  },
+  "Gallery link copied.": {
+    "ru": "Ссылка на галерею скопирована.",
+    "fr": "Lien de la galerie copié.",
+    "de": "Galerielink kopiert."
+  },
+  "Gallery thumbnails": {
+    "ru": "Миниатюры галереи",
+    "fr": "Miniatures de la galerie",
+    "de": "Miniaturansichten der Galerie"
+  },
+  "Gallery type": {
+    "ru": "Тип галереи",
+    "fr": "Type de galerie",
+    "de": "Galerietyp"
+  },
+  "General question": {
+    "ru": "Общий вопрос",
+    "fr": "Question générale",
+    "de": "Allgemeine Frage"
+  },
+  "Germany": {
+    "ru": "Германия",
+    "fr": "Allemagne",
+    "de": "Deutschland"
+  },
+  "Get in touch": {
+    "ru": "Свяжитесь с нами",
+    "fr": "Contactez-nous",
+    "de": "Nehmen Sie Kontakt auf"
+  },
+  "Get support": {
+    "ru": "Получить поддержку",
+    "fr": "Obtenir de l'aide",
+    "de": "Holen Sie sich Unterstützung"
+  },
+  "Giftun Island Snorkeling": {
+    "ru": "Подводное плавание на острове Гифтун",
+    "fr": "Plongée en apnée sur l'île Giftoun",
+    "de": "Schnorcheln auf der Insel Giftun"
+  },
+  "Golden light over the desert mountains": {
+    "ru": "Золотой свет над пустынными горами",
+    "fr": "Lumière dorée sur les montagnes du désert",
+    "de": "Goldenes Licht über den Wüstenbergen"
+  },
+  "Good to know": {
+    "ru": "Приятно знать",
+    "fr": "Bon à savoir",
+    "de": "Gut zu wissen"
+  },
+  "Grid view": {
+    "ru": "Представление в виде сетки",
+    "fr": "Vue grille",
+    "de": "Rasteransicht"
+  },
+  "Group type": {
+    "ru": "Тип группы",
+    "fr": "Type de groupe",
+    "de": "Gruppentyp"
+  },
+  "Half-day (~ 4 hours).": {
+    "ru": "Полдня (~ 4 часа).",
+    "fr": "Demi-journée (~ 4 heures).",
+    "de": "Halber Tag (~ 4 Stunden)."
+  },
+  "Half-day journey ~ 4 hours": {
+    "ru": "Дорога на полдня ~ 4 часа",
+    "fr": "Trajet demi-journée ~ 4 heures",
+    "de": "Halbtagesfahrt ~ 4 Stunden"
+  },
+  "Handpicked private experiences across Egypt.": {
+    "ru": "Отобранный частный опыт по всему Египту.",
+    "fr": "Expériences privées triées sur le volet à travers l’Égypte.",
+    "de": "Handverlesene private Erlebnisse in ganz Ägypten."
+  },
+  "Handpicked private journeys, locally planned and paid at the start of your trip.": {
+    "ru": "Отобранные частные поездки, запланированные на месте и оплачиваемые в начале поездки.",
+    "fr": "Voyages privés triés sur le volet, planifiés localement et payés au début de votre voyage.",
+    "de": "Handverlesene Privatreisen, vor Ort geplant und zu Beginn Ihrer Reise bezahlt."
+  },
+  "Have a question or ready to plan your trip?": {
+    "ru": "Есть вопросы или готовы спланировать поездку?",
+    "fr": "Vous avez une question ou êtes prêt à planifier votre voyage ?",
+    "de": "Haben Sie eine Frage oder möchten Sie Ihre Reise planen?"
+  },
+  "Help": {
+    "ru": "Помощь",
+    "fr": "Aide",
+    "de": "Helfen"
+  },
+  "Here are the key details to help you plan your experience in Luxor’s west bank. If you have any other questions, we’re here to help.": {
+    "ru": "Вот ключевые детали, которые помогут вам спланировать свой отдых на западном берегу Луксора. Если у вас есть еще вопросы, мы здесь, чтобы помочь.",
+    "fr": "Voici les détails clés pour vous aider à planifier votre expérience sur la rive ouest de Louxor. Si vous avez d’autres questions, nous sommes là pour vous aider.",
+    "de": "Hier sind die wichtigsten Details, die Ihnen bei der Planung Ihres Erlebnisses im Westufer des Nils von Luxor helfen sollen. Wenn Sie weitere Fragen haben, helfen wir Ihnen gerne weiter."
+  },
+  "Here’s what’s covered in your private journey, so you can plan with confidence.": {
+    "ru": "Вот что входит в ваше личное путешествие, так что вы можете планировать его с уверенностью.",
+    "fr": "Voici ce qui est couvert lors de votre voyage privé, afin que vous puissiez planifier en toute confiance.",
+    "de": "Hier erfahren Sie, was in Ihrer privaten Reise enthalten ist, damit Sie sicher planen können."
+  },
+  "Home": {
+    "ru": "Главная",
+    "fr": "Accueil",
+    "de": "Zuhause"
+  },
+  "Hotel pick-up and drop-off at your location": {
+    "ru": "Встреча и выезд из отеля в вашем месте",
+    "fr": "Prise en charge et retour à l'hôtel à votre emplacement",
+    "de": "Abholung und Rückgabe vom Hotel an Ihrem Standort"
+  },
+  "Hourly service": {
+    "ru": "Почасовое обслуживание",
+    "fr": "Service horaire",
+    "de": "Stündlicher Service"
+  },
+  "How Booking Works — TheVTravel": {
+    "ru": "Как работает бронирование — TheVTravel",
+    "fr": "Comment fonctionne la réservation — TheVTravel",
+    "de": "So funktioniert die Buchung – TheVTravel"
+  },
+  "How TheVTravel works": {
+    "ru": "Как работает TheVTravel",
+    "fr": "Comment fonctionne TheVTravel",
+    "de": "So funktioniert TheVTravel"
+  },
+  "How and when do I pay?": {
+    "ru": "Как и когда я плачу?",
+    "fr": "Comment et quand dois-je payer ?",
+    "de": "Wie und wann bezahle ich?"
+  },
+  "How booking works": {
+    "ru": "Как работает бронирование",
+    "fr": "Comment fonctionne la réservation",
+    "de": "So funktioniert die Buchung"
+  },
+  "How do I book a private journey?": {
+    "ru": "Как забронировать частное путешествие?",
+    "fr": "Comment réserver un voyage privé ?",
+    "de": "Wie buche ich eine Privatreise?"
+  },
+  "How do I get a reply?": {
+    "ru": "Как мне получить ответ?",
+    "fr": "Comment puis-je obtenir une réponse ?",
+    "de": "Wie erhalte ich eine Antwort?"
+  },
+  "Hurghada": {
+    "ru": "Хургада",
+    "fr": "Hurghada",
+    "de": "Hurghada"
+  },
+  "Hurghada Paradise": {
+    "ru": "Хургада Рай",
+    "fr": "Le paradis d'Hurghada",
+    "de": "Hurghada-Paradies"
+  },
+  "I agree to the": {
+    "ru": "Я согласен на",
+    "fr": "J'accepte le",
+    "de": "Ich stimme dem zu"
+  },
+  "Iconic sites": {
+    "ru": "Знаковые сайты",
+    "fr": "Sites emblématiques",
+    "de": "Ikonische Websites"
+  },
+  "Include at least one adult.": {
+    "ru": "Включите хотя бы одного взрослого.",
+    "fr": "Incluez au moins un adulte.",
+    "de": "Beziehen Sie mindestens einen Erwachsenen mit ein."
+  },
+  "Included": {
+    "ru": "Включено",
+    "fr": "Inclus",
+    "de": "Im Lieferumfang enthalten"
+  },
+  "Inclusions vary by journey. Your confirmation will clearly set out what is included before you travel.": {
+    "ru": "Включения варьируются в зависимости от поездки. Перед поездкой в ​​вашем подтверждении будет четко указано, что включено.",
+    "fr": "Les inclusions varient selon le voyage. Votre confirmation indiquera clairement ce qui est inclus avant votre voyage.",
+    "de": "Die Inklusivleistungen variieren je nach Reise. In Ihrer Bestätigung wird klar dargelegt, was vor Ihrer Reise inbegriffen ist."
+  },
+  "Infants": {
+    "ru": "Младенцы",
+    "fr": "Les nourrissons",
+    "de": "Kleinkinder"
+  },
+  "Interests": {
+    "ru": "Интересы",
+    "fr": "Intérêts",
+    "de": "Interessen"
+  },
+  "IntersectionObserver": {
+    "ru": "ПересечениеОбозреватель",
+    "fr": "IntersectionObservateur",
+    "de": "IntersectionObserver"
+  },
+  "Invalid location search response": {
+    "ru": "Неверный ответ на поиск местоположения",
+    "fr": "Réponse de recherche d'emplacement non valide",
+    "de": "Ungültige Standortsuchantwort"
+  },
+  "Is online payment available?": {
+    "ru": "Возможна ли онлайн оплата?",
+    "fr": "Le paiement en ligne est-il disponible ?",
+    "de": "Ist eine Online-Zahlung möglich?"
+  },
+  "Is there an online payment or deposit?": {
+    "ru": "Есть ли онлайн-платеж или депозит?",
+    "fr": "Y a-t-il un paiement ou un dépôt en ligne ?",
+    "de": "Gibt es eine Online-Zahlung oder Anzahlung?"
+  },
+  "Is travel insurance included?": {
+    "ru": "Включена ли туристическая страховка?",
+    "fr": "L'assurance voyage est-elle incluse ?",
+    "de": "Ist eine Reiseversicherung inbegriffen?"
+  },
+  "Itinerary": {
+    "ru": "Маршрут",
+    "fr": "Itinéraire",
+    "de": "Reiseroute"
+  },
+  "Journey Details — TheVTravel": {
+    "ru": "Детали путешествия — TheVTravel",
+    "fr": "Détails du voyage — TheVTravel",
+    "de": "Reisedetails – TheVTravel"
+  },
+  "Journey features": {
+    "ru": "Особенности путешествия",
+    "fr": "Fonctionnalités du voyage",
+    "de": "Reisefunktionen"
+  },
+  "Journey filters": {
+    "ru": "Фильтры путешествий",
+    "fr": "Filtres de parcours",
+    "de": "Reisefilter"
+  },
+  "Journey layout": {
+    "ru": "План путешествия",
+    "fr": "Disposition du voyage",
+    "de": "Reiseplan"
+  },
+  "Journey not found": {
+    "ru": "Путешествие не найдено",
+    "fr": "Voyage introuvable",
+    "de": "Reise nicht gefunden"
+  },
+  "Journey not found — TheVTravel": {
+    "ru": "Путешествие не найдено — TheVTravel",
+    "fr": "Voyage introuvable — TheVTravel",
+    "de": "Reise nicht gefunden – TheVTravel"
+  },
+  "Journey photo gallery": {
+    "ru": "Фотогалерея путешествия",
+    "fr": "Galerie de photos du voyage",
+    "de": "Reise-Fotogalerie"
+  },
+  "Journey request": {
+    "ru": "Запрос на поездку",
+    "fr": "Demande de trajet",
+    "de": "Reiseanfrage"
+  },
+  "Journey sections": {
+    "ru": "Разделы путешествия",
+    "fr": "Sections du voyage",
+    "de": "Reiseabschnitte"
+  },
+  "Journeys": {
+    "ru": "Путешествия",
+    "fr": "Voyages",
+    "de": "Reisen"
+  },
+  "Journeys across Egypt": {
+    "ru": "Путешествия по Египту",
+    "fr": "Voyages à travers l’Égypte",
+    "de": "Reisen durch Ägypten"
+  },
+  "Jul 2024": {
+    "ru": "июль 2024 г.",
+    "fr": "juillet 2024",
+    "de": "Juli 2024"
+  },
+  "Just for you and your companions": {
+    "ru": "Только для тебя и твоих спутников",
+    "fr": "Juste pour vous et vos compagnons",
+    "de": "Nur für Sie und Ihre Begleiter"
+  },
+  "Karnak Temple, in depth": {
+    "ru": "Карнакский храм, в глубине",
+    "fr": "Temple de Karnak, en profondeur",
+    "de": "Karnak-Tempel, ausführlich"
+  },
+  "Karnak by Night": {
+    "ru": "Карнак ночью",
+    "fr": "Karnak de nuit",
+    "de": "Karnak bei Nacht"
+  },
+  "Let us know how to reach you.": {
+    "ru": "Дайте нам знать, как с вами связаться.",
+    "fr": "Faites-nous savoir comment vous joindre.",
+    "de": "Teilen Sie uns mit, wie wir Sie erreichen können."
+  },
+  "Let’s plan the": {
+    "ru": "Давайте спланируем",
+    "fr": "Planifions le",
+    "de": "Lasst uns das planen"
+  },
+  "Licensed Egyptologist guide (English)": {
+    "ru": "Лицензированный гид-египтолог (на английском языке)",
+    "fr": "Guide égyptologue agréé (anglais)",
+    "de": "Lizenzierter Ägyptologe-Führer (Englisch)"
+  },
+  "Licensed local Egyptologist guide (English)": {
+    "ru": "Лицензированный местный гид-египтолог (на английском языке)",
+    "fr": "Guide égyptologue local agréé (anglais)",
+    "de": "Lizenzierter lokaler Ägyptologenführer (Englisch)"
+  },
+  "List view": {
+    "ru": "Просмотр списка",
+    "fr": "Vue en liste",
+    "de": "Listenansicht"
+  },
+  "Listen": {
+    "ru": "Слушай",
+    "fr": "Ecoute",
+    "de": "Hören Sie"
+  },
+  "Load more journeys": {
+    "ru": "Загрузить больше поездок",
+    "fr": "Charger plus de voyages",
+    "de": "Weitere Reisen laden"
+  },
+  "Loading more journeys…": {
+    "ru": "Загрузка дополнительных поездок…",
+    "fr": "Chargement de plus de voyages…",
+    "de": "Weitere Reisen werden geladen…"
+  },
+  "Local knowledge": {
+    "ru": "Местные знания",
+    "fr": "Connaissance locale",
+    "de": "Lokales Wissen"
+  },
+  "Location lookup failed": {
+    "ru": "Поиск местоположения не удался",
+    "fr": "La recherche d'emplacement a échoué",
+    "de": "Die Standortsuche ist fehlgeschlagen"
+  },
+  "Location permission was denied.": {
+    "ru": "В разрешении на размещение было отказано.",
+    "fr": "L'autorisation de localisation a été refusée.",
+    "de": "Die Standortgenehmigung wurde verweigert."
+  },
+  "Long distance": {
+    "ru": "Большое расстояние",
+    "fr": "Longue distance",
+    "de": "Lange Distanz"
+  },
+  "Luxor": {
+    "ru": "Луксор",
+    "fr": "Louxor",
+    "de": "Luxor"
+  },
+  "Luxor East Bank Evening": {
+    "ru": "Луксор, Восточный берег, вечер",
+    "fr": "Soirée sur la rive est de Louxor",
+    "de": "Abend am Ostufer von Luxor"
+  },
+  "Luxor Highlights": {
+    "ru": "Достопримечательности Луксора",
+    "fr": "Points forts de Louxor",
+    "de": "Luxor-Highlights"
+  },
+  "Luxor Hot Air Balloon": {
+    "ru": "Луксор на воздушном шаре",
+    "fr": "Montgolfière de Louxor",
+    "de": "Luxor-Heißluftballon"
+  },
+  "Luxor, Egypt": {
+    "ru": "Луксор, Египет",
+    "fr": "Louxor, Egypte",
+    "de": "Luxor, Ägypten"
+  },
+  "Luxor, west bank at dawn": {
+    "ru": "Луксор: западный берег на рассвете",
+    "fr": "Louxor, rive ouest à l’aube",
+    "de": "Luxor, Westufer im Morgengrauen"
+  },
+  "Main navigation": {
+    "ru": "Основная навигация",
+    "fr": "Navigation principale",
+    "de": "Hauptnavigation"
+  },
+  "Mediterranean Heritage Walk": {
+    "ru": "Прогулка по средиземноморскому наследию",
+    "fr": "Promenade du patrimoine méditerranéen",
+    "de": "Spaziergang zum mediterranen Kulturerbe"
+  },
+  "Message": {
+    "ru": "Сообщение",
+    "fr": "Message",
+    "de": "Nachricht"
+  },
+  "Message us on WhatsApp": {
+    "ru": "Напишите нам в WhatsApp",
+    "fr": "Envoyez-nous un message sur WhatsApp",
+    "de": "Schreiben Sie uns eine Nachricht auf WhatsApp"
+  },
+  "Mobile navigation": {
+    "ru": "Мобильная навигация",
+    "fr": "Navigation mobile",
+    "de": "Mobile Navigation"
+  },
+  "More": {
+    "ru": "Подробнее",
+    "fr": "Plus",
+    "de": "Mehr"
+  },
+  "More destinations": {
+    "ru": "Больше направлений",
+    "fr": "Plus de destinations",
+    "de": "Weitere Ziele"
+  },
+  "More journey sections": {
+    "ru": "Больше разделов путешествий",
+    "fr": "Plus de sections de voyage",
+    "de": "Weitere Reiseabschnitte"
+  },
+  "Morning pick-up": {
+    "ru": "Утренний сбор",
+    "fr": "Prise en charge le matin",
+    "de": "Abholung am Morgen"
+  },
+  "Mount Sinai Sunrise Hike": {
+    "ru": "Восход на гору Синай",
+    "fr": "Randonnée au lever du soleil sur le mont Sinaï",
+    "de": "Sonnenaufgangswanderung auf dem Berg Sinai"
+  },
+  "Nature & Adventure": {
+    "ru": "Природа и приключения",
+    "fr": "Nature & Aventure",
+    "de": "Natur & Abenteuer"
+  },
+  "Need help with an existing booking?": {
+    "ru": "Нужна помощь с существующим бронированием?",
+    "fr": "Besoin d'aide avec une réservation existante ?",
+    "de": "Benötigen Sie Hilfe bei einer bestehenden Buchung?"
+  },
+  "Need help?": {
+    "ru": "Нужна помощь?",
+    "fr": "Besoin d'aide ?",
+    "de": "Brauchen Sie Hilfe?"
+  },
+  "Next photo": {
+    "ru": "Следующее фото",
+    "fr": "Photo suivante",
+    "de": "Nächstes Foto"
+  },
+  "Next related journeys": {
+    "ru": "Следующие похожие путешествия",
+    "fr": "Prochains voyages associés",
+    "de": "Nächste verwandte Reisen"
+  },
+  "Nile & Cruising": {
+    "ru": "Нил и круизы",
+    "fr": "Nil et croisière",
+    "de": "Nil & Kreuzfahrt"
+  },
+  "Nile Islands Picnic": {
+    "ru": "Пикник на островах Нила",
+    "fr": "Pique-nique aux îles du Nil",
+    "de": "Picknick auf den Nilinseln"
+  },
+  "No journeys match these filters": {
+    "ru": "Ни одно путешествие не соответствует этим фильтрам.",
+    "fr": "Aucun voyage ne correspond à ces filtres",
+    "de": "Keine Reise entspricht diesen Filtern"
+  },
+  "No online payment or deposit is required. A member of our team will confirm the arrangements with you.": {
+    "ru": "Никаких онлайн-платежей или депозитов не требуется. Член нашей команды подтвердит с вами договоренности.",
+    "fr": "Aucun paiement ou dépôt en ligne n'est requis. Un membre de notre équipe confirmera les modalités avec vous.",
+    "de": "Es ist keine Online-Zahlung oder Anzahlung erforderlich. Ein Mitglied unseres Teams wird die Vereinbarungen mit Ihnen bestätigen."
+  },
+  "No online payment required": {
+    "ru": "Онлайн оплата не требуется",
+    "fr": "Aucun paiement en ligne requis",
+    "de": "Keine Online-Zahlung erforderlich"
+  },
+  "No online payment. Need to confirm your booking.": {
+    "ru": "Никакой онлайн-оплаты. Необходимо подтвердить бронирование.",
+    "fr": "Pas de paiement en ligne. Besoin de confirmer votre réservation.",
+    "de": "Keine Online-Zahlung. Sie müssen Ihre Buchung bestätigen."
+  },
+  "No online payment. No deposit.": {
+    "ru": "Никакой онлайн-оплаты. Без залога.",
+    "fr": "Pas de paiement en ligne. Aucun dépôt.",
+    "de": "Keine Online-Zahlung. Keine Anzahlung."
+  },
+  "No online payment. Pay at the start of your trip.": {
+    "ru": "Никакой онлайн-оплаты. Оплата в начале поездки.",
+    "fr": "Pas de paiement en ligne. Payez au début de votre voyage.",
+    "de": "Keine Online-Zahlung. Bezahlen Sie zu Beginn Ihrer Reise."
+  },
+  "No places found. Try a more specific address.": {
+    "ru": "Мест не найдено. Попробуйте указать более конкретный адрес.",
+    "fr": "Aucun lieu trouvé. Essayez une adresse plus précise.",
+    "de": "Keine Orte gefunden. Versuchen Sie es mit einer spezifischeren Adresse."
+  },
+  "No reviews yet": {
+    "ru": "Пока нет отзывов",
+    "fr": "Aucun avis pour l'instant",
+    "de": "Noch keine Bewertungen"
+  },
+  "No. Payment details are confirmed personally after your request has been reviewed.": {
+    "ru": "Нет. Платежные реквизиты подтверждаются лично после рассмотрения вашего запроса.",
+    "fr": "Non. Les détails du paiement sont confirmés personnellement après examen de votre demande.",
+    "de": "Nein. Die Zahlungsdetails werden nach Prüfung Ihrer Anfrage persönlich bestätigt."
+  },
+  "Nov 2024": {
+    "ru": "ноябрь 2024 г.",
+    "fr": "novembre 2024",
+    "de": "November 2024"
+  },
+  "Nubian Village Visit": {
+    "ru": "Посещение нубийской деревни",
+    "fr": "Visite du village nubien",
+    "de": "Besuch eines nubischen Dorfes"
+  },
+  "Nubian culture.": {
+    "ru": "Нубийская культура.",
+    "fr": "Culture nubienne.",
+    "de": "Nubische Kultur."
+  },
+  "Oct 2024": {
+    "ru": "октябрь 2024 г.",
+    "fr": "octobre 2024",
+    "de": "Okt. 2024"
+  },
+  "Official photos (": {
+    "ru": "Официальные фото(",
+    "fr": "Photos officielles (",
+    "de": "Offizielle Fotos ("
+  },
+  "Old Cairo Family Walk": {
+    "ru": "Семейная прогулка по Старому Каиру",
+    "fr": "Promenade en famille dans le vieux Caire",
+    "de": "Familienspaziergang durch das alte Kairo"
+  },
+  "Once everything is confirmed, your journey is ready to go.": {
+    "ru": "Как только все будет подтверждено, ваше путешествие будет готово к отправке.",
+    "fr": "Une fois que tout est confirmé, votre voyage est prêt à démarrer.",
+    "de": "Sobald alles bestätigt ist, kann Ihre Reise beginnen."
+  },
+  "One way": {
+    "ru": "В одну сторону",
+    "fr": "Aller simple",
+    "de": "Einfache Fahrt"
+  },
+  "Open WhatsApp": {
+    "ru": "Открыть WhatsApp",
+    "fr": "Ouvrez WhatsApp",
+    "de": "Öffnen Sie WhatsApp"
+  },
+  "Orange Bay Beach Day": {
+    "ru": "Пляжный день Ориндж-Бэй",
+    "fr": "Journée à la plage d'Orange Bay",
+    "de": "Orange Bay Beach Day"
+  },
+  "Other": {
+    "ru": "Другое",
+    "fr": "Autre",
+    "de": "Andere"
+  },
+  "Our philosophy": {
+    "ru": "Наша философия",
+    "fr": "Notre philosophie",
+    "de": "Unsere Philosophie"
+  },
+  "Our preferred way to connect.": {
+    "ru": "Наш предпочтительный способ подключения.",
+    "fr": "Notre moyen préféré de nous connecter.",
+    "de": "Unsere bevorzugte Art der Verbindung."
+  },
+  "Our private journeys are planned around your preferred dates, subject to availability. Send your request and our team will confirm the details with you.": {
+    "ru": "Наши частные поездки планируются на выбранные вами даты при наличии свободных мест. Отправьте запрос, и наша команда согласует с вами детали.",
+    "fr": "Nos voyages privés sont planifiés autour de vos dates préférées, sous réserve de disponibilité. Envoyez votre demande et notre équipe confirmera les détails avec vous.",
+    "de": "Unsere Privatreisen werden je nach Verfügbarkeit zu Ihrem Wunschtermin geplant. Senden Sie Ihre Anfrage und unser Team wird die Details mit Ihnen bestätigen."
+  },
+  "Our service area": {
+    "ru": "Наша зона обслуживания",
+    "fr": "Notre zone de service",
+    "de": "Unser Servicebereich"
+  },
+  "Our travel expert contacts you via WhatsApp to finalize the details.": {
+    "ru": "Наш эксперт по путешествиям свяжется с вами через WhatsApp, чтобы уточнить детали.",
+    "fr": "Notre expert en voyages vous contacte via WhatsApp pour finaliser les détails.",
+    "de": "Unser Reiseexperte kontaktiert Sie per WhatsApp, um die Details festzulegen."
+  },
+  "Our travel experts are here for you.": {
+    "ru": "Наши эксперты по путешествиям здесь для вас.",
+    "fr": "Nos experts en voyages sont là pour vous.",
+    "de": "Unsere Reiseexperten sind für Sie da."
+  },
+  "Overview": {
+    "ru": "Обзор",
+    "fr": "Aperçu",
+    "de": "Übersicht"
+  },
+  "Pay at the start": {
+    "ru": "Оплата в начале",
+    "fr": "Payer au début",
+    "de": "Bezahlen Sie am Anfang"
+  },
+  "Pay at the start of your trip. Change plans? Just let us know.": {
+    "ru": "Оплата в начале поездки. Изменить планы? Просто дайте нам знать.",
+    "fr": "Payez au début de votre voyage. Changer de projet ? Faites-le-nous savoir.",
+    "de": "Bezahlen Sie zu Beginn Ihrer Reise. Pläne ändern? Sagen Sie uns einfach Bescheid."
+  },
+  "Payment details are confirmed with you personally once your journey and availability have been agreed.": {
+    "ru": "Платежные реквизиты подтверждаются лично вами после согласования поездки и наличия мест.",
+    "fr": "Les détails du paiement sont confirmés personnellement avec vous une fois que votre voyage et votre disponibilité ont été convenus.",
+    "de": "Die Zahlungsdetails werden nach der Vereinbarung Ihrer Anreise und Verfügbarkeit persönlich mit Ihnen bestätigt."
+  },
+  "Payment information": {
+    "ru": "Информация об оплате",
+    "fr": "Informations de paiement",
+    "de": "Zahlungsinformationen"
+  },
+  "Payment is taken manually at the start of your trip.": {
+    "ru": "Оплата производится вручную в начале поездки.",
+    "fr": "Le paiement est effectué manuellement au début de votre voyage.",
+    "de": "Die Zahlung erfolgt manuell zu Beginn Ihrer Reise."
+  },
+  "Payments": {
+    "ru": "Платежи",
+    "fr": "Paiements",
+    "de": "Zahlungen"
+  },
+  "Peaceful morning": {
+    "ru": "Мирное утро",
+    "fr": "Matinée paisible",
+    "de": "Friedlicher Morgen"
+  },
+  "People-focused service": {
+    "ru": "Сервис, ориентированный на людей",
+    "fr": "Un service axé sur les personnes",
+    "de": "Menschenorientierter Service"
+  },
+  "Pharaohs, temples and": {
+    "ru": "Фараоны, храмы и",
+    "fr": "Pharaons, temples et",
+    "de": "Pharaonen, Tempel und"
+  },
+  "Philae Temple & Aswan": {
+    "ru": "Храм Филе и Асуан",
+    "fr": "Temple de Philae et Assouan",
+    "de": "Philae-Tempel und Assuan"
+  },
+  "Phone country": {
+    "ru": "Страна телефона",
+    "fr": "Pays du téléphone",
+    "de": "Telefonland"
+  },
+  "Phone country and calling code": {
+    "ru": "Страна телефона и телефонный код",
+    "fr": "Pays du téléphone et indicatif d'appel",
+    "de": "Telefonland und Vorwahl"
+  },
+  "Phone number": {
+    "ru": "Номер телефона",
+    "fr": "Numéro de téléphone",
+    "de": "Telefonnummer"
+  },
+  "Pickup area": {
+    "ru": "Зона выдачи",
+    "fr": "Zone de ramassage",
+    "de": "Abholbereich"
+  },
+  "Plan your journey": {
+    "ru": "Спланируйте свое путешествие",
+    "fr": "Planifiez votre voyage",
+    "de": "Planen Sie Ihre Reise"
+  },
+  "Planning a private journey, day tour or custom itinerary.": {
+    "ru": "Планирование частного путешествия, однодневного тура или индивидуального маршрута.",
+    "fr": "Planification d'un voyage privé, d'une excursion d'une journée ou d'un itinéraire personnalisé.",
+    "de": "Planen Sie eine private Reise, eine Tagestour oder eine individuelle Reiseroute."
+  },
+  "Please agree before sending your message.": {
+    "ru": "Пожалуйста, согласитесь перед отправкой сообщения.",
+    "fr": "Veuillez accepter avant d'envoyer votre message.",
+    "de": "Bitte stimmen Sie zu, bevor Sie Ihre Nachricht senden."
+  },
+  "Please check your details below before submitting your request.": {
+    "ru": "Пожалуйста, проверьте свои данные ниже, прежде чем отправлять запрос.",
+    "fr": "Veuillez vérifier vos coordonnées ci-dessous avant de soumettre votre demande.",
+    "de": "Bitte überprüfen Sie Ihre Angaben unten, bevor Sie Ihre Anfrage absenden."
+  },
+  "Please choose a subject.": {
+    "ru": "Пожалуйста, выберите тему.",
+    "fr": "Veuillez choisir un sujet.",
+    "de": "Bitte wählen Sie ein Thema."
+  },
+  "Please complete this field.": {
+    "ru": "Пожалуйста, заполните это поле.",
+    "fr": "Veuillez remplir ce champ.",
+    "de": "Bitte füllen Sie dieses Feld aus."
+  },
+  "Please enter a valid email address.": {
+    "ru": "Пожалуйста, введите действительный адрес электронной почты.",
+    "fr": "S'il vous plaît, mettez une adresse email valide.",
+    "de": "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+  },
+  "Please enter your full name.": {
+    "ru": "Пожалуйста, введите свое полное имя.",
+    "fr": "Veuillez entrer votre nom complet.",
+    "de": "Bitte geben Sie Ihren vollständigen Namen ein."
+  },
+  "Please review the highlighted fields.": {
+    "ru": "Пожалуйста, просмотрите выделенные поля.",
+    "fr": "Veuillez consulter les champs en surbrillance.",
+    "de": "Bitte überprüfen Sie die hervorgehobenen Felder."
+  },
+  "Please tell us how we can help.": {
+    "ru": "Расскажите, пожалуйста, как мы можем помочь.",
+    "fr": "S'il vous plaît dites-nous comment nous pouvons vous aider.",
+    "de": "Bitte teilen Sie uns mit, wie wir Ihnen helfen können."
+  },
+  "Popular": {
+    "ru": "Популярный",
+    "fr": "Populaire",
+    "de": "Beliebt"
+  },
+  "Popular destinations": {
+    "ru": "Популярные направления",
+    "fr": "Destinations populaires",
+    "de": "Beliebte Reiseziele"
+  },
+  "Practical information": {
+    "ru": "Практическая информация",
+    "fr": "Informations pratiques",
+    "de": "Praktische Informationen"
+  },
+  "Previous photo": {
+    "ru": "Предыдущее фото",
+    "fr": "Photo précédente",
+    "de": "Vorheriges Foto"
+  },
+  "Previous related journeys": {
+    "ru": "Предыдущие похожие поездки",
+    "fr": "Voyages liés précédents",
+    "de": "Frühere verwandte Reisen"
+  },
+  "Price on request": {
+    "ru": "Цена по запросу",
+    "fr": "Prix sur demande",
+    "de": "Preis auf Anfrage"
+  },
+  "Price: High to Low": {
+    "ru": "Цена: от высокой к низкой",
+    "fr": "Prix : haut à bas",
+    "de": "Preis: Hoch bis niedrig"
+  },
+  "Price: Low to High": {
+    "ru": "Цена: от низкой до высокой",
+    "fr": "Prix : faible à élevé",
+    "de": "Preis: Niedrig bis hoch"
+  },
+  "Privacy policy": {
+    "ru": "Политика конфиденциальности",
+    "fr": "Politique de confidentialité",
+    "de": "Datenschutzrichtlinie"
+  },
+  "Private & personal": {
+    "ru": "Только для вас",
+    "fr": "Privé et personnalisé",
+    "de": "Privat und persönlich"
+  },
+  "Private Transfers": {
+    "ru": "Частные трансферы",
+    "fr": "Transferts privés",
+    "de": "Private Transfers"
+  },
+  "Private air-conditioned vehicle with professional driver": {
+    "ru": "Частный автомобиль с кондиционером и профессиональным водителем.",
+    "fr": "Véhicule privé climatisé avec chauffeur professionnel",
+    "de": "Privates, klimatisiertes Fahrzeug mit professionellem Fahrer"
+  },
+  "Private by design": {
+    "ru": "Частный по дизайну",
+    "fr": "Privé par conception",
+    "de": "Von Natur aus privat"
+  },
+  "Private experience": {
+    "ru": "Частный опыт",
+    "fr": "Expérience privée",
+    "de": "Private Erfahrung"
+  },
+  "Private for you and your companions": {
+    "ru": "Лично для вас и ваших спутников",
+    "fr": "Privé pour vous et vos compagnons",
+    "de": "Privat für Sie und Ihre Begleiter"
+  },
+  "Private journey": {
+    "ru": "Частное путешествие",
+    "fr": "Voyage privé",
+    "de": "Privatreise"
+  },
+  "Private journey just for you and your companions.": {
+    "ru": "Частное путешествие только для вас и ваших спутников.",
+    "fr": "Voyage privé rien que pour vous et vos compagnons.",
+    "de": "Privatreise nur für Sie und Ihre Begleiter."
+  },
+  "Private journeys across Egypt": {
+    "ru": "Частные путешествия по Египту",
+    "fr": "Voyages privés à travers l’Égypte",
+    "de": "Privatreisen durch Ägypten"
+  },
+  "Private journeys across Egypt,": {
+    "ru": "Частные путешествия по Египту,",
+    "fr": "Voyages privés à travers l’Égypte,",
+    "de": "Privatreisen durch Ägypten,"
+  },
+  "Private transfer": {
+    "ru": "Индивидуальный трансфер",
+    "fr": "Transfert privé",
+    "de": "Privater Transfer"
+  },
+  "Private transfers": {
+    "ru": "Частные трансферы",
+    "fr": "Transferts privés",
+    "de": "Privattransfers"
+  },
+  "Private travel. Considered in every detail.": {
+    "ru": "Частное путешествие. Продумано до мелочей.",
+    "fr": "Voyage privé. Considéré dans les moindres détails.",
+    "de": "Privatreisen. Bis ins Detail durchdacht."
+  },
+  "Protect places": {
+    "ru": "Берегите места",
+    "fr": "Protéger les lieux",
+    "de": "Orte schützen"
+  },
+  "Pyramids & Sphinx Private Tour": {
+    "ru": "Частный тур по пирамидам и сфинксу",
+    "fr": "Visite privée des pyramides et du Sphinx",
+    "de": "Private Tour zu Pyramiden und Sphinx"
+  },
+  "Qena": {
+    "ru": "Кена",
+    "fr": "Qéna",
+    "de": "Qena"
+  },
+  "Questions": {
+    "ru": "Вопросы",
+    "fr": "Questions",
+    "de": "Fragen"
+  },
+  "Quick, simple and personal.": {
+    "ru": "Быстро, просто и индивидуально.",
+    "fr": "Rapide, simple et personnel.",
+    "de": "Schnell, einfach und persönlich."
+  },
+  "Quieter visits and cooler temperatures": {
+    "ru": "Более тихие посещения и более прохладные температуры",
+    "fr": "Visites plus calmes et températures plus fraîches",
+    "de": "Ruhigere Besuche und kühlere Temperaturen"
+  },
+  "Ras Mohammed Snorkeling": {
+    "ru": "Рас Мохаммед Подводное плавание",
+    "fr": "Plongée en apnée à Ras Mohammed",
+    "de": "Ras Mohammed Schnorcheln"
+  },
+  "Reach out anytime—real people, real replies.": {
+    "ru": "Обращайтесь в любое время — реальные люди, реальные ответы.",
+    "fr": "Contactez-nous à tout moment : de vraies personnes, de vraies réponses.",
+    "de": "Kontaktieren Sie uns jederzeit – echte Menschen, echte Antworten."
+  },
+  "Ready to explore Egypt": {
+    "ru": "Готовы исследовать Египет",
+    "fr": "Prêt à explorer l’Égypte",
+    "de": "Bereit, Ägypten zu erkunden"
+  },
+  "Ready to plan your": {
+    "ru": "Готовы спланировать свой",
+    "fr": "Prêt à planifier votre",
+    "de": "Bereit, Ihre zu planen"
+  },
+  "Real people. Here for your journey.": {
+    "ru": "Настоящие люди. Здесь для вашего путешествия.",
+    "fr": "De vraies personnes. Ici pour votre voyage.",
+    "de": "Echte Menschen. Hier für Ihre Reise."
+  },
+  "Real stories from travelers who experienced this journey.": {
+    "ru": "Реальные истории путешественников, переживших это путешествие.",
+    "fr": "Des histoires vraies de voyageurs qui ont vécu ce voyage.",
+    "de": "Echte Geschichten von Reisenden, die diese Reise erlebt haben."
+  },
+  "Recommended": {
+    "ru": "Рекомендуется",
+    "fr": "Recommandé",
+    "de": "Empfohlen"
+  },
+  "Red Sea & Snorkeling": {
+    "ru": "Красное море и подводное плавание",
+    "fr": "Mer Rouge et plongée en apnée",
+    "de": "Rotes Meer und Schnorcheln"
+  },
+  "Red Sea Glass Boat": {
+    "ru": "Стеклянная лодка Красного моря",
+    "fr": "Bateau en verre de la mer Rouge",
+    "de": "Glasboot aus dem Roten Meer"
+  },
+  "Relax and enjoy your private experience. We take care of everything.": {
+    "ru": "Расслабьтесь и наслаждайтесь личным опытом. Мы позаботимся обо всем.",
+    "fr": "Détendez-vous et profitez de votre expérience privée. Nous nous occupons de tout.",
+    "de": "Entspannen Sie sich und genießen Sie Ihr privates Erlebnis. Wir kümmern uns um alles."
+  },
+  "Relaxation": {
+    "ru": "Релаксация",
+    "fr": "Détente",
+    "de": "Entspannung"
+  },
+  "Request": {
+    "ru": "Запрос",
+    "fr": "Demande",
+    "de": "Anfrage"
+  },
+  "Request a Trip": {
+    "ru": "Запросить поездку",
+    "fr": "Demander un voyage",
+    "de": "Fordern Sie eine Reise an"
+  },
+  "Request a transfer": {
+    "ru": "Запросить трансфер",
+    "fr": "Demander un transfert",
+    "de": "Transfer anfragen"
+  },
+  "Request this journey": {
+    "ru": "Запросить это путешествие",
+    "fr": "Demander ce voyage",
+    "de": "Fordern Sie diese Reise an"
+  },
+  "Request your date & details": {
+    "ru": "Запросите дату и детали",
+    "fr": "Demandez votre date et vos détails",
+    "de": "Fordern Sie Ihr Datum und Ihre Details an"
+  },
+  "Respect culture": {
+    "ru": "Уважайте культуру",
+    "fr": "Respecter la culture",
+    "de": "Respektieren Sie die Kultur"
+  },
+  "Responsible guest care": {
+    "ru": "Ответственная забота о гостях",
+    "fr": "Prise en charge responsable des clients",
+    "de": "Verantwortungsvolle Gästebetreuung"
+  },
+  "Return": {
+    "ru": "Возвращение",
+    "fr": "Retour",
+    "de": "Rückfahrt"
+  },
+  "Review your request": {
+    "ru": "Просмотрите свой запрос",
+    "fr": "Vérifiez votre demande",
+    "de": "Überprüfen Sie Ihre Anfrage"
+  },
+  "Reviews": {
+    "ru": "Отзывы",
+    "fr": "Avis",
+    "de": "Rezensionen"
+  },
+  "Route & horizon": {
+    "ru": "Маршрут и горизонт",
+    "fr": "Itinéraire & horizon",
+    "de": "Route & Horizont"
+  },
+  "Sail the timeless Nile on a traditional felucca and enjoy the peaceful scenery.": {
+    "ru": "Отправьтесь в плавание по вечному Нилу на традиционной фелюге и насладитесь умиротворяющими пейзажами.",
+    "fr": "Naviguez sur le Nil intemporel sur une felouque traditionnelle et profitez du paysage paisible.",
+    "de": "Segeln Sie auf einer traditionellen Feluke auf dem zeitlosen Nil und genießen Sie die friedliche Landschaft."
+  },
+  "Sail, relax and let the": {
+    "ru": "Плывите, расслабьтесь и позвольте",
+    "fr": "Naviguez, détendez-vous et laissez le",
+    "de": "Segeln, entspannen und die Seele baumeln lassen"
+  },
+  "Sail, relax and watch the sun set over timeless landscapes.": {
+    "ru": "Плавайте, отдыхайте и наблюдайте за закатом над вневременными пейзажами.",
+    "fr": "Naviguez, détendez-vous et regardez le soleil se coucher sur des paysages intemporels.",
+    "de": "Segeln Sie, entspannen Sie sich und beobachten Sie den Sonnenuntergang über zeitlosen Landschaften."
+  },
+  "Saudi Arabia": {
+    "ru": "Саудовская Аравия",
+    "fr": "Arabie Saoudite",
+    "de": "Saudi-Arabien"
+  },
+  "Search address / place": {
+    "ru": "Поиск адреса/места",
+    "fr": "Rechercher une adresse/un lieu",
+    "de": "Adresse/Ort suchen"
+  },
+  "Search for an address or place": {
+    "ru": "Поиск адреса или места",
+    "fr": "Rechercher une adresse ou un lieu",
+    "de": "Suchen Sie nach einer Adresse oder einem Ort"
+  },
+  "Searching…": {
+    "ru": "Поиск…",
+    "fr": "Recherche…",
+    "de": "Suche..."
+  },
+  "Select a country": {
+    "ru": "Выберите страну",
+    "fr": "Sélectionnez un pays",
+    "de": "Wählen Sie ein Land aus"
+  },
+  "Select a country.": {
+    "ru": "Выберите страну.",
+    "fr": "Sélectionnez un pays.",
+    "de": "Wählen Sie ein Land aus."
+  },
+  "Select language": {
+    "ru": "Выберите язык",
+    "fr": "Sélectionnez la langue",
+    "de": "Sprache auswählen"
+  },
+  "Selected location": {
+    "ru": "Выбранное местоположение",
+    "fr": "Emplacement sélectionné",
+    "de": "Ausgewählter Ort"
+  },
+  "Selected location marker": {
+    "ru": "Маркер выбранного места",
+    "fr": "Repère du lieu sélectionné",
+    "de": "Markierung des ausgewählten Ortes"
+  },
+  "Send message": {
+    "ru": "Отправить сообщение",
+    "fr": "Envoyer un message",
+    "de": "Nachricht senden"
+  },
+  "Send the form or email us. A real member of the team will reply personally.": {
+    "ru": "Отправьте форму или напишите нам. Настоящий член команды ответит лично.",
+    "fr": "Envoyez le formulaire ou envoyez-nous un courriel. Un vrai membre de l’équipe vous répondra personnellement.",
+    "de": "Senden Sie das Formular oder senden Sie uns eine E-Mail. Ein echtes Mitglied des Teams wird Ihnen persönlich antworten."
+  },
+  "Send us a message": {
+    "ru": "Отправьте нам сообщение",
+    "fr": "Envoyez-nous un message",
+    "de": "Senden Sie uns eine Nachricht"
+  },
+  "Send us your questions or ideas.": {
+    "ru": "Присылайте нам свои вопросы или идеи.",
+    "fr": "Envoyez-nous vos questions ou idées.",
+    "de": "Senden Sie uns Ihre Fragen oder Ideen."
+  },
+  "Send your request": {
+    "ru": "Отправить запрос",
+    "fr": "Envoyez votre demande",
+    "de": "Senden Sie Ihre Anfrage"
+  },
+  "Send your request and we’ll take care of the rest.": {
+    "ru": "Отправьте заявку, а мы позаботимся обо всем остальном.",
+    "fr": "Envoyez votre demande et nous nous occuperons du reste.",
+    "de": "Senden Sie Ihre Anfrage und wir kümmern uns um den Rest."
+  },
+  "Sep 2024": {
+    "ru": "Сентябрь 2024 г.",
+    "fr": "septembre 2024",
+    "de": "September 2024"
+  },
+  "Serene river life and": {
+    "ru": "Безмятежная речная жизнь и",
+    "fr": "Une vie fluviale sereine et",
+    "de": "Ruhiges Leben am Fluss und"
+  },
+  "Share a few details and we’ll take care of the rest,": {
+    "ru": "Поделитесь некоторыми подробностями, а мы позаботимся обо всем остальном,",
+    "fr": "Partagez quelques détails et nous nous occuperons du reste,",
+    "de": "Teilen Sie uns ein paar Details mit und wir kümmern uns um den Rest."
+  },
+  "Share an engaging, flexible day designed to work beautifully for families.": {
+    "ru": "Проведите увлекательный и гибкий день, созданный для того, чтобы принести пользу всей семье.",
+    "fr": "Partagez une journée engageante et flexible conçue pour fonctionner à merveille pour les familles.",
+    "de": "Teilen Sie einen spannenden, flexiblen Tag, der ideal für Familien ist."
+  },
+  "Share your dates and interests. We help shape your journey.": {
+    "ru": "Поделитесь своими датами и интересами. Мы помогаем сформировать ваше путешествие.",
+    "fr": "Partagez vos dates et vos intérêts. Nous vous aidons à façonner votre voyage.",
+    "de": "Teilen Sie Ihre Daten und Interessen mit. Wir helfen Ihnen, Ihre Reise zu gestalten."
+  },
+  "Share your ideas and we'll create a journey": {
+    "ru": "Поделитесь своими идеями, и мы создадим путешествие",
+    "fr": "Partagez vos idées et nous créerons un voyage",
+    "de": "Teilen Sie Ihre Ideen und wir erstellen eine Reise"
+  },
+  "Share your ideas and we’ll take care of the rest.": {
+    "ru": "Поделитесь своими идеями, а мы позаботимся обо всем остальном.",
+    "fr": "Partagez vos idées et nous nous occuperons du reste.",
+    "de": "Teilen Sie Ihre Ideen mit und wir kümmern uns um den Rest."
+  },
+  "Sharm El Sheikh": {
+    "ru": "Шарм-эль-Шейх",
+    "fr": "Charm el-Cheikh",
+    "de": "Scharm El-Scheich"
+  },
+  "Sharm El-Sheikh": {
+    "ru": "Шарм-эль-Шейх",
+    "fr": "Charm el-Cheikh",
+    "de": "Scharm El-Scheich"
+  },
+  "Simple steps. Personal care.": {
+    "ru": "Простые шаги. Персональный уход.",
+    "fr": "Des étapes simples. Soins personnels.",
+    "de": "Einfache Schritte. Persönliche Betreuung."
+  },
+  "Simple, private & personal": {
+    "ru": "Просто, конфиденциально и лично",
+    "fr": "Simple, privé et personnel",
+    "de": "Einfach, privat und persönlich"
+  },
+  "Simply choose the journey you’re interested in and click “Request this journey”. Fill in your details, preferred date, number of travelers and any special requests. We’ll contact you within 24 hours to confirm availability and all the details.": {
+    "ru": "Просто выберите путешествие, которое вас интересует, и нажмите «Запросить это путешествие». Заполните свои данные, предпочтительную дату, количество путешественников и любые особые пожелания. Мы свяжемся с вами в течение 24 часов, чтобы подтвердить наличие и все детали.",
+    "fr": "Choisissez simplement le voyage qui vous intéresse et cliquez sur « Demander ce voyage ». Remplissez vos coordonnées, la date souhaitée, le nombre de voyageurs et toute demande particulière. Nous vous contacterons dans les 24 heures pour confirmer la disponibilité et tous les détails.",
+    "de": "Wählen Sie einfach die Reise aus, die Sie interessiert, und klicken Sie auf „Diese Reise anfordern“. Geben Sie Ihre Daten, Ihr Wunschdatum, die Anzahl der Reisenden und etwaige Sonderwünsche ein. Wir werden uns innerhalb von 24 Stunden mit Ihnen in Verbindung setzen, um die Verfügbarkeit und alle Details zu bestätigen."
+  },
+  "Sinai": {
+    "ru": "Синай",
+    "fr": "Sinaï",
+    "de": "Sinai"
+  },
+  "Sinai Canyon Adventure": {
+    "ru": "Приключение в Синайском каньоне",
+    "fr": "Aventure dans le canyon du Sinaï",
+    "de": "Sinai-Canyon-Abenteuer"
+  },
+  "Siwa": {
+    "ru": "Сива",
+    "fr": "Siwa",
+    "de": "Siwa"
+  },
+  "Siwa Oasis Escape": {
+    "ru": "Побег из оазиса Сива",
+    "fr": "Évasion à l'oasis de Siwa",
+    "de": "Flucht aus der Oase Siwa"
+  },
+  "Siwa Salt Lakes Retreat": {
+    "ru": "Сива Соленые озера Ретрит",
+    "fr": "Retraite des lacs salés de Siwa",
+    "de": "Siwa Salt Lakes Retreat"
+  },
+  "Slow down on the Nile and take in Egypt’s timeless river landscapes.": {
+    "ru": "Снизьте скорость на Ниле и полюбуйтесь вневременными речными пейзажами Египта.",
+    "fr": "Ralentissez sur le Nil et admirez les paysages fluviaux intemporels de l’Égypte.",
+    "de": "Entschleunigen Sie auf dem Nil und genießen Sie die zeitlosen Flusslandschaften Ägyptens."
+  },
+  "Snorkel in crystal-clear waters and relax on the beautiful Giftun Island.": {
+    "ru": "Подводное плавание в кристально чистой воде и отдых на прекрасном острове Гифтун.",
+    "fr": "Faites de la plongée avec tuba dans des eaux cristallines et détendez-vous sur la magnifique île Giftun.",
+    "de": "Schnorcheln Sie im kristallklaren Wasser und entspannen Sie auf der wunderschönen Insel Giftun."
+  },
+  "Soar above Luxor’s temples and the Nile for a breathtaking sunrise view.": {
+    "ru": "Поднимитесь над храмами Луксора и Нилом, чтобы полюбоваться захватывающим видом на восход солнца.",
+    "fr": "Survolez les temples de Louxor et le Nil pour une vue imprenable sur le lever du soleil.",
+    "de": "Schweben Sie über den Tempeln von Luxor und dem Nil und genießen Sie den atemberaubenden Blick auf den Sonnenaufgang."
+  },
+  "Social links": {
+    "ru": "Социальные ссылки",
+    "fr": "Liens sociaux",
+    "de": "Soziale Links"
+  },
+  "Solo": {
+    "ru": "Соло",
+    "fr": "Solo",
+    "de": "Solo"
+  },
+  "Some sites include uneven ground and steps.": {
+    "ru": "На некоторых участках есть неровная площадка и ступеньки.",
+    "fr": "Certains sites comprennent un sol et des marches inégaux.",
+    "de": "Einige Standorte weisen unebenen Boden und Stufen auf."
+  },
+  "Sort by:": {
+    "ru": "Сортировать по:",
+    "fr": "Trier par :",
+    "de": "Sortieren nach:"
+  },
+  "Sort journeys": {
+    "ru": "Сортировать поездки",
+    "fr": "Trier les trajets",
+    "de": "Reisen sortieren"
+  },
+  "Special requests / notes": {
+    "ru": "Особые пожелания/примечания",
+    "fr": "Demandes spéciales / remarques",
+    "de": "Sonderwünsche/Hinweise"
+  },
+  "Stand before the towering statues that have watched over the Nile for millennia.": {
+    "ru": "Встаньте перед высокими статуями, которые тысячелетиями охраняли Нил.",
+    "fr": "Tenez-vous devant les imposantes statues qui veillent sur le Nil depuis des millénaires.",
+    "de": "Stehen Sie vor den hoch aufragenden Statuen, die seit Jahrtausenden über den Nil wachen."
+  },
+  "Start with a few of our private experiences across Egypt.": {
+    "ru": "Начните с нескольких наших личных впечатлений в Египте.",
+    "fr": "Commencez par quelques-unes de nos expériences privées à travers l’Égypte.",
+    "de": "Beginnen Sie mit einigen unserer privaten Erlebnisse in ganz Ägypten."
+  },
+  "Stay refreshed with bottled water provided throughout your trip.": {
+    "ru": "На протяжении всей поездки вам будет предоставлена ​​бутилированная вода, чтобы освежиться.",
+    "fr": "Restez rafraîchi grâce à l'eau en bouteille fournie tout au long de votre voyage.",
+    "de": "Bleiben Sie während Ihrer Reise erfrischt mit Wasserflaschen, die Ihnen während der gesamten Reise zur Verfügung stehen."
+  },
+  "Step": {
+    "ru": "Шаг",
+    "fr": "Étape",
+    "de": "Schritt"
+  },
+  "Still have questions?": {
+    "ru": "Остались вопросы?",
+    "fr": "Vous avez encore des questions ?",
+    "de": "Sie haben noch Fragen?"
+  },
+  "Subject": {
+    "ru": "Тема",
+    "fr": "Sujet",
+    "de": "Betreff"
+  },
+  "Sunlight between the columns of Karnak Temple": {
+    "ru": "Солнечный свет между колоннами Карнакского храма",
+    "fr": "Lumière du soleil entre les colonnes du temple de Karnak",
+    "de": "Sonnenlicht zwischen den Säulen des Karnak-Tempels"
+  },
+  "Sunset Nile Dinner Cruise": {
+    "ru": "Круиз с ужином на закате по Нилу",
+    "fr": "Dîner-croisière au coucher du soleil sur le Nil",
+    "de": "Nil-Dinner-Kreuzfahrt bei Sonnenuntergang"
+  },
+  "Support local": {
+    "ru": "Поддержка местных",
+    "fr": "Soutenir localement",
+    "de": "Unterstützen Sie vor Ort"
+  },
+  "Support when needed": {
+    "ru": "Поддержка, когда это необходимо",
+    "fr": "Accompagnement en cas de besoin",
+    "de": "Unterstützung bei Bedarf"
+  },
+  "Switch to dark mode": {
+    "ru": "Переключиться в темный режим",
+    "fr": "Passer en mode sombre",
+    "de": "Wechseln Sie in den Dunkelmodus"
+  },
+  "Switch to light mode": {
+    "ru": "Переключиться в светлый режим",
+    "fr": "Passer en mode lumière",
+    "de": "Wechseln Sie in den Lichtmodus"
+  },
+  "THESIS: Make a human-confirmed private booking feel effortless; refuse the generic checkout funnel. OWN-WORLD: Warm ivory or night-navy canvas, editorial Cormorant headings, precise Manrope copy, orange route linework, thin papyrus borders, and Egypt-at-sunset photography. STORY: Understand the six-step request process, trust the no-online-payment promise, and know human help is available. FIRST VIEWPORT: Shared navigation above a compact 44/56 editorial split—title and route at left, dominant felucca/temple panorama at right—with the six-step heading immediately below. FORM: Approved-comp reproduction, position 1 of 1, seed key APPROVED-HOW-BOOKING-WORKS-20261001. FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md": {
+    "ru": "ТЕЗИС: Сделайте так, чтобы частное бронирование, подтвержденное человеком, было легким; отказаться от общей воронки оформления заказа. СОБСТВЕННЫЙ МИР: холст цвета слоновой кости или темно-синего цвета, редакционные заголовки «Баклан», точная копия Manrope, оранжевые линии маршрута, тонкие рамки из папируса и фотографии Египта на закате. ИСТОРИЯ: Поймите шестиэтапный процесс запроса, доверьтесь обещанию об отказе от онлайн-платежей и знайте, что человеческая помощь доступна. ПЕРВОЕ ОБОРУДОВАНИЕ: общая навигация над компактным редакционным разделением 44/56 – заголовок и маршрут слева, доминирующая панорама фелюги/храма справа – с шестиступенчатым заголовком непосредственно под ним. ФОРМА: Воспроизведение Approved-comp, позиция 1 из 1, начальный ключ APPROVED-HOW-BOOKING-WORKS-20261001. ФИНИШ: непроверенный и недокументированный – незавершенный; эта сборка заканчивается финальным обзором, вердиктом и DESIGN.md",
+    "fr": "THÈSE : Faites en sorte qu'une réservation privée confirmée par un humain se sente sans effort ; refuser l'entonnoir de paiement générique. PROPRE MONDE : toile chaude ivoire ou bleu marine nocturne, titres éditoriaux Cormorant, copie précise de Manrope, lignes de route orange, fines bordures de papyrus et photographie de l'Égypte au coucher du soleil. HISTOIRE : Comprenez le processus de demande en six étapes, faites confiance à la promesse de non-paiement en ligne et sachez qu'une aide humaine est disponible. PREMIER VIEWPORT : navigation partagée au-dessus d'une division éditoriale compacte 44/56 – titre et itinéraire à gauche, panorama dominant felouque/temple à droite – avec le titre en six étapes immédiatement en dessous. FORMULAIRE : reproduction de la composition approuvée, position 1 sur 1, clé de départ APPROVED-HOW-BOOKING-WORKS-20261001. FINITION : non révisé et non documenté signifie inachevé ; cette version se termine par l'examen final, le verdict et DESIGN.md",
+    "de": "THESE: Sorgen Sie dafür, dass sich eine von Menschen bestätigte Privatbuchung mühelos anfühlt. Lehnen Sie den generischen Checkout-Trichter ab. EIGENE WELT: Warme elfenbeinfarbene oder nachtblaue Leinwand, redaktionelle Kormoran-Überschriften, präzise Manrope-Kopie, orangefarbene Routenlinien, dünne Papyrusränder und Ägypten-bei-Sonnenuntergang-Fotografie. GESCHICHTE: Verstehen Sie den sechsstufigen Anfrageprozess, vertrauen Sie dem Versprechen, keine Online-Zahlungen vorzunehmen, und wissen Sie, dass menschliche Hilfe verfügbar ist. ERSTER ANSICHTSPORT: Gemeinsame Navigation über einer kompakten redaktionellen Aufteilung im Verhältnis 44/56 – Titel und Route links, dominantes Feluken-/Tempelpanorama rechts – mit der sechsstufigen Überschrift direkt darunter. FORM: Approved-Comp-Reproduktion, Position 1 von 1, Startschlüssel APPROVED-HOW-BOOKING-WORKS-20261001. ENDE: unrezensiert und undokumentiert ist unvollendet; Dieser Build endet mit der Endüberprüfung, dem Urteil und DESIGN.md"
+  },
+  "Tap on the map or drag the marker to choose the exact location.": {
+    "ru": "Нажмите на карту или перетащите маркер, чтобы выбрать точное местоположение.",
+    "fr": "Appuyez sur la carte ou faites glisser le marqueur pour choisir l'emplacement exact.",
+    "de": "Tippen Sie auf die Karte oder ziehen Sie die Markierung, um den genauen Standort auszuwählen."
+  },
+  "Tell us about your plans, questions or anything else...": {
+    "ru": "Расскажите нам о своих планах, вопросах или чем-то еще...",
+    "fr": "Parlez-nous de vos projets, de vos questions ou de toute autre chose...",
+    "de": "Erzählen Sie uns von Ihren Plänen, Fragen oder etwas anderem ..."
+  },
+  "Tell us the details and we'll get in touch to confirm your booking.": {
+    "ru": "Сообщите нам детали и мы свяжемся с вами для подтверждения бронирования.",
+    "fr": "Dites-nous les détails et nous vous contacterons pour confirmer votre réservation.",
+    "de": "Teilen Sie uns die Details mit und wir werden uns mit Ihnen in Verbindung setzen, um Ihre Buchung zu bestätigen."
+  },
+  "Tell us your dates, interests and travel style.": {
+    "ru": "Расскажите нам о своих датах, интересах и стиле путешествия.",
+    "fr": "Dites-nous vos dates, vos intérêts et votre style de voyage.",
+    "de": "Teilen Sie uns Ihre Daten, Interessen und Ihren Reisestil mit."
+  },
+  "Temple of Hatshepsut": {
+    "ru": "Храм Хатшепсут",
+    "fr": "Temple d'Hatchepsout",
+    "de": "Tempel der Hatschepsut"
+  },
+  "Terminal, hotel entrance, room number…": {
+    "ru": "Терминал, вход в отель, номер комнаты…",
+    "fr": "Terminal, entrée de l’hôtel, numéro de chambre…",
+    "de": "Terminal, Hoteleingang, Zimmernummer…"
+  },
+  "The Colossi of Memnon at dawn": {
+    "ru": "Колоссы Мемнона на рассвете",
+    "fr": "Les colosses de Memnon à l'aube",
+    "de": "Die Memnonkolosse im Morgengrauen"
+  },
+  "The Colossi of Memnon in the warm morning light": {
+    "ru": "Колоссы Мемнона в теплом утреннем свете",
+    "fr": "Les Colosses de Memnon dans la chaude lumière du matin",
+    "de": "Die Memnonkolosse im warmen Morgenlicht"
+  },
+  "The Nile": {
+    "ru": "Нил",
+    "fr": "Le Nil",
+    "de": "Der Nil"
+  },
+  "The Nile at golden hour": {
+    "ru": "Нил в золотой час",
+    "fr": "Le Nil à l'heure d'or",
+    "de": "Der Nil zur goldenen Stunde"
+  },
+  "The Pyramids of Giza at sunset": {
+    "ru": "Пирамиды Гизы на закате",
+    "fr": "Les pyramides de Gizeh au coucher du soleil",
+    "de": "Die Pyramiden von Gizeh bei Sonnenuntergang"
+  },
+  "The horizon we keep.": {
+    "ru": "Горизонт, который мы сохраняем.",
+    "fr": "L'horizon que nous gardons.",
+    "de": "Den Horizont behalten wir."
+  },
+  "The magnificent temples of Abu Simbel": {
+    "ru": "Великолепные храмы Абу-Симбела",
+    "fr": "Les magnifiques temples d'Abou Simbel",
+    "de": "Die prächtigen Tempel von Abu Simbel"
+  },
+  "The route we follow.": {
+    "ru": "Маршрут, которым мы следуем.",
+    "fr": "L'itinéraire que nous suivons.",
+    "de": "Die Route, der wir folgen."
+  },
+  "TheVTravel home": {
+    "ru": "Главная страница TheVTravel",
+    "fr": "TheVVoyage à la maison",
+    "de": "TheVTravel nach Hause"
+  },
+  "TheVTravel — Journeys across Egypt": {
+    "ru": "TheVTravel — Путешествия по Египту",
+    "fr": "TheVTravel — Voyages à travers l’Égypte",
+    "de": "TheVTravel – Reisen durch Ägypten"
+  },
+  "TheVTravel. All rights reserved.": {
+    "ru": "TheVTravel. Все права защищены.",
+    "fr": "LeVTravel. Tous droits réservés.",
+    "de": "TheVTravel. Alle Rechte vorbehalten."
+  },
+  "Timeless heritage": {
+    "ru": "Вневременное наследие",
+    "fr": "Un patrimoine intemporel",
+    "de": "Zeitloses Erbe"
+  },
+  "Timeless places. Personal pace.": {
+    "ru": "Вечные места. Персональный темп.",
+    "fr": "Des lieux intemporels. Rythme personnel.",
+    "de": "Zeitlose Orte. Persönliches Tempo."
+  },
+  "Timeless places. Seamless journeys.": {
+    "ru": "Вечные места. Бесшовные путешествия.",
+    "fr": "Des lieux intemporels. Des voyages fluides.",
+    "de": "Zeitlose Orte. Nahtlose Reisen."
+  },
+  "Toggle navigation": {
+    "ru": "Переключить навигацию",
+    "fr": "Basculer la navigation",
+    "de": "Navigation umschalten"
+  },
+  "Transfer request": {
+    "ru": "Запрос на трансфер",
+    "fr": "Demande de transfert",
+    "de": "Transferanfrage"
+  },
+  "Transfer request progress": {
+    "ru": "Этапы запроса трансфера",
+    "fr": "Étapes de la demande de transfert",
+    "de": "Fortschritt der Transferanfrage"
+  },
+  "Transfer request sent": {
+    "ru": "Запрос на трансфер отправлен",
+    "fr": "Demande de transfert envoyée",
+    "de": "Transferanfrage gesendet"
+  },
+  "Travel comfortably with a dedicated driver throughout your journey.": {
+    "ru": "Путешествуйте с комфортом с опытным водителем на протяжении всего путешествия.",
+    "fr": "Voyagez confortablement avec un chauffeur dédié tout au long de votre trajet.",
+    "de": "Reisen Sie während Ihrer gesamten Reise bequem mit einem engagierten Fahrer."
+  },
+  "Travel date": {
+    "ru": "Дата поездки",
+    "fr": "Date du voyage",
+    "de": "Reisedatum"
+  },
+  "Travel in Egypt should feel personal, unhurried and effortless. We believe the best journeys are built on listening closely, sharing honest advice and handling the details with care. No scripts—just thoughtful planning and local expertise you can rely on.": {
+    "ru": "Путешествие в Египет должно быть личным, неспешным и легким. Мы считаем, что лучшие путешествия строятся на том, чтобы внимательно слушать, делиться честными советами и внимательно относиться к деталям. Никаких сценариев — только продуманное планирование и местный опыт, на который можно положиться.",
+    "fr": "Voyager en Égypte doit être personnel, sans hâte et sans effort. Nous pensons que les meilleurs voyages reposent sur une écoute attentive, le partage de conseils honnêtes et le traitement des détails avec soin. Pas de scripts, juste une planification réfléchie et une expertise locale sur laquelle vous pouvez compter.",
+    "de": "Reisen in Ägypten sollten sich persönlich, ohne Eile und mühelos anfühlen. Wir glauben, dass die besten Reisen darauf basieren, genau zuzuhören, ehrliche Ratschläge zu geben und sorgfältig mit den Details umzugehen. Keine Skripte – nur durchdachte Planung und lokales Fachwissen, auf das Sie sich verlassen können."
+  },
+  "Travel in comfort, every step of the way.": {
+    "ru": "Путешествуйте с комфортом на каждом этапе пути.",
+    "fr": "Voyagez confortablement, à chaque étape du chemin.",
+    "de": "Reisen Sie bequem, bei jedem Schritt."
+  },
+  "Travel insurance is not included. We recommend arranging suitable cover before your trip.": {
+    "ru": "Туристическая страховка не включена. Мы рекомендуем организовать подходящее страховое покрытие перед поездкой.",
+    "fr": "L'assurance voyage n'est pas incluse. Nous vous recommandons de souscrire une couverture adaptée avant votre voyage.",
+    "de": "Eine Reiseversicherung ist nicht inbegriffen. Wir empfehlen Ihnen, vor Ihrer Reise einen geeigneten Versicherungsschutz zu arrangieren."
+  },
+  "Travel mindfully": {
+    "ru": "Путешествуйте осознанно",
+    "fr": "Voyagez en pleine conscience",
+    "de": "Reisen Sie achtsam"
+  },
+  "Travel well. Leave only what is good.": {
+    "ru": "Путешествуйте хорошо. Оставьте только хорошее.",
+    "fr": "Voyagez bien. Ne laissez que ce qui est bon.",
+    "de": "Reisen Sie gut. Lass nur das Gute übrig."
+  },
+  "Travel with purpose": {
+    "ru": "Путешествуйте с целью",
+    "fr": "Voyager avec un but",
+    "de": "Reisen Sie mit Absicht"
+  },
+  "Travel with your own companions, at your own pace.": {
+    "ru": "Путешествуйте со своими спутниками в своем собственном темпе.",
+    "fr": "Voyagez avec vos propres compagnons, à votre rythme.",
+    "de": "Reisen Sie mit Ihren eigenen Begleitern in Ihrem eigenen Tempo."
+  },
+  "Traveled in": {
+    "ru": "Путешествовал в",
+    "fr": "A voyagé dans",
+    "de": "Reist ein"
+  },
+  "Traveler moments (": {
+    "ru": "Моменты путешественника (",
+    "fr": "Moments de voyageur (",
+    "de": "Momente des Reisenden ("
+  },
+  "Travelers": {
+    "ru": "Путешественники",
+    "fr": "Voyageurs",
+    "de": "Reisende"
+  },
+  "Trip details": {
+    "ru": "Детали поездки",
+    "fr": "Détails du voyage",
+    "de": "Reisedetails"
+  },
+  "Trip type": {
+    "ru": "Тип поездки",
+    "fr": "Type de voyage",
+    "de": "Reisetyp"
+  },
+  "Try another destination or interest.": {
+    "ru": "Попробуйте другое направление или интерес.",
+    "fr": "Essayez une autre destination ou un autre intérêt.",
+    "de": "Versuchen Sie es mit einem anderen Ziel oder Interesse."
+  },
+  "Under 1 year": {
+    "ru": "Менее 1 года",
+    "fr": "Moins de 1 an",
+    "de": "Unter 1 Jahr"
+  },
+  "United Arab Emirates": {
+    "ru": "Объединенные Арабские Эмираты",
+    "fr": "Émirats arabes unis",
+    "de": "Vereinigte Arabische Emirate"
+  },
+  "United Kingdom": {
+    "ru": "Великобритания",
+    "fr": "Royaume-Uni",
+    "de": "Vereinigtes Königreich"
+  },
+  "United States": {
+    "ru": "Соединенные Штаты",
+    "fr": "États-Unis",
+    "de": "Vereinigte Staaten"
+  },
+  "Unwind in a beautiful setting with every detail planned around your pace.": {
+    "ru": "Расслабьтесь в красивой обстановке, где каждая деталь продумана в соответствии с вашим темпом.",
+    "fr": "Détendez-vous dans un cadre magnifique avec chaque détail planifié à votre rythme.",
+    "de": "Entspannen Sie sich in einer wunderschönen Umgebung, bei der jedes Detail auf Ihr Tempo abgestimmt ist."
+  },
+  "Use current location": {
+    "ru": "Использовать текущее местоположение",
+    "fr": "Utiliser l'emplacement actuel",
+    "de": "Aktuellen Standort verwenden"
+  },
+  "Valley of the Kings": {
+    "ru": "Долина царей",
+    "fr": "Vallée des Rois",
+    "de": "Tal der Könige"
+  },
+  "Verified traveler": {
+    "ru": "Проверенный путешественник",
+    "fr": "Voyageur vérifié",
+    "de": "Verifizierter Reisender"
+  },
+  "View all journeys": {
+    "ru": "Все путешествия",
+    "fr": "Voir tous les voyages",
+    "de": "Alle Reisen ansehen"
+  },
+  "View journey": {
+    "ru": "Подробнее",
+    "fr": "Voir le voyage",
+    "de": "Reise ansehen"
+  },
+  "Visit beautiful Philae Temple and enjoy a scenic boat ride in Aswan.": {
+    "ru": "Посетите красивый храм Филе и насладитесь живописной прогулкой на лодке в Асуане.",
+    "fr": "Visitez le magnifique temple de Philae et profitez d'une promenade panoramique en bateau à Assouan.",
+    "de": "Besuchen Sie den wunderschönen Philae-Tempel und genießen Sie eine malerische Bootsfahrt in Assuan."
+  },
+  "Visit the Pyramids, Egyptian Museum and Khan El Khalili Bazaar.": {
+    "ru": "Посетите пирамиды, Египетский музей и базар Хан-эль-Халили.",
+    "fr": "Visitez les pyramides, le musée égyptien et le bazar Khan El Khalili.",
+    "de": "Besuchen Sie die Pyramiden, das Ägyptische Museum und den Khan El Khalili-Basar."
+  },
+  "We believe small choices create a better experience for everyone.": {
+    "ru": "Мы считаем, что небольшой выбор создает лучший опыт для всех.",
+    "fr": "Nous pensons que les petits choix créent une meilleure expérience pour chacun.",
+    "de": "Wir glauben, dass kleine Entscheidungen ein besseres Erlebnis für alle schaffen."
+  },
+  "We care for the places we share with you and the people who welcome us. Our choices support local communities, respect culture and protect the beauty of Egypt.": {
+    "ru": "Мы заботимся о местах, которые делим с вами, и о людях, которые нас приветствуют. Наш выбор поддерживает местные сообщества, уважает культуру и защищает красоту Египта.",
+    "fr": "Nous prenons soin des lieux que nous partageons avec vous et des personnes qui nous accueillent. Nos choix soutiennent les communautés locales, respectent la culture et protègent la beauté de l’Égypte.",
+    "de": "Wir kümmern uns um die Orte, die wir mit Ihnen teilen, und um die Menschen, die uns willkommen heißen. Unsere Entscheidungen unterstützen lokale Gemeinschaften, respektieren die Kultur und schützen die Schönheit Ägyptens."
+  },
+  "We check availability and send you a personalized confirmation.": {
+    "ru": "Мы проверяем наличие мест и высылаем вам персонализированное подтверждение.",
+    "fr": "Nous vérifions la disponibilité et vous envoyons une confirmation personnalisée.",
+    "de": "Wir prüfen die Verfügbarkeit und senden Ihnen eine personalisierte Bestätigung."
+  },
+  "We confirm availability": {
+    "ru": "Мы подтверждаем наличие",
+    "fr": "Nous confirmons la disponibilité",
+    "de": "Wir bestätigen die Verfügbarkeit"
+  },
+  "We confirm every detail": {
+    "ru": "Мы подтверждаем каждую деталь",
+    "fr": "Nous confirmons chaque détail",
+    "de": "Wir bestätigen jedes Detail"
+  },
+  "We connect the timeless places of Egypt with a travel experience that is smooth, private and deeply local.": {
+    "ru": "Мы соединяем вневременные места Египта с незабываемыми, приватными и глубоко местными путешествиями.",
+    "fr": "Nous connectons les lieux intemporels de l'Égypte avec une expérience de voyage fluide, privée et profondément locale.",
+    "de": "Wir verbinden die zeitlosen Orte Ägyptens mit einem Reiseerlebnis, das reibungslos, privat und zutiefst lokal ist."
+  },
+  "We create private journeys and transfers across Egypt.": {
+    "ru": "Мы создаем частные путешествия и трансферы по Египту.",
+    "fr": "Nous créons des voyages et des transferts privés à travers l'Égypte.",
+    "de": "Wir organisieren private Reisen und Transfers in ganz Ägypten."
+  },
+  "We create private journeys and transfers shaped around you—planned by real people who know Egypt and confirm every detail before you travel.": {
+    "ru": "Мы создаем частные поездки и трансферы, созданные специально для вас, запланированные реальными людьми, которые знают Египет и подтверждают каждую деталь перед поездкой.",
+    "fr": "Nous créons des voyages et des transferts privés façonnés autour de vous, planifiés par de vraies personnes qui connaissent l'Égypte et confirment chaque détail avant votre voyage.",
+    "de": "Wir erstellen private Reisen und Transfers, die auf Sie zugeschnitten sind – geplant von echten Menschen, die Ägypten kennen und jedes Detail vor Ihrer Reise bestätigen."
+  },
+  "We encourage responsible choices that care for nature and heritage.": {
+    "ru": "Мы поощряем ответственный выбор, который заботится о природе и наследии.",
+    "fr": "Nous encourageons des choix responsables respectueux de la nature et du patrimoine.",
+    "de": "Wir fördern verantwortungsvolle Entscheidungen, die die Natur und das Erbe schützen."
+  },
+  "We get in touch with you": {
+    "ru": "Мы свяжемся с вами",
+    "fr": "Nous prenons contact avec vous",
+    "de": "Wir nehmen Kontakt zu Ihnen auf"
+  },
+  "We listen carefully to understand your travel style.": {
+    "ru": "Мы внимательно слушаем, чтобы понять ваш стиль путешествия.",
+    "fr": "Nous écoutons attentivement pour comprendre votre style de voyage.",
+    "de": "Wir hören aufmerksam zu, um Ihren Reisestil zu verstehen."
+  },
+  "We live and work here. You benefit from trusted relationships and up-to-date local insight.": {
+    "ru": "Мы живем и работаем здесь. Вы получаете выгоду от надежных отношений и актуальной информации о местных условиях.",
+    "fr": "Nous vivons et travaillons ici. Vous bénéficiez de relations de confiance et d’informations locales actualisées.",
+    "de": "Wir leben und arbeiten hier. Sie profitieren von vertrauensvollen Beziehungen und aktuellen lokalen Erkenntnissen."
+  },
+  "We plan your journey and confirm everything with you.": {
+    "ru": "Мы планируем ваше путешествие и все согласовываем с вами.",
+    "fr": "Nous planifions votre voyage et confirmons tout avec vous.",
+    "de": "Wir planen Ihre Reise und stimmen alles mit Ihnen ab."
+  },
+  "We promote respectful travel and meaningful connections.": {
+    "ru": "Мы пропагандируем уважительные путешествия и значимые связи.",
+    "fr": "Nous favorisons les voyages respectueux et les relations significatives.",
+    "de": "Wir fördern respektvolles Reisen und sinnvolle Verbindungen."
+  },
+  "We reply by message, every day.": {
+    "ru": "Мы отвечаем сообщениями каждый день.",
+    "fr": "Nous répondons par message, tous les jours.",
+    "de": "Wir antworten jeden Tag per Nachricht."
+  },
+  "We shape your journey with the right places and practical detail.": {
+    "ru": "Мы формируем ваше путешествие с помощью правильных мест и практических деталей.",
+    "fr": "Nous façonnons votre voyage avec les bons endroits et les détails pratiques.",
+    "de": "Wir gestalten Ihre Reise mit den richtigen Orten und praktischen Details."
+  },
+  "We stay by your side throughout your journey in Egypt.": {
+    "ru": "Мы остаемся рядом с вами на протяжении всего вашего путешествия по Египту.",
+    "fr": "Nous restons à vos côtés tout au long de votre voyage en Egypte.",
+    "de": "Wir bleiben während Ihrer gesamten Reise in Ägypten an Ihrer Seite."
+  },
+  "We will review your request and get back to you shortly with availability and price.": {
+    "ru": "Мы рассмотрим ваш запрос и в ближайшее время свяжемся с вами, чтобы сообщить о наличии и цене.",
+    "fr": "Nous examinerons votre demande et vous répondrons sous peu avec la disponibilité et le prix.",
+    "de": "Wir werden Ihre Anfrage prüfen und uns in Kürze mit Verfügbarkeit und Preis bei Ihnen melden."
+  },
+  "We work with local partners and support local livelihoods.": {
+    "ru": "Мы работаем с местными партнерами и поддерживаем местные средства к существованию.",
+    "fr": "Nous travaillons avec des partenaires locaux et soutenons les moyens de subsistance locaux.",
+    "de": "Wir arbeiten mit lokalen Partnern zusammen und unterstützen die Lebensgrundlagen vor Ort."
+  },
+  "We'll get back to you soon.": {
+    "ru": "Мы скоро свяжемся с вами.",
+    "fr": "Nous vous répondrons bientôt.",
+    "de": "Wir werden uns bald bei Ihnen melden."
+  },
+  "We're here for you": {
+    "ru": "Мы здесь для тебя",
+    "fr": "Nous sommes là pour vous",
+    "de": "Wir sind für Sie da"
+  },
+  "We're here to help.": {
+    "ru": "Мы здесь, чтобы помочь.",
+    "fr": "Nous sommes là pour vous aider.",
+    "de": "Wir sind hier, um zu helfen."
+  },
+  "We’re here to help. Our travel experts": {
+    "ru": "Мы здесь, чтобы помочь. Наши эксперты по путешествиям",
+    "fr": "Nous sommes là pour vous aider. Nos experts en voyages",
+    "de": "Wir sind hier, um zu helfen. Unsere Reiseexperten"
+  },
+  "What can we help you with?": {
+    "ru": "Чем мы можем вам помочь?",
+    "fr": "En quoi pouvons-nous vous aider ?",
+    "de": "Wobei können wir Ihnen helfen?"
+  },
+  "What if I need to change or cancel my request?": {
+    "ru": "Что делать, если мне нужно изменить или отменить свой запрос?",
+    "fr": "Que faire si je dois modifier ou annuler ma demande ?",
+    "de": "Was passiert, wenn ich meine Anfrage ändern oder stornieren muss?"
+  },
+  "What to wear": {
+    "ru": "Что надеть",
+    "fr": "Que porter",
+    "de": "Was man anziehen soll"
+  },
+  "What travelers say": {
+    "ru": "Что говорят путешественники",
+    "fr": "Ce que disent les voyageurs",
+    "de": "Was Reisende sagen"
+  },
+  "WhatsApp contact is not configured": {
+    "ru": "Контакт WhatsApp не настроен",
+    "fr": "Le contact WhatsApp n'est pas configuré",
+    "de": "WhatsApp-Kontakt ist nicht konfiguriert"
+  },
+  "WhatsApp number (with country code)": {
+    "ru": "Номер WhatsApp (с кодом страны)",
+    "fr": "Numéro WhatsApp (avec code pays)",
+    "de": "WhatsApp-Nummer (mit Ländervorwahl)"
+  },
+  "WhatsApp unavailable": {
+    "ru": "WhatsApp недоступен",
+    "fr": "WhatsApp indisponible",
+    "de": "WhatsApp nicht verfügbar"
+  },
+  "What’s included in the price?": {
+    "ru": "Что включено в цену?",
+    "fr": "Qu'est-ce qui est inclus dans le prix ?",
+    "de": "Was ist im Preis inbegriffen?"
+  },
+  "What’s included in this journey": {
+    "ru": "Что включено в это путешествие",
+    "fr": "Ce qui est inclus dans ce voyage",
+    "de": "Was ist in dieser Reise enthalten?"
+  },
+  "Where we help": {
+    "ru": "Где мы помогаем",
+    "fr": "Où nous aidons",
+    "de": "Wo wir helfen"
+  },
+  "White Desert Adventure": {
+    "ru": "Приключение в белой пустыне",
+    "fr": "Aventure dans le désert blanc",
+    "de": "Abenteuer in der Weißen Wüste"
+  },
+  "Why travel with us": {
+    "ru": "Почему стоит путешествовать с нами",
+    "fr": "Pourquoi voyager avec nous",
+    "de": "Warum mit uns reisen?"
+  },
+  "World-famous tombs and temples": {
+    "ru": "Всемирно известные гробницы и храмы",
+    "fr": "Tombes et temples de renommée mondiale",
+    "de": "Weltberühmte Gräber und Tempel"
+  },
+  "Yes. Email support@thevtravel.com with your booking details and the change or question.": {
+    "ru": "Да. Отправьте электронное письмо по адресу support@thevtravel.com, указав данные вашего бронирования, а также изменение или вопрос.",
+    "fr": "Oui. Envoyez un e-mail à support@thevtravel.com avec les détails de votre réservation et le changement ou la question.",
+    "de": "Ja. Senden Sie eine E-Mail an support@thevtravel.com mit Ihren Buchungsdaten und der Änderung oder Frage."
+  },
+  "Yes. Private transfers can be requested independently of a journey.": {
+    "ru": "Да. Индивидуальный трансфер можно заказать независимо от поездки.",
+    "fr": "Oui. Des transferts privés peuvent être demandés indépendamment d'un trajet.",
+    "de": "Ja. Privattransfers können unabhängig von einer Reise angefragt werden."
+  },
+  "Yes. Share your interests, pace and priorities in your request so the journey can be shaped around you.": {
+    "ru": "Да. Поделитесь своими интересами, темпом и приоритетами в своем запросе, чтобы путешествие могло быть сформировано вокруг вас.",
+    "fr": "Oui. Partagez vos intérêts, votre rythme et vos priorités dans votre demande afin que le voyage puisse être façonné autour de vous.",
+    "de": "Ja. Teilen Sie in Ihrer Anfrage Ihre Interessen, Ihr Tempo und Ihre Prioritäten mit, damit die Reise nach Ihren Wünschen gestaltet werden kann."
+  },
+  "Yes. Tell us your dates, interests and preferred pace and we’ll help shape the right private journey.": {
+    "ru": "Да. Сообщите нам ваши даты, интересы и предпочтительный темп, и мы поможем сформировать правильное частное путешествие.",
+    "fr": "Oui. Dites-nous vos dates, vos intérêts et votre rythme préféré et nous vous aiderons à façonner le bon voyage privé.",
+    "de": "Ja. Teilen Sie uns Ihre Daten, Interessen und Ihr bevorzugtes Tempo mit und wir helfen Ihnen, die richtige private Reise zu gestalten."
+  },
+  "Yes. We can arrange private airport and city-to-city transfers.": {
+    "ru": "Да. Мы можем организовать частный трансфер из аэропорта и города в город.",
+    "fr": "Oui. Nous pouvons organiser des transferts privés d’aéroport et de ville à ville.",
+    "de": "Ja. Wir können private Flughafen- und Stadt-zu-Stadt-Transfers arrangieren."
+  },
+  "You choose the date. We take care of the rest.": {
+    "ru": "Вы выбираете дату. Мы позаботимся обо всем остальном.",
+    "fr": "Vous choisissez la date. Nous nous occupons du reste.",
+    "de": "Sie wählen das Datum. Wir kümmern uns um den Rest."
+  },
+  "You might also like": {
+    "ru": "Вам также может понравиться",
+    "fr": "Vous aimerez peut-être aussi",
+    "de": "Das könnte Ihnen auch gefallen"
+  },
+  "You pay securely at the start of your trip. No online payment.": {
+    "ru": "Вы безопасно платите в начале поездки. Никакой онлайн-оплаты.",
+    "fr": "Vous payez en toute sécurité au début de votre voyage. Pas de paiement en ligne.",
+    "de": "Sie bezahlen sicher zu Beginn Ihrer Reise. Keine Online-Zahlung."
+  },
+  "Your browser does not support current location. Search for an address or select it on the map instead.": {
+    "ru": "Ваш браузер не поддерживает текущее местоположение. Найдите адрес или выберите его на карте.",
+    "fr": "Votre navigateur ne prend pas en charge la localisation actuelle. Recherchez une adresse ou sélectionnez-la plutôt sur la carte.",
+    "de": "Ihr Browser unterstützt den aktuellen Standort nicht. Suchen Sie nach einer Adresse oder wählen Sie sie stattdessen auf der Karte aus."
+  },
+  "Your contact details": {
+    "ru": "Ваши контактные данные",
+    "fr": "Vos coordonnées",
+    "de": "Ihre Kontaktdaten"
+  },
+  "Your current location is unavailable.": {
+    "ru": "Ваше текущее местоположение недоступно.",
+    "fr": "Votre position actuelle n'est pas disponible.",
+    "de": "Ihr aktueller Standort ist nicht verfügbar."
+  },
+  "Your driver and guide meet you at your hotel or preferred location.": {
+    "ru": "Ваш водитель и гид встретят вас в вашем отеле или выбранном вами месте.",
+    "fr": "Votre chauffeur et votre guide vous attendent à votre hôtel ou à l'endroit préféré.",
+    "de": "Ihr Fahrer und Reiseleiter treffen Sie in Ihrem Hotel oder an Ihrem bevorzugten Ort."
+  },
+  "Your driver will meet you at your hotel or preferred location in Luxor.": {
+    "ru": "Ваш водитель встретит вас в отеле или в выбранном вами месте в Луксоре.",
+    "fr": "Votre chauffeur vous attendra à votre hôtel ou à votre emplacement préféré à Louxor.",
+    "de": "Ihr Fahrer wird Sie in Ihrem Hotel oder an Ihrem bevorzugten Ort in Luxor abholen."
+  },
+  "Your driver will take you back to your location with time to rest or continue your day.": {
+    "ru": "Ваш водитель отвезет вас обратно к вам, чтобы у вас было время отдохнуть или продолжить день.",
+    "fr": "Votre chauffeur vous ramènera à votre emplacement avec le temps de vous reposer ou de continuer votre journée.",
+    "de": "Ihr Fahrer bringt Sie zurück zu Ihrem Standort und hat Zeit, sich auszuruhen oder Ihren Tag fortzusetzen."
+  },
+  "Your hotel or preferred location in Luxor.": {
+    "ru": "Ваш отель или предпочитаемое место в Луксоре.",
+    "fr": "Votre hôtel ou emplacement préféré à Louxor.",
+    "de": "Ihr Hotel oder Ihr bevorzugter Standort in Luxor."
+  },
+  "Your journey in 6 easy steps": {
+    "ru": "Ваше путешествие за 6 простых шагов",
+    "fr": "Votre voyage en 6 étapes faciles",
+    "de": "Ihre Reise in 6 einfachen Schritten"
+  },
+  "Your journey is crafted around you. From the pace to the places, every choice is yours.": {
+    "ru": "Ваше путешествие создано вокруг вас. От темпа до мест — каждый выбор за вами.",
+    "fr": "Votre voyage est construit autour de vous. Du rythme aux lieux, chaque choix vous appartient.",
+    "de": "Ihre Reise dreht sich um Sie herum. Vom Tempo bis zu den Orten haben Sie die Wahl."
+  },
+  "Your message is ready to send. Online delivery is not connected yet—please email hello@thevtravel.com.": {
+    "ru": "Ваше сообщение готово к отправке. Онлайн-доставка пока не подключена — напишите на адрес hello@thevtravel.com.",
+    "fr": "Votre message est prêt à être envoyé. La livraison en ligne n'est pas encore connectée : veuillez envoyer un e-mail à hello@thevtravel.com.",
+    "de": "Ihre Nachricht ist zum Senden bereit. Die Online-Lieferung ist noch nicht verbunden – bitte senden Sie eine E-Mail an hello@thevtravel.com."
+  },
+  "Your request could not be saved. Please try again.": {
+    "ru": "Ваш запрос не удалось сохранить. Пожалуйста, попробуйте еще раз.",
+    "fr": "Votre demande n'a pas pu être enregistrée. Veuillez réessayer.",
+    "de": "Ihre Anfrage konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+  },
+  "You’re all set!": {
+    "ru": "Все готово!",
+    "fr": "Vous êtes prêt !",
+    "de": "Sie sind bereit!"
+  },
+  "You’ve seen all matching journeys.": {
+    "ru": "Вы видели все подходящие путешествия.",
+    "fr": "Vous avez vu tous les voyages correspondants.",
+    "de": "Sie haben alle passenden Reisen gesehen."
+  },
+  "about booking your private journey with us.": {
+    "ru": "о бронировании вашего частного путешествия у нас.",
+    "fr": "sur la réservation de votre voyage privé avec nous.",
+    "de": "Informationen zur Buchung Ihrer Privatreise bei uns."
+  },
+  "and consent to being contacted about my enquiry.": {
+    "ru": "и согласие на то, чтобы со мной связались по поводу моего запроса.",
+    "fr": "et j'accepte d'être contacté au sujet de ma demande.",
+    "de": "und willige ein, dass ich bezüglich meiner Anfrage kontaktiert werde."
+  },
+  "and vibrant life.": {
+    "ru": "и яркая жизнь.",
+    "fr": "et une vie vibrante.",
+    "de": "und pulsierendes Leben."
+  },
+  "at your own pace.": {
+    "ru": "в своем собственном темпе.",
+    "fr": "à votre rythme.",
+    "de": "in Ihrem eigenen Tempo."
+  },
+  "children": {
+    "ru": "дети",
+    "fr": "les enfants",
+    "de": "Kinder"
+  },
+  "contact details": {
+    "ru": "контактные данные",
+    "fr": "coordonnées",
+    "de": "Kontaktdaten"
+  },
+  "e.g. +20 10 1234 5678": {
+    "ru": "например +20 10 1234 5678",
+    "fr": "par ex. +20 10 1234 5678",
+    "de": "z.B. +20 10 1234 5678"
+  },
+  "e.g. 10 1234 5678": {
+    "ru": "например 10 1234 5678",
+    "fr": "par ex. 10 1234 5678",
+    "de": "z.B. 10 1234 5678"
+  },
+  "e.g. John Smith": {
+    "ru": "например Джон Смит",
+    "fr": "par ex. John Smith",
+    "de": "z.B. John Smith"
+  },
+  "e.g. john.smith@example.com": {
+    "ru": "например john.smith@example.com",
+    "fr": "par ex. john.smith@example.com",
+    "de": "z.B. john.smith@example.com"
+  },
+  "for your journey": {
+    "ru": "для вашего путешествия",
+    "fr": "pour ton voyage",
+    "de": "für deine Reise"
+  },
+  "found": {
+    "ru": "нашел",
+    "fr": "trouvé",
+    "de": "gefunden"
+  },
+  "hello@thevtravel.com": {
+    "ru": "hello@thevtravel.com",
+    "fr": "bonjour@thevtravel.com",
+    "de": "hello@thevtravel.com"
+  },
+  "iconic river landscapes.": {
+    "ru": "культовые речные пейзажи.",
+    "fr": "paysages fluviaux emblématiques.",
+    "de": "ikonische Flusslandschaften."
+  },
+  "infants": {
+    "ru": "младенцы",
+    "fr": "les nourrissons",
+    "de": "Kleinkinder"
+  },
+  "into ancient history.": {
+    "ru": "в древнюю историю.",
+    "fr": "dans l'histoire ancienne.",
+    "de": "in die antike Geschichte."
+  },
+  "is simple and flexible. You choose the experience,": {
+    "ru": "является простым и гибким. Вы выбираете опыт,",
+    "fr": "est simple et flexible. Vous choisissez l'expérience,",
+    "de": "ist einfach und flexibel. Sie wählen das Erlebnis,"
+  },
+  "journey": {
+    "ru": "путешествие",
+    "fr": "voyage",
+    "de": "Reise"
+  },
+  "journey together.": {
+    "ru": "путешествие вместе.",
+    "fr": "voyager ensemble.",
+    "de": "gemeinsame Reise."
+  },
+  "journeys": {
+    "ru": "путешествия",
+    "fr": "voyages",
+    "de": "Reisen"
+  },
+  "of 3": {
+    "ru": "из 3",
+    "fr": "de 3",
+    "de": "von 3"
+  },
+  "per person": {
+    "ru": "на человека",
+    "fr": "par personne",
+    "de": "pro Person"
+  },
+  "privacy policy": {
+    "ru": "политика конфиденциальности",
+    "fr": "politique de confidentialité",
+    "de": "Datenschutzrichtlinie"
+  },
+  "reviews)": {
+    "ru": "отзывы)",
+    "fr": "avis)",
+    "de": "Rezensionen)"
+  },
+  "river set the rhythm.": {
+    "ru": "река задавала ритм.",
+    "fr": "la rivière donne le rythme.",
+    "de": "Der Fluss gab den Rhythmus vor."
+  },
+  "support@thevtravel.com": {
+    "ru": "support@thevtravel.com",
+    "fr": "support@thevtravel.com",
+    "de": "support@thevtravel.com"
+  },
+  "that feels just right.": {
+    "ru": "это кажется правильным.",
+    "fr": "ça semble juste.",
+    "de": "das fühlt sich genau richtig an."
+  },
+  "the Red Sea and beyond.": {
+    "ru": "Красное море и за его пределами.",
+    "fr": "la mer Rouge et au-delà.",
+    "de": "das Rote Meer und darüber hinaus."
+  },
+  "trip details": {
+    "ru": "подробности поездки",
+    "fr": "détails du voyage",
+    "de": "Reisedetails"
+  },
+  "verified reviews": {
+    "ru": "проверенные отзывы",
+    "fr": "avis vérifiés",
+    "de": "verifizierte Bewertungen"
+  },
+  "we take care of the rest.": {
+    "ru": "мы позаботимся обо всем остальном.",
+    "fr": "nous nous occupons du reste.",
+    "de": "Wir kümmern uns um den Rest."
+  },
+  "will be happy to assist you.": {
+    "ru": "будем рады помочь вам.",
+    "fr": "se fera un plaisir de vous aider.",
+    "de": "helfen Ihnen gerne weiter."
+  },
+  "with clear replies and local insight.": {
+    "ru": "с четкими ответами и местным пониманием.",
+    "fr": "avec des réponses claires et un aperçu local.",
+    "de": "mit klaren Antworten und lokalem Einblick."
+  },
+  "with local care": {
+    "ru": "с местным уходом",
+    "fr": "avec des soins locaux",
+    "de": "mit lokaler Betreuung"
+  },
+  "your way?": {
+    "ru": "по-вашему?",
+    "fr": "à ta façon ?",
+    "de": "Dein Weg?"
+  },
+  "~ 4 hours": {
+    "ru": "~ 4 часа",
+    "fr": "~ 4 heures",
+    "de": "~ 4 Stunden"
+  },
+  "· Traveled in": {
+    "ru": "· Путешествовал",
+    "fr": "· A voyagé en",
+    "de": "· Eingereist"
+  },
+  "hours": {
+    "ru": "часы",
+    "fr": "heures",
+    "de": "Stunden"
+  },
+  "View journey:": {
+    "ru": "Посмотреть путешествие:",
+    "fr": "Voir le parcours :",
+    "de": "Reise ansehen:"
+  },
+  "Remove": {
+    "ru": "Удалить",
+    "fr": "Supprimer",
+    "de": "Entfernen"
+  },
+  "Decrease": {
+    "ru": "Уменьшение",
+    "fr": "Diminuer",
+    "de": "Abnahme"
+  },
+  "Increase": {
+    "ru": "Увеличение",
+    "fr": "Augmentation",
+    "de": "Erhöhen"
+  },
+  "Select": {
+    "ru": "Выбрать",
+    "fr": "Sélectionnez",
+    "de": "Auswählen"
+  },
+  "Country:": {
+    "ru": "Страна:",
+    "fr": "Pays :",
+    "de": "Land:"
+  },
+  "Review & confirm": {
+    "ru": "Просмотрите и подтвердите",
+    "fr": "Vérifier et confirmer",
+    "de": "Überprüfen und bestätigen"
+  },
+  "Not provided": {
+    "ru": "Не предусмотрено",
+    "fr": "Non fourni",
+    "de": "Nicht bereitgestellt"
+  },
+  "Confirm request": {
+    "ru": "Подтвердить запрос",
+    "fr": "Confirmer la demande",
+    "de": "Anfrage bestätigen"
+  },
+  "Continue": {
+    "ru": "Продолжить",
+    "fr": "Continuer",
+    "de": "Weiter"
+  },
+  "TheVTravel · Journey gallery": {
+    "ru": "TheVTravel · Галерея путешествий",
+    "fr": "TheVTravel · Galerie de voyages",
+    "de": "TheVTravel · Reisegalerie"
+  },
+  "Traveler moments": {
+    "ru": "Моменты путешественника",
+    "fr": "Moments de voyageur",
+    "de": "Reisemomente"
+  },
+  "Explore the beauty of Luxor through our official photos and real moments shared by our travelers.": {
+    "ru": "Откройте для себя красоту Луксора с помощью наших официальных фотографий и реальных моментов, которыми поделились наши путешественники.",
+    "fr": "Explorez la beauté de Louxor à travers nos photos officielles et des moments réels partagés par nos voyageurs.",
+    "de": "Entdecken Sie die Schönheit von Luxor anhand unserer offiziellen Fotos und echten Momente unserer Reisenden."
+  },
+  "Real photos and stories from travelers who experienced this journey.": {
+    "ru": "Реальные фотографии и рассказы путешественников, переживших это путешествие.",
+    "fr": "De vraies photos et histoires de voyageurs qui ont vécu ce voyage.",
+    "de": "Echte Fotos und Geschichten von Reisenden, die diese Reise erlebt haben."
+  },
+  "Search": {
+    "ru": "Поиск",
+    "fr": "Rechercher",
+    "de": "Suchen"
+  },
+  "Finding your current location": {
+    "ru": "Определение вашего текущего местоположения",
+    "fr": "Trouver votre position actuelle",
+    "de": "Finden Sie Ihren aktuellen Standort"
+  },
+  "Finding your current location…": {
+    "ru": "Поиск вашего текущего местоположения…",
+    "fr": "Trouver votre position actuelle…",
+    "de": "Finden Sie Ihren aktuellen Standort…"
+  },
+  "Confirm pickup location": {
+    "ru": "Подтвердите место получения",
+    "fr": "Confirmer le lieu de prise en charge",
+    "de": "Bestätigen Sie den Abholort"
+  },
+  "Confirm drop-off location": {
+    "ru": "Подтвердите место высадки",
+    "fr": "Confirmer le lieu de dépôt",
+    "de": "Bestätigen Sie den Abgabeort"
+  },
+  "Route & trip details": {
+    "ru": "Подробности маршрута и поездки",
+    "fr": "Détails de l'itinéraire et du voyage",
+    "de": "Routen- und Reisedetails"
+  },
+  "Pickup location": {
+    "ru": "Место получения",
+    "fr": "Lieu de prise en charge",
+    "de": "Abholort"
+  },
+  "Drop-off location": {
+    "ru": "Место высадки",
+    "fr": "Lieu de dépôt",
+    "de": "Abgabeort"
+  },
+  "Address unavailable — enter an address if known": {
+    "ru": "Адрес недоступен — введите адрес, если он известен",
+    "fr": "Adresse indisponible : entrez une adresse si elle est connue",
+    "de": "Adresse nicht verfügbar – geben Sie eine Adresse ein, falls bekannt"
+  },
+  "Address, hotel or landmark": {
+    "ru": "Адрес, отель или достопримечательность",
+    "fr": "Adresse, hôtel ou point de repère",
+    "de": "Adresse, Hotel oder Wahrzeichen"
+  },
+  "Time": {
+    "ru": "Время",
+    "fr": "Temps",
+    "de": "Zeit"
+  },
+  "Address unavailable": {
+    "ru": "Адрес недоступен",
+    "fr": "Adresse indisponible",
+    "de": "Adresse nicht verfügbar"
+  },
+  "Address details": {
+    "ru": "Детали адреса",
+    "fr": "Détails de l'adresse",
+    "de": "Adressangaben"
+  },
+  "Special requests": {
+    "ru": "Особые запросы",
+    "fr": "Demandes spéciales",
+    "de": "Sonderwünsche"
+  },
+  "None": {
+    "ru": "Нет",
+    "fr": "Aucun",
+    "de": "Keine"
+  },
+  "Submitting…": {
+    "ru": "Отправка…",
+    "fr": "Soumission…",
+    "de": "Einreichen…"
+  },
+  "Let’s plan the journey together.": {
+    "ru": "Давайте спланируем путешествие вместе.",
+    "fr": "Planifions votre voyage ensemble.",
+    "de": "Planen wir Ihre Reise gemeinsam."
+  },
+  "Egypt, planned with local care": {
+    "ru": "Египет: путешествия с заботой местных экспертов",
+    "fr": "L’Égypte, organisée avec une attention locale",
+    "de": "Ägypten, mit lokaler Sorgfalt geplant"
+  },
+  "Frequently Asked Questions": {
+    "ru": "Часто задаваемые вопросы",
+    "fr": "Questions fréquentes",
+    "de": "Häufig gestellte Fragen"
+  },
+  "Ready to plan your Egypt journey?": {
+    "ru": "Готовы спланировать путешествие по Египту?",
+    "fr": "Prêt à organiser votre voyage en Égypte ?",
+    "de": "Bereit, Ihre Ägyptenreise zu planen?"
+  },
+  "Ready to explore Egypt your way?": {
+    "ru": "Готовы открыть Египет в своём ритме?",
+    "fr": "Prêt à découvrir l’Égypte à votre rythme ?",
+    "de": "Bereit, Ägypten auf Ihre Weise zu entdecken?"
+  },
+  "Share your ideas and we'll create a journey that feels just right.": {
+    "ru": "Поделитесь идеями, и мы создадим путешествие, которое вам подходит.",
+    "fr": "Partagez vos idées et nous créerons un voyage qui vous ressemble.",
+    "de": "Teilen Sie Ihre Ideen mit uns, und wir gestalten eine Reise, die zu Ihnen passt."
+  },
+  "Select pickup location": {
+    "ru": "Выберите место посадки",
+    "fr": "Choisir le lieu de prise en charge",
+    "de": "Abholort auswählen"
+  },
+  "Select drop-off location": {
+    "ru": "Выберите место высадки",
+    "fr": "Choisir le lieu de dépose",
+    "de": "Zielort auswählen"
+  },
+  "adult": {
+    "ru": "взрослый",
+    "fr": "adulte",
+    "de": "Erwachsener"
+  },
+  "adults": {
+    "ru": "взрослых",
+    "fr": "adultes",
+    "de": "Erwachsene"
+  },
+  "Remove one adult": {
+    "ru": "Убрать одного взрослого",
+    "fr": "Retirer un adulte",
+    "de": "Einen Erwachsenen entfernen"
+  },
+  "Remove one adults": {
+    "ru": "Убрать одного взрослого",
+    "fr": "Retirer un adulte",
+    "de": "Einen Erwachsenen entfernen"
+  },
+  "Add one adults": {
+    "ru": "Добавить взрослого",
+    "fr": "Ajouter un adulte",
+    "de": "Einen Erwachsenen hinzufügen"
+  },
+  "Remove one children": {
+    "ru": "Убрать одного ребёнка",
+    "fr": "Retirer un enfant",
+    "de": "Ein Kind entfernen"
+  },
+  "Add one children": {
+    "ru": "Добавить ребёнка",
+    "fr": "Ajouter un enfant",
+    "de": "Ein Kind hinzufügen"
+  },
+  "Remove one infants": {
+    "ru": "Убрать одного младенца",
+    "fr": "Retirer un bébé",
+    "de": "Ein Baby entfernen"
+  },
+  "Add one infants": {
+    "ru": "Добавить младенца",
+    "fr": "Ajouter un bébé",
+    "de": "Ein Baby hinzufügen"
+  },
+  "Adults count": {
+    "ru": "Количество взрослых",
+    "fr": "Nombre d’adultes",
+    "de": "Anzahl der Erwachsenen"
+  },
+  "Children count": {
+    "ru": "Количество детей",
+    "fr": "Nombre d’enfants",
+    "de": "Anzahl der Kinder"
+  },
+  "Infants count": {
+    "ru": "Количество младенцев",
+    "fr": "Nombre de bébés",
+    "de": "Anzahl der Babys"
+  },
+  "Select pickup location on map": {
+    "ru": "Выбрать место посадки на карте",
+    "fr": "Choisir la prise en charge sur la carte",
+    "de": "Abholort auf der Karte auswählen"
+  },
+  "Select drop-off location on map": {
+    "ru": "Выбрать место высадки на карте",
+    "fr": "Choisir la dépose sur la carte",
+    "de": "Zielort auf der Karte auswählen"
+  },
+  "Rated {rating} out of 5 from {count} reviews": {
+    "ru": "Оценка {rating} из 5 по {count} отзывам",
+    "fr": "Note de {rating} sur 5, d’après {count} avis",
+    "de": "Bewertung {rating} von 5 aus {count} Rezensionen"
+  },
+  "{rating} out of 5, {count} reviews. Read reviews": {
+    "ru": "{rating} из 5, {count} отзывов. Читать отзывы",
+    "fr": "{rating} sur 5, {count} avis. Lire les avis",
+    "de": "{rating} von 5, {count} Rezensionen. Rezensionen lesen"
+  },
+  "Show photo {number}: {description}": {
+    "ru": "Показать фото {number}: {description}",
+    "fr": "Afficher la photo {number} : {description}",
+    "de": "Foto {number} anzeigen: {description}"
+  },
+  "Enlarge photo: {description}": {
+    "ru": "Увеличить фото: {description}",
+    "fr": "Agrandir la photo : {description}",
+    "de": "Foto vergrößern: {description}"
+  },
+  "Photo by {name}: {description}": {
+    "ru": "Фото {name}: {description}",
+    "fr": "Photo de {name} : {description}",
+    "de": "Foto von {name}: {description}"
+  },
+  "Share traveler moments by {name}": {
+    "ru": "Поделиться фотографиями {name}",
+    "fr": "Partager les photos de {name}",
+    "de": "Reisemomente von {name} teilen"
+  },
+  "Enlarge review photo: {description}": {
+    "ru": "Увеличить фото из отзыва: {description}",
+    "fr": "Agrandir la photo de l’avis : {description}",
+    "de": "Foto aus der Rezension vergrößern: {description}"
+  },
+  "Map of Egypt. Service locations: {locations}.": {
+    "ru": "Карта Египта. Места обслуживания: {locations}.",
+    "fr": "Carte de l’Égypte. Lieux desservis : {locations}.",
+    "de": "Karte von Ägypten. Serviceorte: {locations}."
+  },
+  "Privacy Policy": {
+    "ru": "Политика конфиденциальности",
+    "fr": "Politique de confidentialité",
+    "de": "Datenschutzerklärung"
+  },
+  "Terms & Conditions": {
+    "ru": "Условия использования",
+    "fr": "Conditions générales",
+    "de": "Allgemeine Geschäftsbedingungen"
+  },
+  "Content is being prepared.": {
+    "ru": "Содержание готовится.",
+    "fr": "Le contenu est en cours de préparation.",
+    "de": "Der Inhalt wird vorbereitet."
+  },
+  "Last updated": {
+    "ru": "Последнее обновление",
+    "fr": "Dernière mise à jour",
+    "de": "Zuletzt aktualisiert"
+  },
+  "Table": {
+    "ru": "Таблица",
+    "fr": "Tableau",
+    "de": "Tabelle"
+  }
+}

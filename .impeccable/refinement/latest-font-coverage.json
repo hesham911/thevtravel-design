@@ -1,0 +1,38 @@
+{
+  "manrope-500.ttf": {
+    "cyrillic": [],
+    "accents": []
+  },
+  "manrope-600.ttf": {
+    "cyrillic": [],
+    "accents": []
+  },
+  "manrope-400.ttf": {
+    "cyrillic": [],
+    "accents": []
+  },
+  "dm-sans-variable.ttf": {
+    "cyrillic": [
+      "Р",
+      "у",
+      "с",
+      "с",
+      "к",
+      "и",
+      "й",
+      "Ж",
+      "ю",
+      "я",
+      "ё"
+    ],
+    "accents": []
+  },
+  "cormorant-garamond-600.ttf": {
+    "cyrillic": [],
+    "accents": []
+  },
+  "cormorant-garamond-500.ttf": {
+    "cyrillic": [],
+    "accents": []
+  }
+}

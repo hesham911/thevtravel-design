@@ -1,0 +1,1540 @@
+{
+  "states": [
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1280,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "fr",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "light",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "light",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "light",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "journey",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "transfer",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "theme": "dark",
+      "flow": "map",
+      "overflow": 0,
+      "font": "\"DM Sans\", Manrope, Arial, sans-serif"
+    }
+  ]
+}

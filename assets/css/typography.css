@@ -1,0 +1,81 @@
+/* One shared font system. Font files are loaded once in styles.css. */
+body { font-family:var(--font-body); }
+button,input,select,textarea,output,option { font-family:var(--font-body); }
+h1,h2 { font-family:var(--font-display); text-wrap:balance; }
+h3,h4,h5,h6 { font-family:var(--font-body); }
+/* Interface headings retain the sans family, regardless of route or viewport. */
+:where(.site-footer,.contact-method,.faq-item,.faq-help,.booking-help,.payment-panel,.jb-dialog,.jd-gallery-viewer,.jd-more-menu) :is(h1,h2,h3,h4),
+.contact-method h2,.faq-help h2,.booking-help h2,.payment-panel h2,.footer-column h2,.path-item h3,.about-page h3,
+.listing-card h3,.jd-related-track .listing-card h3,.payment-note { font-family:var(--font-body); }
+input,select,textarea { font-size:16px; }
+.jb-dialog :is(h2,h3),.tf-dialog :is(h2,h3) { font-family:var(--font-body); }
+.leaflet-container { font-family:var(--font-body); }
+
+/* Journey Details hierarchy: shared across every content tab. */
+.journey-details-page {
+  --jd-section-size:36px;
+  --jd-related-heading-size:28px;
+  --jd-item-size:18px;
+  --jd-body-size:15px;
+  --jd-review-body-size:15px;
+  --jd-meta-size:12px;
+  --jd-helper-size:13px;
+  --jd-eyebrow-size:11px;
+  --jd-section-weight:500;
+  --jd-item-weight:500;
+}
+.jd-main .jd-content h2 {
+  font-family:var(--font-display);
+  font-size:var(--jd-section-size);
+  font-weight:var(--jd-section-weight);
+  line-height:1.2;
+}
+.jd-main :is(.jd-features,.jd-timeline,.jd-included,.jd-good-items) h3 {
+  font-family:var(--font-body);
+  font-size:var(--jd-item-size);
+  font-weight:var(--jd-item-weight);
+  line-height:1.35;
+  letter-spacing:0;
+}
+.jd-main .jd-content p {
+  font-size:var(--jd-body-size);
+  font-weight:400;
+  line-height:1.6;
+}
+.jd-main .jd-content .jd-eyebrow {
+  font-family:var(--font-body);
+  font-size:var(--jd-eyebrow-size);
+  font-weight:500;
+  line-height:1.4;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+}
+.jd-main .jd-timeline time { font-size:var(--jd-helper-size); font-weight:500; line-height:1.4; }
+.jd-main .jd-review-name h3 { font-size:14px; font-weight:500; line-height:1.4; letter-spacing:0; }
+.jd-main .jd-review-copy>p { font-size:var(--jd-review-body-size); font-weight:400; line-height:1.65; }
+.jd-review-name small,.jd-review-meta,.jd-traveler-line small { font-size:var(--jd-meta-size); font-weight:400; line-height:1.5; }
+.jd-review-meta strong,.jd-traveler-line strong,.jd-review-trust strong,.jd-distribution>div>span { font-weight:500; }
+.jd-main .jd-content :is(.jd-review-trust p,.jd-rating-card p) { font-size:var(--jd-helper-size); font-weight:400; line-height:1.5; }
+.jd-main .jd-recommendations>h3 {
+  font-family:var(--font-display);
+  font-size:var(--jd-related-heading-size);
+  font-weight:var(--jd-section-weight);
+  line-height:1.25;
+}
+.jd-main .listing-card-description { font-weight:400; }
+.jd-main .listing-card-meta { font-weight:400; }
+.jd-main :is(.listing-card-price strong,.listing-card-footer a) { font-weight:600; }
+.jd-desktop-nav button,.jd-bottom-nav button,.jd-more-option,.jd-gallery-toggle button { font-weight:500; }
+.jd-desktop-nav button.active,.jd-bottom-nav button.active,.jd-more-option.active,.jd-gallery-toggle button.active { font-weight:600; }
+.jd-breadcrumb,.jd-facts { font-weight:400; }
+@media(max-width:767px) {
+  .journey-details-page {
+    --jd-section-size:28px;
+    --jd-related-heading-size:24px;
+    --jd-item-size:16px;
+    --jd-body-size:14px;
+    --jd-review-body-size:14px;
+    --jd-eyebrow-size:10px;
+  }
+}
+.jd-main .listing-card-rating strong { font-weight:500; }

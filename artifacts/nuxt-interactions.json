@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Journey validation, three steps, review, Escape, scroll lock and floating actions",
+    "Transfer fields, three steps, review, success and local request persistence",
+    "Map picker, Leaflet marker and return to transfer",
+    "Progressive loading, sort/view persistence and Back scroll restoration",
+    "Theme and language persistence across refresh",
+    "Mobile navigation and Escape"
+  ],
+  "errors": []
+}

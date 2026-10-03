@@ -1,0 +1,66 @@
+[
+  {
+    "width": 320,
+    "theme": "light",
+    "legalRailHidden": true,
+    "transferAvailable": true,
+    "statusTags": true,
+    "existingRailPreserved": true
+  },
+  {
+    "width": 320,
+    "theme": "dark",
+    "legalRailHidden": true,
+    "transferAvailable": true,
+    "statusTags": true,
+    "existingRailPreserved": true
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "legalRailHidden": true,
+    "transferAvailable": true,
+    "statusTags": true,
+    "existingRailPreserved": true
+  },
+  {
+    "width": 390,
+    "theme": "dark",
+    "legalRailHidden": true,
+    "transferAvailable": true,
+    "statusTags": true,
+    "existingRailPreserved": true
+  },
+  {
+    "width": 768,
+    "theme": "light",
+    "legalRailHidden": true,
+    "transferAvailable": true,
+    "statusTags": true,
+    "existingRailPreserved": true
+  },
+  {
+    "width": 768,
+    "theme": "dark",
+    "legalRailHidden": true,
+    "transferAvailable": true,
+    "statusTags": true,
+    "existingRailPreserved": true
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "legalRailHidden": true,
+    "transferAvailable": true,
+    "statusTags": true,
+    "existingRailPreserved": true
+  },
+  {
+    "width": 1440,
+    "theme": "dark",
+    "legalRailHidden": true,
+    "transferAvailable": true,
+    "statusTags": true,
+    "existingRailPreserved": true
+  }
+]

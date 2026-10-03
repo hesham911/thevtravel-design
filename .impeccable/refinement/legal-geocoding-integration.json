@@ -1,0 +1,144 @@
+{
+  "results": [
+    {
+      "width": 390,
+      "language": "en",
+      "theme": "light",
+      "renderer": true
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "theme": "dark",
+      "renderer": true
+    },
+    {
+      "width": 390,
+      "language": "ru",
+      "theme": "light",
+      "renderer": true
+    },
+    {
+      "width": 390,
+      "language": "ru",
+      "theme": "dark",
+      "renderer": true
+    },
+    {
+      "width": 390,
+      "language": "fr",
+      "theme": "light",
+      "renderer": true
+    },
+    {
+      "width": 390,
+      "language": "fr",
+      "theme": "dark",
+      "renderer": true
+    },
+    {
+      "width": 390,
+      "language": "de",
+      "theme": "light",
+      "renderer": true
+    },
+    {
+      "width": 390,
+      "language": "de",
+      "theme": "dark",
+      "renderer": true
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "theme": "light",
+      "renderer": true
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "theme": "dark",
+      "renderer": true
+    },
+    {
+      "width": 1440,
+      "language": "ru",
+      "theme": "light",
+      "renderer": true
+    },
+    {
+      "width": 1440,
+      "language": "ru",
+      "theme": "dark",
+      "renderer": true
+    },
+    {
+      "width": 1440,
+      "language": "fr",
+      "theme": "light",
+      "renderer": true
+    },
+    {
+      "width": 1440,
+      "language": "fr",
+      "theme": "dark",
+      "renderer": true
+    },
+    {
+      "width": 1440,
+      "language": "de",
+      "theme": "light",
+      "renderer": true
+    },
+    {
+      "width": 1440,
+      "language": "de",
+      "theme": "dark",
+      "renderer": true
+    }
+  ],
+  "calls": [
+    {
+      "type": "reverse",
+      "language": "en",
+      "latitude": 30.0444,
+      "longitude": 31.2357
+    },
+    {
+      "type": "search",
+      "language": "en"
+    },
+    {
+      "type": "reverse",
+      "language": "ru",
+      "latitude": 30.0444,
+      "longitude": 31.2357
+    },
+    {
+      "type": "search",
+      "language": "ru"
+    },
+    {
+      "type": "reverse",
+      "language": "fr",
+      "latitude": 30.0444,
+      "longitude": 31.2357
+    },
+    {
+      "type": "search",
+      "language": "fr"
+    },
+    {
+      "type": "reverse",
+      "language": "de",
+      "latitude": 30.0444,
+      "longitude": 31.2357
+    },
+    {
+      "type": "search",
+      "language": "de"
+    }
+  ],
+  "coordinatesPreserved": true,
+  "errors": []
+}

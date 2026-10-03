@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-03T02:36:03.664604Z",
+  "title": "Design System: TheVTravel",
+  "extensions": {
+    "colorMeta": {
+      "navy": {
+        "role": "primary",
+        "displayName": "Nile Navy",
+        "canonical": "#002040",
+        "tonalRamp": [
+          "oklch(15% 0.071 251.6)",
+          "oklch(25% 0.071 251.6)",
+          "oklch(35% 0.071 251.6)",
+          "oklch(45% 0.071 251.6)",
+          "oklch(55% 0.071 251.6)",
+          "oklch(65% 0.071 251.6)",
+          "oklch(80% 0.071 251.6)",
+          "oklch(95% 0.071 251.6)"
+        ]
+      },
+      "navy-deep": {
+        "role": "primary",
+        "displayName": "Deep Nile Navy",
+        "canonical": "#00182f",
+        "tonalRamp": [
+          "oklch(15% 0.056 248.6)",
+          "oklch(25% 0.056 248.6)",
+          "oklch(35% 0.056 248.6)",
+          "oklch(45% 0.056 248.6)",
+          "oklch(55% 0.056 248.6)",
+          "oklch(65% 0.056 248.6)",
+          "oklch(80% 0.056 248.6)",
+          "oklch(95% 0.056 248.6)"
+        ]
+      },
+      "orange": {
+        "role": "primary",
+        "displayName": "Journey Orange",
+        "canonical": "#fd6803",
+        "tonalRamp": [
+          "oklch(15% 0.201 44.2)",
+          "oklch(25% 0.201 44.2)",
+          "oklch(35% 0.201 44.2)",
+          "oklch(45% 0.201 44.2)",
+          "oklch(55% 0.201 44.2)",
+          "oklch(65% 0.201 44.2)",
+          "oklch(80% 0.201 44.2)",
+          "oklch(95% 0.201 44.2)"
+        ]
+      },
+      "action-orange": {
+        "role": "secondary",
+        "displayName": "Action Amber",
+        "canonical": "#ed8500",
+        "tonalRamp": [
+          "oklch(15% 0.168 59.9)",
+          "oklch(25% 0.168 59.9)",
+          "oklch(35% 0.168 59.9)",
+          "oklch(45% 0.168 59.9)",
+          "oklch(55% 0.168 59.9)",
+          "oklch(65% 0.168 59.9)",
+          "oklch(80% 0.168 59.9)",
+          "oklch(95% 0.168 59.9)"
+        ]
+      },
+      "orange-hover": {
+        "role": "secondary",
+        "displayName": "Burnished Orange",
+        "canonical": "#9a4e00",
+        "tonalRamp": [
+          "oklch(15% 0.125 55)",
+          "oklch(25% 0.125 55)",
+          "oklch(35% 0.125 55)",
+          "oklch(45% 0.125 55)",
+          "oklch(55% 0.125 55)",
+          "oklch(65% 0.125 55)",
+          "oklch(80% 0.125 55)",
+          "oklch(95% 0.125 55)"
+        ]
+      },
+      "turquoise": {
+        "role": "secondary",
+        "displayName": "Horizon Turquoise",
+        "canonical": "#009fc0",
+        "tonalRamp": [
+          "oklch(15% 0.118 219.6)",
+          "oklch(25% 0.118 219.6)",
+          "oklch(35% 0.118 219.6)",
+          "oklch(45% 0.118 219.6)",
+          "oklch(55% 0.118 219.6)",
+          "oklch(65% 0.118 219.6)",
+          "oklch(80% 0.118 219.6)",
+          "oklch(95% 0.118 219.6)"
+        ]
+      },
+      "warm-ivory": {
+        "role": "neutral",
+        "displayName": "Warm Ivory",
+        "canonical": "#faf6f2",
+        "tonalRamp": [
+          "oklch(15% 0.007 67.7)",
+          "oklch(25% 0.007 67.7)",
+          "oklch(35% 0.007 67.7)",
+          "oklch(45% 0.007 67.7)",
+          "oklch(55% 0.007 67.7)",
+          "oklch(65% 0.007 67.7)",
+          "oklch(80% 0.007 67.7)",
+          "oklch(95% 0.007 67.7)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(25% 0 0)",
+          "oklch(35% 0 0)",
+          "oklch(45% 0 0)",
+          "oklch(55% 0 0)",
+          "oklch(65% 0 0)",
+          "oklch(80% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "muted-blue": {
+        "role": "neutral",
+        "displayName": "River Slate",
+        "canonical": "#435d77",
+        "tonalRamp": [
+          "oklch(15% 0.053 249)",
+          "oklch(25% 0.053 249)",
+          "oklch(35% 0.053 249)",
+          "oklch(45% 0.053 249)",
+          "oklch(55% 0.053 249)",
+          "oklch(65% 0.053 249)",
+          "oklch(80% 0.053 249)",
+          "oklch(95% 0.053 249)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Papyrus Line",
+        "canonical": "#ded8d2",
+        "tonalRamp": [
+          "oklch(15% 0.011 67.7)",
+          "oklch(25% 0.011 67.7)",
+          "oklch(35% 0.011 67.7)",
+          "oklch(45% 0.011 67.7)",
+          "oklch(55% 0.011 67.7)",
+          "oklch(65% 0.011 67.7)",
+          "oklch(80% 0.011 67.7)",
+          "oklch(95% 0.011 67.7)"
+        ]
+      },
+      "border-soft": {
+        "role": "neutral",
+        "displayName": "Soft Papyrus Line",
+        "canonical": "#ede7e1",
+        "tonalRamp": [
+          "oklch(15% 0.010 67.7)",
+          "oklch(25% 0.010 67.7)",
+          "oklch(35% 0.010 67.7)",
+          "oklch(45% 0.010 67.7)",
+          "oklch(55% 0.010 67.7)",
+          "oklch(65% 0.010 67.7)",
+          "oklch(80% 0.010 67.7)",
+          "oklch(95% 0.010 67.7)"
+        ]
+      },
+      "cta-warm": {
+        "role": "neutral",
+        "displayName": "Sand Wash",
+        "canonical": "#f8eee5",
+        "tonalRamp": [
+          "oklch(15% 0.016 64.7)",
+          "oklch(25% 0.016 64.7)",
+          "oklch(35% 0.016 64.7)",
+          "oklch(45% 0.016 64.7)",
+          "oklch(55% 0.016 64.7)",
+          "oklch(65% 0.016 64.7)",
+          "oklch(80% 0.016 64.7)",
+          "oklch(95% 0.016 64.7)"
+        ]
+      },
+      "night": {
+        "role": "neutral",
+        "displayName": "Night Nile",
+        "canonical": "#001122",
+        "tonalRamp": [
+          "oklch(15% 0.045 246.3)",
+          "oklch(25% 0.045 246.3)",
+          "oklch(35% 0.045 246.3)",
+          "oklch(45% 0.045 246.3)",
+          "oklch(55% 0.045 246.3)",
+          "oklch(65% 0.045 246.3)",
+          "oklch(80% 0.045 246.3)",
+          "oklch(95% 0.045 246.3)"
+        ]
+      },
+      "night-text": {
+        "role": "neutral",
+        "displayName": "Moonlit Ivory",
+        "canonical": "#f6eee9",
+        "tonalRamp": [
+          "oklch(15% 0.011 54.5)",
+          "oklch(25% 0.011 54.5)",
+          "oklch(35% 0.011 54.5)",
+          "oklch(45% 0.011 54.5)",
+          "oklch(55% 0.011 54.5)",
+          "oklch(65% 0.011 54.5)",
+          "oklch(80% 0.011 54.5)",
+          "oklch(95% 0.011 54.5)"
+        ]
+      },
+      "journey-details-navy": {
+        "role": "primary",
+        "displayName": "Journey Details Navy",
+        "canonical": "#011947",
+        "tonalRamp": [
+          "oklch(15% 0.097 263)",
+          "oklch(25% 0.097 263)",
+          "oklch(35% 0.097 263)",
+          "oklch(45% 0.097 263)",
+          "oklch(55% 0.097 263)",
+          "oklch(65% 0.097 263)",
+          "oklch(80% 0.097 263)",
+          "oklch(95% 0.097 263)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero statements and the largest editorial promises."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section introductions and major calls to action."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Journey cards and prominent content titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Explanatory and planning copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Eyebrows, controls, metadata, and compact navigation."
+      }
+    },
+    "shadows": [
+      {
+        "name": "action-lift",
+        "value": "0 4px 12px rgba(142,75,0,.16)",
+        "purpose": "A subtle warm shadow beneath filled primary actions."
+      },
+      {
+        "name": "menu-float",
+        "value": "0 18px 36px rgba(0,20,40,.16)",
+        "purpose": "Structural elevation for the open mobile navigation only."
+      },
+      {
+        "name": "field-focus",
+        "value": "0 0 0 3px rgba(221,121,8,.13)",
+        "purpose": "A low-opacity orange halo paired with an orange border on focused fields."
+      },
+      {
+        "name": "journey-details-more",
+        "value": "0 6px 28px #01194724",
+        "purpose": "Journey Details mobile More overlay only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-standard",
+        "value": "200ms ease",
+        "purpose": "Color and border transitions on interactive controls."
+      },
+      {
+        "name": "accordion-settle",
+        "value": "250ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Chevron rotation and compact disclosure feedback."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "Collapses transition duration when reduced motion is requested."
+      },
+      {
+        "name": "journey-details-state",
+        "value": "150ms ease",
+        "purpose": "Journey Details control colors when reduced motion is not requested."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "699px"
+      },
+      {
+        "name": "navigation-collapse",
+        "value": "1023px"
+      },
+      {
+        "name": "wide-hero",
+        "value": "1280px"
+      },
+      {
+        "name": "journey-details-mobile",
+        "value": "767px"
+      },
+      {
+        "name": "journey-details-related-tablet",
+        "value": "999px"
+      }
+    ],
+    "components": [
+      {
+        "name": "Primary Button",
+        "kind": "button",
+        "refersTo": "button-primary",
+        "description": "The compact filled action for the primary journey or booking step.",
+        "html": "<button class=\"ds-btn-primary\">Explore journeys</button>",
+        "css": ".ds-btn-primary { min-height: 43px; display: inline-flex; align-items: center; justify-content: center; padding: 0 19px; border: 1px solid transparent; border-radius: 3px; background: var(--cta-button, #ed8500); color: #fff; box-shadow: 0 4px 12px rgba(142,75,0,.16); font: 600 13px/1.4 var(--font-ui, Manrope, Arial, sans-serif); cursor: pointer; transition: background-color .2s ease, border-color .2s ease; } .ds-btn-primary:hover { background: #9a4e00; } .ds-btn-primary:focus-visible { outline: 3px solid rgba(253,104,3,.38); outline-offset: 3px; } .ds-btn-primary:active { background: #844300; }"
+      },
+      {
+        "name": "Secondary Button",
+        "kind": "button",
+        "refersTo": "button-secondary",
+        "description": "A restrained outline action used when the primary path must remain dominant.",
+        "html": "<button class=\"ds-btn-secondary\">View details</button>",
+        "css": ".ds-btn-secondary { min-height: 43px; display: inline-flex; align-items: center; justify-content: center; padding: 0 19px; border: 1px solid #8a9aae; border-radius: 3px; background: transparent; color: var(--text, #002040); font: 600 13px/1.4 var(--font-ui, Manrope, Arial, sans-serif); cursor: pointer; transition: background-color .2s ease, border-color .2s ease; } .ds-btn-secondary:hover { border-color: var(--orange, #fd6803); background: rgba(253,104,3,.05); } .ds-btn-secondary:focus-visible { outline: 3px solid rgba(253,104,3,.38); outline-offset: 3px; } .ds-btn-secondary:active { background: rgba(253,104,3,.1); }"
+      },
+      {
+        "name": "Eyebrow",
+        "kind": "custom",
+        "refersTo": "eyebrow",
+        "description": "The turquoise orientation label that introduces a section or editorial promise.",
+        "html": "<p class=\"ds-eyebrow\">Your private journey</p>",
+        "css": ".ds-eyebrow { margin: 0; color: var(--teal, #009fc0); font: 600 12px/1.4 var(--font-ui, Manrope, Arial, sans-serif); letter-spacing: .13em; text-transform: uppercase; }"
+      },
+      {
+        "name": "Text Field",
+        "kind": "input",
+        "refersTo": "text-field",
+        "description": "A calm, lightly bordered field for traveler details and requests.",
+        "html": "<label class=\"ds-field\"><span>Email address</span><input type=\"email\" placeholder=\"you@example.com\"></label>",
+        "css": ".ds-field { display: grid; gap: 6px; color: var(--muted, #435d77); font: 400 10px/1.45 var(--font-ui, Manrope, Arial, sans-serif); } .ds-field input { width: 100%; height: 52px; padding: 0 15px; border: 1px solid #d6d0ca; border-radius: 5px; background: rgba(255,255,255,.26); color: var(--text, #002040); font: 400 11px/1.45 var(--font-ui, Manrope, Arial, sans-serif); outline: none; } .ds-field input:hover { border-color: #b9b0a7; } .ds-field input:focus-visible { border-color: #c66a00; box-shadow: 0 0 0 3px rgba(221,121,8,.13); } .ds-field input::placeholder { color: #566f85; opacity: 1; }"
+      },
+      {
+        "name": "Feature Chip",
+        "kind": "chip",
+        "refersTo": "chip",
+        "description": "An outlined metadata capsule used for journey features.",
+        "html": "<button class=\"ds-chip\">Private guide</button>",
+        "css": ".ds-chip { padding: 5px 13px; border: 1px solid var(--line, #ded8d2); border-radius: 999px; background: transparent; color: var(--muted, #435d77); font: 400 12px/1.4 var(--font-ui, Manrope, Arial, sans-serif); cursor: pointer; transition: color .2s ease, border-color .2s ease, background-color .2s ease; } .ds-chip:hover { border-color: var(--teal, #009fc0); color: var(--text, #002040); } .ds-chip:focus-visible { outline: 3px solid rgba(253,104,3,.38); outline-offset: 3px; } .ds-chip:active { background: rgba(0,159,192,.08); }"
+      },
+      {
+        "name": "Journey Card",
+        "kind": "card",
+        "refersTo": "journey-card",
+        "description": "The signature information-rich journey preview with imagery, serif title, chips, and a divided footer.",
+        "html": "<article class=\"ds-journey-card\"><svg class=\"ds-journey-image\" viewBox=\"0 0 400 160\" role=\"img\" aria-label=\"Felucca sailing on the Nile\"><rect width=\"400\" height=\"160\" fill=\"#d8e8e7\"/><path d=\"M0 112c74-15 128 8 197-3 70-11 128-5 203 12v39H0Z\" fill=\"#71bdce\"/><path d=\"M209 41v70h-5V41Zm0 4 51 52h-51Z\" fill=\"#faf6f2\" stroke=\"#fd6803\" stroke-width=\"2\"/><path d=\"M174 110h94l-16 12h-62Z\" fill=\"#002040\"/></svg><div class=\"ds-journey-body\"><h3>Nile by felucca</h3><p class=\"ds-journey-meta\">Aswan \u00b7 Full day</p><p>A private journey shaped around the river, its people, and your pace.</p><div class=\"ds-journey-tags\"><span>Private</span><span>Local guide</span></div><footer><strong>Tailored for you</strong><a href=\"#\">View journey \u2192</a></footer></div></article>",
+        "css": ".ds-journey-card { width: min(403px, 100%); overflow: hidden; border: 1px solid var(--line, #ded8d2); border-radius: 2px; background: var(--card, #fff); color: var(--text, #002040); font-family: var(--font-ui, Manrope, Arial, sans-serif); } .ds-journey-image { display: block; width: 100%; height: 160px; } .ds-journey-body { padding: 18px; } .ds-journey-body h3 { margin: 0 0 7px; font: 600 27px/1.1 var(--font-display, 'Cormorant Garamond', Georgia, serif); letter-spacing: -.013em; } .ds-journey-body p { margin: 13px 0 12px; color: var(--muted, #435d77); font-size: 14px; line-height: 1.55; } .ds-journey-body .ds-journey-meta { margin: 0; font-size: 13px; } .ds-journey-tags { display: flex; gap: 8px; margin-bottom: 12px; } .ds-journey-tags span { padding: 5px 13px; border: 1px solid var(--line, #ded8d2); border-radius: 999px; color: var(--muted, #435d77); font-size: 12px; } .ds-journey-body footer { padding-top: 12px; border-top: 1px solid var(--soft-line, #ede7e1); display: flex; justify-content: space-between; gap: 10px; font-size: 13px; } .ds-journey-body footer strong { font-weight: 600; } .ds-journey-body footer a { color: #038ab1; text-decoration: none; } .ds-journey-body footer a:hover { color: var(--orange, #fd6803); } .ds-journey-body footer a:focus-visible { outline: 3px solid rgba(253,104,3,.38); outline-offset: 3px; }"
+      },
+      {
+        "name": "Navigation Link",
+        "kind": "nav",
+        "description": "Compact shared-header navigation with a thin orange active marker.",
+        "html": "<nav class=\"ds-nav\" aria-label=\"Preview navigation\"><a href=\"#\">Journeys</a><a class=\"ds-active\" href=\"#\">About us</a><a href=\"#\">Contact us</a></nav>",
+        "css": ".ds-nav { display: flex; align-items: center; gap: 37px; color: var(--text, #002040); font: 500 14px/1.4 var(--font-ui, Manrope, Arial, sans-serif); } .ds-nav a { position: relative; color: inherit; text-decoration: none; white-space: nowrap; } .ds-nav a:hover { color: var(--orange, #fd6803); } .ds-nav a:focus-visible { outline: 3px solid rgba(253,104,3,.38); outline-offset: 3px; } .ds-nav .ds-active::after { content: ''; position: absolute; left: 0; right: 0; bottom: -12px; height: 2px; background: var(--orange, #fd6803); }"
+      },
+      {
+        "name": "FAQ Accordion",
+        "kind": "custom",
+        "refersTo": "accordion",
+        "description": "A softly rounded bordered disclosure for planning guidance.",
+        "html": "<details class=\"ds-accordion\" open><summary>How does booking work?<span aria-hidden=\"true\">\u2304</span></summary><p>Send a request and a member of the team will confirm the details personally.</p></details>",
+        "css": ".ds-accordion { overflow: hidden; border: 1px solid var(--line, #ded8d2); border-radius: 10px; background: rgba(255,255,255,.32); color: var(--text, #002040); font-family: var(--font-ui, Manrope, Arial, sans-serif); } .ds-accordion summary { min-height: 52px; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 0 18px; font-size: 14px; font-weight: 600; cursor: pointer; list-style: none; } .ds-accordion summary::-webkit-details-marker { display: none; } .ds-accordion summary:hover { background: rgba(255,250,246,.72); } .ds-accordion summary:focus-visible { outline: 3px solid rgba(253,104,3,.38); outline-offset: -3px; } .ds-accordion summary span { color: var(--orange, #fd6803); transition: transform .25s cubic-bezier(.16,1,.3,1); } .ds-accordion[open] summary span { transform: rotate(180deg); } .ds-accordion p { margin: 0; padding: 17px 18px 19px; border-top: 1px solid var(--line, #ded8d2); color: var(--muted, #435d77); font-size: 12px; line-height: 1.78; }"
+      },
+      {
+        "name": "Process Step",
+        "kind": "card",
+        "refersTo": "process-step",
+        "description": "A numbered, human-scale step used to explain a journey or booking process without checkout-funnel chrome.",
+        "html": "<article class=\"ds-process-step\"><span class=\"ds-process-number\">01</span><span class=\"ds-process-icon\"><svg viewBox=\"0 0 48 48\" aria-hidden=\"true\"><circle cx=\"21\" cy=\"21\" r=\"11\"/><path d=\"m29 29 8 8M16 21h10M21 16v10\"/></svg></span><h3>Explore journeys</h3><i aria-hidden=\"true\"></i><p>Browse private experiences and find the one that inspires you.</p></article>",
+        "css": ".ds-process-step { width: min(196px, 100%); min-height: 360px; display: flex; flex-direction: column; align-items: center; padding: 18px 11px 17px; border: 1px solid var(--line, #ded8d2); border-radius: 10px; background: color-mix(in srgb, var(--card, #fff) 34%, transparent); color: var(--text, #002040); text-align: center; font-family: var(--font-ui, Manrope, Arial, sans-serif); } .ds-process-number { font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; } .ds-process-icon { width: 87px; height: 87px; margin: 28px auto 22px; display: grid; place-items: center; border-radius: 50%; color: var(--orange, #fd6803); background: color-mix(in srgb, var(--orange, #fd6803) 9%, var(--card, #fff)); } .ds-process-icon svg { width: 54px; height: 54px; fill: none; stroke: currentColor; stroke-width: 1.45; stroke-linecap: round; } .ds-process-step h3 { min-height: 47px; margin: 0; font-size: 15px; line-height: 1.55; font-weight: 600; } .ds-process-step > i { width: 16px; height: 2px; margin: 8px 0 17px; background: var(--orange, #fd6803); } .ds-process-step p { margin: 0; color: var(--muted, #435d77); font-size: 11px; line-height: 2.12; }"
+      },
+      {
+        "name": "Reassurance Panel",
+        "kind": "custom",
+        "refersTo": "reassurance-panel",
+        "description": "A contextual trust statement placed immediately after the process it qualifies.",
+        "html": "<aside class=\"ds-reassurance\"><svg viewBox=\"0 0 56 56\" aria-hidden=\"true\"><path d=\"M9 31c7-1 12-6 15-14l8 3-3 8h15c3 0 5 3 4 6l-3 10c-1 3-4 5-7 5H22c-4 0-8-2-10-5Z\"/><path d=\"M10 31v17\"/></svg><div><h3>No online payment required</h3><p>Payment is taken manually at the start of your trip.</p></div></aside>",
+        "css": ".ds-reassurance { min-height: 106px; display: flex; align-items: center; justify-content: center; gap: 32px; padding: 18px 28px; border: 1px solid color-mix(in srgb, var(--orange, #fd6803) 25%, transparent); border-radius: 10px; background: color-mix(in srgb, var(--orange, #fd6803) 6%, var(--page, #faf6f2)); color: var(--text, #002040); font-family: var(--font-ui, Manrope, Arial, sans-serif); } .ds-reassurance svg { width: 66px; height: 66px; flex: none; fill: none; stroke: var(--orange, #fd6803); stroke-width: 1.45; stroke-linecap: round; stroke-linejoin: round; } .ds-reassurance h3 { margin: 0 0 5px; color: var(--orange, #fd6803); font-size: 18px; line-height: 1.3; font-weight: 600; } .ds-reassurance p { margin: 0; font-size: 14px; line-height: 1.65; }"
+      },
+      {
+        "name": "Journey Details Request Button",
+        "kind": "button",
+        "refersTo": "journey-details-primary",
+        "description": "Journey Details request action using the shared brand accent and theme hover token.",
+        "html": "<button class=\"ds-jd-request\">Request this journey</button>",
+        "css": ".ds-jd-request { display:inline-flex; align-items:center; justify-content:center; min-height:46px; padding:9px 17px; border:1px solid var(--brand-orange, #fd6803); border-radius:5px; background:var(--brand-orange, #fd6803); color:#fff; font:600 14px Manrope,Arial,sans-serif; cursor:pointer; } .ds-jd-request:hover { background:var(--button-hover, #de5000); border-color:var(--button-hover, #de5000); } .ds-jd-request:focus-visible { outline:3px solid var(--brand-orange, #fd6803); outline-offset:3px; } @media(prefers-reduced-motion:no-preference) { .ds-jd-request { transition:background-color .15s ease,color .15s ease; } }"
+      }
+    ],
+    "narrative": {
+      "northStar": "The Nile Travel Journal",
+      "overview": "TheVTravel feels like a well-kept travel journal opened beside the Nile: warm, spacious, personal, and quietly assured. Editorial serif typography gives destinations and promises a sense of place, while compact sans-serif interface copy keeps planning direct and dependable.\n\nThe system is light and image-led, with warm paper surfaces flowing into Egyptian travel photography through soft masks rather than hard frames. Deep navy provides structure, turquoise marks orientation, and orange is reserved for actions, active states, fine rules, route lines, and small moments of guidance.",
+      "keyCharacteristics": [
+        "Warm ivory editorial canvases with pale, precise separators.",
+        "Deep navy Cormorant Garamond headings paired with Manrope interface copy.",
+        "Turquoise uppercase eyebrows and restrained orange interaction accents.",
+        "Felucca, Nile, monument, and journey photography softened into the page.",
+        "Generous desktop compositions that stack into direct single-column mobile flows.",
+        "Shared, logo-led navigation and a calm information-rich footer."
+      ],
+      "rules": [
+        {
+          "name": "The Orange Thread Rule",
+          "body": "Orange should read as a continuous journey cue: actions, short rules, route lines, active states, and icon outlines\u2014not as a large-area background.",
+          "section": "colors"
+        },
+        {
+          "name": "The Paper, Not White Rule",
+          "body": "Large light surfaces use warm ivory; pure white is reserved for contained elements that need subtle separation.",
+          "section": "colors"
+        },
+        {
+          "name": "The Two-Voice Rule",
+          "body": "Serif type expresses place and promise; sans-serif type handles every action, label, instruction, and piece of operational detail.",
+          "section": "typography"
+        },
+        {
+          "name": "The Compact Hero Rule",
+          "body": "Large headings are tightly led and slightly tracked in, with line breaks chosen for a composed editorial silhouette rather than a wide banner.",
+          "section": "typography"
+        },
+        {
+          "name": "The Editorial Split Rule",
+          "body": "On wide screens, pair a composed text block with an immersive visual field; on mobile, preserve the reading order by stacking copy before imagery.",
+          "section": "layout"
+        },
+        {
+          "name": "The Flat-by-Default Rule",
+          "body": "If a surface can be separated with spacing, tone, or a one-pixel border, do not add a shadow.",
+          "section": "elevation"
+        },
+        {
+          "name": "The Circles Mean Guidance Rule",
+          "body": "Use circles for landmarks, steps, people, reassurance, and wayfinding\u2014not as a generic container for every control.",
+          "section": "shapes"
+        }
+      ],
+      "dos": [
+        "Do begin new surfaces from the shared warm ivory, navy, turquoise, and orange vocabulary.",
+        "Do use Cormorant Garamond for emotional hierarchy and Manrope for every operational layer.",
+        "Do preserve generous editorial whitespace while keeping controls compact and scannable.",
+        "Do blend Egyptian travel photography into the page with intentional masks or gradients.",
+        "Do provide visible focus, hover, active, expanded, current, error, and disabled states where applicable.",
+        "Do stack split layouts into a logical single-column reading order on mobile."
+      ],
+      "donts": [
+        "Don't flood a screen with orange; its scarcity makes the journey thread and primary action meaningful.",
+        "Don't substitute bright white for the warm paper canvas or add cool gray surfaces that flatten the atmosphere.",
+        "Don't use heavy shadows, glassmorphism, oversized radii, or floating rounded cards as the default layout language.",
+        "Don't place editorial serif type on controls, labels, form help, or navigation.",
+        "Don't hard-cut photography into the copy field when a soft mask is part of the composition."
+      ]
+    }
+  }
+}
