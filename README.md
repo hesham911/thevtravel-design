@@ -48,3 +48,11 @@ node scripts/compare-nuxt-dialogs.cjs
 Comparisons expect the preserved Vite app on port 5173 and Nuxt preview on port 3001. Extract the Vite archive to a separate directory, provide its original dependencies and the unchanged public assets, then run its dev server on port 5173. These checks compare visible text, geometry and computed typography/colors; equivalent SVG inlining is recorded separately.
 
 For mocked geocoding verification, run a second production instance with `NUXT_PUBLIC_LOCATION_API_URL=/test-geocode PORT=3002 node .output/server/index.mjs`, then `node scripts/verify-nuxt-maps.cjs`. The browser test supplies mock responses; no backend endpoint is created.
+
+## Multilingual basemap
+
+Both maps retain Leaflet interaction/markers and use OpenFreeMap vector tiles rendered by MapLibre underneath them. EN/RU/FR/DE change the real vector-label `text-field` expressions in place. Missing or empty translations fall back to native names and then the provider's original expression. Road numbers and other non-name labels are preserved.
+
+The default OpenFreeMap Liberty style requires no account or key. `NUXT_PUBLIC_MAP_STYLE_URL` optionally selects an OpenMapTiles-compatible style; it is a public browser URL, never a place for a secret credential. OpenFreeMap advertises free public hosting with no request/map-view limits, but the public service is still an external dependency. Retain its attribution. WebGL is required for the vector renderer. MapLibre's worker is bundled locally; no remote worker script or RTL plugin is needed with MapLibre 6.
+
+See [the basemap change report](docs/multilingual-basemap.md) for provider research and verification. The earlier migration parity report describes the approved raster-map baseline before this explicitly requested basemap change.

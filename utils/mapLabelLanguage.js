@@ -7,11 +7,11 @@ function fields(expression, result = []) {
   else expression.forEach(item => fields(item, result))
   return result
 }
-const nonEmpty = field => ['case', ['==', ['get', field], ''], null, ['get', field]]
 export function localizedNameExpression(locale, original) {
   const language = mapLabelLocale(locale)
-  return ['coalesce', nonEmpty(`name:${language}`), nonEmpty(`name_${language}`),
-    nonEmpty('name'), nonEmpty('name:latin'), original]
+  return [`name:${language}`, `name_${language}`, 'name', 'name:latin'].reduceRight(
+    (fallback, field) => ['case', ['all', ['has', field], ['!=', ['get', field], '']],
+      ['get', field], fallback], original)
 }
 // Replace provider name expressions, retaining road refs, elevation and formatting.
 // Original expressions are always reused as the final provider-default fallback.
