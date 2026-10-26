@@ -1,4 +1,4 @@
-const languages = new Set(['en', 'ru', 'fr', 'de'])
+const languages = new Set(['en', 'ru', 'fr', 'de', 'zh'])
 export function mapLabelLocale(value) { return languages.has(value) ? value : 'en' }
 const isName = value => typeof value === 'string' && /^(name(?::|_).+|name)$/.test(value)
 function fields(expression, result = []) {

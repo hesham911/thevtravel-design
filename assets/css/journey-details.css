@@ -135,3 +135,16 @@
   .jd-related-track { margin-inline:22px; }
   .jd-related-prev { left:-7px; }.jd-related-next { right:-7px; }
 }
+
+/* A section with nothing in it yet — no reviews, no traveler photos, no
+   gallery. It keeps the panel's own border, spacing and colours so the tab
+   reads as "empty" rather than "broken", in both themes. */
+.jd-empty-state { display:grid; justify-items:center; text-align:center; gap:8px; border:1px solid var(--line); border-radius:9px; padding:46px 24px; color:var(--muted); }
+.jd-empty-state > svg { color:var(--orange); opacity:.65; }
+.jd-empty-state h3 { margin:4px 0 0; font-size:21px; color:var(--jd-text); }
+.jd-empty-state p { margin:0; max-width:420px; font-size:14px; }
+@media (max-width:767px) {
+  .jd-empty-state { padding:32px 18px; border-radius:7px; }
+  .jd-empty-state h3 { font-size:17px; }
+  .jd-empty-state p { font-size:12px; }
+}

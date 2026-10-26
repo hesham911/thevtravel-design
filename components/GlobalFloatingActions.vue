@@ -5,13 +5,17 @@ import AppIcon from './AppIcon.vue'
 import TransferRequestFlow from './transfer/TransferRequestFlow.vue'
 import { useTransferRequest } from '~/composables/useTransferRequest'
 import { useOverlayState } from '~/composables/useRequestOverlay'
+import { useSiteContent } from '~/composables/useSiteContent'
 const route = useRoute()
 const transferRequested = useTransferRequest()
 const activeRequests = useOverlayState()
 const requestOverlayOpen = computed(() => activeRequests.value > 0)
 const transfer = ref(null)
 watch(transferRequested, () => transfer.value?.open())
-const whatsappUrl = useRuntimeConfig().public.whatsappUrl
+// One place holds the WhatsApp address: Settings → Social in the admin,
+// with the runtime config as the fallback for a deployment with no API yet.
+// Unset, the button stays visibly disabled rather than pointing nowhere.
+const { whatsappUrl } = useSiteContent()
 </script>
 <template>
   <div v-if="!requestOverlayOpen && !route.meta.legalKey" class="global-floating-actions" :class="{ 'above-journey-nav': route.name === 'journey-details' }">

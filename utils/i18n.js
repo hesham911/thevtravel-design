@@ -3,6 +3,7 @@ import messages from '../data/demoTranslations.json'
 export const supportedLanguages = Object.freeze([
   { code: 'en', label: 'English' }, { code: 'ru', label: 'Русский' },
   { code: 'fr', label: 'Français' }, { code: 'de', label: 'Deutsch' },
+  { code: 'zh', label: '中文' },
 ])
 export function useI18n() {
 const preference = useCookie('thevtravel-language', { path: '/', sameSite: 'lax', maxAge: 31536000 })
@@ -16,7 +17,8 @@ function setLocale(code) {
     document.documentElement.lang = code
   }
 }
-// English keys are demo fallbacks. API records may supply { en, ru, fr, de } instead.
+// English keys are demo fallbacks. API records may supply { en, ru, fr, de, zh } instead.
+// Pages still on demo copy fall back to English in a language the table lacks.
 function translate(value, parameters) {
   if (value === null || value === undefined) return ''
   if (typeof value === 'object') return value[locale.value] || value.en || ''

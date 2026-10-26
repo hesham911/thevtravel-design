@@ -5,6 +5,14 @@ import AppIcon from './AppIcon.vue'
 import LanguageSelector from './LanguageSelector.vue'
 import { useTransferRequest } from '~/composables/useTransferRequest'
 import { useTheme } from '~/composables/useTheme'
+import { useSiteContent } from '~/composables/useSiteContent'
+
+// The logos, the logo's description and the button label are managed in the
+// admin under Website Content → Header & Footer (the logo files themselves
+// under Settings → General). The navigation itself is this application's
+// own routes and is deliberately not content: an admin edits the words on
+// the site, not where its pages are.
+const { header: chrome } = useSiteContent()
 
 const transferRequested = useTransferRequest()
 function requestTransfer() { transferRequested.value++ }
@@ -29,8 +37,8 @@ function isActive(name) {
 <template>
   <header ref="header" class="site-header">
     <NuxtLink class="brand-link" to="/" :aria-label='$t("TheVTravel home")'>
-      <img class="logo-light" src="/assets/brand/logo-transparent.png" :alt='$t("TheVTravel")' width="174" height="58" fetchpriority="low" />
-      <img class="logo-dark" src="/assets/brand/logo-transparent-dark.png" :alt='$t("TheVTravel")' width="174" height="58" fetchpriority="low" />
+      <img class="logo-light" :src="chrome.logoLight || '/assets/brand/logo-transparent.png'" :alt="chrome.logoAlt" width="174" height="58" fetchpriority="low" />
+      <img class="logo-dark" :src="chrome.logoDark || '/assets/brand/logo-transparent-dark.png'" :alt="chrome.logoAlt" width="174" height="58" fetchpriority="low" />
     </NuxtLink>
     <nav class="desktop-nav" :aria-label='$t("Main navigation")'>
       <NuxtLink to="/journeys" :class="{ active: isActive('journeys') }" :aria-current="isActive('journeys') ? 'page' : undefined">{{ $t("Journeys") }}</NuxtLink>
@@ -51,7 +59,7 @@ function isActive(name) {
         <AppIcon :name="isDark ? 'sun' : 'moon'" :size="19" />
       </button>
       <LanguageSelector />
-      <NuxtLink class="button button-primary header-cta" to="/journeys">{{ $t("Explore journeys") }}</NuxtLink>
+      <NuxtLink class="button button-primary header-cta" to="/journeys">{{ chrome.ctaText }}</NuxtLink>
       <button ref="menuButton" class="menu-button" type="button" :aria-expanded="open" aria-controls="mobile-navigation" :aria-label='$t("Toggle navigation")' @click="open = !open">
         <AppIcon :name="open ? 'close' : 'menu'" :size="24" />
       </button>
@@ -63,7 +71,7 @@ function isActive(name) {
       <NuxtLink to="/faq" :class="{ active: isActive('faq') }" :aria-current="isActive('faq') ? 'page' : undefined" @click="open = false">{{ $t("FAQ") }}</NuxtLink>
       <NuxtLink to="/about" :class="{ active: isActive('about') }" :aria-current="isActive('about') ? 'page' : undefined" @click="open = false">{{ $t("About us") }}</NuxtLink>
       <NuxtLink to="/contact" :class="{ active: isActive('contact') }" :aria-current="isActive('contact') ? 'page' : undefined" @click="open = false">{{ $t("Contact us") }}</NuxtLink>
-      <NuxtLink class="button button-primary" to="/journeys" @click="open = false">{{ $t("Explore journeys") }}</NuxtLink>
+      <NuxtLink class="button button-primary" to="/journeys" @click="open = false">{{ chrome.ctaText }}</NuxtLink>
       <button class="mobile-theme-control" type="button" @click="toggleTheme"><AppIcon :name="isDark ? 'sun' : 'moon'" :size="20" />{{ $t(isDark ? 'Switch to light mode' : 'Switch to dark mode') }}</button>
     </nav>
   </header>
