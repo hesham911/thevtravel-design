@@ -8,6 +8,7 @@ import AppIcon from '~/components/AppIcon.vue'
 import { useI18n } from '~/utils/i18n'
 import { useSiteContent } from '~/composables/useSiteContent'
 import { fetchPageSections, itemsOr, linesOf, textOr } from '~/services/pageContent'
+import { FIELD_LIMITS, submitContactMessage } from '~/services/contact'
 const ServiceAreaMap = defineAsyncComponent(() => import('~/components/ServiceAreaMap.vue'))
 
 const { locale, translate } = useI18n()
@@ -15,8 +16,8 @@ const { public: runtime } = useRuntimeConfig()
 const { whatsappUrl } = useSiteContent()
 
 // Managed in the admin under Website Content → Contact Us. The form's own
-// field labels are interface text and stay here: sending the form is not
-// connected yet, and nothing about it is content.
+// field labels, validation messages and send states are interface text and
+// stay here: none of them is content an admin writes.
 const { data: sections } = await useAsyncData(
   'contact-sections',
   () => fetchPageSections(runtime.apiBaseUrl, 'contact-us', locale.value),
@@ -28,6 +29,10 @@ const requestedJourney = typeof route.query.journey === 'string' ? route.query.j
 const form = reactive({ name: '', email: '', whatsapp: '', subject: requestedJourney ? (route.query.subject === 'question' ? 'General question' : 'Journey request') : '', message: requestedJourney ? `I’m interested in ${requestedJourney}. ` : '', consent: false })
 const errors = reactive({})
 const status = ref('')
+// One request at a time: the button is disabled while it is in flight and the
+// handler returns early, so a double click or a second Enter cannot send the
+// same message twice.
+const pending = ref(false)
 const openFaq = ref(null)
 
 // The page's own copy, used only while the CMS has nothing to serve.
@@ -149,24 +154,84 @@ const cta = computed(() => {
   }
 })
 
+// The message the form shows beside a field the API rejected. The API's own
+// messages arrive in English for every language but English — it carries
+// validation lines for en and ar only — so a rejection it reports is worded
+// here, in the visitor's language, from the same sentences the form's own
+// checks use. The form mirrors every rule the API has, so this is the net
+// under a rule it cannot check, not the ordinary path.
+const serverFieldMessages = {
+  name: 'Please enter your full name.',
+  email: 'Please enter a valid email address.',
+  whatsapp: 'Please check your WhatsApp number.',
+  subject: 'Please choose a subject.',
+  message: 'Please tell us how we can help.',
+}
+
+function tooLong(max) {
+  return translate('Please use {max} characters or fewer.', { max })
+}
+
+// The API's rules, checked here so a visitor reads them in their own
+// language before anything is sent. `consent` is the form's own gate and the
+// API neither receives nor knows about it.
 function validate() {
   Object.keys(errors).forEach((key) => delete errors[key])
   if (!form.name.trim()) errors.name = 'Please enter your full name.'
+  else if (form.name.trim().length > FIELD_LIMITS.name) errors.name = tooLong(FIELD_LIMITS.name)
   if (!/^\S+@\S+\.\S+$/.test(form.email)) errors.email = 'Please enter a valid email address.'
+  else if (form.email.trim().length > FIELD_LIMITS.email) errors.email = tooLong(FIELD_LIMITS.email)
+  if (form.whatsapp.trim().length > FIELD_LIMITS.whatsapp) errors.whatsapp = tooLong(FIELD_LIMITS.whatsapp)
   if (!form.subject) errors.subject = 'Please choose a subject.'
+  else if (form.subject.trim().length > FIELD_LIMITS.subject) errors.subject = tooLong(FIELD_LIMITS.subject)
   if (!form.message.trim()) errors.message = 'Please tell us how we can help.'
+  else if (form.message.trim().length > FIELD_LIMITS.message) errors.message = tooLong(FIELD_LIMITS.message)
   if (!form.consent) errors.consent = 'Please agree before sending your message.'
   return Object.keys(errors).length === 0
 }
 
-function submitForm() {
+function focusFirstError() {
+  requestAnimationFrame(() => document.querySelector('.contact-field.has-error input, .contact-field.has-error select, .contact-field.has-error textarea')?.focus())
+}
+
+async function submitForm() {
+  if (pending.value) return
   status.value = ''
   if (!validate()) {
     status.value = 'Please review the highlighted fields.'
-    requestAnimationFrame(() => document.querySelector('.contact-field.has-error input, .contact-field.has-error select, .contact-field.has-error textarea')?.focus())
+    focusFirstError()
     return
   }
-  status.value = 'Your message is ready to send. Online delivery is not connected yet—please email hello@thevtravel.com.'
+
+  pending.value = true
+  try {
+    const result = await submitContactMessage(runtime.apiBaseUrl, form, locale.value)
+
+    // Only a stored message clears the form. Every other outcome keeps what
+    // the visitor typed, so a retry costs them nothing.
+    if (result.status === 'ok') {
+      Object.assign(form, { name: '', email: '', whatsapp: '', subject: '', message: '', consent: false })
+      status.value = 'Thank you — your message has been sent. We’ll reply soon.'
+      return
+    }
+
+    if (result.status === 'invalid') {
+      Object.keys(errors).forEach((key) => delete errors[key])
+      for (const field of Object.keys(result.errors)) errors[field] = serverFieldMessages[field] || result.errors[field]
+      // A rejection naming nothing this form shows would leave the visitor
+      // reading about fields that are not highlighted.
+      status.value = Object.keys(errors).length ? 'Please review the highlighted fields.' : 'We couldn’t send your message. Please try again, or email hello@thevtravel.com.'
+      focusFirstError()
+      return
+    }
+
+    // Unreachable, failing, or not configured at all: never a thank you.
+    status.value = result.status === 'demo'
+      ? 'Sending is not available right now. Please email hello@thevtravel.com.'
+      : 'We couldn’t send your message. Please try again, or email hello@thevtravel.com.'
+  } finally {
+    pending.value = false
+  }
 }
 </script>
 
@@ -218,12 +283,12 @@ function submitForm() {
           <div class="form-grid">
             <div class="contact-field" :class="{ 'has-error': errors.name }"><label for="contact-name">{{ $t("Full name") }}</label><input id="contact-name" v-model="form.name" name="name" autocomplete="name" :aria-invalid="!!errors.name" :aria-describedby="errors.name ? 'name-error' : undefined" /><small v-if="errors.name" id="name-error">{{ $t(errors.name) }}</small></div>
             <div class="contact-field" :class="{ 'has-error': errors.email }"><label for="contact-email">{{ $t("Email address") }}</label><input id="contact-email" v-model="form.email" name="email" type="email" autocomplete="email" :aria-invalid="!!errors.email" :aria-describedby="errors.email ? 'email-error' : undefined" /><small v-if="errors.email" id="email-error">{{ $t(errors.email) }}</small></div>
-            <div class="contact-field full"><label for="contact-whatsapp">{{ $t("WhatsApp number (with country code)") }}</label><input id="contact-whatsapp" v-model="form.whatsapp" name="whatsapp" type="tel" autocomplete="tel" :placeholder='$t("e.g. +20 10 1234 5678")' /></div>
+            <div class="contact-field full" :class="{ 'has-error': errors.whatsapp }"><label for="contact-whatsapp">{{ $t("WhatsApp number (with country code)") }}</label><input id="contact-whatsapp" v-model="form.whatsapp" name="whatsapp" type="tel" autocomplete="tel" :placeholder='$t("e.g. +20 10 1234 5678")' :aria-invalid="!!errors.whatsapp" :aria-describedby="errors.whatsapp ? 'whatsapp-error' : undefined" /><small v-if="errors.whatsapp" id="whatsapp-error">{{ $t(errors.whatsapp) }}</small></div>
             <div class="contact-field full" :class="{ 'has-error': errors.subject }"><label for="contact-subject">{{ $t("Subject") }}</label><select id="contact-subject" v-model="form.subject" name="subject" :aria-invalid="!!errors.subject" :aria-describedby="errors.subject ? 'subject-error' : undefined"><option value="" disabled>{{ $t("Choose a subject") }}</option><option value="Journey request">{{ $t("Journey request") }}</option><option value="Private transfer">{{ $t("Private transfer") }}</option><option value="Existing booking">{{ $t("Existing booking") }}</option><option value="General question">{{ $t("General question") }}</option><option value="Other">{{ $t("Other") }}</option></select><small v-if="errors.subject" id="subject-error">{{ $t(errors.subject) }}</small></div>
             <div class="contact-field full" :class="{ 'has-error': errors.message }"><label for="contact-message">{{ $t("Message") }}</label><textarea id="contact-message" v-model="form.message" name="message" rows="5" :placeholder='$t("Tell us about your plans, questions or anything else...")' :aria-invalid="!!errors.message" :aria-describedby="errors.message ? 'message-error' : undefined"></textarea><small v-if="errors.message" id="message-error">{{ $t(errors.message) }}</small></div>
           </div>
           <label class="consent" :class="{ 'has-error': errors.consent }"><input v-model="form.consent" type="checkbox" :aria-invalid="!!errors.consent" :aria-describedby="errors.consent ? 'consent-error' : undefined" /> <span>{{ $t("I agree to the") }} <NuxtLink class="privacy-term" to="/privacy-policy">{{ $t("privacy policy") }}</NuxtLink> {{ $t("and consent to being contacted about my enquiry.") }}<small v-if="errors.consent" id="consent-error">{{ $t(errors.consent) }}</small></span></label>
-          <button class="button button-primary contact-submit" type="submit">{{ $t("Send message") }}</button>
+          <button class="button button-primary contact-submit" type="submit" :disabled="pending" :aria-busy="pending">{{ pending ? $t("Sending…") : $t("Send message") }}</button>
           <p class="form-status" role="status" aria-live="polite">{{ $t(status) }}</p>
           <div class="form-reply"><span><AppIcon name="send" :size="18" /></span>{{ formCopy.replyNote }}</div>
         </form>

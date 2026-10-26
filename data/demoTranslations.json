@@ -2330,17 +2330,25 @@
   "Please agree before sending your message.": {
     "ru": "Пожалуйста, согласитесь перед отправкой сообщения.",
     "fr": "Veuillez accepter avant d'envoyer votre message.",
-    "de": "Bitte stimmen Sie zu, bevor Sie Ihre Nachricht senden."
+    "de": "Bitte stimmen Sie zu, bevor Sie Ihre Nachricht senden.",
+    "zh": "请先同意后再发送您的消息。"
   },
   "Please check your details below before submitting your request.": {
     "ru": "Пожалуйста, проверьте свои данные ниже, прежде чем отправлять запрос.",
     "fr": "Veuillez vérifier vos coordonnées ci-dessous avant de soumettre votre demande.",
     "de": "Bitte überprüfen Sie Ihre Angaben unten, bevor Sie Ihre Anfrage absenden."
   },
+  "Please check your WhatsApp number.": {
+    "ru": "Проверьте, пожалуйста, ваш номер WhatsApp.",
+    "fr": "Veuillez vérifier votre numéro WhatsApp.",
+    "de": "Bitte überprüfen Sie Ihre WhatsApp-Nummer.",
+    "zh": "请检查您的 WhatsApp 号码。"
+  },
   "Please choose a subject.": {
     "ru": "Пожалуйста, выберите тему.",
     "fr": "Veuillez choisir un sujet.",
-    "de": "Bitte wählen Sie ein Thema."
+    "de": "Bitte wählen Sie ein Thema.",
+    "zh": "请选择主题。"
   },
   "Please complete this field.": {
     "ru": "Пожалуйста, заполните это поле.",
@@ -2350,22 +2358,32 @@
   "Please enter a valid email address.": {
     "ru": "Пожалуйста, введите действительный адрес электронной почты.",
     "fr": "S'il vous plaît, mettez une adresse email valide.",
-    "de": "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+    "de": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "zh": "请输入有效的电子邮件地址。"
   },
   "Please enter your full name.": {
     "ru": "Пожалуйста, введите свое полное имя.",
     "fr": "Veuillez entrer votre nom complet.",
-    "de": "Bitte geben Sie Ihren vollständigen Namen ein."
+    "de": "Bitte geben Sie Ihren vollständigen Namen ein.",
+    "zh": "请输入您的全名。"
   },
   "Please review the highlighted fields.": {
     "ru": "Пожалуйста, просмотрите выделенные поля.",
     "fr": "Veuillez consulter les champs en surbrillance.",
-    "de": "Bitte überprüfen Sie die hervorgehobenen Felder."
+    "de": "Bitte überprüfen Sie die hervorgehobenen Felder.",
+    "zh": "请检查高亮显示的字段。"
   },
   "Please tell us how we can help.": {
     "ru": "Расскажите, пожалуйста, как мы можем помочь.",
     "fr": "S'il vous plaît dites-nous comment nous pouvons vous aider.",
-    "de": "Bitte teilen Sie uns mit, wie wir Ihnen helfen können."
+    "de": "Bitte teilen Sie uns mit, wie wir Ihnen helfen können.",
+    "zh": "请告诉我们可以如何帮助您。"
+  },
+  "Please use {max} characters or fewer.": {
+    "ru": "Используйте не более {max} символов.",
+    "fr": "Veuillez utiliser {max} caractères au maximum.",
+    "de": "Bitte verwenden Sie höchstens {max} Zeichen.",
+    "zh": "请不要超过 {max} 个字符。"
   },
   "Popular": {
     "ru": "Популярный",
@@ -2853,6 +2871,18 @@
     "fr": "Envoyez votre demande et nous nous occuperons du reste.",
     "de": "Senden Sie Ihre Anfrage und wir kümmern uns um den Rest."
   },
+  "Sending…": {
+    "ru": "Отправка…",
+    "fr": "Envoi…",
+    "de": "Wird gesendet…",
+    "zh": "正在发送…"
+  },
+  "Sending is not available right now. Please email hello@thevtravel.com.": {
+    "ru": "Отправка сейчас недоступна. Пожалуйста, напишите на hello@thevtravel.com.",
+    "fr": "L’envoi n’est pas disponible pour le moment. Veuillez écrire à hello@thevtravel.com.",
+    "de": "Das Senden ist derzeit nicht möglich. Bitte schreiben Sie an hello@thevtravel.com.",
+    "zh": "目前无法发送。请发送邮件至 hello@thevtravel.com。"
+  },
   "Sep 2024": {
     "ru": "Сентябрь 2024 г.",
     "fr": "septembre 2024",
@@ -3135,6 +3165,12 @@
     "fr": "Conditions générales",
     "de": "Allgemeine Geschäftsbedingungen",
     "zh": "条款与条件"
+  },
+  "Thank you — your message has been sent. We’ll reply soon.": {
+    "ru": "Спасибо — ваше сообщение отправлено. Мы скоро ответим.",
+    "fr": "Merci — votre message a été envoyé. Nous vous répondrons bientôt.",
+    "de": "Danke — Ihre Nachricht wurde gesendet. Wir antworten in Kürze.",
+    "zh": "感谢您 — 您的消息已发送。我们会尽快回复。"
   },
   "that feels just right.": {
     "ru": "это кажется правильным.",
@@ -3493,6 +3529,12 @@
     "de": "Diese Reise konnte nicht geladen werden. Bitte versuchen Sie es in einem Moment erneut.",
     "zh": "我们无法加载该旅程，请稍后重试。"
   },
+  "We couldn’t send your message. Please try again, or email hello@thevtravel.com.": {
+    "ru": "Не удалось отправить ваше сообщение. Попробуйте ещё раз или напишите на hello@thevtravel.com.",
+    "fr": "Nous n’avons pas pu envoyer votre message. Veuillez réessayer ou écrire à hello@thevtravel.com.",
+    "de": "Wir konnten Ihre Nachricht nicht senden. Bitte versuchen Sie es erneut oder schreiben Sie an hello@thevtravel.com.",
+    "zh": "我们无法发送您的消息。请重试，或发送邮件至 hello@thevtravel.com。"
+  },
   "We create private journeys and transfers across Egypt.": {
     "ru": "Мы создаем частные путешествия и трансферы по Египту.",
     "fr": "Nous créons des voyages et des transferts privés à travers l'Égypte.",
@@ -3781,11 +3823,6 @@
     "fr": "Votre voyage est construit autour de vous. Du rythme aux lieux, chaque choix vous appartient.",
     "de": "Ihre Reise dreht sich um Sie herum. Vom Tempo bis zu den Orten haben Sie die Wahl.",
     "zh": "您的旅程围绕您而设计。从节奏到地点，每一个选择都由您决定。"
-  },
-  "Your message is ready to send. Online delivery is not connected yet—please email hello@thevtravel.com.": {
-    "ru": "Ваше сообщение готово к отправке. Онлайн-доставка пока не подключена — напишите на адрес hello@thevtravel.com.",
-    "fr": "Votre message est prêt à être envoyé. La livraison en ligne n'est pas encore connectée : veuillez envoyer un e-mail à hello@thevtravel.com.",
-    "de": "Ihre Nachricht ist zum Senden bereit. Die Online-Lieferung ist noch nicht verbunden – bitte senden Sie eine E-Mail an hello@thevtravel.com."
   },
   "Your request could not be saved. Please try again.": {
     "ru": "Ваш запрос не удалось сохранить. Пожалуйста, попробуйте еще раз.",
