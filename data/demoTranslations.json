@@ -289,6 +289,12 @@
     "fr": "Ajouter un bébé",
     "de": "Ein Baby hinzufügen"
   },
+  "Add one luggage": {
+    "ru": "Добавить место багажа",
+    "fr": "Ajouter un bagage",
+    "de": "Ein Gepäckstück hinzufügen",
+    "zh": "增加一件行李"
+  },
   "Address / hotel / landmark details": {
     "ru": "Подробности об адресе/отеле/достопримечательности",
     "fr": "Adresse/hôtel/détails du point de repère",
@@ -453,6 +459,12 @@
     "de": "Alle Bewertungen stammen von echten Reisenden, die diese Reise bei TheVTravel gebucht haben.",
     "zh": "所有评价均来自通过 TheVTravel 预订这段旅程的真实旅客。"
   },
+  "All times are local to Egypt.": {
+    "ru": "Все времена указаны по местному времени Египта.",
+    "fr": "Toutes les heures sont à l’heure locale de l’Égypte.",
+    "de": "Alle Zeiten sind Ortszeit in Ägypten.",
+    "zh": "所有时间均为埃及当地时间。"
+  },
   "An unforgettable journey": {
     "ru": "Незабываемое путешествие",
     "fr": "Un voyage inoubliable",
@@ -517,6 +529,12 @@
     "fr": "Poser une question",
     "de": "Stellen Sie eine Frage",
     "zh": "咨询问题"
+  },
+  "Ask the driver to wait between the two legs": {
+    "ru": "Попросить водителя подождать между поездками",
+    "fr": "Demander au chauffeur d’attendre entre les deux trajets",
+    "de": "Den Fahrer bitten, zwischen den beiden Fahrten zu warten",
+    "zh": "请司机在两段行程之间等候"
   },
   "Aswan": {
     "ru": "Асуан",
@@ -707,6 +725,18 @@
     "ru": "Выберите местоположение на карте",
     "fr": "Choisissez un emplacement sur la carte",
     "de": "Wählen Sie einen Ort auf der Karte"
+  },
+  "Choose a pickup time in the future.": {
+    "ru": "Выберите время посадки в будущем.",
+    "fr": "Choisissez une heure de prise en charge à venir.",
+    "de": "Wählen Sie eine Abholzeit in der Zukunft.",
+    "zh": "请选择将来的接送时间。"
+  },
+  "Choose a return time after the pickup time.": {
+    "ru": "Выберите время возвращения позже времени посадки.",
+    "fr": "Choisissez une heure de retour postérieure à la prise en charge.",
+    "de": "Wählen Sie eine Rückfahrzeit nach der Abholzeit.",
+    "zh": "返程时间须晚于接送时间。"
   },
   "Choose a subject": {
     "ru": "Выберите тему",
@@ -993,6 +1023,12 @@
     "fr": "Faites glisser pour choisir un lieu",
     "de": "Ziehen, um einen Ort auszuwählen"
   },
+  "Driver waiting": {
+    "ru": "Ожидание водителя",
+    "fr": "Attente du chauffeur",
+    "de": "Wartezeit des Fahrers",
+    "zh": "司机等候"
+  },
   "Drop-off location": {
     "ru": "Место высадки",
     "fr": "Lieu de dépôt",
@@ -1141,6 +1177,12 @@
     "fr": "Entrez un numéro de téléphone valide.",
     "de": "Geben Sie eine gültige Telefonnummer ein."
   },
+  "Enter a waiting time between {min} and {max} minutes, or leave it blank.": {
+    "ru": "Укажите время ожидания от {min} до {max} минут или оставьте поле пустым.",
+    "fr": "Indiquez un temps d’attente entre {min} et {max} minutes, ou laissez le champ vide.",
+    "de": "Geben Sie eine Wartezeit zwischen {min} und {max} Minuten ein, oder lassen Sie das Feld leer.",
+    "zh": "请输入 {min} 至 {max} 分钟的等候时间，或留空。"
+  },
   "Enter an address or select a location on the map.": {
     "ru": "Введите адрес или выберите местоположение на карте.",
     "fr": "Entrez une adresse ou sélectionnez un emplacement sur la carte.",
@@ -1165,6 +1207,12 @@
     "ru": "Побег",
     "fr": "S'échapper",
     "de": "Flucht"
+  },
+  "Estimated waiting time (minutes)": {
+    "ru": "Примерное время ожидания (минуты)",
+    "fr": "Temps d’attente estimé (minutes)",
+    "de": "Geschätzte Wartezeit (Minuten)",
+    "zh": "预计等候时间（分钟）"
   },
   "Existing booking": {
     "ru": "Существующее бронирование",
@@ -1889,6 +1937,18 @@
     "de": "Lange Distanz",
     "zh": "长途接送"
   },
+  "Luggage": {
+    "ru": "Багаж",
+    "fr": "Bagages",
+    "de": "Gepäck",
+    "zh": "行李"
+  },
+  "Luggage count": {
+    "ru": "Количество мест багажа",
+    "fr": "Nombre de bagages",
+    "de": "Anzahl der Gepäckstücke",
+    "zh": "行李数量"
+  },
   "Luxor": {
     "ru": "Луксор",
     "fr": "Louxor",
@@ -2021,6 +2081,12 @@
     "fr": "Pique-nique aux îles du Nil",
     "de": "Picknick auf den Nilinseln"
   },
+  "No": {
+    "ru": "Нет",
+    "fr": "Non",
+    "de": "Nein",
+    "zh": "否"
+  },
   "No journeys match these filters": {
     "ru": "Ни одно путешествие не соответствует этим фильтрам.",
     "fr": "Aucun voyage ne correspond à ces filtres",
@@ -2100,6 +2166,12 @@
     "ru": "Не предусмотрено",
     "fr": "Non fourni",
     "de": "Nicht bereitgestellt"
+  },
+  "Nothing is booked yet. TheVTravel will contact you to confirm availability, your trip details and the final price in USD.": {
+    "ru": "Пока ничего не забронировано. TheVTravel свяжется с вами, чтобы подтвердить наличие, детали поездки и окончательную цену в долларах США.",
+    "fr": "Rien n’est encore réservé. TheVTravel vous contactera pour confirmer la disponibilité, les détails de votre trajet et le prix final en USD.",
+    "de": "Es ist noch nichts gebucht. TheVTravel wird sich bei Ihnen melden, um Verfügbarkeit, Fahrtdetails und den Endpreis in USD zu bestätigen.",
+    "zh": "目前尚未完成预订。TheVTravel 将与您联系，确认车辆可用情况、行程细节以及最终美元价格。"
   },
   "Nov 2024": {
     "ru": "ноябрь 2024 г.",
@@ -2249,6 +2321,12 @@
     "ru": "Мирное утро",
     "fr": "Matinée paisible",
     "de": "Friedlicher Morgen"
+  },
+  "Pending review": {
+    "ru": "Ожидает рассмотрения",
+    "fr": "En attente d’examen",
+    "de": "Wird geprüft",
+    "zh": "待审核"
   },
   "People-focused service": {
     "ru": "Сервис, ориентированный на людей",
@@ -2660,6 +2738,12 @@
     "fr": "Retirer un bébé",
     "de": "Ein Baby entfernen"
   },
+  "Remove one luggage": {
+    "ru": "Убрать место багажа",
+    "fr": "Retirer un bagage",
+    "de": "Ein Gepäckstück entfernen",
+    "zh": "减少一件行李"
+  },
   "Request": {
     "ru": "Запрос",
     "fr": "Demande",
@@ -2688,6 +2772,12 @@
     "fr": "Demandez votre date et vos détails",
     "de": "Fordern Sie Ihr Datum und Ihre Details an"
   },
+  "Requests cannot be sent right now. Please contact us on WhatsApp instead.": {
+    "ru": "Сейчас отправка заявок недоступна. Пожалуйста, свяжитесь с нами в WhatsApp.",
+    "fr": "Les demandes ne peuvent pas être envoyées pour le moment. Veuillez nous contacter sur WhatsApp.",
+    "de": "Anfragen können derzeit nicht gesendet werden. Bitte kontaktieren Sie uns stattdessen über WhatsApp.",
+    "zh": "目前无法发送请求。请改为通过 WhatsApp 与我们联系。"
+  },
   "Respect culture": {
     "ru": "Уважайте культуру",
     "fr": "Respecter la culture",
@@ -2704,6 +2794,30 @@
     "ru": "Возвращение",
     "fr": "Retour",
     "de": "Rückfahrt"
+  },
+  "Return date": {
+    "ru": "Дата возвращения",
+    "fr": "Date de retour",
+    "de": "Rückfahrdatum",
+    "zh": "返程日期"
+  },
+  "Return drop-off location": {
+    "ru": "Место высадки при возвращении",
+    "fr": "Lieu de dépose au retour",
+    "de": "Zielort der Rückfahrt",
+    "zh": "返程下车地点"
+  },
+  "Return journey": {
+    "ru": "Обратная поездка",
+    "fr": "Trajet de retour",
+    "de": "Rückfahrt",
+    "zh": "返程行程"
+  },
+  "Return time": {
+    "ru": "Время возвращения",
+    "fr": "Heure de retour",
+    "de": "Rückfahrzeit",
+    "zh": "返程时间"
   },
   "Review & confirm": {
     "ru": "Просмотрите и подтвердите",
@@ -2759,6 +2873,12 @@
     "ru": "Плавайте, отдыхайте и наблюдайте за закатом над вневременными пейзажами.",
     "fr": "Naviguez, détendez-vous et regardez le soleil se coucher sur des paysages intemporels.",
     "de": "Segeln Sie, entspannen Sie sich und beobachten Sie den Sonnenuntergang über zeitlosen Landschaften."
+  },
+  "Same as pickup location": {
+    "ru": "Совпадает с местом посадки",
+    "fr": "Identique au lieu de prise en charge",
+    "de": "Wie der Abholort",
+    "zh": "与接送地点相同"
   },
   "Saudi Arabia": {
     "ru": "Саудовская Аравия",
@@ -3080,6 +3200,12 @@
     "de": "Betreff",
     "zh": "主题"
   },
+  "Submitting this form sends a request. Nothing is booked until our team confirms it with you.": {
+    "ru": "Отправка этой формы создаёт заявку. Бронирование не оформляется, пока наша команда не подтвердит его с вами.",
+    "fr": "L’envoi de ce formulaire crée une demande. Rien n’est réservé tant que notre équipe ne l’a pas confirmé avec vous.",
+    "de": "Mit dem Absenden dieses Formulars senden Sie eine Anfrage. Es ist nichts gebucht, bis unser Team es mit Ihnen bestätigt.",
+    "zh": "提交此表单即发送请求。在我们的团队与您确认之前，不会完成预订。"
+  },
   "Submitting…": {
     "ru": "Отправка…",
     "fr": "Soumission…",
@@ -3288,6 +3414,12 @@
     "de": "Navigation umschalten",
     "zh": "切换导航"
   },
+  "Too many requests from this device. Please wait a minute and try again.": {
+    "ru": "Слишком много заявок с этого устройства. Подождите минуту и попробуйте снова.",
+    "fr": "Trop de demandes depuis cet appareil. Veuillez attendre une minute et réessayer.",
+    "de": "Zu viele Anfragen von diesem Gerät. Bitte warten Sie eine Minute und versuchen Sie es erneut.",
+    "zh": "此设备的请求过于频繁。请稍等一分钟后重试。"
+  },
   "Transfer request": {
     "ru": "Запрос на трансфер",
     "fr": "Demande de transfert",
@@ -3488,6 +3620,12 @@
     "fr": "Nous pensons que les petits choix créent une meilleure expérience pour chacun.",
     "de": "Wir glauben, dass kleine Entscheidungen ein besseres Erlebnis für alle schaffen.",
     "zh": "我们相信，小小的选择能为每个人带来更好的体验。"
+  },
+  "We can agree this on the phone": {
+    "ru": "Можем согласовать по телефону",
+    "fr": "Nous pouvons en convenir par téléphone",
+    "de": "Das können wir telefonisch klären",
+    "zh": "可通过电话另行商定"
   },
   "We care for the places we share with you and the people who welcome us. Our choices support local communities, respect culture and protect the beauty of Egypt.": {
     "ru": "Мы заботимся о местах, которые делим с вами, и о людях, которые нас приветствуют. Наш выбор поддерживает местные сообщества, уважает культуру и защищает красоту Египта.",
@@ -3730,6 +3868,12 @@
     "fr": "Tombes et temples de renommée mondiale",
     "de": "Weltberühmte Gräber und Tempel"
   },
+  "Yes": {
+    "ru": "Да",
+    "fr": "Oui",
+    "de": "Ja",
+    "zh": "是"
+  },
   "Yes. Email support@thevtravel.com with your booking details and the change or question.": {
     "ru": "Да. Отправьте электронное письмо по адресу support@thevtravel.com, указав данные вашего бронирования, а также изменение или вопрос.",
     "fr": "Oui. Envoyez un e-mail à support@thevtravel.com avec les détails de votre réservation et le changement ou la question.",
@@ -3824,10 +3968,22 @@
     "de": "Ihre Reise dreht sich um Sie herum. Vom Tempo bis zu den Orten haben Sie die Wahl.",
     "zh": "您的旅程围绕您而设计。从节奏到地点，每一个选择都由您决定。"
   },
+  "Your reference": {
+    "ru": "Ваш номер заявки",
+    "fr": "Votre référence",
+    "de": "Ihre Referenz",
+    "zh": "您的参考编号"
+  },
   "Your request could not be saved. Please try again.": {
     "ru": "Ваш запрос не удалось сохранить. Пожалуйста, попробуйте еще раз.",
     "fr": "Votre demande n'a pas pu être enregistrée. Veuillez réessayer.",
     "de": "Ihre Anfrage konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+  },
+  "Your request could not be sent. Please check your connection and try again.": {
+    "ru": "Не удалось отправить заявку. Проверьте соединение и попробуйте снова.",
+    "fr": "Votre demande n’a pas pu être envoyée. Veuillez vérifier votre connexion et réessayer.",
+    "de": "Ihre Anfrage konnte nicht gesendet werden. Bitte prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "zh": "无法发送您的请求。请检查网络连接后重试。"
   },
   "your way?": {
     "ru": "по-вашему?",
@@ -3844,6 +4000,12 @@
     "fr": "Vous avez vu tous les voyages correspondants.",
     "de": "Sie haben alle passenden Reisen gesehen.",
     "zh": "已显示全部符合条件的旅程。"
+  },
+  "{minutes} minutes": {
+    "ru": "{minutes} мин.",
+    "fr": "{minutes} minutes",
+    "de": "{minutes} Minuten",
+    "zh": "{minutes} 分钟"
   },
   "{rating} out of 5, {count} reviews. Read reviews": {
     "ru": "{rating} из 5, {count} отзывов. Читать отзывы",

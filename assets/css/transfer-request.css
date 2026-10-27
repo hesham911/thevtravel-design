@@ -24,3 +24,17 @@
 :root[data-theme='dark'] .tf-dialog .leaflet-bar { border-color:var(--line); }
 :root[data-theme='dark'] .tf-dialog .leaflet-control-zoom a { border-color:var(--line); }
 :root[data-theme='dark'] .tf-dialog .leaflet-tile-pane { filter:brightness(.7) saturate(.65); }
+
+/* Transportation request integration: the return leg, the waiting option,
+   the service-timezone note and the reference the API hands back. All four
+   reuse the dialog's existing tokens, so dark mode needs no counterpart. */
+.tf-timezone { color:var(--muted); font-size:12px; line-height:1.6; margin:-8px 0 0; }
+.tf-return { margin:0 0 24px; }
+.tf-return .jb-section-label { margin-bottom:4px; }
+.tf-waiting { display:flex; align-items:flex-start; gap:10px; font-size:14px; line-height:1.5; margin:18px 0; cursor:pointer; }
+.tf-waiting input { accent-color:#fd5400; width:18px; height:18px; flex:0 0 auto; margin-top:1px; }
+.tf-pending-note { color:var(--muted); font-size:13px; line-height:1.7; margin:16px 0 0; }
+.tf-reference { display:grid; gap:6px; justify-items:center; padding:16px 24px; border:1px solid var(--line); border-radius:6px; background:var(--surface-hover); }
+.tf-reference small { color:var(--muted); font-size:12px; letter-spacing:.06em; text-transform:uppercase; }
+.tf-reference strong { font-size:22px; letter-spacing:.08em; font-variant-numeric:tabular-nums; }
+.tf-reference span { color:var(--muted); font-size:12px; }
