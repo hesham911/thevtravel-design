@@ -1,0 +1,173 @@
+/* The customer review page a Journey Booking's QR code or WhatsApp link opens.
+   It is the site's own system — the same tokens, type, buttons, fields and
+   empty states — in a single reading column. Mobile first: the base rules are
+   the phone layout and the breakpoints widen it from there. */
+
+.journey-review-page {
+  /* `.jd-empty-state`, shared with Journey Details, reads this alias for its
+     heading colour. */
+  --jd-text: var(--text);
+  background: var(--page);
+  color: var(--text);
+  min-height: 100vh;
+  overflow: clip;
+}
+:root:not([data-theme='dark']) .journey-review-page { --jd-text: #011947; }
+
+.jr-main { width: min(calc(100% - 32px), 900px); margin-inline: auto; padding: 20px 0 48px; }
+.jr-main h1, .jr-main h2 { color: var(--text); letter-spacing: -.02em; }
+.jr-main button { font-family: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+
+/* Heading */
+.jr-head h1 { font-size: clamp(31px, 8.4vw, 44px); font-weight: 600; line-height: 1.05; margin: 7px 0 0; }
+.jr-head .heading-rule { margin: 14px 0; }
+.jr-lede { margin: 0; max-width: 62ch; color: var(--muted); font-size: 14px; line-height: 1.6; }
+
+/* Journey summary: the booking's own journey, with nothing a customer may not see. */
+.jr-journey { margin-top: 20px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-soft); overflow: hidden; }
+.jr-journey > img { display: block; width: 100%; height: 160px; object-fit: cover; }
+.jr-journey-copy { display: grid; gap: 8px; padding: 14px 16px 17px; }
+.jr-journey-copy h2 { margin: 0; font-size: 24px; font-weight: 600; line-height: 1.15; }
+.jr-journey-copy > p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.jr-facts { display: flex; flex-wrap: wrap; gap: 5px 18px; margin: 0; padding: 0; list-style: none; color: var(--muted); font-size: 13px; }
+.jr-facts li { display: flex; align-items: center; gap: 8px; }
+.jr-facts svg { color: var(--orange); }
+
+/* Form */
+.jr-form, .jr-done { margin-top: 18px; }
+.jr-block { padding: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-soft); }
+.jr-block + .jr-block { margin-top: 12px; }
+.jr-block-head h2 { margin: 0 0 4px; font-family: var(--font-body); font-size: 19px; font-weight: 600; line-height: 1.3; }
+.jr-block-head > p { margin: 0 0 12px; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.jr-optional { color: var(--muted); font-size: 12px; font-weight: 400; }
+
+/* Star rating: five native radios, so arrow keys, one tab stop and the group
+   label come from the browser. */
+.jr-rating { min-width: 0; margin: 0; padding: 0; border: 0; }
+.jr-rating legend { padding: 0; font-size: 15px; font-weight: 600; }
+.jr-rating-row { display: grid; gap: 2px; margin-top: 8px; justify-items: start; }
+.jr-stars { display: flex; margin-inline-start: -6px; }
+.jr-star { position: relative; display: grid; place-items: center; min-width: 50px; min-height: 50px; color: var(--placeholder); }
+.jr-star input { position: absolute; width: 1px; height: 1px; margin: 0; opacity: 0; }
+.jr-star.filled { color: var(--orange); }
+.jr-star.filled svg { fill: currentColor; }
+.jr-star input:focus-visible + svg { outline: 3px solid var(--orange); outline-offset: 4px; border-radius: 4px; }
+.jr-rating-word { min-height: 20px; margin: 0; color: var(--muted); font-size: 13px; }
+.jr-rating.has-error legend { color: var(--error); }
+
+/* Comment */
+.jr-field { display: grid; gap: 6px; }
+.jr-field > label { font-size: 15px; font-weight: 600; }
+.jr-hint { margin: 0 0 2px; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.jr-field textarea {
+  width: 100%; min-height: 148px; padding: 13px 14px;
+  border: 1px solid var(--line); border-radius: 7px;
+  background: var(--field-bg); color: var(--text);
+  font: 400 16px/1.6 var(--font-body); resize: vertical;
+}
+.jr-field textarea::placeholder { color: var(--placeholder); opacity: 1; }
+.jr-field textarea:focus { border-color: var(--orange); box-shadow: 0 0 0 3px rgba(221,121,8,.13); }
+.jr-field.has-error textarea { border-color: var(--error); }
+.jr-field-foot { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.jr-error { color: var(--error); font-size: 12px; line-height: 1.45; }
+.jr-count { margin-inline-start: auto; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+
+/* Photos the admin attached to this booking. Choosing them is always optional. */
+.jr-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.jr-photo { position: relative; }
+.jr-photo-pick { display: block; position: relative; border: 2px solid transparent; border-radius: 9px; overflow: hidden; cursor: pointer; }
+.jr-photo-pick img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: var(--card); }
+.jr-photo input { position: absolute; width: 1px; height: 1px; margin: 0; opacity: 0; }
+.jr-photo input:focus-visible ~ img { outline: 3px solid var(--orange); outline-offset: -3px; }
+/* Unselected it is an empty ring over the photo, selected it fills with the
+   brand orange and shows its check, so the two states read at a glance on a
+   bright photo and on a dark one. */
+.jr-photo-mark {
+  position: absolute; inset-block-start: 8px; inset-inline-start: 8px;
+  display: grid; place-items: center; width: 28px; height: 28px;
+  border: 2px solid rgba(255,255,255,.92); border-radius: 50%;
+  background: color-mix(in srgb, var(--navy-deep) 32%, transparent); color: transparent;
+}
+.jr-photo.selected .jr-photo-pick { border-color: var(--orange); }
+.jr-photo.selected .jr-photo-mark { border-color: var(--orange); background: var(--orange); color: #fff; }
+.jr-photo-zoom {
+  position: absolute; inset-block-start: 4px; inset-inline-end: 4px;
+  display: grid; place-items: center; width: 44px; height: 44px;
+  border: 0; border-radius: 50%;
+  background: color-mix(in srgb, var(--navy-deep) 62%, transparent); color: #fff;
+}
+.jr-photo-zoom:hover { background: var(--navy-deep); }
+.jr-photo-zoom:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.jr-photo-count { min-height: 18px; margin: 10px 0 0; color: var(--muted); font-size: 12px; }
+
+/* Submit */
+.jr-actions { display: grid; gap: 8px; margin-top: 16px; }
+.jr-submit { width: 100%; min-height: 50px; font-size: 15px; }
+.jr-status { min-height: 18px; margin: 0; color: var(--muted); font-size: 13px; }
+
+/* A review this page has just taken, and one shared earlier. */
+.jr-done { display: grid; justify-items: start; gap: 10px; padding: 22px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface-soft); }
+.jr-done-mark { display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: var(--surface-active); color: var(--orange); }
+.jr-done h2 { margin: 2px 0 0; font-size: clamp(24px, 6vw, 30px); font-weight: 600; line-height: 1.15; outline: none; }
+.jr-done > p { margin: 0; max-width: 62ch; color: var(--muted); font-size: 14px; line-height: 1.6; }
+.jr-done-card { width: 100%; display: grid; gap: 10px; margin-top: 4px; padding: 14px; border: 1px solid var(--line); border-radius: 9px; background: var(--card); }
+.jr-done-rating { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; }
+.jr-shown-stars { display: inline-flex; gap: 2px; color: var(--placeholder); }
+.jr-shown-star.filled { color: var(--orange); }
+.jr-shown-star.filled svg { fill: currentColor; }
+.jr-done-rating small { color: var(--muted); font-size: 12px; }
+.jr-done-comment { margin: 0; font-size: 14px; line-height: 1.65; }
+.jr-done-photos { display: flex; flex-wrap: wrap; gap: 8px; }
+.jr-done-photos button { width: 84px; height: 84px; padding: 0; border: 0; border-radius: 7px; overflow: hidden; background: var(--card); }
+.jr-done-photos button:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.jr-done-photos img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.jr-prototype-note { margin: 2px 0 0; color: var(--muted); font-size: 12px; }
+.jr-done .button { margin-top: 6px; }
+
+/* A token no booking carries. */
+.jr-unavailable { display: grid; justify-items: center; gap: 10px; padding: 44px 6px 56px; text-align: center; }
+.jr-unavailable > svg { color: var(--orange); opacity: .7; }
+.jr-unavailable h1 { margin: 6px 0 0; font-size: clamp(27px, 7.4vw, 38px); font-weight: 600; line-height: 1.1; }
+.jr-unavailable p { margin: 0; max-width: 54ch; color: var(--muted); font-size: 14px; line-height: 1.6; }
+.jr-unavailable-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 10px; }
+.jr-unavailable-actions .button { min-height: 46px; }
+
+@media (min-width: 480px) {
+  .jr-photo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (min-width: 768px) {
+  .jr-main { width: min(calc(100% - 56px), 920px); padding: 30px 0 64px; }
+  .jr-head .heading-rule { margin: 18px 0 16px; }
+  .jr-lede { font-size: 15px; }
+  .jr-journey { display: grid; grid-template-columns: 290px minmax(0, 1fr); margin-top: 26px; }
+  .jr-journey > img { height: 100%; min-height: 212px; }
+  .jr-journey-copy { align-content: center; gap: 10px; padding: 20px 24px; }
+  .jr-journey-copy h2 { font-size: 28px; }
+  .jr-journey-copy > p { font-size: 14px; }
+  .jr-form, .jr-done { margin-top: 24px; }
+  .jr-block { padding: 22px 24px; }
+  .jr-block + .jr-block { margin-top: 14px; }
+  .jr-block-head h2 { font-size: 21px; }
+  .jr-block-head > p, .jr-hint { font-size: 14px; }
+  .jr-rating-row { grid-auto-flow: column; justify-content: start; align-items: center; gap: 14px; }
+  .jr-rating-word { min-height: 0; }
+  .jr-done { padding: 28px 26px; }
+  .jr-done-card { padding: 18px 20px; }
+  .jr-actions { grid-auto-flow: column; justify-content: start; align-items: center; gap: 18px; margin-top: 20px; }
+  .jr-submit { width: auto; min-width: 232px; }
+}
+
+@media (min-width: 1200px) {
+  .jr-main { width: min(calc(100% - 96px), 980px); }
+  .jr-journey { grid-template-columns: 330px minmax(0, 1fr); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .jr-star, .jr-photo-pick, .jr-photo-mark, .jr-photo-zoom { transition: color .15s ease, border-color .15s ease, background-color .15s ease; }
+}
+
+/* Agreeing that the chosen photographs may be shown publicly. Asked only
+   once something is chosen, and separately from choosing it. */
+.jr-consent { display: flex; align-items: flex-start; gap: 10px; margin-top: 12px; color: var(--muted); font-size: 13px; line-height: 1.5; cursor: pointer; }
+.jr-consent input { width: 18px; height: 18px; margin: 2px 0 0; accent-color: var(--orange); flex: none; }

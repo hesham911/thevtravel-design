@@ -148,3 +148,22 @@
   .jd-empty-state h3 { font-size:17px; }
   .jd-empty-state p { font-size:12px; }
 }
+
+/* A Traveler Moments card with a single photograph.
+   The collage is built for three — one large, two stacked — so with one
+   photo the grid would leave two empty cells beside it. The card, its
+   border, its traveler line and its spacing are unchanged; only the photo
+   fills the frame it already had. */
+.jd-moment-photos--single { grid-template-columns: minmax(0,1fr); }
+.jd-moment-photos--single button:first-child { grid-row: span 2; }
+/* Two photographs: the collage's own two columns, each full height. */
+.jd-moment-photos:not(.jd-moment-photos--single) button:first-child:nth-last-child(2),
+.jd-moment-photos:not(.jd-moment-photos--single) button:first-child:nth-last-child(2) ~ button { grid-row: span 2; }
+/* The verified marker beside a reviewer's name. The colour is the one the
+   design system already reserved for it. */
+.jd-review-name .jd-verified { font-size: 11px; font-weight: 500; }
+/* "Load more reviews". The tab's own list is unchanged; this is one button
+   under it, in the button style the page already uses. */
+.jd-reviews-more { display: grid; justify-items: center; gap: 8px; padding-top: 18px; }
+.jd-reviews-more .jd-button { min-width: 200px; }
+.jd-reviews-more-error { margin: 0; font-size: 12px; color: var(--error); }

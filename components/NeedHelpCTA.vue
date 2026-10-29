@@ -14,12 +14,17 @@ const props = defineProps({
 })
 
 const { translate } = useI18n()
-const { whatsappUrl } = useSiteContent()
+const { whatsappUrl, buttons } = useSiteContent()
 
+// The panel's own words belong to the page that draws it; the button's are
+// the site-wide WhatsApp label (Website Content → Header & Footer →
+// Buttons), so the same words appear on every WhatsApp button. A page that
+// sets its own button text on the section still wins — a closing panel may
+// legitimately want a different call than the floating button does.
 const help = computed(() => ({
   title: textOr(props.section?.title, translate('Need help?')),
   body: textOr(props.section?.body, translate('Our travel experts are here for you.')),
-  cta: textOr(props.section?.data?.cta_text, translate('Chat on WhatsApp')),
+  cta: textOr(props.section?.data?.cta_text, buttons.value.whatsapp),
 }))
 </script>
 

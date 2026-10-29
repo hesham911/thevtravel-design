@@ -7,6 +7,7 @@ import JourneyCard from '~/components/JourneyCard.vue'
 import TransferBanner from '~/components/TransferBanner.vue'
 import SiteFooter from '~/components/SiteFooter.vue'
 import AppIcon from '~/components/AppIcon.vue'
+import ContentIcon from '~/components/ContentIcon.vue'
 import HeroRouteLine from '~/components/HeroRouteLine.vue'
 import { useI18n } from '~/utils/i18n'
 import { fetchFeaturedJourneys, fetchJourneyFilters } from '~/services/journeys'
@@ -72,9 +73,12 @@ const benefitsTitle = computed(() => textOr(sections.value?.why_travel?.title, t
 const benefits = computed(() => {
   const items = sections.value?.why_travel?.items
   if (Array.isArray(items) && items.length) {
-    return items.map((item, index) => ({ key: item.id ?? index, icon: item.icon || 'people', title: item.title || '', text: item.description || '' }))
+    return items.map((item, index) => ({ key: item.id ?? index, iconImageUrl: item.icon_image_url || '', iconImageDarkUrl: item.icon_image_dark_url || '', title: item.title || '', text: item.description || '' }))
   }
-  return homeContent.benefits.map((item, index) => ({ key: index, icon: item.icon, title: translate(item.title), text: translate(item.text) }))
+  // The page's own copy ships no artwork, and a card's icon is now the
+  // uploaded file alone, so these cards keep their words and hold the icon's
+  // square empty until the CMS has one.
+  return homeContent.benefits.map((item, index) => ({ key: index, iconImageUrl: '', iconImageDarkUrl: '', title: translate(item.title), text: translate(item.text) }))
 })
 
 const destinationsHeading = computed(() => ({
@@ -127,7 +131,7 @@ const destinations = computed(() => {
       </section>
       <section class="home-benefits page-container" aria-labelledby="benefits-title">
         <h2 id="benefits-title">{{ benefitsTitle }}</h2>
-        <div class="home-benefit-grid"><article v-for="item in benefits" :key="item.key"><AppIcon :name="item.icon" :size="26" /><h3>{{ item.title }}</h3><p>{{ item.text }}</p></article></div>
+        <div class="home-benefit-grid"><article v-for="item in benefits" :key="item.key"><ContentIcon :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="26" /><h3>{{ item.title }}</h3><p>{{ item.text }}</p></article></div>
       </section>
       <section v-if="destinations.length" class="home-destinations page-container" aria-labelledby="destinations-title">
         <div class="home-section-heading"><h2 id="destinations-title">{{ destinationsHeading.title }}</h2><p>{{ destinationsHeading.description }}</p></div>

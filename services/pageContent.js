@@ -65,6 +65,13 @@ export function itemsOr(section, fallback) {
   return items.map((item, index) => ({
     key: item.id ?? index,
     icon: item.icon || null,
+    // A card's icon is artwork an admin uploads, and only that: the
+    // icon-name select is gone from the CMS and `icon` above is kept as the
+    // row's stored data, never drawn. The dark file is optional: with only
+    // the light one, ContentIcon uses it in both themes. See
+    // components/ContentIcon.vue, which is the only place that decides.
+    iconImageUrl: item.icon_image_url || '',
+    iconImageDarkUrl: item.icon_image_dark_url || '',
     title: item.title || '',
     description: item.description || '',
     label: item.subtitle || '',

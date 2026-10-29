@@ -3,13 +3,37 @@ import { useAsyncData, useRuntimeConfig } from '#imports'
 import { useI18n } from '~/utils/i18n'
 import { fetchPageSections, itemsOr, linesOf, textOr } from '~/services/pageContent'
 
+/**
+ * The navigation target that opens the transfer request panel instead of
+ * navigating. A nav row carrying it is drawn as a button.
+ *
+ * The admin's help text names this value, and SiteHeader is the only place
+ * that acts on it, so the CMS and the header cannot disagree about which row
+ * is the transfer entry point.
+ */
+export const TRANSFER_TARGET = '#transfer'
+
+/**
+ * The navigation the site ships with — the fallback while the CMS has none,
+ * and the copy the admin's rows were seeded from. Titles are i18n keys.
+ */
+const FALLBACK_NAV = [
+  { key: 'journeys', title: 'Journeys', link: '/journeys' },
+  { key: 'transfers', title: 'Private Transfers', link: TRANSFER_TARGET },
+  { key: 'how-booking-works', title: 'How booking works', link: '/how-booking-works' },
+  { key: 'faq', title: 'FAQ', link: '/faq' },
+  { key: 'about', title: 'About us', link: '/about' },
+  { key: 'contact', title: 'Contact us', link: '/contact' },
+]
+
 // The header and footer every page draws, managed in the admin under
 // Website Content → Header & Footer.
 //
 // One request for the whole chrome: the API serves the `shared` page's
 // sections with the logos, the addresses and the social links from Settings
-// merged into them, so the header, the footer and the floating buttons read
-// from a single payload instead of three. Every component that needs it
+// merged into them, so the header, its navigation labels, the site-wide
+// button words, the footer and the floating buttons read from a single
+// payload instead of five. Every component that needs it
 // calls this composable, and Nuxt's own request deduplication means they
 // share one fetch per page.
 //
@@ -36,6 +60,38 @@ export function useSiteContent() {
     }
   })
 
+  // The navigation's words, in the order the admin arranged them. Labels and
+  // targets, not a menu builder: the routes are the application's own and a
+  // row points at one of them. One row is a button rather than a link — the
+  // transfer target below — which is why the header renders the two
+  // differently rather than assuming every row navigates.
+  //
+  // The built-in navigation is the fallback, so the header is unchanged while
+  // no API is configured, while the API is unreachable, and if every row were
+  // unpublished.
+  const nav = computed(() => {
+    const rows = itemsOr(sections.value?.header_nav, null)
+
+    if (!rows) {
+      return FALLBACK_NAV.map(item => ({ ...item, title: translate(item.title) }))
+    }
+
+    return rows
+      .filter(row => row.title)
+      .map(row => ({ key: row.key, title: row.title, link: row.link }))
+  })
+
+  // The buttons the site draws outside any one page: the transfer entry
+  // point that floats on every page, and the WhatsApp button beside it. The
+  // WhatsApp address itself is a Settings row — see whatsappUrl.
+  const buttons = computed(() => {
+    const data = sections.value?.site_buttons?.data ?? {}
+    return {
+      transfer: textOr(data.transfer_cta, translate('Request a transfer')),
+      whatsapp: textOr(data.whatsapp_cta, translate('Chat on WhatsApp')),
+    }
+  })
+
   const footer = computed(() => {
     const section = sections.value?.footer_brand
     return {
@@ -56,13 +112,16 @@ export function useSiteContent() {
   // The addresses and links the footer and the Contact page show. Null, not
   // a guess: a button whose address has not been configured stays disabled
   // rather than pointing somewhere wrong.
+  //
+  // Phone numbers are deliberately absent: no part of the site ever rendered
+  // them, and the settings behind them were retired with the CMS's Contact
+  // Info tab, so the API no longer sends them.
   const contact = computed(() => {
     const data = sections.value?.footer_brand?.data ?? {}
     const social = Array.isArray(data.social_media) ? data.social_media : []
     return {
       email: data.email || null,
       supportEmail: data.support_email || null,
-      phones: Array.isArray(data.phones) ? data.phones : [],
       social: Object.fromEntries(social.map(entry => [entry.platform, entry.url])),
     }
   })
@@ -101,5 +160,5 @@ export function useSiteContent() {
     }
   }
 
-  return { header, footer, contact, whatsappUrl, column }
+  return { header, nav, buttons, footer, contact, whatsappUrl, column }
 }

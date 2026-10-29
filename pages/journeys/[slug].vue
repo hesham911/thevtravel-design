@@ -1,7 +1,7 @@
 <script setup>
 definePageMeta({"name": "journey-details", "title": "Journey Details — TheVTravel"})
 import { formatUSD } from '~/utils/currency'
-import { computed, ref, nextTick } from 'vue'
+import { computed, ref, nextTick, watch } from 'vue'
 import { useRoute, useRouter, useRuntimeConfig, useAsyncData, useHead, useSeoMeta, setResponseStatus } from '#imports'
 import SiteHeader from '~/components/SiteHeader.vue'
 import JourneyHero from '~/components/journey/JourneyHero.vue'
@@ -13,6 +13,8 @@ import JourneyBookingFlow from '~/components/journey/JourneyBookingFlow.vue'
 import JourneyGalleryViewer from '~/components/journey/JourneyGalleryViewer.vue'
 import { useI18n } from '~/utils/i18n'
 import { fetchJourney } from '~/services/journeys'
+import { fetchJourneyReviews, fetchTravelerMoments } from '~/services/journeyReviews'
+import { mergeTravelers } from '~/utils/journeyTravelers'
 import { relatedJourneys as demoRelated } from '~/data/journeys'
 import { journeyDetails as demoDetails } from '~/data/journeyDetails'
 
@@ -20,6 +22,9 @@ const { locale, translate } = useI18n()
 const { public: runtime } = useRuntimeConfig()
 const api = runtime.apiBaseUrl
 const route = useRoute(), router = useRouter()
+
+/** How many reviews the tab shows before its own pagination is needed. */
+const REVIEWS_PER_PAGE = 10
 
 // The journey is loaded by slug, refetched when the visitor switches language.
 // A slug the API does not publish answers 404 — and the page answers 404 too,
@@ -31,12 +36,108 @@ const { data: result, refresh } = await useAsyncData(
   { watch: [locale, () => route.params.slug], default: () => null },
 )
 
+// The journey's published reviews, and the Traveler Moments collage, are
+// their own requests: a journey with hundreds of reviews must not carry them
+// all in the page payload, and the two lists answer different questions —
+// what travellers said, and which of their photographs we may show.
+//
+// Only asked for once the journey itself is real. In demo mode the fixtures
+// already carry their own travelers, and a second request would have nothing
+// to ask.
+const { data: travellerResult } = await useAsyncData(
+  () => `journey-reviews-${route.params.slug}`,
+  async () => {
+    if (result.value?.status !== 'ok') return null
+
+    const slug = String(route.params.slug)
+    const [reviews, moments] = await Promise.all([
+      fetchJourneyReviews(api, slug, { language: locale.value, perPage: REVIEWS_PER_PAGE }),
+      fetchTravelerMoments(api, slug, locale.value),
+    ])
+
+    return {
+      reviews: reviews.status === 'ok' ? reviews.reviews : [],
+      moments: moments.status === 'ok' ? moments.moments : [],
+      // What the API says about the rest of the list, so the tab knows
+      // whether there is a page after this one.
+      meta: reviews.status === 'ok' ? reviews.meta : null,
+    }
+  },
+  { watch: [locale, () => route.params.slug], default: () => null },
+)
+
+// Pages of reviews fetched after the first one. Kept apart from the first
+// page rather than merged into it, so a language switch or a move to
+// another journey — which refetches the first page — starts clean without
+// anything having to remember to empty this.
+const extraReviews = ref([])
+const loadedPage = ref(1)
+const loadingMoreReviews = ref(false)
+const loadMoreError = ref('')
+
+watch(travellerResult, () => {
+  extraReviews.value = []
+  loadedPage.value = travellerResult.value?.meta?.current_page ?? 1
+  loadingMoreReviews.value = false
+  loadMoreError.value = ''
+})
+
+const lastReviewPage = computed(() => travellerResult.value?.meta?.last_page ?? 1)
+const canLoadMoreReviews = computed(() => loadedPage.value < lastReviewPage.value)
+
+/**
+ * The next page of published reviews, appended to what is already on
+ * screen. One request at a time, and a page that fails leaves everything
+ * already loaded exactly where it is.
+ */
+async function loadMoreReviews() {
+  if (loadingMoreReviews.value || !canLoadMoreReviews.value) return
+
+  loadingMoreReviews.value = true
+  loadMoreError.value = ''
+
+  try {
+    const next = await fetchJourneyReviews(api, String(route.params.slug), {
+      language: locale.value,
+      page: loadedPage.value + 1,
+      perPage: REVIEWS_PER_PAGE,
+    })
+
+    if (next.status !== 'ok') {
+      loadMoreError.value = 'We couldn’t load more reviews. Please try again.'
+
+      return
+    }
+
+    extraReviews.value = [...extraReviews.value, ...next.reviews]
+    loadedPage.value = next.meta?.current_page ?? loadedPage.value + 1
+  } finally {
+    loadingMoreReviews.value = false
+  }
+}
+
 const journey = computed(() => {
-  if (result.value?.status === 'ok') return result.value.journey
+  if (result.value?.status === 'ok') {
+    const record = result.value.journey
+
+    return record === null ? null : { ...record, travelers: travellers.value }
+  }
   // No API base URL configured: deliberate demo mode, same as every other page.
   if (result.value?.status === 'demo') return demoDetails[route.params.slug] ?? null
   return null
 })
+
+/**
+ * Every loaded page of reviews, plus the collage, merged by review — so a
+ * review that has both words and approved photographs appears once, in the
+ * reviews tab for its words and in the collage for its photographs. The
+ * merge also makes "load more" safe to press twice.
+ */
+const travellers = computed(() => mergeTravelers(
+  travellerResult.value?.reviews ?? [],
+  extraReviews.value,
+  travellerResult.value?.moments ?? [],
+))
 
 const notFound = computed(() => result.value?.status === 'not-found' || (result.value?.status === 'demo' && !journey.value))
 const failed = computed(() => result.value?.status === 'error')
@@ -96,7 +197,7 @@ function showPhotos(items, index = 0) { galleryViewer.value?.open(items, index) 
     <main v-if="journey" class="jd-main">
       <JourneyHero :journey="journey" @reviews="select('reviews')" @request="requestJourney" />
       <nav v-if="!journey.catalogOnly" class="jd-desktop-nav" :aria-label='$t("Journey sections")'><button v-for="[id, label] in sections" :key="id" :class="{ active: active === id }" :aria-current="active === id ? 'true' : undefined" @click="select(id)">{{ $t(label) }}</button></nav>
-      <JourneySectionContent v-if="!journey.catalogOnly" :journey="journey" :active="active" :gallery-mode="galleryMode" @gallery-mode="setGallery" @photo="showPhotos" />
+      <JourneySectionContent v-if="!journey.catalogOnly" :journey="journey" :active="active" :gallery-mode="galleryMode" :can-load-more-reviews="canLoadMoreReviews" :loading-more-reviews="loadingMoreReviews" :load-more-error="loadMoreError" @gallery-mode="setGallery" @photo="showPhotos" @load-more-reviews="loadMoreReviews" />
       <section v-if="journey.catalogOnly" id="journey-content" class="jd-content jd-catalog-overview" tabindex="-1" :aria-label="$t('Overview')">
         <h2>{{ $t('Overview') }}</h2><p class="jd-intro">{{ journey.overview }}</p>
         <div class="listing-card-tags"><span v-for="tag in (journey.tags ?? [])" :key="tag">{{ tag }}</span></div>

@@ -15,12 +15,17 @@ watch(transferRequested, () => transfer.value?.open())
 // One place holds the WhatsApp address: Settings → Social in the admin,
 // with the runtime config as the fallback for a deployment with no API yet.
 // Unset, the button stays visibly disabled rather than pointing nowhere.
-const { whatsappUrl } = useSiteContent()
+//
+// The two button labels are content — Website Content → Header & Footer →
+// Buttons — because they are the words a guest reads on the site's two
+// booking entry points. What the buttons do is this component's, and is not
+// configured there.
+const { whatsappUrl, buttons } = useSiteContent()
 </script>
 <template>
   <div v-if="!requestOverlayOpen && !route.meta.legalKey" class="global-floating-actions" :class="{ 'above-journey-nav': route.name === 'journey-details' }">
-    <button class="floating-transfer" type="button" :aria-label='$t("Request a transfer")' @click="transfer.open()"><span>{{ $t("Request a transfer") }}</span><AppIcon name="car" :size="28" /></button>
-    <a v-if="whatsappUrl" class="floating-whatsapp" :href="whatsappUrl" target="_blank" rel="noopener noreferrer" :aria-label='$t("Chat on WhatsApp")'><AppIcon name="whatsapp" :size="30" /></a>
+    <button class="floating-transfer" type="button" :aria-label="buttons.transfer" @click="transfer.open()"><span>{{ buttons.transfer }}</span><AppIcon name="car" :size="28" /></button>
+    <a v-if="whatsappUrl" class="floating-whatsapp" :href="whatsappUrl" target="_blank" rel="noopener noreferrer" :aria-label="buttons.whatsapp"><AppIcon name="whatsapp" :size="30" /></a>
     <button v-else class="floating-whatsapp" type="button" disabled :aria-label='$t("WhatsApp contact is not configured")' :title='$t("WhatsApp contact is not configured")'><AppIcon name="whatsapp" :size="30" /></button>
   </div>
   <TransferRequestFlow ref="transfer" />

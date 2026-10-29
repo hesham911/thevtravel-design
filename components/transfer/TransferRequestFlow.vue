@@ -8,10 +8,28 @@ import JourneyIcon from '../journey/JourneyIcon.vue'
 import { defineAsyncComponent } from 'vue'
 const TransferMapPicker = defineAsyncComponent(() => import( './TransferMapPicker.vue'))
 import { useRequestOverlay } from '~/composables/useRequestOverlay'
-import { PHONE_NUMBER_PATTERN, WAITING_MINUTES, serviceInstant, serviceToday, submitTransportationRequest } from '~/services/transportation'
+import TransferLocationField from './TransferLocationField.vue'
+import { createLocationSearchService, useLocationSearchService } from '~/services/locationSearchService'
+import { PHONE_NUMBER_PATTERN, TRAVELER_CATEGORIES, WAITING_MINUTES, serviceInstant, serviceToday, submitTransportationRequest } from '~/services/transportation'
 import '~/assets/css/journey-booking.css'
 import '~/assets/css/transfer-request.css'
 const props = defineProps({ reverseGeocode: { type: Function, default: null }, searchLocations: { type: Function, default: null } })
+
+// The address lookups both location fields and the map picker use.
+//
+// Configured by NUXT_PUBLIC_LOCATION_API_URL, which points at the API's own
+// geocoding proxy (…/api/public/locations) rather than at a provider: the
+// provider's usage policy wants one identifiable caller, the answers are
+// cached there for every guest, and no credential is ever shipped to this
+// page. With it unset, `searchAvailable` is false and every field says so
+// instead of appearing to search and finding nothing.
+//
+// The injected callbacks still win where a caller supplies them — that is
+// how the tests drive this without a network.
+const configuredService = useLocationSearchService()
+const locationService = props.searchLocations
+  ? createLocationSearchService({ search: props.searchLocations })
+  : configuredService
 const emit = defineEmits(['request-draft'])
 const dialog = ref(null), scrollArea = ref(null), heading = ref(null)
 const { openOverlay, closeOverlay: close, overlayClosed } = useRequestOverlay(dialog)
@@ -19,7 +37,10 @@ const runtime = useRuntimeConfig().public
 const step = ref(1), picker = ref(null), success = ref(false), errors = ref({}), submissionError = ref(''), submitting = ref(false), receipt = ref(null)
 // `trip_type` holds the radio's label, which is also its i18n key; the
 // services/transportation contract maps it to the API's own value.
-const BLANK_FORM = Object.freeze({ pickup_address:'', pickup_latitude:null, pickup_longitude:null, dropoff_address:'', dropoff_longitude:null, dropoff_latitude:null, address_details:'', date:'', time:'', trip_type:'One way', return_date:'', return_time:'', return_dropoff_address:'', driver_waiting:false, waiting_minutes:'', adults:1, children:0, infants:0, luggage:0, full_name:'', phone_country:'EG', phone_number:'', email:'', notes:'' })
+// `luggage` has no counter in the form — the Travelers section asks for the
+// three age categories only — and is held at 0 so the request still carries
+// `luggage_count` and nothing downstream of it has to change.
+const BLANK_FORM = Object.freeze({ pickup_address:'', pickup_latitude:null, pickup_longitude:null, dropoff_address:'', dropoff_longitude:null, dropoff_latitude:null, address_details:'', date:'', time:'', trip_type:'One way', return_date:'', return_time:'', return_dropoff_address:'', driver_waiting:false, waiting_minutes:'', adults:1, children:0, young_children:0, luggage:0, full_name:'', phone_country:'EG', phone_number:'', email:'', notes:'' })
 const form = reactive({ ...BLANK_FORM })
 const countries = [{id:'EG',name:'Egypt',code:'+20'},{id:'US',name:'United States',code:'+1'},{id:'GB',name:'United Kingdom',code:'+44'},{id:'DE',name:'Germany',code:'+49'},{id:'FR',name:'France',code:'+33'},{id:'AE',name:'United Arab Emirates',code:'+971'},{id:'SA',name:'Saudi Arabia',code:'+966'}]
 const phoneCode = computed(() => countries.find(c => c.id === form.phone_country).code)
@@ -38,8 +59,19 @@ async function resetPosition() { await nextTick(); heading.value?.focus({prevent
 async function open() { step.value=1; picker.value=null; success.value=false; errors.value={}; submissionError.value=''; receipt.value=null; await openOverlay(); resetPosition() }
 function go(value) { step.value=value; errors.value={}; resetPosition() }
 function openPicker(field) { picker.value=field; resetPosition() }
-function confirmLocation(location) { if (!picker.value || !location.address?.trim()) return; const field=picker.value; form[`${field}_latitude`]=location.latitude; form[`${field}_longitude`]=location.longitude; form[`${field}_address`]=location.address; picker.value=null; resetPosition() }
-function manualAddress(field) { form[`${field}_latitude`]=null; form[`${field}_longitude`]=null }
+function confirmLocation(location) { if (!picker.value || !location.address?.trim()) return; selectLocation(picker.value, location); picker.value=null; resetPosition() }
+// One path for every way a location is chosen — a search result in step 1 or
+// a confirmed point on the map — so the address and its coordinates are
+// always written together and can never disagree.
+function selectLocation(field, location) {
+  form[`${field}_address`] = location.address
+  form[`${field}_latitude`] = location.latitude
+  form[`${field}_longitude`] = location.longitude
+  errors.value = { ...errors.value, [`${field}_address`]: undefined }
+}
+// Typing by hand invalidates the point the old text came with: an address
+// the guest edited is no longer the place that pin named.
+function manualAddress(field, value) { form[`${field}_address`]=value; form[`${field}_latitude`]=null; form[`${field}_longitude`]=null }
 async function validate(value) {
   const e={}
   if(value===1) {
@@ -117,8 +149,12 @@ const tripReview = computed(() => [
     ['Return drop-off location', form.return_dropoff_address || 'Same as pickup location', !form.return_dropoff_address],
     ['Driver waiting', waitingSummary.value, !form.driver_waiting || String(form.waiting_minutes).trim()===''],
   ] : []),
-  ['Travelers', `${form.adults} ${translate('Adults')}, ${form.children} ${translate('Children')}, ${form.infants} ${translate('Infants')}`, false],
-  ['Luggage', String(form.luggage), false],
+  // The same three rows the counters asked for, in the same order and with
+  // the age that defines each one, read back from the same list: the review
+  // cannot drift from the form, and a guest can see nobody was counted
+  // twice. Luggage is not a traveller and no longer has a counter, so it is
+  // not read back here either.
+  ['Travelers', TRAVELER_CATEGORIES.map(row => `${form[row.key]} ${translate(row.label)}`).join(', '), false],
 ])
 const contactReview = computed(() => [
   ['Full name', form.full_name, false], ['Phone number', `${phoneCode.value} ${form.phone_number}`, false],
@@ -144,7 +180,7 @@ defineExpose({open})
           <template v-else><ol class="jb-stepper" :aria-label='$t("Transfer request progress")'><li v-for="(label,i) in ['Route & trip details','Contact details','Review & confirm']" :key="label" :class="{reached:step>i,current:step===i+1}" :aria-current="step===i+1 ? 'step' : undefined"><span class="jb-marker"><JourneyIcon v-if="step>i+1" name="check" :size="20" /><template v-else>{{ $t(i+1) }}</template></span><span>{{ $t(label) }}</span></li></ol>
             <form novalidate @submit.prevent="step===3 ? confirm() : next()">
               <div v-if="step===1">
-                <div v-for="[field,label] in [['pickup','Pickup location'],['dropoff','Drop-off location']]" :key="field" class="jb-field"><label :for="`tf-${field}`">{{ $t(label) }}</label><div class="tf-location"><input :id="`tf-${field}`" v-model="form[`${field}_address`]" :placeholder="$t(form[`${field}_latitude`] != null ? 'Address unavailable — enter an address if known' : 'Address, hotel or landmark')" :aria-invalid="!!errors[`${field}_address`]" :aria-describedby="errors[`${field}_address`] ? `tf-${field}-error` : undefined" @input="manualAddress(field)" /><button type="button" :aria-label="$t(`Select ${label.toLowerCase()} on map`)" @click="openPicker(field)"><AppIcon name="map" :size="22" /></button></div><small v-if="errors[`${field}_address`]" :id="`tf-${field}-error`" class="jb-error">{{ $t(errors[`${field}_address`]) }}</small></div>
+                <TransferLocationField v-for="[field,label] in [['pickup','Pickup location'],['dropoff','Drop-off location']]" :key="field" :field="field" :label="label" :address="form[`${field}_address`]" :latitude="form[`${field}_latitude`]" :error="errors[`${field}_address`] || ''" :service="locationService" :language="locale" @update:address="manualAddress(field, $event)" @select="selectLocation(field, $event)" @open-map="openPicker(field)" />
                 <label class="jb-field" for="tf-address-details"><span>{{ $t("Address / hotel / landmark details") }} <small class="jb-optional">{{ $t("(optional)") }}</small></span><input id="tf-address-details" v-model="form.address_details" :placeholder='$t("Terminal, hotel entrance, room number…")' /></label>
                 <div class="tf-two-columns"><label v-for="field in ['date','time']" :key="field" class="jb-field" :for="`tf-${field}`"><span>{{ $t(field==='date' ? 'Date' : 'Time') }}</span><input :id="`tf-${field}`" v-model="form[field]" :type="field" :min="field==='date' ? today : undefined" required :aria-invalid="!!errors[field]" :aria-describedby="errors[field] ? `tf-${field}-error` : undefined" /><small v-if="errors[field]" :id="`tf-${field}-error`" class="jb-error">{{ $t(errors[field]) }}</small></label></div>
                 <p class="tf-timezone">{{ $t("All times are local to Egypt.") }}</p>
@@ -155,7 +191,7 @@ defineExpose({open})
                   <label class="tf-waiting" for="tf-driver-waiting"><input id="tf-driver-waiting" v-model="form.driver_waiting" type="checkbox" /><span>{{ $t("Ask the driver to wait between the two legs") }}</span></label>
                   <label v-if="form.driver_waiting" class="jb-field" for="tf-waiting-minutes"><span>{{ $t("Estimated waiting time (minutes)") }} <small class="jb-optional">{{ $t("(optional)") }}</small></span><input id="tf-waiting-minutes" v-model="form.waiting_minutes" type="number" inputmode="numeric" :min="WAITING_MINUTES.min" :max="WAITING_MINUTES.max" step="5" :placeholder='$t("We can agree this on the phone")' :aria-invalid="!!errors.waiting_minutes" :aria-describedby="errors.waiting_minutes ? 'tf-waiting-error' : undefined" /><small v-if="errors.waiting_minutes" id="tf-waiting-error" class="jb-error">{{ $t(errors.waiting_minutes) }}</small></label>
                 </section>
-                <section class="tf-travelers"><h3 class="jb-section-label">{{ $t("Travelers") }}</h3><div v-for="[key,label,min,max] in [['adults','Adults',1,20],['children','Children',0,20],['infants','Infants',0,10],['luggage','Luggage',0,30]]" :key="key" class="jb-traveler"><span>{{ $t(label) }}</span><div class="jb-counter"><button type="button" :disabled="form[key]<=min" :aria-label="$t(`Remove one ${label.toLowerCase()}`)" @click="form[key]--"><JourneyIcon name="minus" :size="18" /></button><output :aria-label="$t(`${label} count`)" aria-live="polite">{{ $t(form[key]) }}</output><button type="button" :disabled="form[key]>=max" :aria-label="$t(`Add one ${label.toLowerCase()}`)" @click="form[key]++"><JourneyIcon name="plus" :size="18" /></button></div></div></section>
+                <section class="tf-travelers"><h3 class="jb-section-label">{{ $t("Travelers") }}</h3><div v-for="row in TRAVELER_CATEGORIES" :key="row.key" class="jb-traveler"><span>{{ $t(row.label) }}</span><div class="jb-counter"><button type="button" :disabled="form[row.key]<=row.min" :aria-label="$t(`Remove one ${row.single}`)" @click="form[row.key]--"><JourneyIcon name="minus" :size="18" /></button><output :aria-label="$t(`${row.label} count`)" aria-live="polite">{{ $t(form[row.key]) }}</output><button type="button" :disabled="form[row.key]>=row.max" :aria-label="$t(`Add one ${row.single}`)" @click="form[row.key]++"><JourneyIcon name="plus" :size="18" /></button></div></div></section>
               </div>
               <div v-else-if="step===2"><h3 class="tf-section-title">{{ $t("Contact details") }}</h3>
                 <label class="jb-field" for="tf-name"><span>{{ $t("Full name") }}</span><input id="tf-name" v-model="form.full_name" autocomplete="name" required :aria-invalid="!!errors.full_name" aria-describedby="tf-name-error" /><small v-if="errors.full_name" id="tf-name-error" class="jb-error">{{ $t(errors.full_name) }}</small></label>

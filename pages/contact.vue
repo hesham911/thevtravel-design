@@ -5,6 +5,7 @@ definePageMeta({ name: 'contact', title: 'Contact Us — TheVTravel' })
 import SiteHeader from '~/components/SiteHeader.vue'
 import SiteFooter from '~/components/SiteFooter.vue'
 import AppIcon from '~/components/AppIcon.vue'
+import ContentIcon from '~/components/ContentIcon.vue'
 import { useI18n } from '~/utils/i18n'
 import { useSiteContent } from '~/composables/useSiteContent'
 import { fetchPageSections, itemsOr, linesOf, textOr } from '~/services/pageContent'
@@ -60,6 +61,11 @@ function fallbackCards(cards) {
   return cards.map(card => ({
     key: card.key,
     icon: card.icon ?? null,
+    // The page's own copy ships no artwork, and a card's icon is now the
+    // uploaded file alone, so these cards keep their words and hold the
+    // icon's square empty until the CMS has one.
+    iconImageUrl: '',
+    iconImageDarkUrl: '',
     title: translate(card.title),
     description: translate(card.description),
     label: card.label ? translate(card.label) : '',
@@ -264,7 +270,7 @@ async function submitForm() {
             class="contact-method"
             :class="{ 'contact-method--featured': index === 0 }"
           >
-            <span class="method-icon" :class="{ 'whatsapp-icon': method.icon === 'whatsapp' }"><AppIcon :name="method.icon || 'mail'" :size="index === 0 ? 36 : 31" /></span>
+            <span class="method-icon" :class="{ 'whatsapp-icon': method.icon === 'whatsapp' }"><ContentIcon :image-url="method.iconImageUrl" :image-dark-url="method.iconImageDarkUrl" :size="index === 0 ? 36 : 31" /></span>
             <div>
               <h2>{{ method.title }}</h2>
               <p><template v-for="(line, lineIndex) in method.description.split('\n')" :key="lineIndex"><br v-if="lineIndex" />{{ line }}</template></p>
@@ -298,7 +304,7 @@ async function submitForm() {
         <div class="page-container">
           <div class="contact-section-heading"><p class="eyebrow">{{ paths.eyebrow }}</p><h2 id="path-title">{{ paths.title }}</h2><span class="heading-rule" aria-hidden="true"></span></div>
           <div class="path-grid">
-            <article v-for="item in paths.cards" :key="item.key" class="path-item"><span class="path-icon"><AppIcon :name="item.icon || 'compass'" :size="46" /></span><div><h3>{{ item.title }}</h3><p>{{ item.description }}</p><a v-if="item.link" :href="item.link">{{ item.label }} <AppIcon name="chevron-right" :size="14" /></a></div></article>
+            <article v-for="item in paths.cards" :key="item.key" class="path-item"><span class="path-icon"><ContentIcon :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="46" /></span><div><h3>{{ item.title }}</h3><p>{{ item.description }}</p><a v-if="item.link" :href="item.link">{{ item.label }} <AppIcon name="chevron-right" :size="14" /></a></div></article>
           </div>
         </div>
       </section>

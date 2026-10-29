@@ -4023,5 +4023,155 @@
     "fr": "· A voyagé en",
     "de": "· Eingereist",
     "zh": "· 出行时间"
+  },
+  "reviews": {
+    "ru": "отзывов",
+    "fr": "avis",
+    "de": "Bewertungen",
+    "zh": "条评价"
+  },
+  "Verified journey": {
+    "ru": "Подтверждённая поездка",
+    "fr": "Voyage vérifié",
+    "de": "Bestätigte Reise",
+    "zh": "已核实的行程"
+  },
+  "Load more reviews": {
+    "ru": "Показать ещё отзывы",
+    "fr": "Afficher plus d’avis",
+    "de": "Weitere Bewertungen laden",
+    "zh": "加载更多评价"
+  },
+  "Loading…": {
+    "ru": "Загрузка…",
+    "fr": "Chargement…",
+    "de": "Wird geladen…",
+    "zh": "加载中…"
+  },
+  "We couldn’t load more reviews. Please try again.": {
+    "ru": "Не удалось загрузить больше отзывов. Попробуйте ещё раз.",
+    "fr": "Impossible de charger plus d’avis. Veuillez réessayer.",
+    "de": "Weitere Bewertungen konnten nicht geladen werden. Bitte erneut versuchen.",
+    "zh": "无法加载更多评价，请重试。"
+  },
+  "Adults (13+)": {
+    "ru": "Взрослые (13+)",
+    "fr": "Adultes (13 ans et plus)",
+    "de": "Erwachsene (ab 13)",
+    "zh": "成人（13 岁及以上）"
+  },
+  "Children (5–12)": {
+    "ru": "Дети (5–12 лет)",
+    "fr": "Enfants (5 à 12 ans)",
+    "de": "Kinder (5–12)",
+    "zh": "儿童（5–12 岁）"
+  },
+  "Young children (under 5)": {
+    "ru": "Малыши (до 5 лет)",
+    "fr": "Jeunes enfants (moins de 5 ans)",
+    "de": "Kleinkinder (unter 5)",
+    "zh": "幼童（5 岁以下）"
+  },
+  "Adults (13+) count": {
+    "ru": "Количество взрослых (13+)",
+    "fr": "Nombre d’adultes (13 ans et plus)",
+    "de": "Anzahl Erwachsene (ab 13)",
+    "zh": "成人（13 岁及以上）人数"
+  },
+  "Children (5–12) count": {
+    "ru": "Количество детей (5–12 лет)",
+    "fr": "Nombre d’enfants (5 à 12 ans)",
+    "de": "Anzahl Kinder (5–12)",
+    "zh": "儿童（5–12 岁）人数"
+  },
+  "Young children (under 5) count": {
+    "ru": "Количество малышей (до 5 лет)",
+    "fr": "Nombre de jeunes enfants (moins de 5 ans)",
+    "de": "Anzahl Kleinkinder (unter 5)",
+    "zh": "幼童（5 岁以下）人数"
+  },
+  "Add one adult": {
+    "ru": "Добавить одного взрослого",
+    "fr": "Ajouter un adulte",
+    "de": "Einen Erwachsenen hinzufügen",
+    "zh": "增加一位成人"
+  },
+  "Add one child": {
+    "ru": "Добавить одного ребёнка",
+    "fr": "Ajouter un enfant",
+    "de": "Ein Kind hinzufügen",
+    "zh": "增加一名儿童"
+  },
+  "Remove one child": {
+    "ru": "Убрать одного ребёнка",
+    "fr": "Retirer un enfant",
+    "de": "Ein Kind entfernen",
+    "zh": "减少一名儿童"
+  },
+  "Add one young child": {
+    "ru": "Добавить одного малыша",
+    "fr": "Ajouter un jeune enfant",
+    "de": "Ein Kleinkind hinzufügen",
+    "zh": "增加一名幼童"
+  },
+  "Remove one young child": {
+    "ru": "Убрать одного малыша",
+    "fr": "Retirer un jeune enfant",
+    "de": "Ein Kleinkind entfernen",
+    "zh": "减少一名幼童"
+  },
+  "Add one bag": {
+    "ru": "Добавить одну сумку",
+    "fr": "Ajouter un bagage",
+    "de": "Ein Gepäckstück hinzufügen",
+    "zh": "增加一件行李"
+  },
+  "Remove one bag": {
+    "ru": "Убрать одну сумку",
+    "fr": "Retirer un bagage",
+    "de": "Ein Gepäckstück entfernen",
+    "zh": "减少一件行李"
+  },
+  "Keep typing to search for a place.": {
+    "ru": "Продолжайте вводить, чтобы найти место.",
+    "fr": "Continuez à saisir pour rechercher un lieu.",
+    "de": "Weiter tippen, um einen Ort zu suchen.",
+    "zh": "继续输入以搜索地点。"
+  },
+  "No places found. Try a more specific address, or choose it on the map.": {
+    "ru": "Места не найдены. Уточните адрес или выберите его на карте.",
+    "fr": "Aucun lieu trouvé. Essayez une adresse plus précise ou choisissez-la sur la carte.",
+    "de": "Keine Orte gefunden. Versuchen Sie eine genauere Adresse oder wählen Sie sie auf der Karte.",
+    "zh": "未找到地点。请输入更具体的地址，或在地图上选择。"
+  },
+  "Address search is unavailable. Type the address, or choose the location on the map.": {
+    "ru": "Поиск адресов недоступен. Введите адрес или выберите место на карте.",
+    "fr": "La recherche d’adresse est indisponible. Saisissez l’adresse ou choisissez le lieu sur la carte.",
+    "de": "Die Adresssuche ist nicht verfügbar. Geben Sie die Adresse ein oder wählen Sie den Ort auf der Karte.",
+    "zh": "地址搜索当前不可用。请输入地址，或在地图上选择位置。"
+  },
+  "Address search is unavailable right now. Type the address, or choose the location on the map.": {
+    "ru": "Поиск адресов сейчас недоступен. Введите адрес или выберите место на карте.",
+    "fr": "La recherche d’adresse est indisponible pour le moment. Saisissez l’adresse ou choisissez le lieu sur la carte.",
+    "de": "Die Adresssuche ist derzeit nicht verfügbar. Geben Sie die Adresse ein oder wählen Sie den Ort auf der Karte.",
+    "zh": "地址搜索暂时不可用。请输入地址，或在地图上选择位置。"
+  },
+  "Pickup location suggestions": {
+    "ru": "Варианты места посадки",
+    "fr": "Suggestions de lieu de prise en charge",
+    "de": "Vorschläge für den Abholort",
+    "zh": "上车地点建议"
+  },
+  "Drop-off location suggestions": {
+    "ru": "Варианты места высадки",
+    "fr": "Suggestions de lieu de dépose",
+    "de": "Vorschläge für den Zielort",
+    "zh": "下车地点建议"
+  },
+  "Exact location saved.": {
+    "ru": "Точное место сохранено.",
+    "fr": "Lieu exact enregistré.",
+    "de": "Genauer Ort gespeichert.",
+    "zh": "已保存精确位置。"
   }
 }

@@ -1,6 +1,18 @@
-export const geocodingLanguages = Object.freeze({ en: 'English', ru: 'Russian', fr: 'French', de: 'German' })
+// Every language the site is read in, so an address comes back in the one
+// the guest is using. The proxy passes it to the provider as Accept-Language
+// and uses it to localize its own answer.
+export const geocodingLanguages = Object.freeze({ en: 'English', ru: 'Russian', fr: 'French', de: 'German', zh: 'Chinese' })
 const languageCode = value => Object.hasOwn(geocodingLanguages, value) ? value : 'en'
-// Transfer-only adapter. Configure a geocoding proxy, never a secret browser API key.
+
+// Transfer-only adapter. `baseUrl` points at this application's own geocoding
+// proxy — NUXT_PUBLIC_LOCATION_API_URL, e.g.
+// http://thevtravel-backend.test/api/public/locations — never at a provider
+// directly and never with a browser API key: the provider's usage policy
+// wants one identifiable caller, the answers are cached server-side for
+// every guest, and a credential on a public page is a credential given away.
+//
+// Unset, `searchAvailable` and `reverseAvailable` are false and every caller
+// says the lookup is unavailable rather than appearing to search.
 export function normalizeLocation(value) {
   if (!value || typeof value.address !== 'string' || !value.address.trim()) return null
   const { latitude, longitude } = value
@@ -43,6 +55,13 @@ export function createLocationSearchService({ baseUrl = '', search, reverseGeoco
   }
 }
 export const locationSearchService = createLocationSearchService()
+/**
+ * The adapter pointed at this application's own geocoding proxy.
+ *
+ * `useRuntimeConfig` is Nuxt's auto-import rather than an explicit one, on
+ * purpose: this module is also loaded directly by `node --test`, where a
+ * '#imports' specifier cannot resolve, and only this function needs it.
+ */
 export function useLocationSearchService() {
   return createLocationSearchService({ baseUrl: useRuntimeConfig().public.locationApiUrl })
 }

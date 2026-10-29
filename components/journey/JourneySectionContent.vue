@@ -3,8 +3,17 @@ import { computed, ref, watch } from 'vue'
 import JourneyVideo from './JourneyVideo.vue'
 import { hasVideoSource } from '~/utils/journeyMedia'
 import JourneyIcon from './JourneyIcon.vue'
-const props = defineProps({ journey: Object, active: String, galleryMode: String })
-const emit = defineEmits(['gallery-mode', 'photo'])
+const props = defineProps({
+  journey: Object,
+  active: String,
+  galleryMode: String,
+  // The reviews tab shows a page at a time; the page above owns the
+  // paging and tells this section only what the button needs to know.
+  canLoadMoreReviews: Boolean,
+  loadingMoreReviews: Boolean,
+  loadMoreError: { type: String, default: '' },
+})
+const emit = defineEmits(['gallery-mode', 'photo', 'load-more-reviews'])
 const videoFailed = ref(false)
 const showVideo = computed(() => hasVideoSource(props.journey.itineraryMedia) && !videoFailed.value)
 watch(() => props.journey.itineraryMedia?.src, () => { videoFailed.value = false })
@@ -20,6 +29,15 @@ const gallery = computed(() => props.journey.gallery ?? [])
 const goodToKnow = computed(() => props.journey.goodToKnow ?? [])
 const travelers = computed(() => props.journey.travelers ?? [])
 const reviews = computed(() => travelers.value.filter(traveler => traveler.text))
+// Traveler Moments is a collage of photographs: a review with none has no
+// card here, rather than an empty frame in the grid. The card itself is
+// unchanged — this only decides which travelers have one.
+const moments = computed(() => travelers.value.filter(traveler => (traveler.photos ?? []).length > 0))
+// "100% verified travelers" is a claim about the journeys behind these
+// reviews, so it is shown only while it is true of every one of them.
+// Verified means the journey was actually performed; it is not the same
+// thing as the review having been approved for publication.
+const allReviewsVerified = computed(() => reviews.value.length > 0 && reviews.value.every(traveler => traveler.isVerified !== false))
 const reviewCount = computed(() => Number(props.journey.reviewCount) || 0)
 const hasReviews = computed(() => reviewCount.value > 0 && props.journey.rating != null)
 
@@ -55,18 +73,22 @@ const status = ref('')
       <p class="jd-eyebrow">{{ $t("Included") }}</p><h2>{{ journey.includedHeading || $t("What’s included in this journey") }}</h2><p class="jd-intro">{{ journey.includedIntro || $t("Here’s what’s covered in your private journey, so you can plan with confidence.") }}</p><div class="jd-included"><article v-for="item in included" :key="item.title"><JourneyIcon :name="item.icon" :size="36" /><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div></article></div><img class="jd-included-art" src="/assets/decorative/cta-lineart-right.svg" alt="" />
     </template>
     <template v-else-if="active === 'gallery'">
-      <div class="jd-gallery-heading"><div><p class="jd-eyebrow">{{ $t("Gallery") }}</p><h2>{{ $t(galleryMode === 'official' ? 'Gallery' : 'Traveler moments') }}</h2><p>{{ galleryMode === 'official' ? (journey.galleryIntro || $t("Official photos")) : $t("Real photos and stories from travelers who experienced this journey.") }}</p></div><div class="jd-gallery-toggle" :aria-label='$t("Gallery type")'><button :class="{ active: galleryMode === 'official' }" :aria-pressed="galleryMode === 'official'" @click="emit('gallery-mode', 'official')">{{ $t("Official photos (") }}{{ $t(gallery.length) }})</button><button :class="{ active: galleryMode === 'traveler-moments' }" :aria-pressed="galleryMode === 'traveler-moments'" @click="emit('gallery-mode', 'traveler-moments')">{{ $t("Traveler moments (") }}{{ $t(travelers.length) }})</button></div></div>
+      <div class="jd-gallery-heading"><div><p class="jd-eyebrow">{{ $t("Gallery") }}</p><h2>{{ $t(galleryMode === 'official' ? 'Gallery' : 'Traveler moments') }}</h2><p>{{ galleryMode === 'official' ? (journey.galleryIntro || $t("Official photos")) : $t("Real photos and stories from travelers who experienced this journey.") }}</p></div><div class="jd-gallery-toggle" :aria-label='$t("Gallery type")'><button :class="{ active: galleryMode === 'official' }" :aria-pressed="galleryMode === 'official'" @click="emit('gallery-mode', 'official')">{{ $t("Official photos (") }}{{ $t(gallery.length) }})</button><button :class="{ active: galleryMode === 'traveler-moments' }" :aria-pressed="galleryMode === 'traveler-moments'" @click="emit('gallery-mode', 'traveler-moments')">{{ $t("Traveler moments (") }}{{ $t(moments.length) }})</button></div></div>
       <div v-if="galleryMode === 'official' && gallery.length" class="jd-photo-grid"><button v-for="(photo, i) in gallery" :key="photo.src" :aria-label="$t('Enlarge photo: {description}', { description: photo.alt })" @click="emit('photo', gallery, i)"><img :src="photo.src" :alt="photo.alt" loading="lazy" /></button></div>
       <div v-else-if="galleryMode === 'official'" class="jd-empty-state"><JourneyIcon name="image" :size="40" /><h3>{{ $t("No photos yet") }}</h3><p>{{ $t("Photos for this journey are on their way.") }}</p></div>
-      <div v-else-if="travelers.length" class="jd-moments"><article v-for="traveler in travelers" :key="traveler.name"><div class="jd-moment-photos"><button v-for="(photo, i) in traveler.photos" :key="i" :aria-label="$t('Photo by {name}: {description}', { name: traveler.name, description: photo.alt })" @click="emit('photo', traveler.photos, i)"><img :src="photo.src" :alt="photo.alt" loading="lazy" /></button></div><div class="jd-traveler-line"><span class="jd-avatar" aria-hidden="true">{{ traveler.name.charAt(0) }}</span><strong>{{ traveler.name }}</strong><small>{{ $t("Traveled in") }} {{ traveler.date }}</small><button :aria-label="$t('Share traveler moments by {name}', { name: traveler.name })" @click="share(traveler)"><JourneyIcon name="share" :size="19" /></button></div></article></div>
+      <div v-else-if="moments.length" class="jd-moments"><article v-for="traveler in moments" :key="traveler.id ?? traveler.name"><div class="jd-moment-photos" :class="{ 'jd-moment-photos--single': traveler.photos.length === 1 }"><button v-for="(photo, i) in traveler.photos" :key="i" :aria-label="$t('Photo by {name}: {description}', { name: traveler.name, description: photo.alt })" @click="emit('photo', traveler.photos, i)"><img :src="photo.src" :alt="photo.alt" loading="lazy" /></button></div><div class="jd-traveler-line"><span class="jd-avatar" aria-hidden="true">{{ traveler.name.charAt(0) }}</span><strong>{{ traveler.name }}</strong><small>{{ $t("Traveled in") }} {{ traveler.date }}</small><button :aria-label="$t('Share traveler moments by {name}', { name: traveler.name })" @click="share(traveler)"><JourneyIcon name="share" :size="19" /></button></div></article></div>
       <div v-else class="jd-empty-state"><JourneyIcon name="camera" :size="40" /><h3>{{ $t("No traveler photos yet") }}</h3><p>{{ $t("Photos shared by travelers will appear here once they return from this journey.") }}</p></div>
       <p role="status">{{ $t(status) }}</p>
     </template>
     <template v-else-if="active === 'reviews'">
       <p class="jd-eyebrow">{{ $t("Reviews") }}</p><h2>{{ $t("What travelers say") }}</h2><p class="jd-intro">{{ $t("Real stories from travelers who experienced this journey.") }}</p>
       <template v-if="hasReviews">
-        <div class="jd-review-summary"><div class="jd-rating-card"><div><strong class="jd-rating-number">{{ $t(journey.rating) }}</strong><span class="jd-stars"><JourneyIcon v-for="n in 5" :key="n" name="star" :size="23" /></span><p>{{ $t(reviewCount) }} {{ $t("verified reviews") }}</p></div><div class="jd-distribution"><div v-for="(count, i) in (journey.distribution ?? [])" :key="i"><span>{{ $t(5 - i) }} <JourneyIcon name="star" :size="12" /></span><div><span :style="{ width: `${count / reviewCount * 100}%` }"></span></div><small>{{ $t(count) }}</small></div></div></div><div class="jd-review-trust"><JourneyIcon name="community" :size="46" /><div><strong>{{ $t("100% verified travelers") }}</strong><p>{{ $t("All reviews are from real travelers who booked this journey with TheVTravel.") }}</p></div></div></div>
-        <div class="jd-reviews"><article v-for="traveler in reviews" :key="traveler.name"><span class="jd-avatar" aria-hidden="true">{{ traveler.name.charAt(0) }}</span><div class="jd-review-copy"><div class="jd-review-name"><h3>{{ traveler.name }}</h3></div><div class="jd-review-meta"><span class="jd-stars"><JourneyIcon v-for="n in 5" :key="n" :name="n <= traveler.rating ? 'star' : 'outline-star'" :size="17" /></span><strong>{{ $t(traveler.rating.toFixed(1)) }}</strong><span>{{ $t(traveler.type) }} {{ $t("· Traveled in") }} {{ $t(traveler.date) }}</span></div><p>{{ traveler.text }}</p></div><div class="jd-review-photos"><button v-for="(photo, i) in traveler.photos" :key="i" :aria-label="$t('Enlarge review photo: {description}', { description: photo.alt })" @click="emit('photo', traveler.photos, i)"><img :src="photo.src" :alt="photo.alt" loading="lazy" /></button></div></article></div>
+        <div class="jd-review-summary"><div class="jd-rating-card"><div><strong class="jd-rating-number">{{ $t(journey.rating) }}</strong><span class="jd-stars"><JourneyIcon v-for="n in 5" :key="n" name="star" :size="23" /></span><p>{{ $t(reviewCount) }} {{ $t(allReviewsVerified ? 'verified reviews' : 'reviews') }}</p></div><div class="jd-distribution"><div v-for="(count, i) in (journey.distribution ?? [])" :key="i"><span>{{ $t(5 - i) }} <JourneyIcon name="star" :size="12" /></span><div><span :style="{ width: `${count / reviewCount * 100}%` }"></span></div><small>{{ $t(count) }}</small></div></div></div><div v-if="allReviewsVerified" class="jd-review-trust"><JourneyIcon name="community" :size="46" /><div><strong>{{ $t("100% verified travelers") }}</strong><p>{{ $t("All reviews are from real travelers who booked this journey with TheVTravel.") }}</p></div></div></div>
+        <div class="jd-reviews"><article v-for="traveler in reviews" :key="traveler.name"><span class="jd-avatar" aria-hidden="true">{{ traveler.name.charAt(0) }}</span><div class="jd-review-copy"><div class="jd-review-name"><h3>{{ traveler.name }}</h3><small v-if="traveler.isVerified" class="jd-verified">{{ $t("Verified journey") }}</small></div><div class="jd-review-meta"><span class="jd-stars"><JourneyIcon v-for="n in 5" :key="n" :name="n <= traveler.rating ? 'star' : 'outline-star'" :size="17" /></span><strong>{{ $t(traveler.rating.toFixed(1)) }}</strong><span>{{ $t(traveler.type) }} {{ $t("· Traveled in") }} {{ $t(traveler.date) }}</span></div><p>{{ traveler.text }}</p></div><div class="jd-review-photos"><button v-for="(photo, i) in traveler.photos" :key="i" :aria-label="$t('Enlarge review photo: {description}', { description: photo.alt })" @click="emit('photo', traveler.photos, i)"><img :src="photo.src" :alt="photo.alt" loading="lazy" /></button></div></article></div>
+        <div v-if="canLoadMoreReviews || loadMoreError" class="jd-reviews-more">
+          <button class="jd-button" type="button" :disabled="loadingMoreReviews" :aria-busy="loadingMoreReviews" @click="emit('load-more-reviews')">{{ $t(loadingMoreReviews ? 'Loading…' : 'Load more reviews') }}</button>
+          <p v-if="loadMoreError" class="jd-reviews-more-error" role="status">{{ $t(loadMoreError) }}</p>
+        </div>
       </template>
       <div v-else class="jd-empty-state"><JourneyIcon name="outline-star" :size="40" /><h3>{{ $t("No reviews yet for this journey") }}</h3><p>{{ $t("Travelers who book this journey will be able to share their experience here.") }}</p></div>
     </template>

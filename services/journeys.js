@@ -143,10 +143,11 @@ export function toCard(journey) {
     description: journey.short_description ?? '',
     badge: journey.badge ?? null,
     tags: journey.tags ?? [],
-    // There is no review module yet. The card's own "No reviews yet" state is
-    // the honest answer; a rating is never invented here.
-    averageRating: null,
-    reviewCount: 0,
+    // Published reviews only, as the API counted them. A journey nobody has
+    // reviewed keeps a null rating, so the card shows its "No reviews yet"
+    // state rather than a figure nothing produced.
+    averageRating: journey.reviews?.average_rating == null ? null : Number(journey.reviews.average_rating),
+    reviewCount: journey.reviews?.count ?? 0,
   }
 }
 
@@ -187,12 +188,17 @@ export function toDetail(journey) {
     pricing: journey.pricing ?? null,
     related: (journey.related ?? []).map(toCard),
     seo: journey.seo ?? null,
-    // Until the review module exists there is nothing real to show: no rating,
-    // no count, no traveler photos, and no "verified traveler" claim.
-    rating: null,
-    reviewCount: 0,
+    // The summary of PUBLISHED reviews, as the API counted them, so the
+    // figure above the list always matches the list underneath it.
+    //
+    // The reviews themselves are their own request (services/journeyReviews)
+    // rather than part of this payload, so a journey with hundreds of them
+    // does not carry them all into the page: `travelers` starts empty and
+    // the page fills it.
+    rating: journey.reviews?.average_rating == null ? null : Number(journey.reviews.average_rating),
+    reviewCount: journey.reviews?.count ?? 0,
     travelers: [],
-    distribution: [],
+    distribution: journey.reviews?.distribution ?? [],
   }
 }
 

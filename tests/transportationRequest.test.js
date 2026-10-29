@@ -3,7 +3,7 @@ import assert from 'node:assert/strict'
 import { execFileSync } from 'node:child_process'
 import translations from '../data/demoTranslations.json' with { type: 'json' }
 import {
-  PHONE_NUMBER_PATTERN, SERVICE_TIME_ZONE, TRIP_TYPE, WAITING_MINUTES,
+  PHONE_NUMBER_PATTERN, SERVICE_TIME_ZONE, TRAVELER_CATEGORIES, TRIP_TYPE, WAITING_MINUTES,
   fieldErrors, serviceInstant, serviceToday, submitTransportationRequest, transportationPayload,
 } from '../services/transportation.js'
 
@@ -11,7 +11,7 @@ const oneWay = {
   pickup_address: ' Luxor Airport ', dropoff_address: ' Hotel in Luxor ', address_details: ' Main entrance ',
   date: '2026-11-10', time: '10:00', trip_type: 'One way',
   return_date: '', return_time: '', return_dropoff_address: '', driver_waiting: false, waiting_minutes: '',
-  adults: 2, children: 1, infants: 0, luggage: 2,
+  adults: 2, children: 1, young_children: 0, luggage: 2,
   full_name: ' Example Guest ', phone_country: 'EG', phone_number: ' 1012345678 ', email: ' guest@example.com ', notes: ' Child seat requested ',
 }
 
@@ -48,7 +48,7 @@ test('a one-way request is the API contract: trimmed values, the API’s own fie
     pickup_at: '2026-11-10T10:00:00+02:00',
     trip_type: 'one_way',
     driver_waiting_requested: false,
-    adults_count: 2, children_count: 1, infants_count: 0, luggage_count: 2,
+    adults_count: 2, children_count: 1, young_children_count: 0, luggage_count: 2,
   })
   assert.deepEqual(TRIP_TYPE, { 'One way': 'one_way', Return: 'return' })
 })
@@ -116,17 +116,44 @@ test('the country selector’s dial code is the API’s phone_country_code, and 
   for (const invalid of ['(10) 1234', '+201012345678', '12345', 'abc123456']) assert.doesNotMatch(invalid, PHONE_NUMBER_PATTERN)
 })
 
-test('passenger and luggage counts stay within the API’s bounds, with its own defaults', () => {
-  const payload = transportationPayload({ ...oneWay, adults: 4, children: 3, infants: 1, luggage: 6 }, '+20')
+/**
+ * The Travelers section asks for three age categories, youngest first, and
+ * nothing else. The counters and the review step both read this list, so
+ * this is the one place either of them can drift from — a fourth row here
+ * would show up as a fourth counter.
+ */
+test('the travellers asked for are the three age categories, youngest first', () => {
   assert.deepEqual(
-    { adults_count: payload.adults_count, children_count: payload.children_count, infants_count: payload.infants_count, luggage_count: payload.luggage_count },
-    { adults_count: 4, children_count: 3, infants_count: 1, luggage_count: 6 },
+    TRAVELER_CATEGORIES.map(row => [row.key, row.label]),
+    [
+      ['young_children', 'Young children (under 5)'],
+      ['children', 'Children (5–12)'],
+      ['adults', 'Adults (13+)'],
+    ],
+  )
+
+  // Luggage is not a traveller and has no counter, yet the request still
+  // carries it: the column, the dispatcher's view and the bookings already
+  // taken are untouched by the form losing the row.
+  assert.equal(TRAVELER_CATEGORIES.some(row => row.key === 'luggage'), false)
+  assert.equal(transportationPayload({ ...oneWay, luggage: 3 }, '+20').luggage_count, 3)
+
+  // A transfer carries at least one grown traveller; the younger rows may
+  // be zero.
+  assert.deepEqual(TRAVELER_CATEGORIES.map(row => row.min), [0, 0, 1])
+})
+
+test('passenger and luggage counts stay within the API’s bounds, with its own defaults', () => {
+  const payload = transportationPayload({ ...oneWay, adults: 4, children: 3, young_children: 1, luggage: 6 }, '+20')
+  assert.deepEqual(
+    { adults_count: payload.adults_count, children_count: payload.children_count, young_children_count: payload.young_children_count, luggage_count: payload.luggage_count },
+    { adults_count: 4, children_count: 3, young_children_count: 1, luggage_count: 6 },
   )
   // At least one adult, and no count outside what the API accepts.
-  const outOfRange = transportationPayload({ ...oneWay, adults: 0, children: 99, infants: -1, luggage: 500 }, '+20')
+  const outOfRange = transportationPayload({ ...oneWay, adults: 0, children: 99, young_children: -1, luggage: 500 }, '+20')
   assert.deepEqual(
-    { adults_count: outOfRange.adults_count, children_count: outOfRange.children_count, infants_count: outOfRange.infants_count, luggage_count: outOfRange.luggage_count },
-    { adults_count: 1, children_count: 0, infants_count: 0, luggage_count: 0 },
+    { adults_count: outOfRange.adults_count, children_count: outOfRange.children_count, young_children_count: outOfRange.young_children_count, luggage_count: outOfRange.luggage_count },
+    { adults_count: 1, children_count: 0, young_children_count: 0, luggage_count: 0 },
   )
   // Zero luggage is an answer, not a missing field.
   assert.equal(transportationPayload({ ...oneWay, luggage: 0 }, '+20').luggage_count, 0)
@@ -295,7 +322,7 @@ test('every string the transfer flow added is translated into all five site lang
   const added = [
     'All times are local to Egypt.', 'Return journey', 'Return date', 'Return time', 'Return drop-off location',
     'Same as pickup location', 'Ask the driver to wait between the two legs', 'Estimated waiting time (minutes)',
-    'We can agree this on the phone', 'Driver waiting', 'Luggage', 'Luggage count', 'Add one luggage', 'Remove one luggage',
+    'We can agree this on the phone', 'Driver waiting',
     'Yes', 'No', 'Your reference', 'Pending review',
     'Choose a pickup time in the future.', 'Choose a return time after the pickup time.',
     'Enter a waiting time between {min} and {max} minutes, or leave it blank.', '{minutes} minutes',

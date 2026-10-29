@@ -3,6 +3,7 @@ definePageMeta({"name": "how-booking-works", "title": "How Booking Works \u2014 
 import SiteHeader from '~/components/SiteHeader.vue'
 import SiteFooter from '~/components/SiteFooter.vue'
 import AppIcon from '~/components/AppIcon.vue'
+import ContentIcon from '~/components/ContentIcon.vue'
 import NeedHelpCTA from '~/components/NeedHelpCTA.vue'
 import { useI18n } from '~/utils/i18n'
 import { fetchPageSections, textOr } from '~/services/pageContent'
@@ -62,6 +63,8 @@ const steps = computed(() => {
       key: item.id ?? index,
       number: stepNumber(index),
       icon: item.icon || 'search',
+      iconImageUrl: item.icon_image_url || '',
+      iconImageDarkUrl: item.icon_image_dark_url || '',
       title: item.title || '',
       description: item.description || '',
     }))
@@ -69,7 +72,11 @@ const steps = computed(() => {
   return fallbackSteps.map((step, index) => ({
     key: index,
     number: stepNumber(index),
-    icon: step.icon,
+    // The page's own copy ships no artwork, and a step's icon is now the
+    // uploaded file alone, so these steps keep their words and hold the
+    // icon's square empty until the CMS has one.
+    iconImageUrl: '',
+    iconImageDarkUrl: '',
     title: translate(step.title),
     description: translate(step.description),
   }))
@@ -119,7 +126,7 @@ const payment = computed(() => {
         <div class="booking-step-grid">
           <article v-for="step in steps" :key="step.key" class="booking-step-card">
             <span class="booking-step-number">{{ step.number }}</span>
-            <span class="booking-step-icon"><AppIcon :name="step.icon" :size="54" /></span>
+            <span class="booking-step-icon"><ContentIcon :image-url="step.iconImageUrl" :image-dark-url="step.iconImageDarkUrl" :size="54" /></span>
             <h3>{{ step.title }}</h3>
             <i aria-hidden="true"></i>
             <p>{{ step.description }}</p>

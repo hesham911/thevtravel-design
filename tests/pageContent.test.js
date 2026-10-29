@@ -36,11 +36,38 @@ test('a multi-line field becomes the lines the design draws, and an empty one ke
 
 test('cards come from the CMS when it has any, and from the page itself when it has none', () => {
   const cards = itemsOr({ items: [{ id: 7, icon: 'lock', title: 'Private by design', description: 'Yours.', subtitle: 'Open', link: '/x' }] }, ['fallback'])
-  assert.deepEqual(cards, [{ key: 7, icon: 'lock', title: 'Private by design', description: 'Yours.', label: 'Open', link: '/x' }])
+  assert.deepEqual(cards, [{ key: 7, icon: 'lock', iconImageUrl: '', iconImageDarkUrl: '', title: 'Private by design', description: 'Yours.', label: 'Open', link: '/x' }])
   // An unpublished row is already absent from the response: a section with
   // nothing left to show falls back rather than rendering an empty grid.
   assert.deepEqual(itemsOr({ items: [] }, ['fallback']), ['fallback'])
   assert.deepEqual(itemsOr(undefined, ['fallback']), ['fallback'])
   // A row with no icon or link reports them as empty, never as "undefined".
-  assert.deepEqual(itemsOr({ items: [{ id: 1, title: 'Q' }] }, []), [{ key: 1, icon: null, title: 'Q', description: '', label: '', link: '' }])
+  assert.deepEqual(itemsOr({ items: [{ id: 1, title: 'Q' }] }, []), [{ key: 1, icon: null, iconImageUrl: '', iconImageDarkUrl: '', title: 'Q', description: '', label: '', link: '' }])
+})
+
+// A card's icon is artwork an admin uploads, and only that: ContentIcon
+// draws the uploaded file and never an icon name. `icon` is still carried
+// through as the row's stored data — the CMS no longer offers a field for it
+// and no page renders it.
+test('an uploaded card icon is carried through, and the stored icon name is data only', () => {
+  const [card] = itemsOr({
+    items: [{
+      id: 3,
+      icon: 'lock',
+      icon_image_url: 'https://cms.test/icon-light.svg',
+      icon_image_dark_url: 'https://cms.test/icon-dark.svg',
+      title: 'Private by design',
+    }],
+  }, [])
+
+  assert.equal(card.iconImageUrl, 'https://cms.test/icon-light.svg')
+  assert.equal(card.iconImageDarkUrl, 'https://cms.test/icon-dark.svg')
+  assert.equal(card.icon, 'lock')
+
+  // Only a light file: the dark one is optional, and an icon that reads in
+  // both themes needs one file rather than two — ContentIcon then shows the
+  // light file in dark mode too.
+  const [lightOnly] = itemsOr({ items: [{ id: 4, icon: 'pin', icon_image_url: 'https://cms.test/pin.png' }] }, [])
+  assert.equal(lightOnly.iconImageUrl, 'https://cms.test/pin.png')
+  assert.equal(lightOnly.iconImageDarkUrl, '')
 })

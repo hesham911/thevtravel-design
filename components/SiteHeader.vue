@@ -5,14 +5,18 @@ import AppIcon from './AppIcon.vue'
 import LanguageSelector from './LanguageSelector.vue'
 import { useTransferRequest } from '~/composables/useTransferRequest'
 import { useTheme } from '~/composables/useTheme'
-import { useSiteContent } from '~/composables/useSiteContent'
+import { TRANSFER_TARGET, useSiteContent } from '~/composables/useSiteContent'
 
-// The logos, the logo's description and the button label are managed in the
-// admin under Website Content → Header & Footer (the logo files themselves
-// under Settings → General). The navigation itself is this application's
-// own routes and is deliberately not content: an admin edits the words on
-// the site, not where its pages are.
-const { header: chrome } = useSiteContent()
+// The logos, the logo's description, the button label and the navigation's
+// own labels and targets are managed in the admin under Website Content →
+// Header & Footer (the logo files themselves under Settings → General). The
+// rows are labels and destinations, not a menu builder: the routes are this
+// application's own and a row points at one of them.
+//
+// The same rows draw the desktop bar and the mobile menu, so the two can
+// never disagree, and the layout of both is unchanged — one <NuxtLink> per
+// row, in order, with the transfer row still the one <button>.
+const { header: chrome, nav } = useSiteContent()
 
 const transferRequested = useTransferRequest()
 function requestTransfer() { transferRequested.value++ }
@@ -29,8 +33,27 @@ function closeMenu() { open.value = false; menuButton.value?.focus() }
 const route = useRoute()
 const { isDark, toggleTheme } = useTheme()
 
-function isActive(name) {
-  return route.name === name || (name === 'journeys' && route.name === 'journey-details')
+// A row's target decides whether it is the page being read, so the highlight
+// follows whatever routes the admin pointed the rows at. A section's own
+// pages count as that section — /journeys/luxor highlights "Journeys", which
+// is what the route-name check it replaces did for the journey detail page.
+function isActive(link) {
+  if (!link || link.startsWith('#')) {
+    return false
+  }
+
+  const path = link.split(/[?#]/)[0].replace(/\/+$/, '')
+
+  if (path === '') {
+    return route.path === '/'
+  }
+
+  return route.path === path || route.path.startsWith(`${path}/`)
+}
+
+/** The one row that opens the transfer panel rather than navigating. */
+function opensTransfer(link) {
+  return link === TRANSFER_TARGET
 }
 </script>
 
@@ -41,12 +64,10 @@ function isActive(name) {
       <img class="logo-dark" :src="chrome.logoDark || '/assets/brand/logo-transparent-dark.png'" :alt="chrome.logoAlt" width="174" height="58" fetchpriority="low" />
     </NuxtLink>
     <nav class="desktop-nav" :aria-label='$t("Main navigation")'>
-      <NuxtLink to="/journeys" :class="{ active: isActive('journeys') }" :aria-current="isActive('journeys') ? 'page' : undefined">{{ $t("Journeys") }}</NuxtLink>
-      <button class="nav-transfer" type="button" @click="requestTransfer">{{ $t("Private Transfers") }}</button>
-      <NuxtLink to="/how-booking-works" :class="{ active: isActive('how-booking-works') }" :aria-current="isActive('how-booking-works') ? 'page' : undefined">{{ $t("How booking works") }}</NuxtLink>
-      <NuxtLink to="/faq" :class="{ active: isActive('faq') }" :aria-current="isActive('faq') ? 'page' : undefined">{{ $t("FAQ") }}</NuxtLink>
-      <NuxtLink to="/about" :class="{ active: isActive('about') }" :aria-current="isActive('about') ? 'page' : undefined">{{ $t("About us") }}</NuxtLink>
-      <NuxtLink to="/contact" :class="{ active: isActive('contact') }" :aria-current="isActive('contact') ? 'page' : undefined">{{ $t("Contact us") }}</NuxtLink>
+      <template v-for="item in nav" :key="item.key">
+        <button v-if="opensTransfer(item.link)" class="nav-transfer" type="button" @click="requestTransfer">{{ item.title }}</button>
+        <NuxtLink v-else :to="item.link" :class="{ active: isActive(item.link) }" :aria-current="isActive(item.link) ? 'page' : undefined">{{ item.title }}</NuxtLink>
+      </template>
     </nav>
     <div class="header-actions">
       <button
@@ -65,12 +86,10 @@ function isActive(name) {
       </button>
     </div>
     <nav @keydown.esc="closeMenu" v-if="open" id="mobile-navigation" class="mobile-nav" :aria-label='$t("Mobile navigation")'>
-      <NuxtLink to="/journeys" :class="{ active: isActive('journeys') }" :aria-current="isActive('journeys') ? 'page' : undefined" @click="open = false">{{ $t("Journeys") }}</NuxtLink>
-      <button class="nav-transfer" type="button" @click="open = false; requestTransfer()">{{ $t("Private Transfers") }}</button>
-      <NuxtLink to="/how-booking-works" :class="{ active: isActive('how-booking-works') }" :aria-current="isActive('how-booking-works') ? 'page' : undefined" @click="open = false">{{ $t("How booking works") }}</NuxtLink>
-      <NuxtLink to="/faq" :class="{ active: isActive('faq') }" :aria-current="isActive('faq') ? 'page' : undefined" @click="open = false">{{ $t("FAQ") }}</NuxtLink>
-      <NuxtLink to="/about" :class="{ active: isActive('about') }" :aria-current="isActive('about') ? 'page' : undefined" @click="open = false">{{ $t("About us") }}</NuxtLink>
-      <NuxtLink to="/contact" :class="{ active: isActive('contact') }" :aria-current="isActive('contact') ? 'page' : undefined" @click="open = false">{{ $t("Contact us") }}</NuxtLink>
+      <template v-for="item in nav" :key="item.key">
+        <button v-if="opensTransfer(item.link)" class="nav-transfer" type="button" @click="open = false; requestTransfer()">{{ item.title }}</button>
+        <NuxtLink v-else :to="item.link" :class="{ active: isActive(item.link) }" :aria-current="isActive(item.link) ? 'page' : undefined" @click="open = false">{{ item.title }}</NuxtLink>
+      </template>
       <NuxtLink class="button button-primary" to="/journeys" @click="open = false">{{ chrome.ctaText }}</NuxtLink>
       <button class="mobile-theme-control" type="button" @click="toggleTheme"><AppIcon :name="isDark ? 'sun' : 'moon'" :size="20" />{{ $t(isDark ? 'Switch to light mode' : 'Switch to dark mode') }}</button>
     </nav>

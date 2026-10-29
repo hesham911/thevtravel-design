@@ -54,6 +54,42 @@ export const TRIP_TYPE = Object.freeze({ 'One way': 'one_way', Return: 'return' 
 export const WAITING_MINUTES = Object.freeze({ min: 5, max: 1440 })
 
 /**
+ * The rows the travellers counter shows, and what each one means.
+ *
+ * The categories used to read Adults / Children / Infants, and "infants" was
+ * never what the operation meant by the third row: it meant everyone under
+ * five, which is a toddler as much as a baby. So a guest with a four-year-old
+ * had no row that obviously belonged to them, and could reasonably have
+ * counted the child twice or not at all.
+ *
+ * The ages are in the labels rather than in a caption beside them, so the
+ * drawer's layout is untouched and the category is unambiguous wherever the
+ * label appears — the counter, the review step and the API rejection message
+ * alike. They are the same bands the backend states in
+ * App\Enums\Transportation\TravelerCategory, which reads them from the
+ * journey catalogue's pricing policy: adults over 12, children 5 to 12
+ * inclusive, young children under 5. Contiguous and non-overlapping, so a
+ * traveller belongs to exactly one row.
+ *
+ * `single` is the singular noun the add/remove buttons announce — "Add one
+ * adult", not "Add one adults (13+)". `max` mirrors the API's own bound so
+ * the counter stops where a 422 would start, and `min: 1` on adults is the
+ * API's rule that a transfer carries at least one grown traveller.
+ *
+ * Youngest first: the rows are listed the way the drawer asks for them, and
+ * the review step reads them back from this same list so the two can never
+ * disagree. Luggage is not here. It is not a traveller, it has no counter in
+ * the form any more — a guest with bags to mention does it in the notes —
+ * and the request still carries `luggage_count`, so the column, the
+ * dispatcher's view and every booking already taken read exactly as before.
+ */
+export const TRAVELER_CATEGORIES = Object.freeze([
+  { key: 'young_children', label: 'Young children (under 5)', single: 'young child', min: 0, max: 10 },
+  { key: 'children', label: 'Children (5–12)', single: 'child', min: 0, max: 20 },
+  { key: 'adults', label: 'Adults (13+)', single: 'adult', min: 1, max: 20 },
+])
+
+/**
  * The API's `regex` rule on `phone_number`: digits, spaces and hyphens, a
  * digit first, six to twenty characters. Held here so the form rejects a
  * number the API would, in the guest's own language, instead of sending it
@@ -79,7 +115,7 @@ const FORM_FIELD = Object.freeze({
   estimated_waiting_minutes: 'waiting_minutes',
   adults_count: 'adults',
   children_count: 'children',
-  infants_count: 'infants',
+  young_children_count: 'young_children',
   luggage_count: 'luggage',
 })
 
@@ -181,6 +217,17 @@ function text(value) {
   return typeof value === 'string' ? value.trim() : ''
 }
 
+/**
+ * A coordinate, or null when the form holds none.
+ *
+ * Null rather than 0: an unset pin is not the Gulf of Guinea, and the API
+ * would happily store that as a pickup point.
+ */
+function coordinate(value) {
+  const number = typeof value === 'number' ? value : Number(text(value))
+  return Number.isFinite(number) && value !== null && value !== '' && value !== undefined ? number : null
+}
+
 /** A whole number within the API's bounds, or `null` when the field is blank. */
 function count(value, { min, max }) {
   const number = typeof value === 'number' ? value : Number(text(value))
@@ -211,14 +258,32 @@ export function transportationPayload(form, phoneCountryCode) {
     dropoff_location: text(form?.dropoff_address),
     pickup_at: pickup?.iso ?? '',
     trip_type: TRIP_TYPE[form?.trip_type] ?? '',
+    // The three traveller categories are contiguous and non-overlapping —
+    // over 12, 5 to 12, under 5 — so a party is sent once per traveller.
+    // The API's own names; see TRAVELER_CATEGORIES for the ages.
     adults_count: count(form?.adults, { min: 1, max: 20 }) ?? 1,
     children_count: count(form?.children, { min: 0, max: 20 }) ?? 0,
-    infants_count: count(form?.infants, { min: 0, max: 10 }) ?? 0,
+    young_children_count: count(form?.young_children, { min: 0, max: 10 }) ?? 0,
     luggage_count: count(form?.luggage, { min: 0, max: 30 }) ?? 0,
   }
 
   for (const [key, value] of [['email', text(form?.email)], ['notes', text(form?.notes)], ['address_details', text(form?.address_details)]]) {
     if (value !== '') payload[key] = value
+  }
+
+  // The exact point, only where the guest placed one. Sent as a pair or not
+  // at all — the API rejects half a coordinate, because half a coordinate is
+  // not a place anyone can be collected from. The address text stays
+  // authoritative; a guest who typed an address rather than dropping a pin
+  // sends no coordinates, and editing the address by hand clears them.
+  for (const field of ['pickup', 'dropoff']) {
+    const latitude = coordinate(form?.[`${field}_latitude`])
+    const longitude = coordinate(form?.[`${field}_longitude`])
+
+    if (latitude !== null && longitude !== null) {
+      payload[`${field}_latitude`] = latitude
+      payload[`${field}_longitude`] = longitude
+    }
   }
 
   if (isReturn) {

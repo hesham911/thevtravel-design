@@ -5,6 +5,7 @@ definePageMeta({ name: 'about', title: 'About TheVTravel — Egypt, planned with
 import SiteHeader from '~/components/SiteHeader.vue'
 import SiteFooter from '~/components/SiteFooter.vue'
 import AppIcon from '~/components/AppIcon.vue'
+import ContentIcon from '~/components/ContentIcon.vue'
 import { useI18n } from '~/utils/i18n'
 import { fetchPageSections, itemsOr, linesOf, textOr } from '~/services/pageContent'
 
@@ -62,6 +63,11 @@ function fallbackCards(cards) {
   return cards.map(card => ({
     key: card.key,
     icon: card.icon ?? null,
+    // The page's own copy ships no artwork, and a card's icon is now the
+    // uploaded file alone, so these cards keep their words and hold the
+    // icon's square empty until the CMS has one.
+    iconImageUrl: '',
+    iconImageDarkUrl: '',
     title: translate(card.title),
     description: translate(card.description),
   }))
@@ -185,7 +191,7 @@ const stepNumber = index => String(index + 1)
         </div>
         <div class="philosophy-grid">
           <article v-for="item in philosophy.cards" :key="item.key" class="icon-feature">
-            <span class="icon-ring"><AppIcon :name="item.icon || 'lock'" :size="30" /></span>
+            <span class="icon-ring"><ContentIcon :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="30" /></span>
             <div><h3>{{ item.title }}</h3><p>{{ item.description }}</p></div>
           </article>
         </div>
@@ -204,7 +210,7 @@ const stepNumber = index => String(index + 1)
               <path d="M18 78C72 20 145 53 207 58c72 6 111-32 174-34 77-2 86 48 158 35 56-10 68-64 133-54 58 9 93 59 194 28" />
             </svg>
             <article v-for="item in route.steps" :key="item.key" class="process-step">
-              <AppIcon :name="item.icon || 'map'" :size="34" />
+              <ContentIcon :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="34" />
               <h3>{{ item.title }}</h3>
               <p>{{ item.description }}</p>
             </article>
@@ -249,7 +255,7 @@ const stepNumber = index => String(index + 1)
             <path d="M40 5v61M40 8 15 61h25M42 12l23 49H42M9 68c18 5 43 5 65 0M17 76h49M27 76c4 8 24 8 29 0M40 80v7M30 87h22" />
           </svg>
           <article v-for="place in destinations.places" :key="place.key">
-            <span class="place-pin"><AppIcon :name="place.icon || 'pin'" :size="27" /></span>
+            <span class="place-pin"><ContentIcon :image-url="place.iconImageUrl" :image-dark-url="place.iconImageDarkUrl" :size="27" /></span>
             <h3>{{ place.title }}</h3>
             <p><template v-for="(line, index) in place.description.split('\n')" :key="index">{{ line }}<br /></template></p>
           </article>
@@ -266,7 +272,7 @@ const stepNumber = index => String(index + 1)
         </div>
         <div class="values-grid">
           <article v-for="item in values.cards" :key="item.key" class="value-item">
-            <AppIcon :name="item.icon || 'heart'" :size="48" />
+            <ContentIcon :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="48" />
             <div><h3>{{ item.title }}</h3><p>{{ item.description }}</p></div>
           </article>
         </div>
