@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { fetchJourney, fetchJourneys, toCard, toDetail } from '../services/journeys.js'
+import { fetchFeaturedJourneys, fetchJourney, fetchJourneyFilters, fetchJourneys, toCard, toDetail } from '../services/journeys.js'
 
 // $fetch is a Nuxt runtime global. Stubbing it here lets the service's own
 // decisions — what is a 404, what is an outage, what shape a page receives —
@@ -116,4 +116,138 @@ test('a journey with no detail sections written is catalogue-only and falls back
   assert.equal(detail.overview, 'An evening at Karnak.')
   assert.deepEqual(detail.gallery, [])
   assert.equal(detail.itineraryMedia, null)
+})
+
+// ── The home page's featured row ──────────────────────────────────────────
+//
+// The admin decides what is promoted with the Featured switch, and the API
+// answers with exactly those journeys. The failure that matters here is the
+// quiet one: a home page that, finding nothing featured, shows the catalogue
+// instead — which would promote journeys nobody chose and make the switch
+// look broken rather than empty.
+
+test('the featured row asks the API to do the filtering', async () => {
+  let seen = null
+  const restore = stubFetch(async (url, options) => {
+    seen = { url, query: options?.query ?? options?.params ?? null }
+    return { data: { journeys: [] } }
+  })
+  try {
+    await fetchFeaturedJourneys('http://api.test', { limit: 3, language: 'en' })
+    assert.match(seen.url, /\/journeys$/)
+    assert.equal(Number(seen.query.featured), 1)
+    assert.equal(Number(seen.query.per_page), 3)
+  } finally {
+    restore()
+  }
+})
+
+test('no featured journeys is an empty row, never the whole catalogue', async () => {
+  const restore = stubFetch(async () => ({ data: { journeys: [] } }))
+  try {
+    const result = await fetchFeaturedJourneys('http://api.test', { limit: 3, language: 'en' })
+    assert.equal(result.status, 'ok')
+    assert.deepEqual(result.journeys, [])
+  } finally {
+    restore()
+  }
+})
+
+test('an API fault leaves the featured row empty rather than showing fixtures', async () => {
+  const restore = stubFetch(async () => { throw httpError(500) })
+  try {
+    const result = await fetchFeaturedJourneys('http://api.test', { limit: 3, language: 'en' })
+    assert.notEqual(result.status, 'ok')
+    assert.equal(result.journeys, undefined)
+    // 'demo' is reserved for "no API configured"; a fault must not borrow it,
+    // or the page would render fixtures as though they were real journeys.
+    assert.notEqual(result.status, 'demo')
+  } finally {
+    restore()
+  }
+})
+
+test('the featured row carries through exactly what the API returned', async () => {
+  const restore = stubFetch(async () => ({
+    data: { journeys: [{ id: 7, slug: 'promoted', title: 'Promoted journey' }] },
+  }))
+  try {
+    const result = await fetchFeaturedJourneys('http://api.test', { limit: 3, language: 'en' })
+    assert.equal(result.journeys.length, 1)
+    assert.equal(result.journeys[0].slug, 'promoted')
+  } finally {
+    restore()
+  }
+})
+
+// ── Icons ────────────────────────────────────────────────────────────────────
+// An interest chip's and a content card's mark is artwork an admin uploads,
+// and only that: the icon-name select is gone from the dashboard, so the
+// stored `icon` slug is carried as data and never drawn. A record with no
+// upload reports empty urls, and ContentIcon then holds the icon's square
+// empty rather than standing in an unrelated icon.
+
+test('an interest chip carries its uploaded icon, and the stored icon name is data only', async () => {
+  const restore = stubFetch(async () => ({
+    data: {
+      destinations: [],
+      interests: [
+        { slug: 'culture-history', name: 'Culture & History', icon: 'landmark', icon_image_url: 'https://cms.test/landmark.svg', icon_image_dark_url: 'https://cms.test/landmark-dark.svg' },
+        // Only a light file: the dark one is optional, and ContentIcon uses
+        // the light one in both themes.
+        { slug: 'relaxation', name: 'Relaxation', icon: 'relax', icon_image_url: 'https://cms.test/relax.svg', icon_image_dark_url: null },
+        // No upload at all: no mark, never the slug's artwork.
+        { slug: 'new-interest', name: 'Newly added', icon: null, icon_image_url: null, icon_image_dark_url: null },
+      ],
+    },
+  }))
+  try {
+    const { interests } = await fetchJourneyFilters('http://api.test', 'en')
+
+    assert.equal(interests[0].iconImageUrl, 'https://cms.test/landmark.svg')
+    assert.equal(interests[0].iconImageDarkUrl, 'https://cms.test/landmark-dark.svg')
+    assert.equal(interests[0].icon, 'landmark')
+
+    assert.equal(interests[1].iconImageUrl, 'https://cms.test/relax.svg')
+    assert.equal(interests[1].iconImageDarkUrl, '')
+
+    assert.equal(interests[2].iconImageUrl, '')
+    assert.equal(interests[2].iconImageDarkUrl, '')
+  } finally {
+    restore()
+  }
+})
+
+test('a card reports the interest chip\'s uploaded icon', () => {
+  const card = toCard({
+    slug: 'luxor-west-bank-at-dawn',
+    interest: { slug: 'culture-history', name: 'Culture & History', icon: 'landmark', icon_image_url: 'https://cms.test/landmark.svg', icon_image_dark_url: null },
+  })
+
+  assert.equal(card.interestIconImageUrl, 'https://cms.test/landmark.svg')
+  assert.equal(card.interestIconImageDarkUrl, '')
+})
+
+test('every content card list carries its uploaded icon, and none falls back to an icon name', () => {
+  const detail = toDetail({
+    slug: 'luxor-west-bank-at-dawn', title: 'Luxor, west bank at dawn', has_detail_content: true,
+    overview: { body: 'Begin at sunrise.', features: [{ icon: 'sun', title: 'Iconic sites', description: 'Tombs and temples', icon_image_url: 'https://cms.test/sun.svg', icon_image_dark_url: 'https://cms.test/sun-dark.svg' }] },
+    itinerary: { heading: '', intro: '', stops: [], media: null },
+    included: { heading: '', intro: '', items: [{ icon: 'car', title: 'Private vehicle', description: 'With a driver', icon_image_url: 'https://cms.test/car.svg', icon_image_dark_url: null }] },
+    gallery: { intro: '', photos: [] },
+    // Written after the icon select was removed: no slug, no upload, no mark.
+    good_to_know: { heading: '', intro: '', items: [{ icon: null, title: 'Pickup area', description: 'Your hotel', icon_image_url: null, icon_image_dark_url: null }] },
+    price: { amount: null, currency: 'USD' },
+  })
+
+  assert.equal(detail.features[0].iconImageUrl, 'https://cms.test/sun.svg')
+  assert.equal(detail.features[0].iconImageDarkUrl, 'https://cms.test/sun-dark.svg')
+  assert.equal(detail.features[0].icon, 'sun')
+
+  assert.equal(detail.included[0].iconImageUrl, 'https://cms.test/car.svg')
+  assert.equal(detail.included[0].iconImageDarkUrl, '')
+
+  assert.equal(detail.goodToKnow[0].iconImageUrl, '')
+  assert.equal(detail.goodToKnow[0].iconImageDarkUrl, '')
+  assert.equal(detail.goodToKnow[0].icon, null)
 })

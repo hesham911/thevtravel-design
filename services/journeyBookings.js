@@ -22,6 +22,25 @@
 //               rather than confirming a booking that went nowhere.
 //   'error'   — the API could not be reached or answered with a fault.
 
+// Bounds come from AgeBandPricing through the journey detail API. The
+// fallbacks keep the same policy for demo journeys without an API payload.
+export function journeyTravelerCategories(ageBands = []) {
+  return [
+    { key: 'adults', band: 'adult', label: 'Adults (13+)', single: 'adult', description: 'Full adult price', min: 1, minAge: 13, maxAge: null },
+    { key: 'children', band: 'child', label: 'Children (5–12)', single: 'child', description: '50% of adult price', min: 0, minAge: 5, maxAge: 12 },
+    { key: 'youngChildren', band: 'infant', label: 'Young Children (under 5)', single: 'young child', description: 'Free', min: 0, minAge: 0, maxAge: 4 },
+  ].map(category => {
+    const band = ageBands.find(band => band.band === category.band)
+    return band ? { ...category, minAge: band.min_age, maxAge: band.max_age } : category
+  })
+}
+
+export function validJourneyChildAge(age, category) {
+  if (age === null || age === '' || age === undefined) return false
+  const years = Number(age)
+  return Number.isInteger(years) && years >= category.minAge && years <= category.maxAge
+}
+
 const DEMO = { status: 'demo' }
 
 function endpoint(apiBaseUrl, path) {

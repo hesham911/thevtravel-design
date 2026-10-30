@@ -103,9 +103,31 @@ export async function fetchJourneyFilters(apiBaseUrl, language) {
   return {
     status: 'ok',
     destinations: data.destinations ?? [],
-    interests: data.interests ?? [],
+    // An interest chip's mark is artwork an admin uploads, and only that:
+    // the icon-name select is gone from the dashboard and `icon` is kept as
+    // the row's stored data, never drawn. The dark file is optional — with
+    // only the light one, ContentIcon uses it in both themes. See
+    // components/ContentIcon.vue, which is the only place that decides.
+    interests: (data.interests ?? []).map(interest => ({
+      ...interest,
+      iconImageUrl: interest.icon_image_url || '',
+      iconImageDarkUrl: interest.icon_image_dark_url || '',
+    })),
     homeDestinations: data.home_destinations ?? [],
     ageBands: data.age_bands ?? [],
+  }
+}
+
+/**
+ * One content card's icon — a feature, an included entry, a good-to-know
+ * entry — in the shape ContentIcon takes. Same rule as an interest chip:
+ * the uploaded file is the icon, and a card with none draws none.
+ */
+function toCardIcon(item) {
+  return {
+    icon: item.icon ?? null,
+    iconImageUrl: item.icon_image_url || '',
+    iconImageDarkUrl: item.icon_image_dark_url || '',
   }
 }
 
@@ -137,6 +159,8 @@ export function toCard(journey) {
     currency: journey.price?.currency ?? 'USD',
     interest: journey.interest?.name ?? '',
     interestSlug: journey.interest?.slug ?? null,
+    interestIconImageUrl: journey.interest?.icon_image_url || '',
+    interestIconImageDarkUrl: journey.interest?.icon_image_dark_url || '',
     image: journey.image?.url ?? null,
     imagePosition: journey.image?.position || 'center',
     alt: journey.image?.alt ?? '',
@@ -172,19 +196,19 @@ export function toDetail(journey) {
     // the content, not a publication state.
     catalogOnly: !journey.has_detail_content,
     overview: journey.overview?.body || card.description,
-    features: (journey.overview?.features ?? []).map(item => ({ icon: item.icon, title: item.title, text: item.description })),
+    features: (journey.overview?.features ?? []).map(item => ({ ...toCardIcon(item), title: item.title, text: item.description })),
     itineraryHeading: journey.itinerary?.heading || '',
     itineraryIntro: journey.itinerary?.intro || '',
     itinerary: (journey.itinerary?.stops ?? []).map(stop => [stop.time ?? '', stop.title ?? '', stop.description ?? '']),
     itineraryMedia: toMedia(journey.itinerary?.media),
     includedHeading: journey.included?.heading || '',
     includedIntro: journey.included?.intro || '',
-    included: (journey.included?.items ?? []).map(item => ({ icon: item.icon, title: item.title, text: item.description })),
+    included: (journey.included?.items ?? []).map(item => ({ ...toCardIcon(item), title: item.title, text: item.description })),
     galleryIntro: journey.gallery?.intro || '',
     gallery: (journey.gallery?.photos ?? []).map(photo => ({ type: 'image', src: photo.url, alt: photo.alt ?? '' })),
     goodToKnowHeading: journey.good_to_know?.heading || '',
     goodToKnowIntro: journey.good_to_know?.intro || '',
-    goodToKnow: (journey.good_to_know?.items ?? []).map(item => ({ icon: item.icon, title: item.title, text: item.description })),
+    goodToKnow: (journey.good_to_know?.items ?? []).map(item => ({ ...toCardIcon(item), title: item.title, text: item.description })),
     pricing: journey.pricing ?? null,
     related: (journey.related ?? []).map(toCard),
     seo: journey.seo ?? null,

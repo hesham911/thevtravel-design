@@ -3,7 +3,7 @@ import { computed, nextTick, reactive, ref, watch } from 'vue'
 import { useRuntimeConfig } from '#imports'
 import JourneyIcon from './JourneyIcon.vue'
 import { useI18n } from '~/utils/i18n'
-import { fetchJourneyPrice, submitJourneyBooking } from '~/services/journeyBookings'
+import { fetchJourneyPrice, submitJourneyBooking, journeyTravelerCategories, validJourneyChildAge } from '~/services/journeyBookings'
 import { formatUSD } from '~/utils/currency'
 const { locale } = useI18n()
 const { public: runtime } = useRuntimeConfig()
@@ -23,12 +23,13 @@ const countries = [
   { id: 'AE', name: 'United Arab Emirates', flag: '🇦🇪', code: '+971' },
   { id: 'SA', name: 'Saudi Arabia', flag: '🇸🇦', code: '+966' },
 ]
-const state = reactive({ adults: 2, children: 0, infants: 0, travelDate: '', country: 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', currentStep: 1 })
+const state = reactive({ adults: 2, children: 0, youngChildren: 0, travelDate: '', country: 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', currentStep: 1 })
 // One age per child, because the backend prices each child on their own age
 // rather than on a band the form picked. The ages are kept beside the
 // counter rather than replacing it: the counter is how the dialog has always
 // asked, and the ages are what the price actually depends on.
 const childAges = ref([])
+const youngChildAges = ref([])
 const errors = ref({})
 // What the backend says this party pays. The dialog may show it; it never
 // sends it — the booking endpoint has no price field, so the figure a
@@ -42,11 +43,16 @@ const sending = ref(false)
 const countryName = computed(() => countries.find(c => c.id === state.country)?.name || state.country)
 const dateLabel = computed(() => state.travelDate ? new Intl.DateTimeFormat(locale.value, { month: 'long', day: 'numeric', year: 'numeric' }).format(new Date(`${state.travelDate}T12:00:00`)) : '')
 const mobileTitle = computed(() => ['Plan your journey', 'Your contact details', 'Review your request'][state.currentStep - 1])
-const travelers = [['adults', 'Adults', 'Ages 12+', 1], ['children', 'Children', 'Ages 1–12', 0], ['infants', 'Infants', 'Under 1 year', 0]]
+const travelers = computed(() => journeyTravelerCategories(props.journey.pricing?.age_bands))
+const childGroups = computed(() => travelers.value.filter(category => category.key !== 'adults').map(category => ({
+  ...category,
+  ages: category.key === 'children' ? childAges.value : youngChildAges.value,
+})))
 const { openOverlay, closeOverlay: close, overlayClosed: closed } = useRequestOverlay(dialog, value => emit('open-change', value))
 async function open() {
-  Object.assign(state, { adults: 2, children: 0, infants: 0, travelDate: '', country: props.journey.countryCode || 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', currentStep: 1 })
+  Object.assign(state, { adults: 2, children: 0, youngChildren: 0, travelDate: '', country: props.journey.countryCode || 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', currentStep: 1 })
   childAges.value = []
+  youngChildAges.value = []
   errors.value = {}
   quote.value = null
   submitted.value = null
@@ -59,7 +65,7 @@ function resetStepPosition() {
   scrollArea.value?.scrollTo({ top: 0, behavior: 'instant' })
   dialog.value?.scrollTo({ top: 0, behavior: 'instant' })
 }
-async function go(step) { state.currentStep = step; errors.value = {}; await nextTick(); resetStepPosition() }
+async function go(step, clearErrors = true) { state.currentStep = step; if (clearErrors) errors.value = {}; await nextTick(); resetStepPosition() }
 function phoneCountryChanged() { state.phoneCode = countries.find(c => c.id === state.phoneCountry)?.code || '' }
 async function validate(step) {
   const e = {}
@@ -71,8 +77,8 @@ async function validate(step) {
     else if (state.travelDate < new Date().toISOString().slice(0, 10)) e.travelDate = 'Choose a date in the future.'
     if (!state.country) e.country = 'Select a country.'
     // Each child is priced on their own age, so an age is asked for each.
-    if (childAges.value.some(age => age === null || age === '' || Number.isNaN(Number(age)))) {
-      e.childAges = 'Tell us how old each child will be on the journey.'
+    if (childGroups.value.some(group => group.ages.length !== state[group.key] || group.ages.some(age => !validJourneyChildAge(age, group)))) {
+      e.childAges = 'Enter each child’s age within the selected age range.'
     }
   } else {
     if (!state.fullName.trim()) e.fullName = 'Enter your full name.'
@@ -101,8 +107,8 @@ async function next() {
  */
 async function confirm() {
   if (sending.value) return
-  if (!await validate(1)) { go(1); return }
-  if (!await validate(2)) { go(2); return }
+  if (!await validate(1)) { go(1, false); return }
+  if (!await validate(2)) { go(2, false); return }
 
   submitError.value = ''
   sending.value = true
@@ -141,11 +147,13 @@ async function confirm() {
         ...(result.errors.phone_number ? { phoneNumber: result.errors.phone_number } : {}),
         ...(result.errors.email ? { email: result.errors.email } : {}),
         ...(result.errors.travel_date ? { travelDate: result.errors.travel_date } : {}),
+        ...(Object.keys(result.errors).some(field => field === 'children' || field.startsWith('children.'))
+          ? { childAges: Object.entries(result.errors).find(([field]) => field === 'children' || field.startsWith('children.'))[1] } : {}),
       }
       submitError.value = Object.keys(errors.value).length
         ? 'Please check the highlighted details.'
         : 'We couldn’t send your request. Please try again, or message us on WhatsApp.'
-      go(Object.keys(errors.value).some(field => field === 'travelDate') ? 1 : 2)
+      go(Object.keys(errors.value).some(field => field === 'travelDate' || field === 'childAges') ? 1 : 2, false)
 
       return
     }
@@ -162,16 +170,17 @@ async function confirm() {
 watch(() => state.children, count => {
   childAges.value = Array.from({ length: count }, (_, index) => childAges.value[index] ?? null)
 })
+watch(() => state.youngChildren, count => {
+  youngChildAges.value = Array.from({ length: count }, (_, index) => youngChildAges.value[index] ?? null)
+})
 
 /** The travellers as the API asks for them: an age for every child. */
 function travellers() {
   return {
     adults: state.adults,
     children: [
-      // Infants are under a year old, which the age bands price as free;
-      // the form already asks for them separately, so their age is known.
-      ...Array.from({ length: state.infants }, () => ({ age: 0 })),
       ...childAges.value.map(age => ({ age: Number(age) })),
+      ...youngChildAges.value.map(age => ({ age: Number(age) })),
     ],
   }
 }
@@ -209,26 +218,26 @@ defineExpose({ open })
         <form novalidate @submit.prevent="state.currentStep === 3 ? confirm() : next()">
           <JourneyBookingSummary v-if="state.currentStep < 3" class="jb-desktop-summary" :journey="journey" />
           <div v-if="state.currentStep === 1" class="jb-trip">
-            <section><h3 class="jb-section-label"><JourneyIcon name="community" />{{ $t("Travelers") }}</h3><div class="jb-traveler-rows"><div v-for="[key, label, age, min] in travelers" :key="key" class="jb-traveler"><div>{{ $t(label) }}<small>{{ $t(age) }}</small></div><div class="jb-counter"><button type="button" :aria-label="$t(`Remove one ${label.toLowerCase()}`)" :disabled="state[key] <= min" @click="state[key]--"><JourneyIcon name="minus" :size="18" /></button><output :aria-label="$t(`${label} count`)" aria-live="polite">{{ $t(state[key]) }}</output><button type="button" :aria-label="$t(`Add one ${label.toLowerCase()}`)" @click="state[key]++"><JourneyIcon name="plus" :size="18" /></button></div></div></div><p v-if="errors.adults" class="jb-error">{{ $t(errors.adults) }}</p>
-              <div v-if="state.children" class="jb-child-ages">
-                <p class="jb-section-label">{{ $t("How old will each child be on the journey?") }}</p>
+            <section><h3 class="jb-section-label"><JourneyIcon name="community" />{{ $t("Travelers") }}</h3><div class="jb-traveler-rows"><div v-for="{ key, label, single, description, min } in travelers" :key="key" class="jb-traveler"><div>{{ $t(label) }}<small>{{ $t(description) }}</small></div><div class="jb-counter"><button type="button" :aria-label="$t(`Remove one ${single}`)" :disabled="state[key] <= min" @click="state[key]--"><JourneyIcon name="minus" :size="18" /></button><output :aria-label="$t(`${label} count`)" aria-live="polite">{{ $t(state[key]) }}</output><button type="button" :aria-label="$t(`Add one ${single}`)" @click="state[key]++"><JourneyIcon name="plus" :size="18" /></button></div></div></div><p v-if="errors.adults" class="jb-error">{{ $t(errors.adults) }}</p>
+              <div v-for="group in childGroups.filter(group => state[group.key])" :key="group.key" class="jb-child-ages">
+                <p class="jb-section-label">{{ $t(group.label) }} — {{ $t("Age on the journey") }}</p>
                 <div class="jb-child-age-rows">
-                  <label v-for="(age, index) in childAges" :key="index" class="jb-field jb-child-age">
-                    <span>{{ $t("Child") }} {{ $t(index + 1) }}</span>
+                  <label v-for="(age, index) in group.ages" :key="index" class="jb-field jb-child-age">
+                    <span>{{ $t(group.key === 'children' ? "Child" : "Young child") }} {{ $t(index + 1) }}</span>
                     <input
-                      v-model="childAges[index]"
+                      v-model="group.ages[index]"
                       type="number"
                       inputmode="numeric"
-                      min="0"
-                      max="17"
+                      :min="group.minAge"
+                      :max="group.maxAge"
                       required
                       :aria-invalid="!!errors.childAges"
                       :aria-describedby="errors.childAges ? 'jb-child-ages-error' : undefined"
                     />
                   </label>
                 </div>
-                <small v-if="errors.childAges" id="jb-child-ages-error" class="jb-error">{{ $t(errors.childAges) }}</small>
-              </div></section>
+              </div>
+              <small v-if="errors.childAges" id="jb-child-ages-error" class="jb-error">{{ $t(errors.childAges) }}</small></section>
             <label class="jb-field jb-icon-field" for="jb-date"><span><JourneyIcon name="calendar" />{{ $t("Travel date") }}</span><input id="jb-date" v-model="state.travelDate" type="date" required :aria-invalid="!!errors.travelDate" :aria-describedby="errors.travelDate ? 'jb-date-error' : undefined" /><small v-if="errors.travelDate" id="jb-date-error" class="jb-error">{{ $t(errors.travelDate) }}</small></label>
             <label class="jb-field jb-icon-field" for="jb-country"><span><JourneyIcon name="pin" />{{ $t("Country") }}</span><span class="jb-country-control"><select id="jb-country" v-model="state.country" required :aria-invalid="!!errors.country" :aria-describedby="errors.country ? 'jb-country-error' : undefined"><option value="" disabled>{{ $t("Select a country") }}</option><option v-for="c in countries" :key="c.id" :value="c.id">{{ $t(c.flag) }} {{ $t(c.name) }}</option><option v-if="!countries.some(c => c.id === state.country)" :value="state.country">{{ $t(state.country) }}</option></select><JourneyIcon name="chevron-down" :size="20" /></span><small v-if="errors.country" id="jb-country-error" class="jb-error">{{ $t(errors.country) }}</small></label>
           </div>
@@ -258,7 +267,7 @@ defineExpose({ open })
           <div v-else class="jb-review">
             <div class="jb-review-intro"><h3>{{ $t("Review your request") }}</h3><p>{{ $t("Please check your details below before submitting your request.") }}</p></div>
             <JourneyBookingSummary class="jb-mobile" :journey="journey" review />
-            <section><div class="jb-review-heading"><h3><JourneyIcon name="calendar" />{{ $t("Trip details") }}</h3><button type="button" @click="go(1)">{{ $t("Edit") }}<span class="jb-sr-only"> {{ $t("trip details") }}</span></button></div><dl><div><dt>{{ $t("Date") }}</dt><dd>{{ $t(dateLabel) }}</dd></div><div><dt>{{ $t("Country") }}</dt><dd>{{ $t(countryName) }}</dd></div><div><dt>{{ $t("Travelers") }}</dt><dd><span class="jb-desktop">{{ $t(state.adults) }} {{ $t(state.adults === 1 ? 'adult' : 'adults') }}<template v-if="state.children">, {{ $t(state.children) }} {{ $t("children") }}</template><template v-if="state.infants">, {{ $t(state.infants) }} {{ $t("infants") }}</template></span><span class="jb-mobile">{{ $t(state.adults) }} {{ $t("Adults,") }} {{ $t(state.children) }} {{ $t("Children,") }} {{ $t(state.infants) }} {{ $t("Infants") }}</span></dd></div></dl></section>
+            <section><div class="jb-review-heading"><h3><JourneyIcon name="calendar" />{{ $t("Trip details") }}</h3><button type="button" @click="go(1)">{{ $t("Edit") }}<span class="jb-sr-only"> {{ $t("trip details") }}</span></button></div><dl><div><dt>{{ $t("Date") }}</dt><dd>{{ $t(dateLabel) }}</dd></div><div><dt>{{ $t("Country") }}</dt><dd>{{ $t(countryName) }}</dd></div><div><dt>{{ $t("Travelers") }}</dt><dd><div v-for="category in travelers" :key="category.key">{{ $t(state[category.key]) }} {{ $t(category.label) }}<small v-if="category.key !== 'adults' && state[category.key]"> — {{ $t("Ages") }}: {{ (category.key === 'children' ? childAges : youngChildAges).join(', ') }}</small></div></dd></div></dl></section>
             <section v-if="quote || quoting">
               <div class="jb-review-heading"><h3><JourneyIcon name="card" />{{ $t("Estimated total") }}</h3></div>
               <dl>

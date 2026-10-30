@@ -5,6 +5,7 @@ import SiteHeader from '~/components/SiteHeader.vue'
 import SiteFooter from '~/components/SiteFooter.vue'
 import AppIcon from '~/components/AppIcon.vue'
 import JourneyCard from '~/components/JourneyCard.vue'
+import ContentIcon from '~/components/ContentIcon.vue'
 import { useRoute, useRuntimeConfig, useAsyncData, setResponseStatus } from '#imports'
 import NeedHelpCTA from '~/components/NeedHelpCTA.vue'
 import { useI18n } from '~/utils/i18n'
@@ -55,16 +56,6 @@ const { data: filters } = await useAsyncData(
 
 const demoMode = computed(() => filters.value?.status !== 'ok')
 
-// The fixture interests have no icon of their own; the live ones carry theirs.
-const demoInterestIcons = {
-  'Culture & History': 'landmark',
-  'Nile & Cruising': 'sailboat',
-  'Nature & Adventure': 'mountain',
-  'Red Sea & Snorkeling': 'snorkel',
-  Relaxation: 'relax',
-  'Family Experiences': 'people',
-}
-
 const destinationOptions = computed(() => {
   const all = { slug: '', name: translate('All destinations') }
   if (filters.value?.status === 'ok') return [all, ...filters.value.destinations.map(d => ({ slug: d.slug, name: d.name }))]
@@ -72,10 +63,21 @@ const destinationOptions = computed(() => {
   return [all, ...demoDestinations.filter(name => name !== 'All destinations').map(name => ({ slug: name, name: translate(name) }))]
 })
 
+// A chip's mark is artwork an admin uploads, and only that — the icon-name
+// select is gone from the dashboard. A chip with no upload (the "All" chip,
+// and every chip in demo mode) draws no mark: ContentIcon holds the icon's
+// square empty rather than standing in an unrelated icon.
 const interestOptions = computed(() => {
-  const all = { slug: '', name: translate('All'), icon: null }
-  if (filters.value?.status === 'ok') return [all, ...filters.value.interests.map(i => ({ slug: i.slug, name: i.name, icon: i.icon }))]
-  return [all, ...demoInterests.filter(name => name !== 'All').map(name => ({ slug: name, name: translate(name), icon: demoInterestIcons[name] }))]
+  const all = { slug: '', name: translate('All'), iconImageUrl: '', iconImageDarkUrl: '' }
+  if (filters.value?.status === 'ok') {
+    return [all, ...filters.value.interests.map(i => ({
+      slug: i.slug,
+      name: i.name,
+      iconImageUrl: i.iconImageUrl,
+      iconImageDarkUrl: i.iconImageDarkUrl,
+    }))]
+  }
+  return [all, ...demoInterests.filter(name => name !== 'All').map(name => ({ slug: name, name: translate(name), iconImageUrl: '', iconImageDarkUrl: '' }))]
 })
 
 // ── Browse state ─────────────────────────────────────────────────────────────
@@ -271,7 +273,7 @@ onBeforeUnmount(() => { mobileQuery?.removeEventListener('change', updateMobileL
               :aria-pressed="interest === option.slug"
               @click="interest = option.slug"
             >
-              <AppIcon v-if="option.icon" :name="option.icon" :size="18" />{{ option.name }}
+              <ContentIcon v-if="option.iconImageUrl" :image-url="option.iconImageUrl" :image-dark-url="option.iconImageDarkUrl" :size="18" />{{ option.name }}
             </button>
           </div>
         </fieldset>

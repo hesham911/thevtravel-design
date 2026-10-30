@@ -2721,7 +2721,8 @@
   "Remove one adult": {
     "ru": "Убрать одного взрослого",
     "fr": "Retirer un adulte",
-    "de": "Einen Erwachsenen entfernen"
+    "de": "Einen Erwachsenen entfernen",
+    "zh": "减少一位成人"
   },
   "Remove one adults": {
     "ru": "Убрать одного взрослого",
@@ -4173,5 +4174,65 @@
     "fr": "Lieu exact enregistré.",
     "de": "Genauer Ort gespeichert.",
     "zh": "已保存精确位置。"
+  },
+  "Young Children (under 5)": {
+    "ru": "Малыши (до 5 лет)",
+    "fr": "Jeunes enfants (moins de 5 ans)",
+    "de": "Kleinkinder (unter 5)",
+    "zh": "幼童（5 岁以下）"
+  },
+  "Young Children (under 5) count": {
+    "ru": "Количество малышей (до 5 лет)",
+    "fr": "Nombre de jeunes enfants (moins de 5 ans)",
+    "de": "Anzahl Kleinkinder (unter 5)",
+    "zh": "幼童（5 岁以下）人数"
+  },
+  "Full adult price": {
+    "ru": "Полная стоимость для взрослого",
+    "fr": "Tarif adulte complet",
+    "de": "Voller Erwachsenenpreis",
+    "zh": "成人全价"
+  },
+  "50% of adult price": {
+    "ru": "50% от стоимости для взрослого",
+    "fr": "50 % du tarif adulte",
+    "de": "50 % des Erwachsenenpreises",
+    "zh": "成人价格的 50%"
+  },
+  "Free": {
+    "ru": "Бесплатно",
+    "fr": "Gratuit",
+    "de": "Kostenlos",
+    "zh": "免费"
+  },
+  "Age on the journey": {
+    "ru": "Возраст на дату поездки",
+    "fr": "Âge le jour du voyage",
+    "de": "Alter am Reisetag",
+    "zh": "出行当天的年龄"
+  },
+  "Young child": {
+    "ru": "Малыш",
+    "fr": "Jeune enfant",
+    "de": "Kleinkind",
+    "zh": "幼童"
+  },
+  "Ages": {
+    "ru": "Возраст",
+    "fr": "Âges",
+    "de": "Alter",
+    "zh": "年龄"
+  },
+  "Enter each child’s age within the selected age range.": {
+    "ru": "Укажите возраст каждого ребёнка в пределах выбранной возрастной группы.",
+    "fr": "Indiquez l’âge de chaque enfant dans la tranche d’âge sélectionnée.",
+    "de": "Geben Sie das Alter jedes Kindes innerhalb der gewählten Altersgruppe an.",
+    "zh": "请输入每位儿童在所选年龄范围内的年龄。"
+  },
+  "Child": {
+    "zh": "儿童",
+    "ru": "Ребёнок",
+    "fr": "Enfant",
+    "de": "Kind"
   }
 }

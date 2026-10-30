@@ -5,6 +5,7 @@ definePageMeta({ name: 'faq', title: 'Frequently Asked Questions — TheVTravel'
 import SiteHeader from '~/components/SiteHeader.vue'
 import SiteFooter from '~/components/SiteFooter.vue'
 import AppIcon from '~/components/AppIcon.vue'
+import ContentIcon from '~/components/ContentIcon.vue'
 import { useI18n } from '~/utils/i18n'
 import { useSiteContent } from '~/composables/useSiteContent'
 import { fetchPageSections, linesOf, textOr } from '~/services/pageContent'
@@ -98,10 +99,12 @@ const help = computed(() => {
 // "All Questions" is not a category: it is the unfiltered state, so its chip
 // is this page's own and is always first.
 const categories = computed(() => [
-  { id: 'all', label: translate('All Questions'), icon: 'help-circle' },
+  // "All Questions" is the page's own chip, so its mark is one of the icons
+  // the site itself ships rather than an upload an admin could remove.
+  { id: 'all', label: translate('All Questions'), icon: 'help-circle', iconImageUrl: '', iconImageDarkUrl: '' },
   ...(categoryResult.value?.status === 'ok'
     ? categoryResult.value.categories
-    : demoCategories.map(category => ({ ...category, label: translate(category.label) }))),
+    : demoCategories.map(category => ({ ...category, label: translate(category.label), iconImageUrl: '', iconImageDarkUrl: '' }))),
 ])
 
 const faqs = computed(() => faqResult.value?.status === 'ok'
@@ -160,7 +163,8 @@ function toggleFaq(id) {
             :aria-current="activeCategory === category.id ? 'true' : undefined"
             @click="selectCategory(category.id)"
           >
-            <AppIcon :name="category.icon" :size="21" />
+            <AppIcon v-if="category.id === 'all'" :name="category.icon" :size="21" />
+            <ContentIcon v-else :image-url="category.iconImageUrl" :image-dark-url="category.iconImageDarkUrl" :size="21" />
             <span>{{ category.label }}</span>
           </button>
         </nav>

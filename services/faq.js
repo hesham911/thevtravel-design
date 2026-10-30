@@ -45,10 +45,17 @@ export async function fetchFaqCategories(apiBaseUrl, language) {
 
   return {
     status: 'ok',
+    // A chip's mark is artwork an admin uploads, and only that: the
+    // icon-name select is gone from the dashboard and `icon` is kept as the
+    // row's stored data, never drawn. The dark file is optional — with only
+    // the light one, ContentIcon uses it in both themes. See
+    // components/ContentIcon.vue, which is the only place that decides.
     categories: result.data.map(category => ({
       id: category.slug,
       label: category.name ?? category.slug,
-      icon: category.icon || 'help-circle',
+      icon: category.icon || null,
+      iconImageUrl: category.icon_image_url || '',
+      iconImageDarkUrl: category.icon_image_dark_url || '',
     })),
   }
 }
