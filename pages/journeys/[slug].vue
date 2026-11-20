@@ -1,5 +1,5 @@
 <script setup>
-definePageMeta({"name": "journey-details", "title": "Journey Details — TheVTravel"})
+definePageMeta({"name": "journey-details", "key": route => `journey-${route.params.slug}`, "title": "Journey Details — TheVTravel"})
 import { formatUSD } from '~/utils/currency'
 import { computed, ref, nextTick, watch } from 'vue'
 import { useRoute, useRouter, useRuntimeConfig, useAsyncData, useHead, useSeoMeta, setResponseStatus } from '#imports'
@@ -163,11 +163,20 @@ useSeoMeta({
     : `${translate('Journey not found')} — TheVTravel`,
   ogDescription: () => journey.value?.seo?.meta_description || journey.value?.overview || undefined,
   ogImage: () => journey.value?.image?.src || undefined,
-  robots: () => (journey.value && journey.value.seo?.is_indexable !== false) ? undefined : 'noindex',
+  ogUrl: () => journey.value?.seo?.canonical_url || undefined,
+  twitterTitle: () => journey.value?.seo?.meta_title || journey.value?.title || undefined,
+  twitterDescription: () => journey.value?.seo?.meta_description || journey.value?.overview || undefined,
+  twitterImage: () => journey.value?.image?.src || undefined,
+  robots: () => (journey.value && journey.value.seo?.is_indexable === true) ? undefined : 'noindex',
 })
 
 useHead(() => ({
-  link: journey.value?.seo?.canonical_url ? [{ rel: 'canonical', href: journey.value.seo.canonical_url }] : [],
+  link: [
+    ...(journey.value?.seo?.canonical_url ? [{ rel: 'canonical', href: journey.value.seo.canonical_url }] : []),
+    ...(journey.value?.seo?.alternates || []).map(item => ({ rel: 'alternate', hreflang: item.hreflang, href: item.url })),
+    ...(journey.value?.seo?.alternates?.find(item => item.hreflang === 'en')
+      ? [{ rel: 'alternate', hreflang: 'x-default', href: journey.value.seo.alternates.find(item => item.hreflang === 'en').url }] : []),
+  ],
 }))
 
 // "You might also like" is chosen per journey in the admin. In demo mode the
@@ -212,7 +221,7 @@ function showPhotos(items, index = 0) { galleryViewer.value?.open(items, index) 
       <p>{{ $t("We could not load this journey. Please try again in a moment.") }}</p>
       <button class="jd-button jd-primary" type="button" @click="refresh()">{{ $t("Try again") }}</button>
     </main>
-    <main v-else class="jd-not-found"><h1>{{ $t("Journey not found") }}</h1><p>{{ $t("Explore our journeys to find your next experience.") }}</p><NuxtLink class="jd-button jd-primary" to="/journeys">{{ $t("Explore journeys") }}</NuxtLink></main>
+    <main v-else class="jd-not-found"><h1>{{ $t("Journey not found") }}</h1><p>{{ $t("Explore our journeys to find your next experience.") }}</p><PublicLink class="jd-button jd-primary" to="/journeys">{{ $t("Explore journeys") }}</PublicLink></main>
     <SiteFooter variant="booking" />
     <JourneyGalleryViewer ref="galleryViewer" />
     <JourneyBookingFlow v-if="journey" ref="bookingFlow" :journey="journey" @open-change="bookingOpen = $event" />

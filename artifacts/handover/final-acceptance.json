@@ -1,0 +1,913 @@
+{
+  "results": [
+    {
+      "key": "home",
+      "locale": "en",
+      "title": "TheVTravel | Journeys across Egypt",
+      "lang": "en",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/en",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "home",
+      "locale": "fr",
+      "title": "TheVTravel | Voyages à travers l’Égypte",
+      "lang": "fr",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/fr",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "home",
+      "locale": "de",
+      "title": "TheVTravel | Reisen durch Ägypten",
+      "lang": "de",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/de",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "home",
+      "locale": "ru",
+      "title": "TheVTravel | Путешествия по Египту",
+      "lang": "ru",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/ru",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "home",
+      "locale": "zh",
+      "title": "TheVTravel | 埃及深度旅程",
+      "lang": "zh",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/zh",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "home",
+      "locale": "uk",
+      "title": "TheVTravel | Подорожі Єгиптом",
+      "lang": "uk",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/uk",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "about-us",
+      "locale": "en",
+      "title": "About TheVTravel | Egypt, planned with local care",
+      "lang": "en",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/en/about",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "about-us",
+      "locale": "fr",
+      "title": "À propos de TheVTravel | L’Égypte, organisée avec une attention locale",
+      "lang": "fr",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/fr/about",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "about-us",
+      "locale": "de",
+      "title": "Über TheVTravel | Ägypten, mit lokaler Sorgfalt geplant",
+      "lang": "de",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/de/about",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "about-us",
+      "locale": "ru",
+      "title": "О TheVTravel | Египет: путешествия с заботой местных экспертов",
+      "lang": "ru",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/ru/about",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "about-us",
+      "locale": "zh",
+      "title": "关于 TheVTravel | 埃及之旅，由本地团队用心规划",
+      "lang": "zh",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/zh/about",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "about-us",
+      "locale": "uk",
+      "title": "Про TheVTravel | Єгипет, спланований з місцевою турботою",
+      "lang": "uk",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/uk/about",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "contact-us",
+      "locale": "en",
+      "title": "Contact Us | TheVTravel",
+      "lang": "en",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/en/contact",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "contact-us",
+      "locale": "fr",
+      "title": "Nous contacter | TheVTravel",
+      "lang": "fr",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/fr/contact",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "contact-us",
+      "locale": "de",
+      "title": "Kontakt | TheVTravel",
+      "lang": "de",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/de/contact",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "contact-us",
+      "locale": "ru",
+      "title": "Связаться с нами | TheVTravel",
+      "lang": "ru",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/ru/contact",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "contact-us",
+      "locale": "zh",
+      "title": "联系我们 | TheVTravel",
+      "lang": "zh",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/zh/contact",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "contact-us",
+      "locale": "uk",
+      "title": "Контакти | TheVTravel",
+      "lang": "uk",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/uk/contact",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "how-booking-works",
+      "locale": "en",
+      "title": "How Booking Works | TheVTravel",
+      "lang": "en",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/en/how-booking-works",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "how-booking-works",
+      "locale": "fr",
+      "title": "Comment fonctionne la réservation | TheVTravel",
+      "lang": "fr",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/fr/how-booking-works",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "how-booking-works",
+      "locale": "de",
+      "title": "So funktioniert die Buchung | TheVTravel",
+      "lang": "de",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/de/how-booking-works",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "how-booking-works",
+      "locale": "ru",
+      "title": "Как работает бронирование | TheVTravel",
+      "lang": "ru",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/ru/how-booking-works",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "how-booking-works",
+      "locale": "zh",
+      "title": "预订流程 | TheVTravel",
+      "lang": "zh",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/zh/how-booking-works",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "how-booking-works",
+      "locale": "uk",
+      "title": "Як відбувається бронювання | TheVTravel",
+      "lang": "uk",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/uk/how-booking-works",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "faq",
+      "locale": "en",
+      "title": "Frequently Asked Questions | TheVTravel",
+      "lang": "en",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/en/faq",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "faq",
+      "locale": "fr",
+      "title": "Foire aux questions | TheVTravel",
+      "lang": "fr",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/fr/faq",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "faq",
+      "locale": "de",
+      "title": "Häufig gestellte Fragen | TheVTravel",
+      "lang": "de",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/de/faq",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "faq",
+      "locale": "ru",
+      "title": "Часто задаваемые вопросы | TheVTravel",
+      "lang": "ru",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/ru/faq",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "faq",
+      "locale": "zh",
+      "title": "常见问题 | TheVTravel",
+      "lang": "zh",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/zh/faq",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "faq",
+      "locale": "uk",
+      "title": "Поширені запитання | TheVTravel",
+      "lang": "uk",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/uk/faq",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "privacy-policy",
+      "locale": "en",
+      "title": "Privacy Policy | TheVTravel",
+      "lang": "en",
+      "overflow": false,
+      "robots": "noindex, follow",
+      "canonical": "https://thevtravel.com/en/privacy-policy",
+      "alternates": []
+    },
+    {
+      "key": "privacy-policy",
+      "locale": "fr",
+      "title": "Politique de confidentialité | TheVTravel",
+      "lang": "fr",
+      "overflow": false,
+      "robots": "noindex, follow",
+      "canonical": "https://thevtravel.com/fr/privacy-policy",
+      "alternates": []
+    },
+    {
+      "key": "privacy-policy",
+      "locale": "de",
+      "title": "Datenschutzerklärung | TheVTravel",
+      "lang": "de",
+      "overflow": false,
+      "robots": "noindex, follow",
+      "canonical": "https://thevtravel.com/de/privacy-policy",
+      "alternates": []
+    },
+    {
+      "key": "privacy-policy",
+      "locale": "ru",
+      "title": "Политика конфиденциальности | TheVTravel",
+      "lang": "ru",
+      "overflow": false,
+      "robots": "noindex, follow",
+      "canonical": "https://thevtravel.com/ru/privacy-policy",
+      "alternates": []
+    },
+    {
+      "key": "privacy-policy",
+      "locale": "zh",
+      "title": "隐私政策 | TheVTravel",
+      "lang": "zh",
+      "overflow": false,
+      "robots": "noindex, follow",
+      "canonical": "https://thevtravel.com/zh/privacy-policy",
+      "alternates": []
+    },
+    {
+      "key": "privacy-policy",
+      "locale": "uk",
+      "title": "Політика конфіденційності | TheVTravel",
+      "lang": "uk",
+      "overflow": false,
+      "robots": "noindex, follow",
+      "canonical": "https://thevtravel.com/uk/privacy-policy",
+      "alternates": []
+    },
+    {
+      "key": "terms-and-conditions",
+      "locale": "en",
+      "title": "Terms & Conditions | TheVTravel",
+      "lang": "en",
+      "overflow": false,
+      "robots": "noindex, follow",
+      "canonical": "https://thevtravel.com/en/terms-and-conditions",
+      "alternates": []
+    },
+    {
+      "key": "terms-and-conditions",
+      "locale": "fr",
+      "title": "Conditions générales | TheVTravel",
+      "lang": "fr",
+      "overflow": false,
+      "robots": "noindex, follow",
+      "canonical": "https://thevtravel.com/fr/terms-and-conditions",
+      "alternates": []
+    },
+    {
+      "key": "terms-and-conditions",
+      "locale": "de",
+      "title": "Allgemeine Geschäftsbedingungen | TheVTravel",
+      "lang": "de",
+      "overflow": false,
+      "robots": "noindex, follow",
+      "canonical": "https://thevtravel.com/de/terms-and-conditions",
+      "alternates": []
+    },
+    {
+      "key": "terms-and-conditions",
+      "locale": "ru",
+      "title": "Условия использования | TheVTravel",
+      "lang": "ru",
+      "overflow": false,
+      "robots": "noindex, follow",
+      "canonical": "https://thevtravel.com/ru/terms-and-conditions",
+      "alternates": []
+    },
+    {
+      "key": "terms-and-conditions",
+      "locale": "zh",
+      "title": "条款与条件 | TheVTravel",
+      "lang": "zh",
+      "overflow": false,
+      "robots": "noindex, follow",
+      "canonical": "https://thevtravel.com/zh/terms-and-conditions",
+      "alternates": []
+    },
+    {
+      "key": "terms-and-conditions",
+      "locale": "uk",
+      "title": "Умови та положення | TheVTravel",
+      "lang": "uk",
+      "overflow": false,
+      "robots": "noindex, follow",
+      "canonical": "https://thevtravel.com/uk/terms-and-conditions",
+      "alternates": []
+    },
+    {
+      "key": "journeys",
+      "locale": "en",
+      "title": "All Journeys | TheVTravel",
+      "lang": "en",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/en/journeys",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "journeys",
+      "locale": "fr",
+      "title": "Tous les voyages | TheVTravel",
+      "lang": "fr",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/fr/journeys",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "journeys",
+      "locale": "de",
+      "title": "Alle Reisen | TheVTravel",
+      "lang": "de",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/de/journeys",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "journeys",
+      "locale": "ru",
+      "title": "Все путешествия | TheVTravel",
+      "lang": "ru",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/ru/journeys",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "journeys",
+      "locale": "zh",
+      "title": "全部旅程 | TheVTravel",
+      "lang": "zh",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/zh/journeys",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    },
+    {
+      "key": "journeys",
+      "locale": "uk",
+      "title": "Усі подорожі | TheVTravel",
+      "lang": "uk",
+      "overflow": false,
+      "canonical": "https://thevtravel.com/uk/journeys",
+      "alternates": [
+        "en",
+        "fr",
+        "de",
+        "ru",
+        "zh",
+        "uk",
+        "x-default"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "url": "http://vtravel-handover-backend.test/storage/1/home-felucca.webp",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/3/community.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/4/map.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/5/calendar.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/6/headset.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/2/hero-transfer-van.webp",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/13/lock.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/14/pin.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/15/people-pin.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/16/ear.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/17/map.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/18/person.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/19/sunrise.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/12/people-team.webp",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/7/pin.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/8/pin.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/9/pin.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/10/pin.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/11/pin.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/20/leaf.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/21/community.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/22/protect.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/23/heart.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/24/whatsapp.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/25/mail.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/26/headset.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/27/compass.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/28/car.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/29/ticket.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/30/search.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/31/booking-calendar.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/32/person.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/33/chat.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/34/checklist.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/35/pin.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/37/calendar.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/42/card.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/40/map.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/43/car.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/36/suitcase.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/39/camera.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/38/refresh.svg",
+      "status": 200
+    },
+    {
+      "url": "http://vtravel-handover-backend.test/storage/41/dots.svg",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "sitemapUrls": 36,
+  "robotsStatus": 200
+}

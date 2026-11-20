@@ -1,0 +1,482 @@
+{
+  "images": [
+    {
+      "path": "public/assets/photos/1.png",
+      "width": 2178,
+      "height": 722,
+      "format": "png",
+      "bytes": 2485822,
+      "sha256": "e5854fdcb7a5c92bcc9d3c358399095f939448799303414eab06c958918bf3d3",
+      "pixels": "5550ece8fc1d7cdfbef6de4df921415af71ec2ead412e36304f1a6830d7ddd9b"
+    },
+    {
+      "path": "public/assets/photos/gallery-avenue.png",
+      "width": 158,
+      "height": 110,
+      "format": "png",
+      "bytes": 53724,
+      "sha256": "43e9f06218ef60143564f78cb4435ea3f52ad2e4ac2338df04bb22e2fc03dd1f",
+      "pixels": "763615e7e53db7d33501f196e076b2b8a0c51904d3a1024d9cd8a650aded923c"
+    },
+    {
+      "path": "public/assets/photos/gallery-tomb-art.png",
+      "width": 166,
+      "height": 110,
+      "format": "png",
+      "bytes": 53039,
+      "sha256": "7d46539cbb6134e837e7e1a8c3fa210d032766d9dff816729472797dacac2bcf",
+      "pixels": "ea06aef119963a214c12a960bdb7d44182c9c80e758ee7a6fef7fb301fd68edc"
+    },
+    {
+      "path": "public/assets/photos/hero-colossi-wide.png",
+      "width": 434,
+      "height": 312,
+      "format": "png",
+      "bytes": 309279,
+      "sha256": "ce66a88133a1c09de7270a51ebbcb7343e895300cf2a364922de0382b8934be2",
+      "pixels": "163991d2877dadbfbe7451e71577f2114c57a6c3fc1fb09bc6445f2352cae489"
+    },
+    {
+      "path": "public/assets/photos/hero-colossi.png",
+      "width": 602,
+      "height": 415,
+      "format": "png",
+      "bytes": 523280,
+      "sha256": "2509ee1f45a8c72616ca37675698e82fa1aa4a925bba83819ffc0c1c401782ae",
+      "pixels": "5fd825e4c8106249825b8a8f3a963c6c9e9645264d1a5182482d33b24f127d60"
+    },
+    {
+      "path": "public/assets/photos/hero-felucca-contact.png",
+      "width": 480,
+      "height": 368,
+      "format": "png",
+      "bytes": 400398,
+      "sha256": "4f5999126f1d9ea61d1c1231dbbf0abd56f8fc53034a081960cfedc2e5643d95",
+      "pixels": "856fc9a2144a3a55ed20c5f248517755f3004078ff43d3bb2fb63216ea178e68"
+    },
+    {
+      "path": "public/assets/photos/hero-felucca-sunset.png",
+      "width": 514,
+      "height": 330,
+      "format": "png",
+      "bytes": 389962,
+      "sha256": "543f766b4d51fa9c576c4b1d87e7c9633cc97381ae6fce0eb2ffeb555d94f5ce",
+      "pixels": "a488c5aec2bc557a765d26c001a86152779661a374a4646c4172daa2130dfa70"
+    },
+    {
+      "path": "public/assets/photos/hero-felucca-temple.png",
+      "width": 579,
+      "height": 312,
+      "format": "png",
+      "bytes": 417402,
+      "sha256": "862cee5663062998e17c75db145818b4d91c4691ae7da7248d0b492afe93ff03",
+      "pixels": "58c16a7c8001fb29efe7cb7f766b30d3c40a7a85ea966e7556b92d5c9f7814d1"
+    },
+    {
+      "path": "public/assets/photos/home-hero-clean.png",
+      "width": 514,
+      "height": 330,
+      "format": "png",
+      "bytes": 273842,
+      "sha256": "6c316cc938d6544538d80a8ad83539f77572649a27b6f32bab510de3ad14a984",
+      "pixels": "9a113246842434e52ee54e0546bf09e5a59a1ef05993314850e77f8b0989d140"
+    },
+    {
+      "path": "public/assets/photos/home-hero-clean1.png",
+      "width": 1090,
+      "height": 700,
+      "format": "png",
+      "bytes": 1014717,
+      "sha256": "14d9e7e37b7caaf7df0f719a0f29c67d9d011c998a04c7a49e533ea9db5f08f4",
+      "pixels": "e3b9614064132fd83dfd2dc43bb030e7b7b041b25a6c91983fe8f80d57284138"
+    },
+    {
+      "path": "public/assets/photos/how-booking-hero-dark.png",
+      "width": 577,
+      "height": 345,
+      "format": "png",
+      "bytes": 325550,
+      "sha256": "f430debb497feea00712e2928d35237812c0abdf7f4b39073d38ea7e1b359552",
+      "pixels": "038966087f1ae4456bf5fcf7e9a963f6b509a77ee81f47d7d37062d962d6ee63"
+    },
+    {
+      "path": "public/assets/photos/how-booking-hero-light.png",
+      "width": 577,
+      "height": 345,
+      "format": "png",
+      "bytes": 319446,
+      "sha256": "0ee2d2e9412e3e6cd422d1ad2d5dd0d116c0242b69d333e8d3633b0863a418a2",
+      "pixels": "5c6d39049432a63a987035c83daf31c1ed239918813a7fe7c7667165c2e3ee52"
+    },
+    {
+      "path": "public/assets/photos/journey-abu-simbel.png",
+      "width": 244,
+      "height": 142,
+      "format": "png",
+      "bytes": 98125,
+      "sha256": "96a9e74d8cfc720e51ef80784de6ae0731e8ea53e81c24e39ecaa115f4e8f0cb",
+      "pixels": "a18748eab81a0c007f035c9ce46ad894dae87b1aba8234537a3943274347356d"
+    },
+    {
+      "path": "public/assets/photos/journey-felucca.png",
+      "width": 244,
+      "height": 142,
+      "format": "png",
+      "bytes": 88786,
+      "sha256": "c7797bd29b2b68abf9cfc1e705887993cd799df4cac685d9aa86829781ef1da0",
+      "pixels": "73a823eaf962dc57952b79cd679414e8c3914796ec151552c18a4fe6f943bd9b"
+    },
+    {
+      "path": "public/assets/photos/journey-karnak.png",
+      "width": 244,
+      "height": 142,
+      "format": "png",
+      "bytes": 89057,
+      "sha256": "c19a7e4adc6fe7a1cec362cb714da8c4d0b7b69536fba27166b1f1d7c6e22483",
+      "pixels": "b6f1dbfc76aff89ee23d89901edee01e28df7e36ccb8927c129486fc92e297e4"
+    },
+    {
+      "path": "public/assets/photos/journey-sinai.png",
+      "width": 244,
+      "height": 142,
+      "format": "png",
+      "bytes": 100129,
+      "sha256": "793d87f00e8ac5f6d0dc4d2ac26d01881dbf2af69419752c279a9fd25d9f29c3",
+      "pixels": "0b8a06e15d132c930a49be7b6638427bb328a546b9cb9c58be2d9bf80d646ec1"
+    },
+    {
+      "path": "public/assets/photos/people-team.png",
+      "width": 486,
+      "height": 187,
+      "format": "png",
+      "bytes": 206765,
+      "sha256": "f2918e0df195fb1cfb5d5046950e5dafb71c908cd7f5a32d0c9b6a8e28102844",
+      "pixels": "bc52c04046d924db7b81a0e6f49baa50e1caeb3b3d5b9152f760fd03aef2570a"
+    },
+    {
+      "path": "public/assets/sections/cta-felucca-mosque.png",
+      "width": 505,
+      "height": 158,
+      "format": "png",
+      "bytes": 170653,
+      "sha256": "dbefba51d26a4ca8d4c177b0e84198890f57c9dc1b4598c0549f5da85b49f80e",
+      "pixels": "cd0b5c02e9e06e50130e6891637d47591cedd912a002548b7a99947904f43273"
+    },
+    {
+      "path": "public/assets/sections/egypt-service-area-map.png",
+      "width": 1279,
+      "height": 1230,
+      "format": "png",
+      "bytes": 1385789,
+      "sha256": "67ecfaf2b25c7edfaec4deda483fe03f023ad933ce2301b9e1b06546a2dbc8c9",
+      "pixels": "11ea875509e050f8e2128df0c8d65ee779db8b5aef5b95f3490fcc0b45fed2d9"
+    },
+    {
+      "path": "public/assets/sections/hero-transfer-van.png",
+      "width": 602,
+      "height": 345,
+      "format": "png",
+      "bytes": 496718,
+      "sha256": "276b60e5f5e8a717c2288753634a96275d34f2ae9cae8cfc624bf191c9c0e0de",
+      "pixels": "d571642c1aaff47437034792ad92fc158badc29dfcebf8157d6d615ca55e1858"
+    },
+    {
+      "path": "public/assets/content/about-nile-1600.webp",
+      "width": 1600,
+      "height": 530,
+      "format": "webp",
+      "bytes": 300314,
+      "sha256": "901a3bb377f2455264fa142ceeca15effab07caa58cad7e63f4b387497c97120",
+      "pixels": "2339e04807b5cae24d9446b1d70207606bf25a670f544d642415c6ca943fe5d1"
+    },
+    {
+      "path": "public/assets/content/about-nile-768.webp",
+      "width": 768,
+      "height": 255,
+      "format": "webp",
+      "bytes": 75066,
+      "sha256": "d5e250122383c7667deffa538d6fca8d5761b007a5624401f42c4dfc7835a5a0",
+      "pixels": "d4b38150ac61bae4db5c3b49e6caddf8ef466e3095ca69534c2c3ce509bd838d"
+    },
+    {
+      "path": "public/assets/content/cta-felucca-mosque-505.webp",
+      "width": 505,
+      "height": 158,
+      "format": "webp",
+      "bytes": 11186,
+      "sha256": "b54d4bcf40acde942b5126d2d99099bbd31c08c608aa4c31dfc1e3ce3f4a01e5",
+      "pixels": "b611047bcfea6aeab8de69caad93039c08778206193982d8a4ee84b1ab2e38bd"
+    },
+    {
+      "path": "public/assets/content/hero-felucca-contact-480.webp",
+      "width": 480,
+      "height": 368,
+      "format": "webp",
+      "bytes": 28914,
+      "sha256": "ccfe23c54711220fcfa1e8e6638730cb229d95549ae728d4f14abfa22f0359de",
+      "pixels": "55cc13c5054d7a38e73141252ead5bfc3fed88385146e896fecbf59c41750993"
+    },
+    {
+      "path": "public/assets/content/hero-felucca-temple-579.webp",
+      "width": 579,
+      "height": 312,
+      "format": "webp",
+      "bytes": 30378,
+      "sha256": "f5dc856523f5ef0a077f6d64aaea9bef642e7a7be07afba25e92656f5a7138cb",
+      "pixels": "7b64add3deeb7663bd31c34c4e554631c207d5c3c6fcf03e2773e03eb5f5c9f1"
+    },
+    {
+      "path": "public/assets/content/hero-transfer-van-602.webp",
+      "width": 602,
+      "height": 345,
+      "format": "webp",
+      "bytes": 40420,
+      "sha256": "53137f7aa3f4cfdecbfb8db901a3cdea61d318964991c6d8c424242df1156ffe",
+      "pixels": "61240a3b473271dc6fe049fdee343e5dc0708ac08aeab5a6014426ee01581330"
+    },
+    {
+      "path": "public/assets/content/home-felucca-1090.webp",
+      "width": 1090,
+      "height": 700,
+      "format": "webp",
+      "bytes": 140920,
+      "sha256": "fa4e3f0c363479677f9ff868ccb8a706f2e9bd1f51b81dbf86bc8d49c8c1e118",
+      "pixels": "3a9cf2f25a23d0b420bf2095cca810de1e9befc40593eb8ccb44999b85d5f89e"
+    },
+    {
+      "path": "public/assets/content/home-felucca-768.webp",
+      "width": 768,
+      "height": 493,
+      "format": "webp",
+      "bytes": 89494,
+      "sha256": "fda781206d0e9b6c1995e09cced5d37f899ec166b6e8d7da5b50cdf33fe7587b",
+      "pixels": "cae345aa4e7710a8a8ebb8a0d2b0df4b1734528f65da8c722cf12837e34c59ed"
+    },
+    {
+      "path": "public/assets/content/how-booking-help-lineart-720.webp",
+      "width": 720,
+      "height": 149,
+      "format": "webp",
+      "bytes": 11152,
+      "sha256": "e7a321c754909ac86f58785859824bf50d9efa07a668268835eaa1770cf65c65",
+      "pixels": "1903cd1a2b9eb36b85c690b7a040c7f042a557b32dca774ff9e21697daca455c"
+    },
+    {
+      "path": "public/assets/content/how-booking-help-lineart-dark-720.webp",
+      "width": 720,
+      "height": 157,
+      "format": "webp",
+      "bytes": 11716,
+      "sha256": "4851a8a1692fea5290951ecc1265639ffb9d359de6d6345ee32fd34a545d385a",
+      "pixels": "85f98215246ed24eee49dcfc10c1888e976bbc97dcdd1b554c2a53c967aabd7d"
+    },
+    {
+      "path": "public/assets/content/how-booking-hero-dark-577.webp",
+      "width": 577,
+      "height": 345,
+      "format": "webp",
+      "bytes": 42824,
+      "sha256": "b11e0755b9eff0b5ba239c5eb9c2bd5de7d8041dbc6e5a7104bd137aca677df1",
+      "pixels": "e94099a837fe37a6f32dfdc69b771f31c807e8c677fd50806a149ab5e5d47d10"
+    },
+    {
+      "path": "public/assets/content/how-booking-hero-light-577.webp",
+      "width": 577,
+      "height": 345,
+      "format": "webp",
+      "bytes": 40678,
+      "sha256": "e8bf5f0364cd9e13c28c0eab51da8c1a9e18bd5d27d3f1fd4b6542be8bcce29d",
+      "pixels": "4d6717a913de704ac230833cac444f1a4c904988eb66c0c958c352a4514bb406"
+    },
+    {
+      "path": "public/assets/content/logo-transparent-696.webp",
+      "width": 696,
+      "height": 232,
+      "format": "webp",
+      "bytes": 19022,
+      "sha256": "1e81f974e21478ea4cf0cd593945895499ad719eddae570a7a055b5b225c9f9d",
+      "pixels": "bfdf934a0f4e5de06ed619b5b2608d042fd3ac2a9d975b2667fa77aa70a31022"
+    },
+    {
+      "path": "public/assets/content/logo-transparent-dark-696.webp",
+      "width": 696,
+      "height": 232,
+      "format": "webp",
+      "bytes": 18144,
+      "sha256": "2016f17f2499095e3e4889e72b1d104d85f94616c17837354c8e0ac24dcca4b0",
+      "pixels": "416ead2bb4c758d7f284903b542ebf8f5ccb7dd374f4a2704b6502a9db064fe6"
+    },
+    {
+      "path": "public/assets/content/people-team-486.webp",
+      "width": 486,
+      "height": 187,
+      "format": "webp",
+      "bytes": 14184,
+      "sha256": "1df2d66fd84a37439e38b254ef74b2b2a085a047600f2a3ebc427cfd776ef123",
+      "pixels": "313997c67981582d1e9dce7dce1f5c76514afbfba2992e316944bc4998d9beec"
+    },
+    {
+      "path": "public/assets/lcp/hero-colossi-wide.7d3c51b2ce4e.webp",
+      "width": 434,
+      "height": 312,
+      "format": "webp",
+      "bytes": 162338,
+      "sha256": "7d3c51b2ce4e9dbd4be5591f4cfbf94cff40eed50fa8ac815fb74075e0b9f041",
+      "pixels": "163991d2877dadbfbe7451e71577f2114c57a6c3fc1fb09bc6445f2352cae489"
+    },
+    {
+      "path": "public/assets/lcp/home-hero-clean.334dcd09786e.webp",
+      "width": 514,
+      "height": 330,
+      "format": "webp",
+      "bytes": 192788,
+      "sha256": "334dcd09786e5dca6ee90beed009a185b427cab1dfe2a028cb55d695bb5b0da1",
+      "pixels": "9a113246842434e52ee54e0546bf09e5a59a1ef05993314850e77f8b0989d140"
+    },
+    {
+      "path": "public/assets/lcp/how-booking-hero-dark.4f75762b2d96.webp",
+      "width": 577,
+      "height": 345,
+      "format": "webp",
+      "bytes": 249648,
+      "sha256": "4f75762b2d96be2b6af62d4d1412612952986ae6974aa4b03b9ed95a83c9f3ed",
+      "pixels": "038966087f1ae4456bf5fcf7e9a963f6b509a77ee81f47d7d37062d962d6ee63"
+    },
+    {
+      "path": "public/assets/lcp/how-booking-hero-light.2a8b181bd267.webp",
+      "width": 577,
+      "height": 345,
+      "format": "webp",
+      "bytes": 245480,
+      "sha256": "2a8b181bd26707fc0baed5e3cfce606ed999f7ac9f98364ba0dc19ba5de3ac02",
+      "pixels": "5c6d39049432a63a987035c83daf31c1ed239918813a7fe7c7667165c2e3ee52"
+    },
+    {
+      "path": "public/assets/lcp/journey-abu-simbel.538fc752cd58.webp",
+      "width": 244,
+      "height": 142,
+      "format": "webp",
+      "bytes": 51644,
+      "sha256": "538fc752cd58f5cce12906542f7b1c0d45242d9a66629fc3f39d239714a75a73",
+      "pixels": "a18748eab81a0c007f035c9ce46ad894dae87b1aba8234537a3943274347356d"
+    },
+    {
+      "path": "public/assets/lcp/journey-alexandria.f288a0884368.webp",
+      "width": 244,
+      "height": 142,
+      "format": "webp",
+      "bytes": 41812,
+      "sha256": "f288a0884368fd335f42aa032a8cdee5a43b3c3e37b6c151bc86c43e5bcf310f",
+      "pixels": "bfe44c715984391bb481419a7018bf2087c666b56d7d34f157a8ff6ffcce2756"
+    },
+    {
+      "path": "public/assets/lcp/journey-felucca.c6d8352771c2.webp",
+      "width": 244,
+      "height": 142,
+      "format": "webp",
+      "bytes": 43528,
+      "sha256": "c6d8352771c2d07455a981ae2eb77add2740af432660b1856190771e23d37a4e",
+      "pixels": "73a823eaf962dc57952b79cd679414e8c3914796ec151552c18a4fe6f943bd9b"
+    },
+    {
+      "path": "public/assets/lcp/journey-karnak.db5695a97af9.webp",
+      "width": 244,
+      "height": 142,
+      "format": "webp",
+      "bytes": 45842,
+      "sha256": "db5695a97af93836b56b1fdb7923989c3c424d19dbbbda98a33f23b37ca6f929",
+      "pixels": "b6f1dbfc76aff89ee23d89901edee01e28df7e36ccb8927c129486fc92e297e4"
+    },
+    {
+      "path": "public/assets/lcp/journey-pyramids.e5c6965ab5b0.webp",
+      "width": 244,
+      "height": 142,
+      "format": "webp",
+      "bytes": 40244,
+      "sha256": "e5c6965ab5b0b5c2f187a4f4a0bbc1b7465f3094a897a7a76a8cf7f95c71ee2d",
+      "pixels": "33f47e1609f18f6d64a4ec25efa111cbcea39e17760c44f8e3ea0eee3eddeae9"
+    },
+    {
+      "path": "public/assets/lcp/journey-sinai.16cee3d94753.webp",
+      "width": 244,
+      "height": 142,
+      "format": "webp",
+      "bytes": 53766,
+      "sha256": "16cee3d947534b9f5ca1ae546da533b25c18635d0dacf7155a63f3b07d4a752d",
+      "pixels": "0b8a06e15d132c930a49be7b6638427bb328a546b9cb9c58be2d9bf80d646ec1"
+    },
+    {
+      "path": "public/assets/brand/icon-mark.svg",
+      "width": 1024,
+      "height": 1024,
+      "format": "svg",
+      "bytes": 10493,
+      "sha256": "51b2ce297f6c7a71d31120ef0445f05d32e13ddc83b7056c051da39d798bf555",
+      "pixels": "14a953b858e0123c4f8d5f11939670932e8e64699040470e5217325feb0c601a"
+    },
+    {
+      "path": "public/assets/brand/logo-transparent-dark.png",
+      "width": 696,
+      "height": 232,
+      "format": "png",
+      "bytes": 67375,
+      "sha256": "e9bbd984f0004680a276a4caab6274d1114b6923811f2e47bacdd24fedb417af",
+      "pixels": "2641df744db339b4b64baf678ca7c5a1552a0b0a2342108be817933971b45830"
+    },
+    {
+      "path": "public/assets/brand/logo-transparent.png",
+      "width": 696,
+      "height": 232,
+      "format": "png",
+      "bytes": 67367,
+      "sha256": "fa17da4b4c92ed4489ade386ae2961fef0438eebd1c09cbf108452f889c602e1",
+      "pixels": "54c52a32171b0d2c318b0d0b02aa466be40ca227847015850fdeb0361015f5d0"
+    },
+    {
+      "path": "public/assets/decorative/cta-lineart-left.svg",
+      "width": 180,
+      "height": 170,
+      "format": "svg",
+      "bytes": 669,
+      "sha256": "0071cb3677ca93603a221ec71c5ab39ca22f3e355207df4c9d38d5da630daddf",
+      "pixels": "738df72ebadfc797b562a690011c3fed1207d96feb9622d6da0b73ac8818a06c"
+    },
+    {
+      "path": "public/assets/decorative/cta-lineart-right.svg",
+      "width": 220,
+      "height": 180,
+      "format": "svg",
+      "bytes": 759,
+      "sha256": "dc3e017a0670c448d006abf567265f1e95a7553267b08423bff083a52108b1ec",
+      "pixels": "9a964593155436625e2c255506bac9b75a495109c0254c62df7c7d37837be7be"
+    },
+    {
+      "path": "public/assets/decorative/how-booking-help-lineart-dark.png",
+      "width": 720,
+      "height": 157,
+      "format": "png",
+      "bytes": 109470,
+      "sha256": "ebccca577590095630c80540ead8419aafc3071e8a12641a7ae26d17d9b258d1",
+      "pixels": "8f4927d99bfce4f5347ca161b2291f2c7792ca4d79082859fe438514e027cee9"
+    },
+    {
+      "path": "public/assets/decorative/how-booking-help-lineart.png",
+      "width": 720,
+      "height": 149,
+      "format": "png",
+      "bytes": 105183,
+      "sha256": "6aa720c63fe4d7108dfcef3c4ded09b5ac477b33c9a2f8ed40c863c62391ca27",
+      "pixels": "06e86e9cddfbeaa9ee05978d449a1a0c3cd29acadb737d4c868ffaf63656df99"
+    },
+    {
+      "path": "public/assets/decorative/oasis-corner.png",
+      "width": 120,
+      "height": 150,
+      "format": "png",
+      "bytes": 37774,
+      "sha256": "db29508ffbdcb0a43f922ca7d5039aa09983c6d13723d10960ed814dfdb5d7f7",
+      "pixels": "ebc7581774f310dbc29d29c58a6bacc23ce3742d0bc8fb86cc96c5a4f9d85a41"
+    }
+  ],
+  "exactDuplicates": []
+}

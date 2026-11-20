@@ -1,0 +1,106 @@
+{
+  "status": "PASS — draft preparation and image galleries; publication awaits owner prices",
+  "database": "vtravel_official_20261115_verify",
+  "tours": [
+    {
+      "name": "Luxor Highlights Day Tour",
+      "slug": "luxor-day-trip-from-hurghada",
+      "status": "draft",
+      "base_adult_price": null,
+      "gallery_count": 4
+    },
+    {
+      "name": "Cairo Pyramids & Museum Day Tour",
+      "slug": "cairo-day-trip-from-hurghada",
+      "status": "draft",
+      "base_adult_price": null,
+      "gallery_count": 4
+    },
+    {
+      "name": "Luxor Hot Air Balloon Day Tour",
+      "slug": "luxor-balloon-tour-from-hurghada",
+      "status": "draft",
+      "base_adult_price": null,
+      "gallery_count": 5
+    }
+  ],
+  "languages": [
+    "en",
+    "fr",
+    "de",
+    "ru",
+    "zh",
+    "uk"
+  ],
+  "backend_tests": 10,
+  "backend_assertions": 2742,
+  "frontend_tests": 28,
+  "production_build": "passed",
+  "localized_ssr_checks": "passed",
+  "official_ssr_previews": 18,
+  "layout_checks": 18,
+  "gallery_layout_checks": 36,
+  "viewer_photos_checked": 26,
+  "image_http_checks": 80,
+  "image_http_200": 80,
+  "browser_errors": [],
+  "component_layout": {
+    "cards": "8:5 (16:10)",
+    "hero": "responsive width; existing desktop min-height 415px and mobile height 190px",
+    "desktop_gallery": "first two tiles: half grid width × 225px; later tiles 2.5:1",
+    "mobile_gallery": "first tile: full grid width × 150px; second tile: half grid width × 110px; later tiles 1.6:1",
+    "thumbnails": "65×45px; hidden on mobile by existing CSS; mobile arrows supported"
+  },
+  "final_assets": {
+    "covers": [
+      "1600×1000",
+      "960×600",
+      "640×400"
+    ],
+    "gallery": [
+      "1600×640",
+      "960×384",
+      "640×256"
+    ],
+    "thumbnails": "160×100",
+    "source": "9 licensed photographs; 8 AI candidates excluded"
+  },
+  "css": "Gallery CSS, card dimensions, and image aspect-ratio rules unchanged. Header-only responsive fix prevents translated navigation wrapping; footer overflow-wrap accommodates long labels.",
+  "limitations": [
+    "Browser previews use API resources exported from disposable tests with temporary publication; default seed stays draft.",
+    "Owner must supply positive base_adult_price in USD and confirm guide_languages before publishing.",
+    "Generated candidates remain unapproved and unused."
+  ],
+  "files": {
+    "backend": [
+      "database/seeders/OfficialJourneySeeder.php",
+      "database/seeders/DatabaseSeeder.php",
+      "database/data/official-journeys.json",
+      "database/data/official-journey-images.json",
+      "database/data/official-tour-image-manifest.json",
+      "database/seeders/assets/journeys/",
+      "app/Support/Media/JourneyImagePayload.php",
+      "app/Http/Resources/Api/Public/Journeys/JourneyCardResource.php",
+      "app/Http/Resources/Api/Public/Journeys/JourneyDetailResource.php",
+      "database/data/approved-content.json",
+      "database/data/pages/shared.php",
+      "tests/Feature/OfficialJourneySeederTest.php",
+      "tests/Feature/ApprovedContentBaselineTest.php"
+    ],
+    "frontend": [
+      "components/JourneyCard.vue",
+      "components/journey/JourneyGalleryViewer.vue",
+      "components/journey/JourneySectionContent.vue",
+      "components/journey/JourneyHero.vue",
+      "services/journeys.js",
+      "composables/useSiteContent.js",
+      "data/demoTranslations.json",
+      "assets/css/refinements.css",
+      "components/journey/JourneyBookingFlow.vue",
+      "services/journeyDraft.js",
+      "utils/journeyMuseum.js",
+      "tests/journeyMuseum.test.js",
+      "artifacts/official-tours/"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+✔ legacy seed photographs use approved responsive artwork without changing the CMS record (0.572ms)
+✔ custom CMS artwork takes precedence, including a different upload with a legacy filename (0.105834ms)
+✔ bundled hero preloads match desktop and mobile CSS sources (0.199291ms)
+✔ a category chip carries its uploaded icon, and the stored icon name is data only (0.617958ms)
+✔ no configured API is demo mode, so the page keeps its own questions (0.091042ms)
+✔ real MapLibre expressions choose each supported locale with native/provider fallback (5.213541ms)
+✔ preserves road numbers, formatted metadata and original style without cumulative replacement (1.074875ms)
+✔ map zoom controls have labels for Chinese, Ukrainian and unknown locales (0.104416ms)
+✔ sections are indexed by key and an empty payload reports nothing to render (0.825833ms)
+✔ CMS text wins and blank or missing values keep the page copy (0.128708ms)
+✔ no configured API, and an unreachable one, both fall back instead of throwing (0.796792ms)
+✔ a multi-line field becomes the lines the design draws, and an empty one keeps the page copy (0.154666ms)
+✔ cards come from the CMS when it has any, and from the page itself when it has none (0.18275ms)
+✔ an uploaded card icon is carried through, and the stored icon name is data only (0.097041ms)
+✔ every website interface string is translated into all six site languages (4.8485ms)
+✔ a translated string keeps every placeholder its English carries (3.091833ms)
+✔ the journey booking and review flows have no untranslated interface strings (2.631417ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 271.562875

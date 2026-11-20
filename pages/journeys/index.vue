@@ -1,4 +1,5 @@
 <script setup>
+import { contentImage, heroImageStyle, heroImagePreloads } from '~/utils/contentImages'
 definePageMeta({"name": "journeys", "title": "All Journeys — TheVTravel"})
 import { computed, ref, watch, onMounted, onBeforeUnmount, nextTick } from 'vue'
 import SiteHeader from '~/components/SiteHeader.vue'
@@ -35,14 +36,13 @@ const hero = computed(() => {
   return {
     title: textOr(section?.title, translate('All Journeys')),
     lines: body.length ? body : [translate('Handpicked private experiences across Egypt.'), translate('You choose the date. We take care of the rest.')],
-    photoAlt: textOr(section?.data?.image_alt, translate('A felucca sailing past an ancient Nile temple at sunset')),
-    // Unset, each theme keeps its own built-in photo (see styles.css); an
-    // image uploaded in the admin replaces both.
-    image: section?.media?.image?.url || null,
+    photoAlt: contentImage(section?.media?.image, 'journeys-hero', locale.value).alt || textOr(section?.data?.image_alt, translate('A felucca sailing past an ancient Nile temple at sunset')),
+    image: contentImage(section?.media?.image, 'journeys-hero', locale.value),
   }
 })
 
-const heroPhotoStyle = computed(() => hero.value.image ? { '--hero-image': `url(${JSON.stringify(hero.value.image)})` } : null)
+const heroPhotoStyle = computed(() => heroImageStyle(hero.value.image))
+useHead(() => ({ link: heroImagePreloads(hero.value.image) }))
 
 // ── Filter vocabulary ────────────────────────────────────────────────────────
 // Matched on slugs, never on translated names: a filter a visitor picked in
@@ -243,7 +243,7 @@ onBeforeUnmount(() => { mobileQuery?.removeEventListener('change', updateMobileL
       <section class="journeys-hero" aria-labelledby="journeys-page-title">
         <div class="journeys-hero-copy">
           <nav class="journeys-breadcrumb" :aria-label='$t("Breadcrumb")'>
-            <NuxtLink to="/">{{ $t("Home") }}</NuxtLink><AppIcon name="chevron-right" :size="13" /><span aria-current="page">{{ $t("Journeys") }}</span>
+            <PublicLink to="/">{{ $t("Home") }}</PublicLink><AppIcon name="chevron-right" :size="13" /><span aria-current="page">{{ $t("Journeys") }}</span>
           </nav>
           <h1 id="journeys-page-title">{{ hero.title }}</h1>
           <span class="heading-rule" aria-hidden="true"></span>

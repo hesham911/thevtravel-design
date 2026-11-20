@@ -1,7 +1,8 @@
+import { localizePath } from '../utils/localizedRoutes.js'
 import DOMPurify from 'isomorphic-dompurify'
 import { parseHTML } from 'linkedom'
 // Rich-editor data is content, never executable markup or a second theme system.
-export function sanitizeLegalHTML(value, tableLabel = 'Table') {
+export function sanitizeLegalHTML(value, tableLabel = 'Table', locale = 'en', publicOrigin = '') {
   if (typeof value !== 'string') return ''
   const clean = DOMPurify.sanitize(value, {
     ALLOWED_TAGS: ['h1','h2','h3','h4','h5','h6','p','br','hr','ul','ol','li','a','strong','b','em','i','u','s','blockquote','pre','code','div','span','table','caption','thead','tbody','tfoot','tr','th','td'],
@@ -12,6 +13,9 @@ export function sanitizeLegalHTML(value, tableLabel = 'Table') {
   const document = parseHTML('<html><body></body></html>').document
   const template = document.createElement('div')
   template.innerHTML = clean
+  template.querySelectorAll('a[href]').forEach(link => {
+    link.setAttribute('href', localizePath(link.getAttribute('href'), locale, publicOrigin))
+  })
   template.querySelectorAll('table').forEach(table => {
     const wrapper = document.createElement('div')
     wrapper.className = 'legal-table-scroll'

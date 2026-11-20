@@ -1,0 +1,70 @@
+[
+  {
+    "route": "about",
+    "width": 1440,
+    "errors": [],
+    "text": "Timeless places. Seamless journeys.\nCairo\n\nTimeless heritage and vibrant life.\n\nLuxor\n\nPharaohs, temples and iconic river landscapes.\n\nAswan\n\nSerene river life and Nubian culture.\n\nThe Nile\n\nSail, relax and let the river set the rhythm.\n\nAbu Simbel\n\nAn unforgettable journey into ancient history.",
+    "broken": [],
+    "links": []
+  },
+  {
+    "route": "faq",
+    "width": 1440,
+    "errors": [],
+    "text": "Still have questions?\n\nWe’re here to help. Our travel experts will be happy to assist you.\n\nContact us",
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ]
+  },
+  {
+    "route": "how-booking-works",
+    "width": 1440,
+    "errors": [],
+    "text": "Need help?\n\nOur travel experts are here for you.\n\nContact us",
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ]
+  },
+  {
+    "route": "about",
+    "width": 390,
+    "errors": [],
+    "text": "Timeless places. Seamless journeys.\nCairo\n\nTimeless heritage and vibrant life.\n\nLuxor\n\nPharaohs, temples and iconic river landscapes.\n\nAswan\n\nSerene river life and Nubian culture.\n\nThe Nile\n\nSail, relax and let the river set the rhythm.\n\nAbu Simbel\n\nAn unforgettable journey into ancient history.",
+    "broken": [],
+    "links": []
+  },
+  {
+    "route": "faq",
+    "width": 390,
+    "errors": [],
+    "text": "Still have questions?\n\nWe’re here to help. Our travel experts will be happy to assist you.\n\nContact us",
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ]
+  },
+  {
+    "route": "how-booking-works",
+    "width": 390,
+    "errors": [],
+    "text": "Need help?\n\nOur travel experts are here for you.\n\nContact us",
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ]
+  }
+]

@@ -1,4 +1,5 @@
 <script setup>
+import { contentImage, heroImageStyle, heroImagePreloads } from '~/utils/contentImages'
 import { computed, reactive, ref, defineAsyncComponent } from 'vue'
 import { useAsyncData, useRoute, useRuntimeConfig } from '#imports'
 definePageMeta({ name: 'contact', title: 'Contact Us — TheVTravel' })
@@ -83,12 +84,15 @@ const hero = computed(() => {
       translate('Reach out anytime—real people, real replies.'),
     ]),
     replyNote: textOr(section?.data?.reply_note, translate('We reply by message, every day.')),
-    photoAlt: textOr(section?.data?.image_alt, translate('A felucca sailing on the Nile at sunset')),
-    image: section?.media?.image?.url || null,
+    photoAlt: contentImage(section?.media?.image, 'contact-hero', locale.value).alt || textOr(section?.data?.image_alt, translate('A felucca sailing on the Nile at sunset')),
+    image: contentImage(section?.media?.image, 'contact-hero', locale.value),
   }
 })
 
-const heroPhotoStyle = computed(() => hero.value.image ? { '--hero-image': `url(${JSON.stringify(hero.value.image)})` } : null)
+const heroPhotoStyle = computed(() => heroImageStyle(hero.value.image))
+useHead(() => ({ link: heroImagePreloads(hero.value.image) }))
+
+
 
 // The WhatsApp channel's own link is deliberately empty in the CMS: the
 // address lives in Settings → Social, so the card reads it from there and
@@ -251,7 +255,7 @@ async function submitForm() {
           <p class="eyebrow">{{ hero.eyebrow }}</p>
           <h1 id="contact-title">{{ hero.title }}</h1>
           <span class="heading-rule" aria-hidden="true"></span>
-          <p><template v-for="(line, index) in hero.lines" :key="index"><br v-if="index" />{{ line }}</template></p>
+          <p><template v-for="(line, index) in hero.lines" :key="index"><br v-if="index" />{{ index ? ' ' : '' }}{{ line }}</template></p>
           <div class="reply-note"><span><AppIcon name="person" :size="26" /></span>{{ hero.replyNote }}</div>
         </div>
         <div class="contact-hero-photo" role="img" :aria-label="hero.photoAlt" :style="heroPhotoStyle"></div>
@@ -281,7 +285,7 @@ async function submitForm() {
               </template>
             </div>
           </article>
-          <aside class="contact-reassurance"><AppIcon name="shield" :size="34" /><p><template v-for="(line, index) in methods.reassuranceLines" :key="index"><br v-if="index" />{{ line }}</template></p></aside>
+          <aside class="contact-reassurance"><AppIcon name="shield" :size="34" /><p><template v-for="(line, index) in methods.reassuranceLines" :key="index"><br v-if="index" />{{ index ? ' ' : '' }}{{ line }}</template></p></aside>
         </div>
 
         <form id="contact-form" class="contact-form" novalidate @submit.prevent="submitForm">
@@ -293,7 +297,7 @@ async function submitForm() {
             <div class="contact-field full" :class="{ 'has-error': errors.subject }"><label for="contact-subject">{{ $t("Subject") }}</label><select id="contact-subject" v-model="form.subject" name="subject" :aria-invalid="!!errors.subject" :aria-describedby="errors.subject ? 'subject-error' : undefined"><option value="" disabled>{{ $t("Choose a subject") }}</option><option value="Journey request">{{ $t("Journey request") }}</option><option value="Private transfer">{{ $t("Private transfer") }}</option><option value="Existing booking">{{ $t("Existing booking") }}</option><option value="General question">{{ $t("General question") }}</option><option value="Other">{{ $t("Other") }}</option></select><small v-if="errors.subject" id="subject-error">{{ $t(errors.subject) }}</small></div>
             <div class="contact-field full" :class="{ 'has-error': errors.message }"><label for="contact-message">{{ $t("Message") }}</label><textarea id="contact-message" v-model="form.message" name="message" rows="5" :placeholder='$t("Tell us about your plans, questions or anything else...")' :aria-invalid="!!errors.message" :aria-describedby="errors.message ? 'message-error' : undefined"></textarea><small v-if="errors.message" id="message-error">{{ $t(errors.message) }}</small></div>
           </div>
-          <label class="consent" :class="{ 'has-error': errors.consent }"><input v-model="form.consent" type="checkbox" :aria-invalid="!!errors.consent" :aria-describedby="errors.consent ? 'consent-error' : undefined" /> <span>{{ $t("I agree to the") }} <NuxtLink class="privacy-term" to="/privacy-policy">{{ $t("privacy policy") }}</NuxtLink> {{ $t("and consent to being contacted about my enquiry.") }}<small v-if="errors.consent" id="consent-error">{{ $t(errors.consent) }}</small></span></label>
+          <label class="consent" :class="{ 'has-error': errors.consent }"><input v-model="form.consent" type="checkbox" :aria-invalid="!!errors.consent" :aria-describedby="errors.consent ? 'consent-error' : undefined" /> <span>{{ $t("I agree to the") }} <PublicLink class="privacy-term" to="/privacy-policy">{{ $t("privacy policy") }}</PublicLink> {{ $t("and consent to being contacted about my enquiry.") }}<small v-if="errors.consent" id="consent-error">{{ $t(errors.consent) }}</small></span></label>
           <button class="button button-primary contact-submit" type="submit" :disabled="pending" :aria-busy="pending">{{ pending ? $t("Sending…") : $t("Send message") }}</button>
           <p class="form-status" role="status" aria-live="polite">{{ $t(status) }}</p>
           <div class="form-reply"><span><AppIcon name="send" :size="18" /></span>{{ formCopy.replyNote }}</div>
@@ -304,7 +308,7 @@ async function submitForm() {
         <div class="page-container">
           <div class="contact-section-heading"><p class="eyebrow">{{ paths.eyebrow }}</p><h2 id="path-title">{{ paths.title }}</h2><span class="heading-rule" aria-hidden="true"></span></div>
           <div class="path-grid">
-            <article v-for="item in paths.cards" :key="item.key" class="path-item"><span class="path-icon"><ContentIcon :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="46" /></span><div><h3>{{ item.title }}</h3><p>{{ item.description }}</p><a v-if="item.link" :href="item.link">{{ item.label }} <AppIcon name="chevron-right" :size="14" /></a></div></article>
+            <article v-for="item in paths.cards" :key="item.key" class="path-item"><span class="path-icon"><ContentIcon :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="46" /></span><div><h3>{{ item.title }}</h3><p>{{ item.description }}</p><PublicLink v-if="item.link" :to="item.link">{{ item.label }} <AppIcon name="chevron-right" :size="14" /></PublicLink></div></article>
           </div>
         </div>
       </section>
@@ -312,8 +316,8 @@ async function submitForm() {
       <section class="service-area" aria-labelledby="service-title">
         <div class="service-copy">
           <p class="eyebrow">{{ serviceArea.eyebrow }}</p><h2 id="service-title">{{ serviceArea.title }}</h2><span class="heading-rule" aria-hidden="true"></span>
-          <p>{{ serviceArea.body }}</p><p><template v-for="(line, index) in serviceArea.lines" :key="index"><br v-if="index" />{{ line }}</template></p>
-          <NuxtLink class="button button-outline" :to="serviceArea.link">{{ serviceArea.label }}</NuxtLink>
+          <p>{{ serviceArea.body }}</p><p><template v-for="(line, index) in serviceArea.lines" :key="index"><br v-if="index" />{{ index ? ' ' : '' }}{{ line }}</template></p>
+          <PublicLink class="button button-outline" :to="serviceArea.link">{{ serviceArea.label }}</PublicLink>
         </div>
         <div class="service-map">
           <ClientOnly><ServiceAreaMap /></ClientOnly>
@@ -327,9 +331,12 @@ async function submitForm() {
         </div>
       </section>
 
-      <section class="contact-cta" aria-labelledby="contact-cta-title">
-        <div class="contact-cta-copy"><h2 id="contact-cta-title">{{ cta.title }}</h2><p>{{ cta.body }}</p><a class="button button-primary" :href="cta.link">{{ cta.label }}</a></div>
-        <div class="contact-cta-photo" role="img" :aria-label="cta.photoAlt"></div>
+      <section class="editorial-cta" aria-labelledby="contact-cta-title">
+        <div class="editorial-cta-inner page-container">
+          <AppIcon name="compass" :size="48" />
+          <div><h2 id="contact-cta-title">{{ cta.title }}</h2><p>{{ cta.body }}</p></div>
+          <PublicLink class="button button-primary" :to="cta.link">{{ cta.label }} <AppIcon name="arrow" :size="18" /></PublicLink>
+        </div>
       </section>
     </main>
 

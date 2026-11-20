@@ -1,4 +1,5 @@
 <script setup>
+import { contentImage, heroImageStyle, heroImagePreloads } from '~/utils/contentImages'
 definePageMeta({"name": "how-booking-works", "title": "How Booking Works \u2014 TheVTravel"})
 import SiteHeader from '~/components/SiteHeader.vue'
 import SiteFooter from '~/components/SiteFooter.vue'
@@ -50,9 +51,13 @@ const hero = computed(() => {
     eyebrow: textOr(section?.subtitle, translate('Simple, private & personal')),
     title: textOr(section?.title, translate('How booking works')),
     lines: body.length ? body : fallbackHeroLines.map(line => translate(line)),
-    photoAlt: textOr(section?.data?.image_alt, translate('A felucca sailing beside ancient temple columns on the Nile at sunset')),
+    image: contentImage(section?.media?.image, 'booking-hero', locale.value),
+    photoAlt: contentImage(section?.media?.image, 'booking-hero', locale.value).alt || textOr(section?.data?.image_alt, translate('A felucca sailing beside ancient temple columns on the Nile at sunset')),
   }
 })
+
+const heroPhotoStyle = computed(() => heroImageStyle(hero.value.image))
+useHead(() => ({ link: heroImagePreloads(hero.value.image) }))
 
 const stepsHeading = computed(() => textOr(sections.value?.steps?.title, translate('Your journey in 6 easy steps')))
 
@@ -105,7 +110,7 @@ const payment = computed(() => {
             <template v-for="(line, index) in hero.lines" :key="index"><br v-if="index" class="desktop-only" />{{ index ? ' ' : '' }}{{ line }}</template>
           </p>
         </div>
-        <div class="booking-hero-photo" role="img" :aria-label="hero.photoAlt"></div>
+        <div class="booking-hero-photo" role="img" :aria-label="hero.photoAlt" :style="heroPhotoStyle"></div>
         <svg class="booking-hero-route" viewBox="0 0 520 150" fill="none" aria-hidden="true">
           <path d="M5 131C56 90 116 111 166 104c48-7 59-37 105-29 45 8 73 31 118 5 20-12 28-31 39-54" />
           <circle cx="271" cy="75" r="6" />

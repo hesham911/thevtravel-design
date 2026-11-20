@@ -1,0 +1,358 @@
+[
+  {
+    "origin": "http://thevtravel-backend.test",
+    "journeyTotal": 37,
+    "media": [
+      {
+        "url": "http://thevtravel-backend.test/storage/79/lock.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/80/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/81/people-pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/82/ear.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/83/map.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/84/person.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/85/sunrise.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/153/people-team.webp",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/86/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/87/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/88/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/89/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/90/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/91/leaf.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/92/community.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/93/protect.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/94/heart.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/95/whatsapp.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/96/mail.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/97/headset.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/98/compass.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/99/car.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/100/ticket.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/151/home-felucca.webp",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/101/refresh.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/102/map.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/103/calendar.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/104/headset.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/152/hero-transfer-van.webp",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/105/search.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/106/booking-calendar.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/107/person.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/108/chat.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/109/checklist.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/110/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/138/calendar.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/139/card.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/140/map.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/141/car.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/142/suitcase.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/143/camera.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/144/refresh.svg",
+        "status": 200
+      },
+      {
+        "url": "http://thevtravel-backend.test/storage/145/dots.svg",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "origin": "http://vtravel-handover-backend.test",
+    "journeyTotal": 0,
+    "media": [
+      {
+        "url": "http://vtravel-handover-backend.test/storage/13/lock.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/14/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/15/people-pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/16/ear.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/17/map.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/18/person.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/19/sunrise.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/12/people-team.webp",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/7/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/8/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/9/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/10/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/11/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/20/leaf.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/21/community.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/22/protect.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/23/heart.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/24/whatsapp.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/25/mail.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/26/headset.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/27/compass.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/28/car.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/29/ticket.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/1/home-felucca.webp",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/3/community.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/4/map.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/5/calendar.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/6/headset.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/2/hero-transfer-van.webp",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/30/search.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/31/booking-calendar.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/32/person.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/33/chat.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/34/checklist.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/35/pin.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/37/calendar.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/42/card.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/40/map.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/43/car.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/36/suitcase.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/39/camera.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/38/refresh.svg",
+        "status": 200
+      },
+      {
+        "url": "http://vtravel-handover-backend.test/storage/41/dots.svg",
+        "status": 200
+      }
+    ]
+  }
+]

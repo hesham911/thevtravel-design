@@ -45,9 +45,9 @@ export function useSiteContent() {
   const { public: runtime } = useRuntimeConfig()
 
   const { data: sections } = useAsyncData(
-    'site-chrome',
+    () => `site-chrome:${locale.value}`,
     () => fetchPageSections(runtime.apiBaseUrl, 'shared', locale.value),
-    { watch: [locale], default: () => null },
+    { default: () => null },
   )
 
   const header = computed(() => {

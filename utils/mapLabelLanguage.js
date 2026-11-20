@@ -1,4 +1,4 @@
-const languages = new Set(['en', 'ru', 'fr', 'de', 'zh'])
+const languages = new Set(['en', 'ru', 'fr', 'de', 'zh', 'uk'])
 export function mapLabelLocale(value) { return languages.has(value) ? value : 'en' }
 const isName = value => typeof value === 'string' && /^(name(?::|_).+|name)$/.test(value)
 function fields(expression, result = []) {
@@ -27,3 +27,10 @@ export function applyMapLabelLanguage(renderer, originals, locale) {
     if (JSON.stringify(original) !== JSON.stringify(localized)) renderer.setLayoutProperty(id, 'text-field', localized)
   }
 }
+
+const zoomTitles = {
+  en: ['Zoom in', 'Zoom out'], fr: ['Zoom avant', 'Zoom arrière'],
+  de: ['Vergrößern', 'Verkleinern'], ru: ['Увеличить', 'Уменьшить'],
+  zh: ['放大', '缩小'], uk: ['Збільшити', 'Зменшити'],
+}
+export function mapZoomTitles(locale) { return zoomTitles[mapLabelLocale(locale)] }

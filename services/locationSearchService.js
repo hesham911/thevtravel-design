@@ -1,7 +1,7 @@
 // Every language the site is read in, so an address comes back in the one
 // the guest is using. The proxy passes it to the provider as Accept-Language
 // and uses it to localize its own answer.
-export const geocodingLanguages = Object.freeze({ en: 'English', ru: 'Russian', fr: 'French', de: 'German', zh: 'Chinese' })
+export const geocodingLanguages = Object.freeze({ en: 'English', ru: 'Russian', fr: 'French', de: 'German', zh: 'Chinese', uk: 'Ukrainian' })
 const languageCode = value => Object.hasOwn(geocodingLanguages, value) ? value : 'en'
 
 // Transfer-only adapter. `baseUrl` points at this application's own geocoding

@@ -1,4 +1,5 @@
 <script setup>
+import { contentImage } from '~/utils/contentImages'
 import { computed } from 'vue'
 import { useTransferRequest } from '~/composables/useTransferRequest'
 import { useI18n } from '~/utils/i18n'
@@ -11,7 +12,7 @@ import { transferContent } from '~/data/homeContent'
 // configured there.
 const props = defineProps({ section: { type: Object, default: null } })
 
-const { translate } = useI18n()
+const { translate, locale } = useI18n()
 const transferRequested = useTransferRequest()
 function requestTransfer() { transferRequested.value++ }
 
@@ -20,8 +21,8 @@ const banner = computed(() => ({
   title: textOr(props.section?.title, translate(transferContent.title)),
   description: textOr(props.section?.body, translate(transferContent.description)),
   cta: textOr(props.section?.data?.cta_text, translate(transferContent.cta)),
-  image: props.section?.media?.image?.url || transferContent.image,
-  alt: textOr(props.section?.data?.image_alt, translate(transferContent.alt)),
+  image: contentImage(props.section?.media?.image, 'transfer-banner', locale.value),
+  alt: contentImage(props.section?.media?.image, 'transfer-banner', locale.value).alt || textOr(props.section?.data?.image_alt, translate(transferContent.alt)),
 }))
 </script>
 <template>
@@ -33,7 +34,7 @@ const banner = computed(() => ({
       <button class="button button-primary" type="button" @click="requestTransfer">{{ banner.cta }}</button>
     </div>
     <div class="transfer-media">
-      <img :src="banner.image" :alt="banner.alt" width="602" height="345" loading="lazy" />
+      <img :src="banner.image.url" :srcset="banner.image.srcset" sizes="(max-width: 767px) 100vw, 60vw" :alt="banner.alt" :width="banner.image.width || 1672" :height="banner.image.height || 941" loading="lazy" />
     </div>
   </section>
 </template>

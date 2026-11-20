@@ -1,0 +1,262 @@
+[
+  {
+    "route": "about",
+    "width": 1440,
+    "theme": "light",
+    "overflow": false,
+    "broken": [],
+    "links": [],
+    "icons": 5,
+    "errors": []
+  },
+  {
+    "route": "contact",
+    "width": 1440,
+    "theme": "light",
+    "overflow": false,
+    "broken": [],
+    "links": [],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "faq",
+    "width": 1440,
+    "theme": "light",
+    "overflow": false,
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "how-booking-works",
+    "width": 1440,
+    "theme": "light",
+    "overflow": false,
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "journeys",
+    "width": 1440,
+    "theme": "light",
+    "overflow": false,
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "about",
+    "width": 1440,
+    "theme": "dark",
+    "overflow": false,
+    "broken": [],
+    "links": [],
+    "icons": 5,
+    "errors": []
+  },
+  {
+    "route": "contact",
+    "width": 1440,
+    "theme": "dark",
+    "overflow": false,
+    "broken": [],
+    "links": [],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "faq",
+    "width": 1440,
+    "theme": "dark",
+    "overflow": false,
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "how-booking-works",
+    "width": 1440,
+    "theme": "dark",
+    "overflow": false,
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "journeys",
+    "width": 1440,
+    "theme": "dark",
+    "overflow": false,
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "about",
+    "width": 390,
+    "theme": "light",
+    "overflow": false,
+    "broken": [],
+    "links": [],
+    "icons": 5,
+    "errors": []
+  },
+  {
+    "route": "contact",
+    "width": 390,
+    "theme": "light",
+    "overflow": false,
+    "broken": [],
+    "links": [],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "faq",
+    "width": 390,
+    "theme": "light",
+    "overflow": false,
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "how-booking-works",
+    "width": 390,
+    "theme": "light",
+    "overflow": false,
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "journeys",
+    "width": 390,
+    "theme": "light",
+    "overflow": false,
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "about",
+    "width": 390,
+    "theme": "dark",
+    "overflow": false,
+    "broken": [],
+    "links": [],
+    "icons": 5,
+    "errors": []
+  },
+  {
+    "route": "contact",
+    "width": 390,
+    "theme": "dark",
+    "overflow": false,
+    "broken": [],
+    "links": [],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "faq",
+    "width": 390,
+    "theme": "dark",
+    "overflow": false,
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "how-booking-works",
+    "width": 390,
+    "theme": "dark",
+    "overflow": false,
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ],
+    "icons": 0,
+    "errors": []
+  },
+  {
+    "route": "journeys",
+    "width": 390,
+    "theme": "dark",
+    "overflow": false,
+    "broken": [],
+    "links": [
+      {
+        "text": "Contact us",
+        "href": "/en/contact"
+      }
+    ],
+    "icons": 0,
+    "errors": []
+  }
+]

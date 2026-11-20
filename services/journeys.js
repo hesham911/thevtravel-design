@@ -163,6 +163,7 @@ export function toCard(journey) {
     interestIconImageDarkUrl: journey.interest?.icon_image_dark_url || '',
     image: journey.image?.url ?? null,
     imagePosition: journey.image?.position || 'center',
+    imageSrcset: journey.image?.srcset || undefined,
     alt: journey.image?.alt ?? '',
     description: journey.short_description ?? '',
     badge: journey.badge ?? null,
@@ -190,7 +191,7 @@ export function toDetail(journey) {
     language: (journey.guide_languages ?? []).map(item => item.name).join(', '),
     guideLanguages: journey.guide_languages ?? [],
     countryCode: journey.country_code ?? null,
-    image: { type: 'image', src: journey.image?.url ?? null, alt: journey.image?.alt ?? '', position: journey.image?.position || 'center' },
+    image: { ...journey.image, type: 'image', src: journey.image?.url ?? null, alt: journey.image?.alt ?? '', position: journey.image?.position || 'center' },
     // The fixtures called this `catalogOnly`: a journey that is published but
     // whose detail sections have not been written yet. It is a statement about
     // the content, not a publication state.
@@ -205,7 +206,7 @@ export function toDetail(journey) {
     includedIntro: journey.included?.intro || '',
     included: (journey.included?.items ?? []).map(item => ({ ...toCardIcon(item), title: item.title, text: item.description })),
     galleryIntro: journey.gallery?.intro || '',
-    gallery: (journey.gallery?.photos ?? []).map(photo => ({ type: 'image', src: photo.url, alt: photo.alt ?? '' })),
+    gallery: (journey.gallery?.photos ?? []).map(photo => ({ ...photo, type: 'image', src: photo.url, alt: photo.alt ?? '' })),
     goodToKnowHeading: journey.good_to_know?.heading || '',
     goodToKnowIntro: journey.good_to_know?.intro || '',
     goodToKnow: (journey.good_to_know?.items ?? []).map(item => ({ ...toCardIcon(item), title: item.title, text: item.description })),

@@ -1,0 +1,404 @@
+[
+  {
+    "route": "",
+    "width": 1440,
+    "elements": [
+      {
+        "selector": ".hero",
+        "width": 1440,
+        "height": 630,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "about",
+    "width": 1440,
+    "elements": [
+      {
+        "selector": ".about-hero",
+        "width": 1440,
+        "height": 500,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      },
+      {
+        "selector": ".people-section img",
+        "width": 792,
+        "height": 348,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": "http://thevtravel-backend.test/storage/153/people-team.webp",
+        "naturalWidth": 486
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "contact",
+    "width": 1440,
+    "elements": [
+      {
+        "selector": ".contact-hero",
+        "width": 1440,
+        "height": 525.828125,
+        "color": "rgb(5, 43, 81)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "how-booking-works",
+    "width": 1440,
+    "elements": [
+      {
+        "selector": ".booking-hero",
+        "width": 1440,
+        "height": 400,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "faq",
+    "width": 1440,
+    "elements": [
+      {
+        "selector": ".faq-hero",
+        "width": 1440,
+        "height": 400,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      },
+      {
+        "selector": ".faq-help",
+        "width": 1304,
+        "height": 118.75,
+        "color": "rgb(246, 238, 233)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "journeys",
+    "width": 1440,
+    "elements": [
+      {
+        "selector": ".journeys-hero",
+        "width": 1440,
+        "height": 400,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "privacy-policy",
+    "width": 1440,
+    "elements": [],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "",
+    "width": 768,
+    "elements": [
+      {
+        "selector": ".hero",
+        "width": 768,
+        "height": 630,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "about",
+    "width": 768,
+    "elements": [
+      {
+        "selector": ".about-hero",
+        "width": 768,
+        "height": 500,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      },
+      {
+        "selector": ".people-section img",
+        "width": 399.359375,
+        "height": 415.390625,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": "http://thevtravel-backend.test/storage/153/people-team.webp",
+        "naturalWidth": 486
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "contact",
+    "width": 768,
+    "elements": [
+      {
+        "selector": ".contact-hero",
+        "width": 768,
+        "height": 500,
+        "color": "rgb(5, 43, 81)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "how-booking-works",
+    "width": 768,
+    "elements": [
+      {
+        "selector": ".booking-hero",
+        "width": 768,
+        "height": 400,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "faq",
+    "width": 768,
+    "elements": [
+      {
+        "selector": ".faq-hero",
+        "width": 768,
+        "height": 400,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      },
+      {
+        "selector": ".faq-help",
+        "width": 695.5,
+        "height": 188.75,
+        "color": "rgb(246, 238, 233)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "journeys",
+    "width": 768,
+    "elements": [
+      {
+        "selector": ".journeys-hero",
+        "width": 768,
+        "height": 400,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "privacy-policy",
+    "width": 768,
+    "elements": [],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "",
+    "width": 390,
+    "elements": [
+      {
+        "selector": ".hero",
+        "width": 390,
+        "height": 574.03125,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "about",
+    "width": 390,
+    "elements": [
+      {
+        "selector": ".about-hero",
+        "width": 390,
+        "height": 524.15625,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      },
+      {
+        "selector": ".people-section img",
+        "width": 390,
+        "height": 260,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "contact",
+    "width": 390,
+    "elements": [
+      {
+        "selector": ".contact-hero",
+        "width": 390,
+        "height": 567.921875,
+        "color": "rgb(5, 43, 81)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "how-booking-works",
+    "width": 390,
+    "elements": [
+      {
+        "selector": ".booking-hero",
+        "width": 390,
+        "height": 500.265625,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "faq",
+    "width": 390,
+    "elements": [
+      {
+        "selector": ".faq-hero",
+        "width": 390,
+        "height": 472.109375,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      },
+      {
+        "selector": ".faq-help",
+        "width": 350,
+        "height": 195,
+        "color": "rgb(246, 238, 233)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "journeys",
+    "width": 390,
+    "elements": [
+      {
+        "selector": ".journeys-hero",
+        "width": 390,
+        "height": 409.78125,
+        "color": "rgb(0, 32, 64)",
+        "background": "none",
+        "src": null,
+        "naturalWidth": null
+      }
+    ],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  },
+  {
+    "route": "privacy-policy",
+    "width": 390,
+    "elements": [],
+    "overflow": false,
+    "broken": [],
+    "errors": []
+  }
+]

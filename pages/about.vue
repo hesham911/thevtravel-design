@@ -1,4 +1,5 @@
 <script setup>
+import { contentImage } from '~/utils/contentImages'
 import { computed } from 'vue'
 import { useAsyncData, useRuntimeConfig } from '#imports'
 definePageMeta({ name: 'about', title: 'About TheVTravel — Egypt, planned with local care' })
@@ -124,8 +125,8 @@ const people = computed(() => {
     eyebrow: textOr(section?.subtitle, translate('People-focused service')),
     title: textOr(section?.title, translate('Real people. Here for your journey.')),
     body: textOr(section?.body, translate('From your first message to your final day in Egypt, you’ll have a dedicated local team on hand—responsive, discreet and committed to your peace of mind.')),
-    image: section?.media?.image?.url || '/assets/photos/people-team.png',
-    imageAlt: textOr(section?.data?.image_alt, translate('A local TheVTravel host welcoming a guest')),
+    image: contentImage(section?.media?.image, 'about-people', locale.value),
+    imageAlt: contentImage(section?.media?.image, 'about-people', locale.value).alt || textOr(section?.data?.image_alt, translate('A local TheVTravel host welcoming a guest')),
   }
 })
 
@@ -160,6 +161,14 @@ const cta = computed(() => {
 })
 
 const heroPhotoStyle = computed(() => hero.value.image ? { '--hero-image': `url(${JSON.stringify(hero.value.image)})` } : null)
+useHead(() => ({ link: hero.value.image ? [{ key: 'page-hero-preload', rel: 'preload', as: 'image', href: hero.value.image, fetchpriority: 'high' }] : [
+  { key: 'about-hero-mobile', rel: 'preload', as: 'image', href: '/assets/content/about-nile-768.webp', media: '(max-width: 767px)', fetchpriority: 'high' },
+  { key: 'about-hero-retina', rel: 'preload', as: 'image', href: '/assets/content/about-nile-2178.webp', media: '(min-width: 768px) and (min-resolution: 1.5dppx)', fetchpriority: 'high' },
+  { key: 'about-hero-desktop', rel: 'preload', as: 'image', href: '/assets/content/about-nile-1600.webp', media: '(min-width: 768px) and (resolution < 1.5dppx)', fetchpriority: 'high' },
+] }))
+
+
+const destinationIcons = ['landmark', 'landmark', 'sunrise', 'sailboat', 'landmark']
 
 const stepNumber = index => String(index + 1)
 </script>
@@ -241,27 +250,20 @@ const stepNumber = index => String(index + 1)
           <span class="heading-rule" aria-hidden="true"></span>
           <p>{{ people.body }}</p>
         </div>
-        <img :src="people.image" :alt="people.imageAlt" width="486" height="187" loading="lazy" />
+        <img :src="people.image.url" :srcset="people.image.srcset" sizes="(max-width: 767px) 100vw, 55vw" :alt="people.imageAlt" :width="people.image.width || 1672" :height="people.image.height || 941" loading="lazy" decoding="async" />
       </section>
 
       <section class="about-section destinations-section page-container" aria-labelledby="destinations-title">
-        <p class="eyebrow">{{ destinations.eyebrow }}</p>
         <h2 id="destinations-title">{{ destinations.title }}</h2>
         <div class="destination-route">
-          <svg class="destination-route-line" viewBox="0 0 1200 54" preserveAspectRatio="none" aria-hidden="true">
-            <path d="M36 31C96 3 158 13 219 27s123 16 183-5 121-15 181 4 121 19 181-2 122-14 182 6 127 17 218-1" />
-          </svg>
-          <svg class="destination-endpoint destination-felucca" viewBox="0 0 82 92" fill="none" aria-hidden="true">
-            <path d="M40 5v61M40 8 15 61h25M42 12l23 49H42M9 68c18 5 43 5 65 0M17 76h49M27 76c4 8 24 8 29 0M40 80v7M30 87h22" />
-          </svg>
-          <article v-for="place in destinations.places" :key="place.key">
-            <span class="place-pin"><ContentIcon :image-url="place.iconImageUrl" :image-dark-url="place.iconImageDarkUrl" :size="27" /></span>
+          <article v-for="(place, index) in destinations.places" :key="place.key">
+            <span class="place-pin">
+              <ContentIcon v-if="place.iconImageUrl" :image-url="place.iconImageUrl" :image-dark-url="place.iconImageDarkUrl" :size="30" />
+              <AppIcon v-else :name="destinationIcons[index] || 'pin'" :size="30" />
+            </span>
             <h3>{{ place.title }}</h3>
-            <p><template v-for="(line, index) in place.description.split('\n')" :key="index">{{ line }}<br /></template></p>
+            <p>{{ place.description.replaceAll('\n', ' ') }}</p>
           </article>
-          <svg class="destination-endpoint destination-temple" viewBox="0 0 112 84" fill="none" aria-hidden="true">
-            <path d="M12 22 20 9h73l8 13M8 75V27l9-7h80l8 7v48H8ZM20 67V32h73v35M28 67V45c0-7 9-7 9 0v22M47 67V39c0-8 10-8 10 0v28M68 67V45c0-7 9-7 9 0v22M85 67V37M13 75h88M16 20l7 12M96 20l-7 12" />
-          </svg>
         </div>
       </section>
 
@@ -278,14 +280,12 @@ const stepNumber = index => String(index + 1)
         </div>
       </section>
 
-      <section id="request" class="about-cta" aria-labelledby="about-cta-title">
-        <div class="about-cta-copy">
-          <h2 id="about-cta-title">{{ cta.title }}</h2>
-          <p>{{ cta.body }}</p>
-          <NuxtLink class="button button-primary" :to="cta.link">{{ cta.label }}</NuxtLink>
+      <section id="request" class="editorial-cta" aria-labelledby="about-cta-title">
+        <div class="editorial-cta-inner page-container">
+          <AppIcon name="compass" :size="48" />
+          <div><h2 id="about-cta-title">{{ cta.title }}</h2><p>{{ cta.body }}</p></div>
+          <PublicLink class="button button-primary" :to="cta.link">{{ cta.label }} <AppIcon name="arrow" :size="18" /></PublicLink>
         </div>
-        <div class="about-cta-photo" role="img" :aria-label="cta.photoAlt"></div>
-        <svg viewBox="0 0 1440 300" preserveAspectRatio="none" aria-hidden="true"><path d="M0 221c111 88 239 47 349 44 90-3 135 5 229-35"/><circle cx="578" cy="230" r="6" /></svg>
       </section>
     </main>
 

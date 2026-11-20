@@ -26,6 +26,6 @@ export const transferContent = {
   title: 'Travel in comfort, every step of the way.',
   description: 'Airport arrival to your next stop. Professional drivers, comfortable vehicles and door-to-door service you can trust.',
   cta: 'Arrange a transfer',
-  image: '/assets/sections/hero-transfer-van.png',
+  image: '/assets/content/hero-transfer-van-602.webp',
   alt: 'A private transfer van beside the Nile at sunset',
 }

@@ -41,6 +41,8 @@ const intro = computed(() => textOr(section.value?.data?.intro, props.fallback.i
 const html = computed(() => sanitizeLegalHTML(
   textOr(section.value?.body, localizedLegalHTML(props.fallback, locale.value)),
   translate('Table'),
+  locale.value,
+  runtime.siteUrl,
 ))
 
 const updatedAt = computed(() => section.value?.data?.updated_at || props.fallback.updatedAt || '')
@@ -56,7 +58,7 @@ const updated = computed(() => {
     <SiteHeader />
     <main class="legal-main">
       <header class="legal-heading">
-        <nav :aria-label="$t('Breadcrumb')"><NuxtLink to="/">{{ $t('Home') }}</NuxtLink><span aria-hidden="true">/</span><span>{{ title }}</span></nav>
+        <nav :aria-label="$t('Breadcrumb')"><PublicLink to="/">{{ $t('Home') }}</PublicLink><span aria-hidden="true">/</span><span>{{ title }}</span></nav>
         <h1>{{ title }}</h1>
         <p v-if="intro" class="legal-intro">{{ intro }}</p>
         <p v-if="updated" class="legal-updated">{{ $t('Last updated') }}: <time :datetime="updatedAt">{{ updated }}</time></p>

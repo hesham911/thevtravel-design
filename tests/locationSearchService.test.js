@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { createLocationSearchService, normalizeLocation } from '../services/locationSearchService.js'
+import { createLocationSearchService, normalizeLocation, geocodingLanguages } from '../services/locationSearchService.js'
 const location = { address:' Test address ', latitude:30, longitude:31 }
 test('no configured provider exposes unavailable methods without fabricated results', async () => {
   const service=createLocationSearchService()
@@ -35,7 +35,9 @@ test('provider failures propagate and aborted custom lookups do not hang', async
   await assert.rejects(waiting,{name:'AbortError'})
 })
 test('supported website languages reach callback lookups without altering locations', async () => {
-  for (const language of ['en', 'ru', 'fr', 'de']) {
+  // Read from the module's own table rather than a copy of it, so a language
+  // added to the site is covered here the moment it is declared.
+  for (const language of Object.keys(geocodingLanguages)) {
     const received=[]
     const service=createLocationSearchService({
       search: async (query, options) => { received.push(options.language); return [location] },

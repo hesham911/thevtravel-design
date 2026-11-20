@@ -1,0 +1,262 @@
+[
+  {
+    "slug": "luxor-day-trip-from-hurghada",
+    "width": 1440,
+    "index": 0,
+    "caption": "Karnak Temple",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/130/responsive-images/official-karnak-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "luxor-day-trip-from-hurghada",
+    "width": 1440,
+    "index": 1,
+    "caption": "Valley of the Kings",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/131/responsive-images/official-valley-kings-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "luxor-day-trip-from-hurghada",
+    "width": 1440,
+    "index": 2,
+    "caption": "Temple of Hatshepsut",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/132/responsive-images/official-hatshepsut-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "luxor-day-trip-from-hurghada",
+    "width": 1440,
+    "index": 3,
+    "caption": "Colossi of Memnon",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/133/responsive-images/official-colossi-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "cairo-day-trip-from-hurghada",
+    "width": 1440,
+    "index": 0,
+    "caption": "Giza Pyramids",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/135/responsive-images/official-giza-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "cairo-day-trip-from-hurghada",
+    "width": 1440,
+    "index": 1,
+    "caption": "Great Sphinx",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/136/responsive-images/official-sphinx-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "cairo-day-trip-from-hurghada",
+    "width": 1440,
+    "index": 2,
+    "caption": "Grand Egyptian Museum — one of two museum choices; only one museum is visited.",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/137/responsive-images/official-grand-museum-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "cairo-day-trip-from-hurghada",
+    "width": 1440,
+    "index": 3,
+    "caption": "Egyptian Museum in Tahrir — one of two museum choices; only one museum is visited.",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/138/responsive-images/official-museum-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "luxor-balloon-tour-from-hurghada",
+    "width": 1440,
+    "index": 0,
+    "caption": "Hot-air balloons over Luxor at sunrise",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/140/responsive-images/official-balloon-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "luxor-balloon-tour-from-hurghada",
+    "width": 1440,
+    "index": 1,
+    "caption": "Karnak Temple",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/141/responsive-images/official-karnak-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "luxor-balloon-tour-from-hurghada",
+    "width": 1440,
+    "index": 2,
+    "caption": "Valley of the Kings",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/142/responsive-images/official-valley-kings-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "luxor-balloon-tour-from-hurghada",
+    "width": 1440,
+    "index": 3,
+    "caption": "Temple of Hatshepsut",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/143/responsive-images/official-hatshepsut-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "luxor-balloon-tour-from-hurghada",
+    "width": 1440,
+    "index": 4,
+    "caption": "Colossi of Memnon",
+    "naturalWidth": 1296,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/144/responsive-images/official-colossi-gallery-1600___media_library_original_1600_640.webp",
+    "thumbnailDisplay": "flex"
+  },
+  {
+    "slug": "luxor-day-trip-from-hurghada",
+    "width": 390,
+    "index": 0,
+    "caption": "Karnak Temple",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/130/responsive-images/official-karnak-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  },
+  {
+    "slug": "luxor-day-trip-from-hurghada",
+    "width": 390,
+    "index": 1,
+    "caption": "Valley of the Kings",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/131/responsive-images/official-valley-kings-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  },
+  {
+    "slug": "luxor-day-trip-from-hurghada",
+    "width": 390,
+    "index": 2,
+    "caption": "Temple of Hatshepsut",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/132/responsive-images/official-hatshepsut-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  },
+  {
+    "slug": "luxor-day-trip-from-hurghada",
+    "width": 390,
+    "index": 3,
+    "caption": "Colossi of Memnon",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/133/responsive-images/official-colossi-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  },
+  {
+    "slug": "cairo-day-trip-from-hurghada",
+    "width": 390,
+    "index": 0,
+    "caption": "Giza Pyramids",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/135/responsive-images/official-giza-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  },
+  {
+    "slug": "cairo-day-trip-from-hurghada",
+    "width": 390,
+    "index": 1,
+    "caption": "Great Sphinx",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/136/responsive-images/official-sphinx-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  },
+  {
+    "slug": "cairo-day-trip-from-hurghada",
+    "width": 390,
+    "index": 2,
+    "caption": "Grand Egyptian Museum — one of two museum choices; only one museum is visited.",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/137/responsive-images/official-grand-museum-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  },
+  {
+    "slug": "cairo-day-trip-from-hurghada",
+    "width": 390,
+    "index": 3,
+    "caption": "Egyptian Museum in Tahrir — one of two museum choices; only one museum is visited.",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/138/responsive-images/official-museum-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  },
+  {
+    "slug": "luxor-balloon-tour-from-hurghada",
+    "width": 390,
+    "index": 0,
+    "caption": "Hot-air balloons over Luxor at sunrise",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/140/responsive-images/official-balloon-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  },
+  {
+    "slug": "luxor-balloon-tour-from-hurghada",
+    "width": 390,
+    "index": 1,
+    "caption": "Karnak Temple",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/141/responsive-images/official-karnak-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  },
+  {
+    "slug": "luxor-balloon-tour-from-hurghada",
+    "width": 390,
+    "index": 2,
+    "caption": "Valley of the Kings",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/142/responsive-images/official-valley-kings-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  },
+  {
+    "slug": "luxor-balloon-tour-from-hurghada",
+    "width": 390,
+    "index": 3,
+    "caption": "Temple of Hatshepsut",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/143/responsive-images/official-hatshepsut-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  },
+  {
+    "slug": "luxor-balloon-tour-from-hurghada",
+    "width": 390,
+    "index": 4,
+    "caption": "Colossi of Memnon",
+    "naturalWidth": 351,
+    "overflow": false,
+    "src": "http://127.0.0.1:3027/storage/official-tour-verification/144/responsive-images/official-colossi-gallery-1600___media_library_original_640_256.webp",
+    "thumbnailDisplay": "none"
+  }
+]

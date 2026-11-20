@@ -1,0 +1,518 @@
+[
+  {
+    "width": 1440,
+    "theme": "light",
+    "lang": "en",
+    "route": "",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Journeys across Egypt",
+        "height": 132
+      }
+    ],
+    "heroImage": [
+      "url(\"http://127.0.0.1:3020/assets/content/approved-home-hero-1672.webp\")"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "lang": "en",
+    "route": "about",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Egypt, planned with local care",
+        "height": 131.75
+      }
+    ],
+    "heroImage": [],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "lang": "en",
+    "route": "contact",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Let’s plan the journey together.",
+        "height": 142.53125
+      }
+    ],
+    "heroImage": [
+      "url(\"http://127.0.0.1:3020/assets/content/approved-contact-hero-1672.webp\")"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "lang": "en",
+    "route": "how-booking-works",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "How booking works",
+        "height": 56.15625
+      }
+    ],
+    "heroImage": [
+      "url(\"http://127.0.0.1:3020/assets/content/approved-booking-hero-1672.webp\")"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "lang": "en",
+    "route": "faq",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Frequently Asked Questions",
+        "height": 51.828125
+      }
+    ],
+    "heroImage": [
+      "url(\"http://127.0.0.1:3020/assets/content/approved-faq-hero-1672.webp\")"
+    ],
+    "icon": "rgb(253, 104, 3)",
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "lang": "en",
+    "route": "journeys",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "All Journeys",
+        "height": 51.828125
+      }
+    ],
+    "heroImage": [
+      "url(\"http://127.0.0.1:3020/assets/content/approved-journeys-hero-1672.webp\")"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "theme": "light",
+    "lang": "en",
+    "route": "privacy-policy",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Privacy Policy",
+        "height": 58.234375
+      }
+    ],
+    "heroImage": [],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "lang": "en",
+    "route": "",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Journeys across Egypt",
+        "height": 96
+      }
+    ],
+    "heroImage": [
+      "image-set(url(\"http://127.0.0.1:3020/assets/content/approved-home-hero-768.webp\") 1dppx, url(\"http://127.0.0.1:3020/assets/content/approved-home-hero-1672.webp\") 2dppx)"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "lang": "en",
+    "route": "about",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Egypt, planned with local care",
+        "height": 117.90625
+      }
+    ],
+    "heroImage": [],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "lang": "en",
+    "route": "contact",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Let’s plan the journey together.",
+        "height": 92.875
+      }
+    ],
+    "heroImage": [
+      "image-set(url(\"http://127.0.0.1:3020/assets/content/approved-contact-hero-768.webp\") 1dppx, url(\"http://127.0.0.1:3020/assets/content/approved-contact-hero-1672.webp\") 2dppx)"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "lang": "en",
+    "route": "how-booking-works",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "How booking works",
+        "height": 109.5
+      }
+    ],
+    "heroImage": [
+      "image-set(url(\"http://127.0.0.1:3020/assets/content/approved-booking-hero-768.webp\") 1dppx, url(\"http://127.0.0.1:3020/assets/content/approved-booking-hero-1672.webp\") 2dppx)"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "lang": "en",
+    "route": "faq",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Frequently Asked Questions",
+        "height": 90.71875
+      }
+    ],
+    "heroImage": [
+      "image-set(url(\"http://127.0.0.1:3020/assets/content/approved-faq-hero-768.webp\") 1dppx, url(\"http://127.0.0.1:3020/assets/content/approved-faq-hero-1672.webp\") 2dppx)"
+    ],
+    "icon": "rgb(253, 104, 3)",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "lang": "en",
+    "route": "journeys",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "All Journeys",
+        "height": 47.515625
+      }
+    ],
+    "heroImage": [
+      "image-set(url(\"http://127.0.0.1:3020/assets/content/approved-journeys-hero-768.webp\") 1dppx, url(\"http://127.0.0.1:3020/assets/content/approved-journeys-hero-1672.webp\") 2dppx)"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "theme": "light",
+    "lang": "en",
+    "route": "privacy-policy",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Privacy Policy",
+        "height": 42.546875
+      }
+    ],
+    "heroImage": [],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "theme": "dark",
+    "lang": "de",
+    "route": "",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Reisen durch Ägypten",
+        "height": 132
+      }
+    ],
+    "heroImage": [
+      "url(\"http://127.0.0.1:3020/assets/content/approved-home-hero-1672.webp\")"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "theme": "dark",
+    "lang": "de",
+    "route": "about",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Ägypten, mit lokaler Sorgfalt geplant",
+        "height": 155.484375
+      }
+    ],
+    "heroImage": [],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "theme": "dark",
+    "lang": "de",
+    "route": "contact",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Planen wir Ihre Reise gemeinsam.",
+        "height": 103.65625
+      }
+    ],
+    "heroImage": [
+      "url(\"http://127.0.0.1:3020/assets/content/approved-contact-hero-1672.webp\")"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "theme": "dark",
+    "lang": "de",
+    "route": "how-booking-works",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "So funktioniert die Buchung",
+        "height": 103.65625
+      }
+    ],
+    "heroImage": [
+      "url(\"http://127.0.0.1:3020/assets/content/approved-booking-hero-1672.webp\")"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "theme": "dark",
+    "lang": "de",
+    "route": "faq",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Häufig gestellte Fragen",
+        "height": 51.828125
+      }
+    ],
+    "heroImage": [
+      "url(\"http://127.0.0.1:3020/assets/content/approved-faq-hero-1672.webp\")"
+    ],
+    "icon": "rgb(253, 104, 3)",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "theme": "dark",
+    "lang": "de",
+    "route": "journeys",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Alle Reisen",
+        "height": 51.828125
+      }
+    ],
+    "heroImage": [
+      "url(\"http://127.0.0.1:3020/assets/content/approved-journeys-hero-1672.webp\")"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "theme": "dark",
+    "lang": "de",
+    "route": "privacy-policy",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "Datenschutzerklärung",
+        "height": 43
+      }
+    ],
+    "heroImage": [],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "theme": "dark",
+    "lang": "zh",
+    "route": "",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "埃及深度旅程",
+        "height": 84
+      }
+    ],
+    "heroImage": [
+      "image-set(url(\"http://127.0.0.1:3020/assets/content/approved-home-hero-768.webp\") 1dppx, url(\"http://127.0.0.1:3020/assets/content/approved-home-hero-1672.webp\") 2dppx)"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "theme": "dark",
+    "lang": "zh",
+    "route": "about",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "埃及之旅，由本地团队用心规划",
+        "height": 155.484375
+      }
+    ],
+    "heroImage": [],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "theme": "dark",
+    "lang": "zh",
+    "route": "contact",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "让我们一起规划这段旅程。",
+        "height": 92.875
+      }
+    ],
+    "heroImage": [
+      "image-set(url(\"http://127.0.0.1:3020/assets/content/approved-contact-hero-768.webp\") 1dppx, url(\"http://127.0.0.1:3020/assets/content/approved-contact-hero-1672.webp\") 2dppx)"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "theme": "dark",
+    "lang": "zh",
+    "route": "how-booking-works",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "预订流程",
+        "height": 48.59375
+      }
+    ],
+    "heroImage": [
+      "image-set(url(\"http://127.0.0.1:3020/assets/content/approved-booking-hero-768.webp\") 1dppx, url(\"http://127.0.0.1:3020/assets/content/approved-booking-hero-1672.webp\") 2dppx)"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "theme": "dark",
+    "lang": "zh",
+    "route": "faq",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "常见问题",
+        "height": 45.359375
+      }
+    ],
+    "heroImage": [
+      "image-set(url(\"http://127.0.0.1:3020/assets/content/approved-faq-hero-768.webp\") 1dppx, url(\"http://127.0.0.1:3020/assets/content/approved-faq-hero-1672.webp\") 2dppx)"
+    ],
+    "icon": "rgb(253, 104, 3)",
+    "errors": []
+  },
+  {
+    "width": 320,
+    "theme": "dark",
+    "lang": "zh",
+    "route": "journeys",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "全部旅程",
+        "height": 47.515625
+      }
+    ],
+    "heroImage": [
+      "image-set(url(\"http://127.0.0.1:3020/assets/content/approved-journeys-hero-768.webp\") 1dppx, url(\"http://127.0.0.1:3020/assets/content/approved-journeys-hero-1672.webp\") 2dppx)"
+    ],
+    "icon": null,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "theme": "dark",
+    "lang": "zh",
+    "route": "privacy-policy",
+    "overflow": false,
+    "broken": [],
+    "headings": [
+      {
+        "text": "隐私政策",
+        "height": 42.546875
+      }
+    ],
+    "heroImage": [],
+    "icon": null,
+    "errors": []
+  }
+]

@@ -1,0 +1,282 @@
+{
+  "about-people": {
+    "sourceWidth": 1672,
+    "sourceHeight": 941,
+    "approved": true,
+    "variants": [
+      {
+        "src": "/assets/content/approved-about-people-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 52366
+      },
+      {
+        "src": "/assets/content/approved-about-people-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 101186
+      },
+      {
+        "src": "/assets/content/approved-about-people-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 162260
+      }
+    ],
+    "seedSource": "pages/approved-about-people.webp",
+    "sha256": "a88c7e030a39775b6c15e927be680fb17524ba2a7c01f51c0f25228b1b35213a",
+    "alt": {
+      "en": "An Egyptian local guide talking with an international traveler in a temple courtyard",
+      "fr": "Un guide égyptien échange avec un voyageur international dans la cour d’un temple",
+      "de": "Ein ägyptischer Guide im Gespräch mit einem internationalen Reisenden in einem Tempelhof",
+      "ru": "Египетский гид беседует с иностранным путешественником во дворе храма",
+      "zh": "埃及当地向导在神庙庭院与国际旅客交谈",
+      "uk": "Єгипетський гід розмовляє з іноземним мандрівником у дворі храму"
+    }
+  },
+  "contact-hero": {
+    "sourceWidth": 1672,
+    "sourceHeight": 941,
+    "approved": true,
+    "variants": [
+      {
+        "src": "/assets/content/approved-contact-hero-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 59614
+      },
+      {
+        "src": "/assets/content/approved-contact-hero-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 129828
+      },
+      {
+        "src": "/assets/content/approved-contact-hero-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 216114
+      }
+    ],
+    "seedSource": "pages/approved-contact-hero.webp",
+    "sha256": "66200caad39fbff97c8f07779f346a2af45a0427779280b861492966d194c540",
+    "alt": {
+      "en": "A welcoming Egyptian-style courtyard with an open carved wooden doorway",
+      "fr": "Une cour accueillante de style égyptien avec une porte en bois sculpté ouverte",
+      "de": "Ein einladender Innenhof im ägyptischen Stil mit offener geschnitzter Holztür",
+      "ru": "Уютный двор в египетском стиле с открытой резной деревянной дверью",
+      "zh": "温馨的埃及风格庭院，雕花木门敞开",
+      "uk": "Затишний двір у єгипетському стилі з відчиненими різьбленими дерев’яними дверима"
+    }
+  },
+  "faq-hero": {
+    "sourceWidth": 1672,
+    "sourceHeight": 941,
+    "approved": true,
+    "variants": [
+      {
+        "src": "/assets/content/approved-faq-hero-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 54374
+      },
+      {
+        "src": "/assets/content/approved-faq-hero-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 107280
+      },
+      {
+        "src": "/assets/content/approved-faq-hero-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 173166
+      }
+    ],
+    "seedSource": "pages/approved-faq-hero.webp",
+    "sha256": "452a02d0f7801c0cfd31d60ec586f46a4bb4aa785ba23e1f5b8920429e0a7ff9",
+    "alt": {
+      "en": "A travel notebook and map on a stone table in a sunlit courtyard",
+      "fr": "Un carnet de voyage et une carte sur une table en pierre dans une cour ensoleillée",
+      "de": "Ein Reisenotizbuch und eine Karte auf einem Steintisch in einem sonnigen Innenhof",
+      "ru": "Путевой блокнот и карта на каменном столе в солнечном дворе",
+      "zh": "阳光庭院的石桌上摆着旅行笔记本和地图",
+      "uk": "Дорожній нотатник і мапа на кам’яному столі в сонячному дворі"
+    }
+  },
+  "booking-hero": {
+    "sourceWidth": 1672,
+    "sourceHeight": 941,
+    "approved": true,
+    "variants": [
+      {
+        "src": "/assets/content/approved-booking-hero-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 55682
+      },
+      {
+        "src": "/assets/content/approved-booking-hero-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 131936
+      },
+      {
+        "src": "/assets/content/approved-booking-hero-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 223262
+      }
+    ],
+    "seedSource": "pages/approved-booking-hero.webp",
+    "sha256": "0da0ac4c3029a9f0ac6063a8072fc9a22a54cd36499e19594a6e1c32a95143a9",
+    "alt": {
+      "en": "Sunlit sandstone columns in an Egyptian temple courtyard",
+      "fr": "Des colonnes de grès éclairées par le soleil dans la cour d’un temple égyptien",
+      "de": "Sonnenbeschienene Sandsteinsäulen im Hof eines ägyptischen Tempels",
+      "ru": "Освещённые солнцем колонны из песчаника во дворе египетского храма",
+      "zh": "埃及神庙庭院中阳光照耀的砂岩石柱",
+      "uk": "Освітлені сонцем колони з пісковику у дворі єгипетського храму"
+    }
+  },
+  "transfer-banner": {
+    "sourceWidth": 1672,
+    "sourceHeight": 941,
+    "approved": true,
+    "variants": [
+      {
+        "src": "/assets/content/approved-transfer-banner-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 65828
+      },
+      {
+        "src": "/assets/content/approved-transfer-banner-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 143084
+      },
+      {
+        "src": "/assets/content/approved-transfer-banner-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 234046
+      }
+    ],
+    "seedSource": "pages/approved-transfer-banner.webp",
+    "sha256": "ab189a73d45d33b3e1286dcd1cf18ec61d32cb457234c54acb5a0de9c837280d",
+    "alt": {
+      "de": "Ein privater Transferwagen am Nil bei Sonnenuntergang",
+      "en": "A private transfer van beside the Nile at sunset",
+      "fr": "Un van de transfert privé au bord du Nil au coucher du soleil",
+      "ru": "Частный трансферный фургон на берегу Нила на закате.",
+      "uk": "Мікроавтобус приватного трансферу біля Нілу на заході сонця",
+      "zh": "夕阳下，一辆私人接送车停在尼罗河畔"
+    }
+  },
+  "home-hero": {
+    "sourceWidth": 1672,
+    "sourceHeight": 941,
+    "approved": true,
+    "variants": [
+      {
+        "src": "/assets/content/approved-home-hero-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 46800
+      },
+      {
+        "src": "/assets/content/approved-home-hero-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 105810
+      },
+      {
+        "src": "/assets/content/approved-home-hero-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 181112
+      }
+    ],
+    "seedSource": "pages/approved-home-hero.webp",
+    "sha256": "139b14442d074423cfc03b8306cad210e6e595318def4b631efc4516dc79a87e",
+    "alt": {
+      "de": "Eine Feluke segelt bei Sonnenuntergang auf dem Nil unterhalb der Wüstenklippen",
+      "en": "A felucca sailing on the Nile below desert cliffs at sunset",
+      "fr": "Une felouque naviguant sur le Nil au-dessous des falaises du désert au coucher du soleil",
+      "ru": "Фелюга, плывущая по Нилу под пустынными скалами на закате.",
+      "uk": "Фелюка пливе Нілом під пустельними скелями на заході сонця",
+      "zh": "夕阳下，一艘费卢卡帆船在沙漠峭壁下的尼罗河上航行"
+    }
+  },
+  "closing-cta": {
+    "sourceWidth": 1672,
+    "sourceHeight": 941,
+    "approved": true,
+    "variants": [
+      {
+        "src": "/assets/content/approved-closing-cta-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 75332
+      },
+      {
+        "src": "/assets/content/approved-closing-cta-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 166192
+      },
+      {
+        "src": "/assets/content/approved-closing-cta-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 275666
+      }
+    ],
+    "seedSource": "pages/approved-closing-cta.webp",
+    "sha256": "84b81c374ec0cf79e02831f83fcf629db2c3ebbec0733c8524de05297ca84fa9",
+    "alt": {
+      "en": "A peaceful riverside terrace in Egypt at dusk",
+      "fr": "Une terrasse paisible au bord du fleuve en Égypte au crépuscule",
+      "de": "Eine ruhige Terrasse am Fluss in Ägypten in der Abenddämmerung",
+      "ru": "Спокойная терраса у реки в Египте в сумерках",
+      "zh": "暮色中埃及宁静的河畔露台",
+      "uk": "Спокійна тераса біля річки в Єгипті в сутінках"
+    }
+  },
+  "journeys-hero": {
+    "sourceWidth": 1672,
+    "sourceHeight": 941,
+    "approved": true,
+    "variants": [
+      {
+        "src": "/assets/content/approved-journeys-hero-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 39622
+      },
+      {
+        "src": "/assets/content/approved-journeys-hero-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 101766
+      },
+      {
+        "src": "/assets/content/approved-journeys-hero-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 178018
+      }
+    ],
+    "seedSource": "pages/approved-journeys-hero.webp",
+    "sha256": "f19c830ba2a7835e5b21c7aaeaaf41670bfcd51782613c95f83b7e3294d2877d",
+    "alt": {
+      "en": "The Giza pyramids across the desert in soft morning light",
+      "fr": "Les pyramides de Gizeh dans le désert sous la douce lumière du matin",
+      "de": "Die Pyramiden von Gizeh in der Wüste im sanften Morgenlicht",
+      "ru": "Пирамиды Гизы в пустыне в мягком утреннем свете",
+      "zh": "柔和晨光下沙漠中的吉萨金字塔",
+      "uk": "Піраміди Гізи в пустелі в м’якому ранковому світлі"
+    }
+  }
+}

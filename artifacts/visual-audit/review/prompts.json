@@ -1,0 +1,58 @@
+[
+  {
+    "name": "about-people",
+    "prompt": "Use case: photorealistic-natural. Create a premium candid editorial travel photograph for an Egypt travel website About section, landscape 2048x1152. An Egyptian local guide, about 35, and an international traveler, about 45, in relaxed conversation beside authentic sandstone architecture in Luxor. Medium-wide waist-up view, both people comfortably centered within the middle 60% for desktop landscape and mobile crop. Natural faces, realistic skin texture, natural unposed expressions. Guide wearing simple navy linen, traveler in ivory linen. Hands relaxed and anatomically correct, no handshake, no forced pointing. Late afternoon soft warm light, restrained amber highlights and rich deep navy shadows, realistic documentary photography, no stylized illustration, no stock-photo posing, no text, logo or watermark. This is illustrative AI artwork, do not imply these are actual company employees.",
+    "builtIn": true,
+    "status": "owner-approved",
+    "approvalDate": "2026-11-14"
+  },
+  {
+    "name": "contact-hero",
+    "prompt": "Use case: photorealistic-natural. Premium editorial Egypt travel Contact page hero photograph, landscape 2048x1152. A welcoming contemporary Egyptian guesthouse courtyard in Aswan: textured warm stone, carved wooden open doorway, modest palm shade, deep navy cushions and subtle warm terracotta accents, a neatly placed travel notebook on a small table. No people, no boats, no river, no pyramids, no text or logos. Photorealistic hospitality atmosphere, natural materials and believable architecture, soft late afternoon illumination, restrained rich colors and navy shadows. Main doorway and table in the central-right area, left third quiet and dark enough for a navy webpage gradient, usable central mobile crop. Crisp architectural detail without artificial HDR or CGI feel.",
+    "builtIn": true,
+    "status": "owner-approved",
+    "approvalDate": "2026-11-14"
+  },
+  {
+    "name": "faq-hero",
+    "prompt": "Use case: photorealistic-natural. Premium travel editorial photograph for Egypt trip FAQ hero, landscape 2048x1152. Close still-life of a well-used blank travel notebook, simple pen and folded unmarked paper map on a warm limestone table under subtle palm shadows at an Egyptian guesthouse. Background softly hints at ochre plaster and a small palm garden. No readable lettering, labels, logos, boat, pyramids, UI or watermark. Believable physical paper, premium natural photographic textures, restrained golden light and deep navy shadows, no oversaturated orange. Composition with main notebook in central-right half, left third uncluttered for overlay gradient, suitable central mobile crop.",
+    "builtIn": true,
+    "status": "owner-approved",
+    "approvalDate": "2026-11-14"
+  },
+  {
+    "name": "booking-hero",
+    "prompt": "Use case: photorealistic-natural. Premium photorealistic Egypt travel editorial hero, landscape 2048x1152. Quiet wide view along an authentic sandstone temple colonnade in Luxor, credible ancient Egyptian columns with natural weathering, small distant visitor silhouettes only, no close human faces. Early morning warm sidelight, rich deep blue shadows, subtle sandy gold highlights. Inviting sense of a planned private journey. Columns lead into depth on right two thirds, left third calm for a webpage gradient and copy; central mobile crop retains architectural subject. No boats, no balloons, no invented oversized monuments, no text logo watermark, no surreal sky, no painterly or CGI style.",
+    "builtIn": true,
+    "status": "owner-approved",
+    "approvalDate": "2026-11-14"
+  },
+  {
+    "name": "transfer-banner",
+    "prompt": "Use case: photorealistic-natural. Premium commercial editorial Egypt private transfer photograph, landscape 2048x1152. A clean modern unbranded dark navy passenger minivan parked safely on a quiet palm-lined hotel arrival drive in Egypt. Realistic vehicle proportions, wheels, glass and reflections, no readable plate, no logo, no people. Warm sandstone hotel entrance softly visible, gentle late afternoon natural light, rich navy shadows and subdued sandy highlights. Whole vehicle comfortably contained in the central 65% of frame, room around it for mobile crops, three-quarter front view, road level camera. No motion blur, no artificial HDR, no illustrated style, no text watermark.",
+    "builtIn": true,
+    "status": "owner-approved",
+    "approvalDate": "2026-11-14"
+  },
+  {
+    "name": "home-hero",
+    "prompt": "Use case: photorealistic-natural. Premium immersive Egypt travel homepage photograph, landscape 2560x1440. A single authentic traditional felucca with taut off-white sail on the Nile near Aswan, distant palm-lined shore and believable low desert hills. Realistic vessel and small distant crew silhouettes, no close faces. Late afternoon soft luminous warm sun, deep navy water shadows, restrained natural color, crisp detail without oversharpening. Boat central-right, calm left third for a website gradient, central mobile crop retains sail and hull. No temple composite, balloons, decorative lines, text, logo or watermark. Photographic documentary realism, no fantasy scale or CGI.",
+    "builtIn": true,
+    "status": "owner-approved",
+    "approvalDate": "2026-11-14"
+  },
+  {
+    "name": "closing-cta",
+    "prompt": "Use case: photorealistic-natural. Premium Egypt travel editorial landscape photograph 2048x1152 for a compact closing call to action. Peaceful Nile riverbank at blue hour in Aswan with palms and warmly lit traditional stone architecture, a small empty shaded riverside terrace in foreground. No boats, no people, no readable signs or logos. Photorealistic natural texture, calm rich navy shadows and restrained amber lights, no oversaturated sunset. Main terrace and architecture central-right for a website blend from the left, clear central mobile crop. No artificial CGI feel, no text or watermark.",
+    "builtIn": true,
+    "status": "owner-approved",
+    "approvalDate": "2026-11-14"
+  },
+  {
+    "name": "journeys-hero",
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial Egypt travel catalogue hero photograph, landscape 2048x1152. A quiet broad view of the Giza plateau at dawn with three pyramids at accurate realistic relative scale in the distance, warm desert sand in foreground, soft pale blue sky, subtle deep navy shadows, gentle amber sidelight. No camels or people close to camera, no balloons, no boats, no text, logo or watermark. Main pyramids in central-right composition with enough safe space for a central mobile crop and calm left third for website copy gradient. Real photographic landscape texture, no fantasy monuments or artificial HDR.",
+    "builtIn": true,
+    "status": "owner-approved",
+    "approvalDate": "2026-11-14"
+  }
+]

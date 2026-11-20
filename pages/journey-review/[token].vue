@@ -204,7 +204,7 @@ async function submit() {
         <p>{{ $t("Something went wrong on our side. Please try again in a moment — your journey and your words are safe.") }}</p>
         <div class="jr-unavailable-actions">
           <button class="button button-primary" type="button" @click="refresh()">{{ $t("Try again") }}</button>
-          <NuxtLink class="button button-secondary" to="/journeys">{{ $t("Explore journeys") }}</NuxtLink>
+          <PublicLink class="button button-secondary" to="/journeys">{{ $t("Explore journeys") }}</PublicLink>
         </div>
       </section>
 
@@ -214,7 +214,7 @@ async function submit() {
         <p>{{ $t("The link may have expired, or it may belong to a journey that has already been closed. Message us and we’ll gladly send you a new one.") }}</p>
         <div class="jr-unavailable-actions">
           <a v-if="whatsappUrl" class="button button-primary" :href="whatsappUrl" target="_blank" rel="noopener noreferrer">{{ $t("Message us on WhatsApp") }}</a>
-          <NuxtLink class="button button-secondary" to="/journeys">{{ $t("Explore journeys") }}</NuxtLink>
+          <PublicLink class="button button-secondary" to="/journeys">{{ $t("Explore journeys") }}</PublicLink>
         </div>
       </section>
 
@@ -268,7 +268,7 @@ async function submit() {
                the page says so rather than implying a review is on its way to
                our team. -->
           <p v-if="view === 'sent' && isDemo" class="jr-prototype-note">{{ $t("Design preview: this review stays on this page only.") }}</p>
-          <NuxtLink class="button button-secondary" to="/journeys">{{ $t("Explore journeys") }}</NuxtLink>
+          <PublicLink class="button button-secondary" to="/journeys">{{ $t("Explore journeys") }}</PublicLink>
         </section>
 
         <form v-else class="jr-form" novalidate @submit.prevent="submit">

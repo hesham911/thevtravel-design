@@ -1,3 +1,4 @@
+import { isPublicPath, publicLocales } from './utils/localizedRoutes.js'
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-03',
   srcDir: '.',
@@ -7,6 +8,13 @@ export default defineNuxtConfig({
   nitro: { compressPublicAssets: true },
   experimental: { defaults: { nuxtLink: { prefetchOn: { interaction: true, visibility: false } } } },
   hooks: {
+    'pages:extend': (pages) => {
+      for (const page of pages) {
+        if (!isPublicPath(page.path)) continue
+        page.path = `/:locale(${publicLocales.join('|')})?${page.path === '/' ? '' : page.path}`
+        page.meta = { ...page.meta, localizedPublic: true }
+      }
+    },
     'build:manifest': (manifest) => {
       // Do not fetch unmounted async components (including the map engine).
       // Required static imports still receive modulepreload hints.
@@ -19,6 +27,6 @@ export default defineNuxtConfig({
     // Existing public filenames are mutable: retain revalidation after one day.
     '/assets/**': { headers: { 'cache-control': 'public, max-age=86400' } },
   },
-  runtimeConfig: { public: { whatsappUrl: '', locationApiUrl: '', apiBaseUrl: '', siteUrl: '', mapStyleUrl: 'https://tiles.openfreemap.org/styles/liberty' } },
+  runtimeConfig: { crawlerBackendUrl: '', public: { whatsappUrl: '', locationApiUrl: '', apiBaseUrl: '', siteUrl: '', mapStyleUrl: 'https://tiles.openfreemap.org/styles/liberty' } },
   app: { head: { htmlAttrs: { lang: 'en' }, link: [{ rel: 'icon', href: '/assets/icons/favicon.svg' }] } },
 })

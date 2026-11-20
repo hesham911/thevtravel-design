@@ -12,12 +12,12 @@ defineProps({
 <template>
   <article class="listing-card" :class="`listing-card--${layout}`">
     <div class="listing-card-media">
-      <NuxtLink class="listing-image-link" :to="journey.detailsHref" :aria-label="`${$t('View journey')}: ${$t(journey.title)}`"><img :src="journey.image" :alt="$t(journey.alt)" :style="{ objectPosition: journey.imagePosition || 'center' }" width="520" height="325" loading="lazy" fetchpriority="low" /></NuxtLink>
+      <PublicLink class="listing-image-link" :to="journey.detailsHref" :aria-label="`${$t('View journey')}: ${$t(journey.title)}`"><img :src="journey.image" :srcset="journey.imageSrcset" sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 33vw" :alt="$t(journey.alt)" :style="{ objectPosition: journey.imagePosition || 'center' }" width="520" height="325" loading="lazy" fetchpriority="low" /></PublicLink>
       <span v-if="journey.badge" class="listing-badge">{{ $t(journey.badge) }}</span>
     </div>
 
     <div class="listing-card-body">
-      <h3><NuxtLink class="listing-title-link" :to="journey.detailsHref">{{ $t(journey.title) }}</NuxtLink></h3>
+      <h3><PublicLink class="listing-title-link" :to="journey.detailsHref">{{ $t(journey.title) }}</PublicLink></h3>
       <div class="listing-card-meta">
         <span><AppIcon name="pin" :size="14" />{{ $t(journey.destination) }}</span>
         <span><AppIcon name="clock" :size="14" />{{ $t(journey.duration) }}</span>
@@ -35,9 +35,9 @@ defineProps({
       <div class="listing-card-footer">
         <div v-if="formatUSD(journey.price)" class="listing-card-price">{{ $t("From") }} <strong>{{ formatUSD(journey.price) }}</strong></div>
         <div v-else class="listing-card-price listing-card-price--request">{{ $t("Price on request") }}</div>
-        <NuxtLink :to="journey.detailsHref" :aria-label="`${$t('View journey')}: ${$t(journey.title)}`">
+        <PublicLink :to="journey.detailsHref" :aria-label="`${$t('View journey')}: ${$t(journey.title)}`">
           {{ $t("View journey") }} <AppIcon name="arrow" :size="15" />
-        </NuxtLink>
+        </PublicLink>
       </div>
     </div>
   </article>

@@ -6,8 +6,8 @@ import { useSiteContent } from '~/composables/useSiteContent'
 import { textOr } from '~/services/pageContent'
 
 // The words come from whichever page draws this panel; the WhatsApp address
-// comes from Settings → Social, and the button stays disabled while it is
-// unset rather than pointing nowhere.
+// comes from Settings → Social. Contact remains available when WhatsApp
+// has not been configured.
 const props = defineProps({
   floating: { type: Boolean, default: false },
   section: { type: Object, default: null },
@@ -31,19 +31,17 @@ const help = computed(() => ({
 <template>
   <section class="booking-help" aria-labelledby="need-help-title">
     <div class="booking-help-inner page-container">
+      <AppIcon class="support-mark" name="headset" :size="32" />
       <div class="booking-help-copy">
         <h2 id="need-help-title">{{ help.title }}</h2>
         <p>{{ help.body }}</p>
-        <a v-if="whatsappUrl" :href="whatsappUrl" target="_blank" rel="noopener noreferrer">
-          <AppIcon name="whatsapp" :size="22" />
-          {{ help.cta }}
-        </a>
-        <button v-else type="button" disabled :title='$t("WhatsApp contact is not configured")'>
-          <AppIcon name="whatsapp" :size="22" />
-          {{ help.cta }}
-        </button>
       </div>
-      <div class="booking-help-art" aria-hidden="true"></div>
+      <div class="support-actions">
+        <a v-if="whatsappUrl" class="support-whatsapp" :href="whatsappUrl" target="_blank" rel="noopener noreferrer">
+          <AppIcon name="whatsapp" :size="20" />{{ help.cta }}
+        </a>
+        <PublicLink :class="whatsappUrl ? 'support-contact' : 'button button-primary'" to="/contact">{{ $t('Contact us') }} <AppIcon name="arrow" :size="18" /></PublicLink>
+      </div>
     </div>
   </section>
 </template>

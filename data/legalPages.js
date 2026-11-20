@@ -5,8 +5,8 @@
 // been supplied for TheVTravel, and legal clauses are not drafted here — the
 // page renders its "Content is being prepared." state until approved copy is
 // pasted into the admin's editor (Website Content → Privacy Policy / Terms
-// & Conditions), in each of the five languages.
+// & Conditions), in each of the six languages.
 export const legalPages = {
-  privacy: { title: 'Privacy Policy', html: { en: '', fr: '', de: '', ru: '', zh: '' }, intro: null, updatedAt: null },
-  terms: { title: 'Terms & Conditions', html: { en: '', fr: '', de: '', ru: '', zh: '' }, intro: null, updatedAt: null },
+  privacy: { title: 'Privacy Policy', html: { en: '', fr: '', de: '', ru: '', zh: '', uk: '' }, intro: null, updatedAt: null },
+  terms: { title: 'Terms & Conditions', html: { en: '', fr: '', de: '', ru: '', zh: '', uk: '' }, intro: null, updatedAt: null },
 }

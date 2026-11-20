@@ -318,7 +318,7 @@ test('an unreachable API, a server failure and an unrecognised answer are all er
   assert.deepEqual(await withFetch(undefined, () => submitTransportationRequest('http://api.test', oneWay, '+20', 'en')), { status: 'error' })
 })
 
-test('every string the transfer flow added is translated into all five site languages', () => {
+test('every string the transfer flow added is translated into all six site languages', () => {
   const added = [
     'All times are local to Egypt.', 'Return journey', 'Return date', 'Return time', 'Return drop-off location',
     'Same as pickup location', 'Ask the driver to wait between the two legs', 'Estimated waiting time (minutes)',
@@ -335,7 +335,7 @@ test('every string the transfer flow added is translated into all five site lang
   for (const key of added) {
     const entry = translations[key]
     assert.ok(entry, `missing translation entry: ${key}`)
-    for (const language of ['ru', 'fr', 'de', 'zh']) {
+    for (const language of ['ru', 'fr', 'de', 'zh', 'uk']) {
       assert.equal(typeof entry[language], 'string', `${key} → ${language}`)
       assert.notEqual(entry[language].trim(), '', `${key} → ${language}`)
     }
@@ -343,7 +343,7 @@ test('every string the transfer flow added is translated into all five site lang
   // A parameterised string keeps its placeholders in every language, or the
   // number never reaches the guest.
   for (const [key, placeholders] of [['{minutes} minutes', ['{minutes}']], ['Enter a waiting time between {min} and {max} minutes, or leave it blank.', ['{min}', '{max}']]]) {
-    for (const language of ['ru', 'fr', 'de', 'zh']) {
+    for (const language of ['ru', 'fr', 'de', 'zh', 'uk']) {
       for (const placeholder of placeholders) assert.ok(translations[key][language].includes(placeholder), `${key} → ${language} lost ${placeholder}`)
     }
   }

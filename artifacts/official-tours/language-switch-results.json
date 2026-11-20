@@ -1,0 +1,92 @@
+[
+  {
+    "expected": "fr",
+    "cta": "Nos excursions",
+    "h1": "Le Caire : pyramides et musée en une journée",
+    "lang": "fr",
+    "nav": [
+      "Excursions",
+      "Transferts",
+      "Réserver",
+      "FAQ",
+      "À propos",
+      "Contact"
+    ],
+    "url": "http://127.0.0.1:3026/fr/journeys/cairo-day-trip-from-hurghada?section=gallery"
+  },
+  {
+    "expected": "de",
+    "cta": "Ausflüge ansehen",
+    "h1": "Kairo: Pyramiden und Museum an einem Tag",
+    "lang": "de",
+    "nav": [
+      "Ausflüge",
+      "Transfers",
+      "So buchen Sie",
+      "FAQ",
+      "Über uns",
+      "Kontakt"
+    ],
+    "url": "http://127.0.0.1:3026/de/journeys/cairo-day-trip-from-hurghada?section=gallery"
+  },
+  {
+    "expected": "ru",
+    "cta": "Выбрать тур",
+    "h1": "Каир: пирамиды и музей за день",
+    "lang": "ru",
+    "nav": [
+      "Экскурсии",
+      "Трансферы",
+      "Как заказать",
+      "Вопросы",
+      "О нас",
+      "Контакты"
+    ],
+    "url": "http://127.0.0.1:3026/ru/journeys/cairo-day-trip-from-hurghada?section=gallery"
+  },
+  {
+    "expected": "zh",
+    "cta": "探索行程",
+    "h1": "开罗金字塔与博物馆一日游",
+    "lang": "zh",
+    "nav": [
+      "行程",
+      "接送",
+      "预订流程",
+      "常见问题",
+      "关于我们",
+      "联系我们"
+    ],
+    "url": "http://127.0.0.1:3026/zh/journeys/cairo-day-trip-from-hurghada?section=gallery"
+  },
+  {
+    "expected": "uk",
+    "cta": "Обрати тур",
+    "h1": "Каїр: піраміди та музей за день",
+    "lang": "uk",
+    "nav": [
+      "Екскурсії",
+      "Трансфери",
+      "Як замовити",
+      "Запитання",
+      "Про нас",
+      "Контакти"
+    ],
+    "url": "http://127.0.0.1:3026/uk/journeys/cairo-day-trip-from-hurghada?section=gallery"
+  },
+  {
+    "expected": "en",
+    "cta": "Explore tours",
+    "h1": "Cairo Pyramids & Museum Day Tour",
+    "lang": "en",
+    "nav": [
+      "Journeys",
+      "Transfers",
+      "How to book",
+      "FAQ",
+      "About us",
+      "Contact"
+    ],
+    "url": "http://127.0.0.1:3026/en/journeys/cairo-day-trip-from-hurghada?section=gallery"
+  }
+]

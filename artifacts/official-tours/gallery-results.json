@@ -1,0 +1,518 @@
+[
+  {
+    "alts": [
+      "Karnak Temple",
+      "Valley of the Kings",
+      "Temple of Hatshepsut",
+      "Colossi of Memnon"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "en",
+    "overflow": false,
+    "width": 1440,
+    "slug": "luxor-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Giza Pyramids",
+      "Great Sphinx",
+      "Grand Egyptian Museum — one of two museum choices; only one museum is visited.",
+      "Egyptian Museum in Tahrir — one of two museum choices; only one museum is visited."
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "en",
+    "overflow": false,
+    "width": 1440,
+    "slug": "cairo-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Hot-air balloons over Luxor at sunrise",
+      "Karnak Temple",
+      "Valley of the Kings",
+      "Temple of Hatshepsut",
+      "Colossi of Memnon"
+    ],
+    "broken": [],
+    "count": 5,
+    "lang": "en",
+    "overflow": false,
+    "width": 1440,
+    "slug": "luxor-balloon-tour-from-hurghada"
+  },
+  {
+    "alts": [
+      "Temple de Karnak",
+      "Vallée des Rois",
+      "Temple d’Hatchepsout",
+      "Colosses de Memnon"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "fr",
+    "overflow": false,
+    "width": 1440,
+    "slug": "luxor-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Pyramides de Gizeh",
+      "Grand Sphinx",
+      "Grand Musée égyptien — l’une des deux options ; un seul musée est visité.",
+      "Musée égyptien de Tahrir — l’une des deux options ; un seul musée est visité."
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "fr",
+    "overflow": false,
+    "width": 1440,
+    "slug": "cairo-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Montgolfières au-dessus de Louxor au lever du soleil",
+      "Temple de Karnak",
+      "Vallée des Rois",
+      "Temple d’Hatchepsout",
+      "Colosses de Memnon"
+    ],
+    "broken": [],
+    "count": 5,
+    "lang": "fr",
+    "overflow": false,
+    "width": 1440,
+    "slug": "luxor-balloon-tour-from-hurghada"
+  },
+  {
+    "alts": [
+      "Karnak-Tempel",
+      "Tal der Könige",
+      "Hatschepsut-Tempel",
+      "Memnonkolosse"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "de",
+    "overflow": false,
+    "width": 1440,
+    "slug": "luxor-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Pyramiden von Gizeh",
+      "Große Sphinx",
+      "Großes Ägyptisches Museum — eine von zwei Optionen; besucht wird nur ein Museum.",
+      "Ägyptisches Museum am Tahrir-Platz — eine von zwei Optionen; besucht wird nur ein Museum."
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "de",
+    "overflow": false,
+    "width": 1440,
+    "slug": "cairo-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Heißluftballons über Luxor bei Sonnenaufgang",
+      "Karnak-Tempel",
+      "Tal der Könige",
+      "Hatschepsut-Tempel",
+      "Memnonkolosse"
+    ],
+    "broken": [],
+    "count": 5,
+    "lang": "de",
+    "overflow": false,
+    "width": 1440,
+    "slug": "luxor-balloon-tour-from-hurghada"
+  },
+  {
+    "alts": [
+      "Карнакский храм",
+      "Долина царей",
+      "Храм Хатшепсут",
+      "Колоссы Мемнона"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "ru",
+    "overflow": false,
+    "width": 1440,
+    "slug": "luxor-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Пирамиды Гизы",
+      "Большой сфинкс",
+      "Большой Египетский музей — один из двух вариантов; посещается только один музей.",
+      "Египетский музей на площади Тахрир — один из двух вариантов; посещается только один музей."
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "ru",
+    "overflow": false,
+    "width": 1440,
+    "slug": "cairo-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Воздушные шары над Луксором на рассвете",
+      "Карнакский храм",
+      "Долина царей",
+      "Храм Хатшепсут",
+      "Колоссы Мемнона"
+    ],
+    "broken": [],
+    "count": 5,
+    "lang": "ru",
+    "overflow": false,
+    "width": 1440,
+    "slug": "luxor-balloon-tour-from-hurghada"
+  },
+  {
+    "alts": [
+      "卡纳克神庙",
+      "帝王谷",
+      "哈特谢普苏特神庙",
+      "门农巨像"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "zh",
+    "overflow": false,
+    "width": 1440,
+    "slug": "luxor-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "吉萨金字塔",
+      "狮身人面像",
+      "大埃及博物馆——两项选择之一，行程仅参观一座博物馆。",
+      "塔里尔广场的埃及博物馆——两项选择之一，行程仅参观一座博物馆。"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "zh",
+    "overflow": false,
+    "width": 1440,
+    "slug": "cairo-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "日出时分飞越卢克索的热气球",
+      "卡纳克神庙",
+      "帝王谷",
+      "哈特谢普苏特神庙",
+      "门农巨像"
+    ],
+    "broken": [],
+    "count": 5,
+    "lang": "zh",
+    "overflow": false,
+    "width": 1440,
+    "slug": "luxor-balloon-tour-from-hurghada"
+  },
+  {
+    "alts": [
+      "Карнакський храм",
+      "Долина царів",
+      "Храм Хатшепсут",
+      "Колоси Мемнона"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "uk",
+    "overflow": false,
+    "width": 1440,
+    "slug": "luxor-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Піраміди Гізи",
+      "Великий сфінкс",
+      "Великий Єгипетський музей — один із двох варіантів; відвідується лише один музей.",
+      "Єгипетський музей на площі Тахрір — один із двох варіантів; відвідується лише один музей."
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "uk",
+    "overflow": false,
+    "width": 1440,
+    "slug": "cairo-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Повітряні кулі над Луксором на світанку",
+      "Карнакський храм",
+      "Долина царів",
+      "Храм Хатшепсут",
+      "Колоси Мемнона"
+    ],
+    "broken": [],
+    "count": 5,
+    "lang": "uk",
+    "overflow": false,
+    "width": 1440,
+    "slug": "luxor-balloon-tour-from-hurghada"
+  },
+  {
+    "alts": [
+      "Karnak Temple",
+      "Valley of the Kings",
+      "Temple of Hatshepsut",
+      "Colossi of Memnon"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "en",
+    "overflow": false,
+    "width": 390,
+    "slug": "luxor-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Giza Pyramids",
+      "Great Sphinx",
+      "Grand Egyptian Museum — one of two museum choices; only one museum is visited.",
+      "Egyptian Museum in Tahrir — one of two museum choices; only one museum is visited."
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "en",
+    "overflow": false,
+    "width": 390,
+    "slug": "cairo-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Hot-air balloons over Luxor at sunrise",
+      "Karnak Temple",
+      "Valley of the Kings",
+      "Temple of Hatshepsut",
+      "Colossi of Memnon"
+    ],
+    "broken": [],
+    "count": 5,
+    "lang": "en",
+    "overflow": false,
+    "width": 390,
+    "slug": "luxor-balloon-tour-from-hurghada"
+  },
+  {
+    "alts": [
+      "Temple de Karnak",
+      "Vallée des Rois",
+      "Temple d’Hatchepsout",
+      "Colosses de Memnon"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "fr",
+    "overflow": false,
+    "width": 390,
+    "slug": "luxor-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Pyramides de Gizeh",
+      "Grand Sphinx",
+      "Grand Musée égyptien — l’une des deux options ; un seul musée est visité.",
+      "Musée égyptien de Tahrir — l’une des deux options ; un seul musée est visité."
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "fr",
+    "overflow": false,
+    "width": 390,
+    "slug": "cairo-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Montgolfières au-dessus de Louxor au lever du soleil",
+      "Temple de Karnak",
+      "Vallée des Rois",
+      "Temple d’Hatchepsout",
+      "Colosses de Memnon"
+    ],
+    "broken": [],
+    "count": 5,
+    "lang": "fr",
+    "overflow": false,
+    "width": 390,
+    "slug": "luxor-balloon-tour-from-hurghada"
+  },
+  {
+    "alts": [
+      "Karnak-Tempel",
+      "Tal der Könige",
+      "Hatschepsut-Tempel",
+      "Memnonkolosse"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "de",
+    "overflow": false,
+    "width": 390,
+    "slug": "luxor-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Pyramiden von Gizeh",
+      "Große Sphinx",
+      "Großes Ägyptisches Museum — eine von zwei Optionen; besucht wird nur ein Museum.",
+      "Ägyptisches Museum am Tahrir-Platz — eine von zwei Optionen; besucht wird nur ein Museum."
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "de",
+    "overflow": false,
+    "width": 390,
+    "slug": "cairo-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Heißluftballons über Luxor bei Sonnenaufgang",
+      "Karnak-Tempel",
+      "Tal der Könige",
+      "Hatschepsut-Tempel",
+      "Memnonkolosse"
+    ],
+    "broken": [],
+    "count": 5,
+    "lang": "de",
+    "overflow": false,
+    "width": 390,
+    "slug": "luxor-balloon-tour-from-hurghada"
+  },
+  {
+    "alts": [
+      "Карнакский храм",
+      "Долина царей",
+      "Храм Хатшепсут",
+      "Колоссы Мемнона"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "ru",
+    "overflow": false,
+    "width": 390,
+    "slug": "luxor-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Пирамиды Гизы",
+      "Большой сфинкс",
+      "Большой Египетский музей — один из двух вариантов; посещается только один музей.",
+      "Египетский музей на площади Тахрир — один из двух вариантов; посещается только один музей."
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "ru",
+    "overflow": false,
+    "width": 390,
+    "slug": "cairo-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Воздушные шары над Луксором на рассвете",
+      "Карнакский храм",
+      "Долина царей",
+      "Храм Хатшепсут",
+      "Колоссы Мемнона"
+    ],
+    "broken": [],
+    "count": 5,
+    "lang": "ru",
+    "overflow": false,
+    "width": 390,
+    "slug": "luxor-balloon-tour-from-hurghada"
+  },
+  {
+    "alts": [
+      "卡纳克神庙",
+      "帝王谷",
+      "哈特谢普苏特神庙",
+      "门农巨像"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "zh",
+    "overflow": false,
+    "width": 390,
+    "slug": "luxor-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "吉萨金字塔",
+      "狮身人面像",
+      "大埃及博物馆——两项选择之一，行程仅参观一座博物馆。",
+      "塔里尔广场的埃及博物馆——两项选择之一，行程仅参观一座博物馆。"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "zh",
+    "overflow": false,
+    "width": 390,
+    "slug": "cairo-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "日出时分飞越卢克索的热气球",
+      "卡纳克神庙",
+      "帝王谷",
+      "哈特谢普苏特神庙",
+      "门农巨像"
+    ],
+    "broken": [],
+    "count": 5,
+    "lang": "zh",
+    "overflow": false,
+    "width": 390,
+    "slug": "luxor-balloon-tour-from-hurghada"
+  },
+  {
+    "alts": [
+      "Карнакський храм",
+      "Долина царів",
+      "Храм Хатшепсут",
+      "Колоси Мемнона"
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "uk",
+    "overflow": false,
+    "width": 390,
+    "slug": "luxor-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Піраміди Гізи",
+      "Великий сфінкс",
+      "Великий Єгипетський музей — один із двох варіантів; відвідується лише один музей.",
+      "Єгипетський музей на площі Тахрір — один із двох варіантів; відвідується лише один музей."
+    ],
+    "broken": [],
+    "count": 4,
+    "lang": "uk",
+    "overflow": false,
+    "width": 390,
+    "slug": "cairo-day-trip-from-hurghada"
+  },
+  {
+    "alts": [
+      "Повітряні кулі над Луксором на світанку",
+      "Карнакський храм",
+      "Долина царів",
+      "Храм Хатшепсут",
+      "Колоси Мемнона"
+    ],
+    "broken": [],
+    "count": 5,
+    "lang": "uk",
+    "overflow": false,
+    "width": 390,
+    "slug": "luxor-balloon-tour-from-hurghada"
+  }
+]

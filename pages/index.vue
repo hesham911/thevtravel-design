@@ -1,4 +1,5 @@
 <script setup>
+import { contentImage, heroImageStyle, heroImagePreloads } from '~/utils/contentImages'
 definePageMeta({"name": "home", "title": "TheVTravel — Journeys across Egypt"})
 import { computed } from 'vue'
 import { useRuntimeConfig, useAsyncData } from '#imports'
@@ -48,13 +49,15 @@ const hero = computed(() => {
     title: textOr(section?.title, translate(homeContent.title)),
     tagline: textOr(section?.body, translate(homeContent.subtitle)),
     description: textOr(section?.sub_body, translate(homeContent.description)),
-    photoAlt: textOr(section?.data?.image_alt, translate('A felucca sailing on the Nile below desert cliffs at sunset')),
-    // Unset, each theme keeps its own built-in photo (see styles.css).
-    image: section?.media?.image?.url || null,
+    photoAlt: contentImage(section?.media?.image, 'home-hero', locale.value).alt || textOr(section?.data?.image_alt, translate('A felucca sailing on the Nile below desert cliffs at sunset')),
+    image: contentImage(section?.media?.image, 'home-hero', locale.value),
   }
 })
 
-const heroPhotoStyle = computed(() => hero.value.image ? { '--hero-image': `url(${JSON.stringify(hero.value.image)})` } : null)
+const heroPhotoStyle = computed(() => heroImageStyle(hero.value.image))
+useHead(() => ({ link: heroImagePreloads(hero.value.image) }))
+
+
 
 const featured = computed(() => {
   if (featuredResult.value?.status === 'ok') return featuredResult.value.journeys
@@ -118,7 +121,7 @@ const destinations = computed(() => {
         <span class="heading-rule" aria-hidden="true"></span>
         <p>{{ hero.tagline }}</p>
         <p>{{ hero.description }}</p>
-        <NuxtLink class="button button-primary explore-cta" to="/journeys">{{ $t("Explore journeys") }} <AppIcon name="arrow" /></NuxtLink>
+        <PublicLink class="button button-primary explore-cta" to="/journeys">{{ $t("Explore journeys") }} <AppIcon name="arrow" /></PublicLink>
       </div>
       <div class="hero-photo" role="img" :aria-label="hero.photoAlt" :style="heroPhotoStyle"></div>
       <HeroRouteLine />
@@ -127,7 +130,7 @@ const destinations = computed(() => {
       <section v-if="featured.length" class="home-featured page-container" aria-labelledby="featured-title">
         <div class="home-section-heading"><h2 id="featured-title">{{ featuredHeading.title }}</h2><p>{{ featuredHeading.description }}</p></div>
         <div class="listing-grid listing-grid--grid"><JourneyCard v-for="journey in featured" :key="journey.id" :journey="journey" /></div>
-        <div class="home-all-link"><NuxtLink class="button button-secondary" to="/journeys">{{ $t("View all journeys") }} <AppIcon name="arrow" /></NuxtLink></div>
+        <div class="home-all-link"><PublicLink class="button button-secondary" to="/journeys">{{ $t("View all journeys") }} <AppIcon name="arrow" /></PublicLink></div>
       </section>
       <section class="home-benefits page-container" aria-labelledby="benefits-title">
         <h2 id="benefits-title">{{ benefitsTitle }}</h2>
@@ -135,7 +138,7 @@ const destinations = computed(() => {
       </section>
       <section v-if="destinations.length" class="home-destinations page-container" aria-labelledby="destinations-title">
         <div class="home-section-heading"><h2 id="destinations-title">{{ destinationsHeading.title }}</h2><p>{{ destinationsHeading.description }}</p></div>
-        <div class="destination-grid"><NuxtLink v-for="item in destinations" :key="item.key" :to="{ path: '/journeys', query: item.query }" class="destination-card"><img v-if="item.image" :src="item.image" :alt="item.alt" loading="lazy" width="600" height="400" /><span>{{ item.name }} <AppIcon name="arrow" :size="20" /></span></NuxtLink></div>
+        <div class="destination-grid"><PublicLink v-for="item in destinations" :key="item.key" :to="{ path: '/journeys', query: item.query }" class="destination-card"><img v-if="item.image" :src="item.image" :alt="item.alt" loading="lazy" width="600" height="400" /><span>{{ item.name }} <AppIcon name="arrow" :size="20" /></span></PublicLink></div>
       </section>
       <TransferBanner :section="sections?.transfer_banner ?? null" />
     </main>

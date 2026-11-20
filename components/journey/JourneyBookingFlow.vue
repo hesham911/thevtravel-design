@@ -1,7 +1,9 @@
 <script setup>
 import { computed, nextTick, reactive, ref, watch } from 'vue'
-import { useRuntimeConfig } from '#imports'
+import { useRuntimeConfig, useState } from '#imports'
+import { captureJourneyDraft, restoreJourneyDraft } from '~/services/journeyDraft'
 import JourneyIcon from './JourneyIcon.vue'
+import { requiresMuseumChoice, museumBookingNotes } from '~/utils/journeyMuseum'
 import { useI18n } from '~/utils/i18n'
 import { fetchJourneyPrice, submitJourneyBooking, journeyTravelerCategories, validJourneyChildAge } from '~/services/journeyBookings'
 import { formatUSD } from '~/utils/currency'
@@ -23,7 +25,7 @@ const countries = [
   { id: 'AE', name: 'United Arab Emirates', flag: '🇦🇪', code: '+971' },
   { id: 'SA', name: 'Saudi Arabia', flag: '🇸🇦', code: '+966' },
 ]
-const state = reactive({ adults: 2, children: 0, youngChildren: 0, travelDate: '', country: 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', currentStep: 1 })
+const state = reactive({ adults: 2, children: 0, youngChildren: 0, travelDate: '', country: 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', museum: '', currentStep: 1 })
 // One age per child, because the backend prices each child on their own age
 // rather than on a band the form picked. The ages are kept beside the
 // counter rather than replacing it: the counter is how the dialog has always
@@ -49,14 +51,34 @@ const childGroups = computed(() => travelers.value.filter(category => category.k
   ages: category.key === 'children' ? childAges.value : youngChildAges.value,
 })))
 const { openOverlay, closeOverlay: close, overlayClosed: closed } = useRequestOverlay(dialog, value => emit('open-change', value))
+const draft = useState('journey-booking-draft', () => null)
+let activeJourney = props.journey
+let restoring = false
+function saveDraft() {
+  if (!restoring && import.meta.client) draft.value = captureJourneyDraft(activeJourney, state, childAges.value, youngChildAges.value)
+}
+watch([state, childAges, youngChildAges], saveDraft, { deep: true, flush: 'sync' })
 async function open() {
-  Object.assign(state, { adults: 2, children: 0, youngChildren: 0, travelDate: '', country: props.journey.countryCode || 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', currentStep: 1 })
-  childAges.value = []
-  youngChildAges.value = []
+  restoring = true
+  activeJourney = props.journey
+  const restored = restoreJourneyDraft(activeJourney, draft.value)
+  Object.assign(state, { adults: 2, children: 0, youngChildren: 0, travelDate: '', country: props.journey.countryCode || 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', museum: '', currentStep: 1 })
+  if (restored) {
+    const { childAges: children, youngChildAges: young, ...values } = restored
+    Object.assign(state, values)
+    childAges.value = children
+    youngChildAges.value = young
+  } else {
+    childAges.value = []
+    youngChildAges.value = []
+  }
+  restoring = false
+  saveDraft()
   errors.value = {}
   quote.value = null
   submitted.value = null
   submitError.value = ''
+  if (state.currentStep === 3) refreshQuote()
   await openOverlay()
   resetStepPosition()
 }
@@ -75,6 +97,7 @@ async function validate(step) {
     // Any future date is accepted: there is no departure inventory, and the
     // team confirms availability by hand. Only the past is refused.
     else if (state.travelDate < new Date().toISOString().slice(0, 10)) e.travelDate = 'Choose a date in the future.'
+    if (requiresMuseumChoice(props.journey) && !['gem', 'tahrir'].includes(state.museum)) e.museum = 'Choose one museum.'
     if (!state.country) e.country = 'Select a country.'
     // Each child is priced on their own age, so an age is asked for each.
     if (childGroups.value.some(group => group.ages.length !== state[group.key] || group.ages.some(age => !validJourneyChildAge(age, group)))) {
@@ -120,7 +143,7 @@ async function confirm() {
       phoneCode: state.phoneCode,
       phoneNumber: state.phoneNumber.trim(),
       email: state.email.trim(),
-      notes: state.notes.trim(),
+      notes: requiresMuseumChoice(props.journey) ? museumBookingNotes(state.museum, state.notes) : state.notes.trim(),
       travelDate: state.travelDate,
       ...travellers(),
     }
@@ -132,6 +155,7 @@ async function confirm() {
     if (result.status === 'ok') {
       submitted.value = result.booking
       state.currentStep = 4
+      draft.value = null
       await nextTick()
       resetStepPosition()
 
@@ -239,6 +263,7 @@ defineExpose({ open })
               </div>
               <small v-if="errors.childAges" id="jb-child-ages-error" class="jb-error">{{ $t(errors.childAges) }}</small></section>
             <label class="jb-field jb-icon-field" for="jb-date"><span><JourneyIcon name="calendar" />{{ $t("Travel date") }}</span><input id="jb-date" v-model="state.travelDate" type="date" required :aria-invalid="!!errors.travelDate" :aria-describedby="errors.travelDate ? 'jb-date-error' : undefined" /><small v-if="errors.travelDate" id="jb-date-error" class="jb-error">{{ $t(errors.travelDate) }}</small></label>
+            <label v-if="requiresMuseumChoice(journey)" class="jb-field" for="jb-museum"><span>{{ $t('Choose one museum') }}</span><select id="jb-museum" v-model="state.museum" required :aria-invalid="!!errors.museum" aria-describedby="jb-museum-note"><option value="" disabled>{{ $t('Choose one museum') }}</option><option value="gem">{{ $t('Grand Egyptian Museum') }}</option><option value="tahrir">{{ $t('Egyptian Museum in Tahrir') }}</option></select><small id="jb-museum-note">{{ $t('One museum is included, not both.') }}</small><small v-if="errors.museum" role="alert" class="jb-error">{{ $t('Choose one museum.') }}</small></label>
             <label class="jb-field jb-icon-field" for="jb-country"><span><JourneyIcon name="pin" />{{ $t("Country") }}</span><span class="jb-country-control"><select id="jb-country" v-model="state.country" required :aria-invalid="!!errors.country" :aria-describedby="errors.country ? 'jb-country-error' : undefined"><option value="" disabled>{{ $t("Select a country") }}</option><option v-for="c in countries" :key="c.id" :value="c.id">{{ $t(c.flag) }} {{ $t(c.name) }}</option><option v-if="!countries.some(c => c.id === state.country)" :value="state.country">{{ $t(state.country) }}</option></select><JourneyIcon name="chevron-down" :size="20" /></span><small v-if="errors.country" id="jb-country-error" class="jb-error">{{ $t(errors.country) }}</small></label>
           </div>
           <div v-else-if="state.currentStep === 2" class="jb-contact">
@@ -246,7 +271,7 @@ defineExpose({ open })
             <label class="jb-field" for="jb-name"><span>{{ $t("Full name") }}</span><input id="jb-name" v-model="state.fullName" autocomplete="name" :placeholder='$t("e.g. John Smith")' required :aria-invalid="!!errors.fullName" :aria-describedby="errors.fullName ? 'jb-name-error' : undefined" /><small v-if="errors.fullName" id="jb-name-error" class="jb-error">{{ $t(errors.fullName) }}</small></label>
             <div class="jb-field"><label for="jb-phone">{{ $t("Phone number") }}</label><div class="jb-phone"><select v-model="state.phoneCountry" :aria-label='$t("Phone country and calling code")' @change="phoneCountryChanged"><option v-for="c in countries" :key="c.id" :value="c.id">{{ $t(c.flag) }} {{ $t(c.code) }} · {{ $t(c.name) }}</option></select><input id="jb-phone" v-model="state.phoneNumber" type="tel" inputmode="tel" autocomplete="tel-national" :placeholder='$t("e.g. 10 1234 5678")' required :aria-invalid="!!errors.phoneNumber" :aria-describedby="errors.phoneNumber ? 'jb-phone-error' : undefined" /></div><small v-if="errors.phoneNumber" id="jb-phone-error" class="jb-error">{{ $t(errors.phoneNumber) }}</small></div>
             <label class="jb-field" for="jb-email"><span>{{ $t("Email address") }} <span class="jb-optional">{{ $t("(optional)") }}</span></span><input id="jb-email" v-model="state.email" type="email" autocomplete="email" :placeholder='$t("e.g. john.smith@example.com")' :aria-invalid="!!errors.email" :aria-describedby="errors.email ? 'jb-email-error' : undefined" /><small v-if="errors.email" id="jb-email-error" class="jb-error">{{ $t(errors.email) }}</small></label>
-            <label class="jb-field" for="jb-notes"><span>{{ $t("Anything we should know?") }} <span class="jb-optional">{{ $t("(optional)") }}</span></span><textarea id="jb-notes" v-model="state.notes" rows="3" maxlength="2000" :placeholder='$t("Dietary needs, a special occasion, anything at all.")'></textarea></label>
+            <label class="jb-field" for="jb-notes"><span>{{ $t("Anything we should know?") }} <span class="jb-optional">{{ $t("(optional)") }}</span></span><textarea id="jb-notes" v-model="state.notes" rows="3" maxlength="1800" :placeholder='$t("Dietary needs, a special occasion, anything at all.")'></textarea></label>
           </div>
           <div v-else-if="state.currentStep === 4" class="jb-review jb-sent">
             <div class="jb-review-intro">

@@ -15,3 +15,11 @@ test('legal localization preserves supplied content and English fallback', () =>
   assert.equal(localizedLegalHTML({html:{en:'English'}},'ru'),'English')
   assert.equal(sanitizeLegalHTML(null),'')
 })
+
+
+test('CMS rich text localizes public links while preserving external and private links', () => {
+  const html = sanitizeLegalHTML('<a href="/en/about?ref=legal#team">About</a><a href="https://example.com">External</a><a href="/api/public/pages">API</a>', 'Table', 'uk')
+  assert.match(html, /href="\/uk\/about\?ref=legal#team"/)
+  assert.match(html, /href="https:\/\/example.com"/)
+  assert.match(html, /href="\/api\/public\/pages"/)
+})

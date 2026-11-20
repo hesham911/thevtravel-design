@@ -1,4 +1,5 @@
 <script setup>
+import { sharedPublicPath } from '~/utils/localizedRoutes'
 import { computed, nextTick, reactive, ref, watch, onMounted } from 'vue'
 import { useRoute, useRuntimeConfig, useState } from '#imports'
 import AppIcon from '../AppIcon.vue'
@@ -161,7 +162,7 @@ const contactReview = computed(() => [
   ['Email', form.email || 'Not provided', !form.email], ['Special requests', form.notes || 'None', !form.notes],
 ])
 const route=useRoute()
-watch(() => route.path, close)
+watch(() => sharedPublicPath(route.path), close)
 defineExpose({open})
 </script>
 <template>

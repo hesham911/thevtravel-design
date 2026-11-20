@@ -1,4 +1,5 @@
 <script setup>
+import { contentImage, heroImageStyle, heroImagePreloads } from '~/utils/contentImages'
 import { computed, ref, watch } from 'vue'
 import { useAsyncData, useRuntimeConfig } from '#imports'
 definePageMeta({ name: 'faq', title: 'Frequently Asked Questions — TheVTravel' })
@@ -77,12 +78,15 @@ const hero = computed(() => {
       translate('Find answers to the most common questions'),
       translate('about booking your private journey with us.'),
     ]),
-    photoAlt: textOr(section?.data?.image_alt, translate('A felucca sailing past ancient Egyptian temple columns on the Nile at sunset')),
-    image: section?.media?.image?.url || null,
+    photoAlt: contentImage(section?.media?.image, 'faq-hero', locale.value).alt || textOr(section?.data?.image_alt, translate('A felucca sailing past ancient Egyptian temple columns on the Nile at sunset')),
+    image: contentImage(section?.media?.image, 'faq-hero', locale.value),
   }
 })
 
-const heroPhotoStyle = computed(() => hero.value.image ? { '--hero-image': `url(${JSON.stringify(hero.value.image)})` } : null)
+const heroPhotoStyle = computed(() => heroImageStyle(hero.value.image))
+useHead(() => ({ link: heroImagePreloads(hero.value.image) }))
+
+
 
 const help = computed(() => {
   const section = sections.value?.help
@@ -142,7 +146,7 @@ function toggleFaq(id) {
       <div class="faq-hero-photo" role="img" :aria-label="hero.photoAlt" :style="heroPhotoStyle"></div>
       <div class="faq-hero-copy page-container">
         <nav class="faq-breadcrumb" :aria-label='$t("Breadcrumb")'>
-          <NuxtLink to="/">{{ $t("Home") }}</NuxtLink>
+          <PublicLink to="/">{{ $t("Home") }}</PublicLink>
           <AppIcon name="chevron-right" :size="13" />
           <span aria-current="page">{{ $t("FAQ") }}</span>
         </nav>
@@ -191,21 +195,17 @@ function toggleFaq(id) {
       </div>
 
       <aside class="faq-help" aria-labelledby="faq-help-title">
+        <div class="faq-help-symbol" aria-hidden="true"><AppIcon name="chat" :size="32" /></div>
         <div class="faq-help-copy">
           <h2 id="faq-help-title">{{ help.title }}</h2>
-          <p><template v-for="(line, index) in help.lines" :key="index"><br v-if="index" />{{ line }}</template></p>
+          <p>{{ help.lines.join(' ') }}</p>
         </div>
-        <div class="faq-help-art" aria-hidden="true">
-          <span class="faq-help-globe"><AppIcon name="globe" :size="29" /></span>
+        <div class="support-actions">
+          <a v-if="whatsappUrl" class="support-whatsapp" :href="whatsappUrl" target="_blank" rel="noopener noreferrer">
+            <AppIcon name="whatsapp" :size="20" />{{ help.cta }}
+          </a>
+          <PublicLink :class="whatsappUrl ? 'support-contact' : 'button button-primary'" to="/contact">{{ $t('Contact us') }} <AppIcon name="arrow" :size="18" /></PublicLink>
         </div>
-        <a v-if="whatsappUrl" class="faq-whatsapp" :href="whatsappUrl" target="_blank" rel="noopener noreferrer">
-          <AppIcon name="whatsapp" :size="25" />
-          {{ help.cta }}
-        </a>
-        <button v-else class="faq-whatsapp" type="button" disabled :title='$t("WhatsApp contact is not configured")'>
-          <AppIcon name="whatsapp" :size="25" />
-          {{ help.cta }}
-        </button>
       </aside>
     </main>
 

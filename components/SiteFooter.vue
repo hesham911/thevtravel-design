@@ -77,10 +77,10 @@ const barNote = computed(() => {
   <footer class="site-footer" :class="{ 'site-footer--faq': detailed }">
     <div class="footer-main page-container">
       <div class="footer-brand">
-        <NuxtLink class="footer-logo" to="/" :aria-label='$t("TheVTravel home")'>
-          <img class="logo-light" :src="footer.logoLight || '/assets/brand/logo-transparent.png'" :alt="footer.logoAlt" width="174" height="58" />
-          <img class="logo-dark" :src="footer.logoDark || '/assets/brand/logo-transparent-dark.png'" :alt="footer.logoAlt" width="174" height="58" />
-        </NuxtLink>
+        <PublicLink class="footer-logo" to="/" :aria-label='$t("TheVTravel home")'>
+          <img class="logo-light" :src="footer.logoLight || '/assets/content/logo-transparent-696.webp'" :alt="footer.logoAlt" width="174" height="58" loading="lazy" />
+          <img class="logo-dark" :src="footer.logoDark || '/assets/content/logo-transparent-dark-696.webp'" :alt="footer.logoAlt" width="174" height="58" loading="lazy" />
+        </PublicLink>
         <template v-if="detailed">
           <p><template v-for="(line, index) in footer.taglineLines" :key="index"><br v-if="index" />{{ line }}</template></p>
           <div v-if="variant === 'faq' || variant === 'booking'" class="footer-socials" :aria-label='$t("Social links")'>
@@ -96,7 +96,7 @@ const barNote = computed(() => {
       <section v-for="col in columns" :key="col.key" class="footer-column">
         <h2>{{ col.title }}</h2>
         <template v-for="link in col.links" :key="link.key">
-          <a v-if="link.link" :href="link.link">{{ link.title }}</a>
+          <PublicLink v-if="link.link" :to="link.link">{{ link.title }}</PublicLink>
           <span v-else>{{ link.title }}</span>
         </template>
       </section>

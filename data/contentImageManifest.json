@@ -1,0 +1,108 @@
+{
+  "photos/1.png": [
+    {
+      "src": "/assets/content/about-nile-768.webp",
+      "width": 768,
+      "bytes": 75066
+    },
+    {
+      "src": "/assets/content/about-nile-1600.webp",
+      "width": 1600,
+      "bytes": 300314
+    },
+    {
+      "src": "/assets/content/about-nile-2178.webp",
+      "width": 2178,
+      "bytes": 449698
+    }
+  ],
+  "photos/hero-felucca-contact.png": [
+    {
+      "src": "/assets/content/hero-felucca-contact-480.webp",
+      "width": 480,
+      "bytes": 28914
+    }
+  ],
+  "photos/hero-felucca-temple.png": [
+    {
+      "src": "/assets/content/hero-felucca-temple-579.webp",
+      "width": 579,
+      "bytes": 30378
+    }
+  ],
+  "photos/home-hero-clean1.png": [
+    {
+      "src": "/assets/content/home-felucca-768.webp",
+      "width": 768,
+      "bytes": 89494
+    },
+    {
+      "src": "/assets/content/home-felucca-1090.webp",
+      "width": 1090,
+      "bytes": 140920
+    }
+  ],
+  "photos/how-booking-hero-dark.png": [
+    {
+      "src": "/assets/content/how-booking-hero-dark-577.webp",
+      "width": 577,
+      "bytes": 42824
+    }
+  ],
+  "photos/how-booking-hero-light.png": [
+    {
+      "src": "/assets/content/how-booking-hero-light-577.webp",
+      "width": 577,
+      "bytes": 40678
+    }
+  ],
+  "photos/people-team.png": [
+    {
+      "src": "/assets/content/people-team-486.webp",
+      "width": 486,
+      "bytes": 14184
+    }
+  ],
+  "sections/hero-transfer-van.png": [
+    {
+      "src": "/assets/content/hero-transfer-van-602.webp",
+      "width": 602,
+      "bytes": 40420
+    }
+  ],
+  "sections/cta-felucca-mosque.png": [
+    {
+      "src": "/assets/content/cta-felucca-mosque-505.webp",
+      "width": 505,
+      "bytes": 11186
+    }
+  ],
+  "decorative/how-booking-help-lineart.png": [
+    {
+      "src": "/assets/content/how-booking-help-lineart-720.webp",
+      "width": 720,
+      "bytes": 11152
+    }
+  ],
+  "decorative/how-booking-help-lineart-dark.png": [
+    {
+      "src": "/assets/content/how-booking-help-lineart-dark-720.webp",
+      "width": 720,
+      "bytes": 11716
+    }
+  ],
+  "brand/logo-transparent.png": [
+    {
+      "src": "/assets/content/logo-transparent-696.webp",
+      "width": 696,
+      "bytes": 19022
+    }
+  ],
+  "brand/logo-transparent-dark.png": [
+    {
+      "src": "/assets/content/logo-transparent-dark-696.webp",
+      "width": 696,
+      "bytes": 18144
+    }
+  ]
+}
