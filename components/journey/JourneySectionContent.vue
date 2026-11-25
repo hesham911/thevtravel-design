@@ -3,7 +3,6 @@ import { computed, ref, watch } from 'vue'
 import JourneyVideo from './JourneyVideo.vue'
 import { hasVideoSource } from '~/utils/journeyMedia'
 import JourneyIcon from './JourneyIcon.vue'
-import ContentIcon from '~/components/ContentIcon.vue'
 const props = defineProps({
   journey: Object,
   active: String,
@@ -24,11 +23,7 @@ watch(() => props.journey.itineraryMedia?.src, () => { videoFailed.value = false
 // `travelers` and `distribution` are empty, and the sections that would show
 // them show their empty state instead of a fabricated figure.
 //
-// A card's mark is artwork an admin uploads, and only that: ContentIcon draws
-// the uploaded file and never an icon name, so a card with no upload holds
-// the icon's square empty rather than standing in an unrelated icon. The
-// icons AROUND the cards — the breadcrumb chevron, the play button, the
-// stepper's tick — are the site's own and stay JourneyIcon.
+// Uploaded artwork takes precedence over the journey’s library icon.
 const features = computed(() => props.journey.features ?? [])
 const itinerary = computed(() => props.journey.itinerary ?? [])
 const included = computed(() => props.journey.included ?? [])
@@ -66,18 +61,18 @@ const status = ref('')
 <template>
   <section id="journey-content" class="jd-content" tabindex="-1" :aria-label="$t(({ overview: 'Overview', itinerary: 'Itinerary', included: 'Included', gallery: 'Gallery', reviews: 'Reviews', 'good-to-know': 'Good to know' })[active])">
     <template v-if="active === 'overview'">
-      <div class="jd-overview-grid"><div class="jd-overview-copy"><p class="jd-eyebrow">{{ $t("Overview") }}</p><h2>{{ $t("Overview") }}</h2><p>{{ journey.overview }}</p><img class="jd-lineart" src="/assets/decorative/cta-lineart-left.svg" alt="" /></div><div class="jd-features"><article v-for="item in features" :key="item.title"><ContentIcon :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="38" /><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div></article></div></div>
+      <div class="jd-overview-grid"><div class="jd-overview-copy"><p class="jd-eyebrow">{{ $t("Overview") }}</p><h2>{{ $t("Overview") }}</h2><p>{{ journey.overview }}</p><img class="jd-lineart" src="/assets/decorative/cta-lineart-left.svg" alt="" /></div><div class="jd-features"><article v-for="item in features" :key="item.title"><JourneyIcon :name="item.icon || 'help-circle'" :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="38" /><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div></article></div></div>
     </template>
     <template v-else-if="active === 'itinerary'">
       <h2>{{ journey.itineraryHeading || $t("Itinerary") }}</h2>
-      <p class="jd-intro">
+      <p v-if="itineraryLines" class="jd-intro">
         <template v-if="itineraryLines"><template v-for="(line, index) in itineraryLines" :key="index"><br v-if="index" class="jd-desktop-break" />{{ index ? ' ' : '' }}{{ line }}</template></template>
-        <template v-else>{{ $t("Follow in the footsteps of pharaohs and explore some of ancient Egypt’s most extraordinary sites.") }}<br class="jd-desktop-break" /> {{ $t("A calm, unhurried morning with time to take in the history, the landscapes and the atmosphere.") }}</template>
+
       </p>
       <div class="jd-itinerary-grid" :class="{ 'jd-itinerary-grid--text-only': !showVideo }"><ol class="jd-timeline"><li v-for="([time, title, text], i) in itinerary" :key="`${time}-${i}`"><span class="jd-step">{{ $t(i + 1) }}</span><time>{{ time }}</time><div><h3>{{ title }}</h3><p>{{ text }}</p></div></li></ol><JourneyVideo v-if="showVideo" :media="journey.itineraryMedia" @unavailable="videoFailed = true" /></div>
     </template>
     <template v-else-if="active === 'included'">
-      <p class="jd-eyebrow">{{ $t("Included") }}</p><h2>{{ journey.includedHeading || $t("What’s included in this journey") }}</h2><p class="jd-intro">{{ journey.includedIntro || $t("Here’s what’s covered in your private journey, so you can plan with confidence.") }}</p><div class="jd-included"><article v-for="item in included" :key="item.title"><ContentIcon :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="36" /><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div></article></div><img class="jd-included-art" src="/assets/decorative/cta-lineart-right.svg" alt="" />
+      <p class="jd-eyebrow">{{ $t("Included") }}</p><h2>{{ journey.includedHeading || $t("What’s included in this journey") }}</h2><p v-if="journey.includedIntro" class="jd-intro">{{ journey.includedIntro }}</p><div class="jd-included"><article v-for="item in included" :key="item.title"><JourneyIcon :name="item.icon || 'help-circle'" :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="36" /><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div></article></div><template v-if="journey.excluded?.length"><h2>{{ $t('Not included') }}</h2><div class="jd-included"><article v-for="item in journey.excluded" :key="item.title"><JourneyIcon :name="item.icon || 'minus'" :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="36" /><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div></article></div></template><img class="jd-included-art" src="/assets/decorative/cta-lineart-right.svg" alt="" />
     </template>
     <template v-else-if="active === 'gallery'">
       <div class="jd-gallery-heading"><div><p class="jd-eyebrow">{{ $t("Gallery") }}</p><h2>{{ $t(galleryMode === 'official' ? 'Gallery' : 'Traveler moments') }}</h2><p>{{ galleryMode === 'official' ? (journey.galleryIntro || $t("Official photos")) : $t("Real photos and stories from travelers who experienced this journey.") }}</p></div><div class="jd-gallery-toggle" :aria-label='$t("Gallery type")'><button :class="{ active: galleryMode === 'official' }" :aria-pressed="galleryMode === 'official'" @click="emit('gallery-mode', 'official')">{{ $t("Official photos (") }}{{ $t(gallery.length) }})</button><button :class="{ active: galleryMode === 'traveler-moments' }" :aria-pressed="galleryMode === 'traveler-moments'" @click="emit('gallery-mode', 'traveler-moments')">{{ $t("Traveler moments (") }}{{ $t(moments.length) }})</button></div></div>
@@ -100,7 +95,7 @@ const status = ref('')
       <div v-else class="jd-empty-state"><JourneyIcon name="outline-star" :size="40" /><h3>{{ $t("No reviews yet for this journey") }}</h3><p>{{ $t("Travelers who book this journey will be able to share their experience here.") }}</p></div>
     </template>
     <template v-else-if="active === 'good-to-know'">
-      <div class="jd-good-grid"><div><p class="jd-eyebrow">{{ $t("Good to know") }}</p><h2>{{ journey.goodToKnowHeading || `${$t('Practical information')} ${$t('for your journey')}` }}</h2><p class="jd-intro">{{ journey.goodToKnowIntro || $t("Here are the key details to help you plan your experience in Luxor’s west bank. If you have any other questions, we’re here to help.") }}</p><img class="jd-lineart" src="/assets/decorative/cta-lineart-left.svg" alt="" /></div><div class="jd-good-items"><article v-for="item in goodToKnow" :key="item.title"><span><ContentIcon :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="30" /></span><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div></article></div></div>
+      <div class="jd-good-grid"><div><p class="jd-eyebrow">{{ $t("Good to know") }}</p><h2>{{ journey.goodToKnowHeading || `${$t('Practical information')} ${$t('for your journey')}` }}</h2><p v-if="journey.goodToKnowIntro" class="jd-intro">{{ journey.goodToKnowIntro }}</p><img class="jd-lineart" src="/assets/decorative/cta-lineart-left.svg" alt="" /></div><div class="jd-good-items"><article v-for="item in goodToKnow" :key="item.title"><span><JourneyIcon :name="item.icon || 'help-circle'" :image-url="item.iconImageUrl" :image-dark-url="item.iconImageDarkUrl" :size="30" /></span><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div></article></div></div>
     </template>
   </section>
 </template>

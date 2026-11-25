@@ -3,7 +3,7 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { computed, nextTick, reactive, ref, watch } from 'vue'
 import translations from '../data/demoTranslations.json' with { type: 'json' }
-import { journeyTravelerCategories, validJourneyChildAge, fetchJourneyPrice, submitJourneyBooking, travellersPayload, journeyBookingTypes, journeyBookingTypeFor, journeyPartySizeAccepted } from '../services/journeyBookings.js'
+import { journeyTravelerCategories, validJourneyChildAge, fetchJourneyPrice, submitJourneyBooking, travellersPayload, journeyBookingTypes, journeyBookingTypeFor, journeyPartySizeAccepted, journeyConfigurationAvailable } from '../services/journeyBookings.js'
 import { formatUSD } from '../utils/currency.js'
 
 const source = readFileSync(new URL('../components/journey/JourneyBookingFlow.vue', import.meta.url), 'utf8')
@@ -24,20 +24,20 @@ const ageBands = [
 // so the form validates the same bounds rather than a copy of them.
 const bookingTypePayload = [
   { value: 'private', min_travelers: 1, max_travelers: 3, shares_vehicle: false },
-  { value: 'group', min_travelers: 4, max_travelers: 16, shares_vehicle: true },
+  { value: 'group', min_travelers: 4, max_travelers: 255, shares_vehicle: true },
 ]
 
 // Exercise the component's real reactive logic with the same import-stubbing
 // convention as TransferLocationField tests. API calls remain local fakes.
-function form() {
+function form(configurations) {
   const run = new Function(
     'computed', 'nextTick', 'reactive', 'ref', 'watch', 'useI18n', 'useRuntimeConfig', 'useState',
     'captureJourneyDraft', 'restoreJourneyDraft',
     'fetchJourneyPrice', 'submitJourneyBooking', 'journeyTravelerCategories', 'validJourneyChildAge',
-    'journeyBookingTypes', 'journeyBookingTypeFor', 'journeyPartySizeAccepted',
+    'journeyBookingTypes', 'journeyBookingTypeFor', 'journeyPartySizeAccepted', 'journeyConfigurationAvailable',
     'requiresMuseumChoice', 'museumBookingNotes',
     'formatUSD', 'useRequestOverlay', 'defineProps', 'defineEmits', 'defineExpose',
-    `${script}\nreturn { state, childAges, youngChildAges, errors, travelers, dialog, open, validate, travellers, refreshQuote, quote, quoteError, quoteStale, confirm, submitted, submitError, bookingTypes, bookingType, partySize, partyFull, bookable, mobileTitle };`,
+    `${script}\nreturn { state, errors, travelers, dialog, open, validate, travellers, refreshQuote, quote, quoteError, quoteStale, confirm, submitted, submitError, bookingTypes, bookingType, partySize, partyFull, bookable, mobileTitle, selectedExtras, toggleExtra };`,
   )
   const result = run(
     computed, nextTick, reactive, ref, watch, () => ({ locale: ref('en') }),
@@ -45,11 +45,11 @@ function form() {
     () => ref(null),
     () => null, () => null,
     fetchJourneyPrice, submitJourneyBooking, journeyTravelerCategories, validJourneyChildAge,
-    journeyBookingTypes, journeyBookingTypeFor, journeyPartySizeAccepted,
+    journeyBookingTypes, journeyBookingTypeFor, journeyPartySizeAccepted, journeyConfigurationAvailable,
     () => false, (_, notes) => notes,
     formatUSD,
     () => ({ openOverlay: async () => {}, closeOverlay: () => {}, overlayClosed: () => {} }),
-    () => ({ journey: { id: 1, slug: 'luxor', pricing: { age_bands: ageBands, booking_types: bookingTypePayload, bookable: true } } }),
+    () => ({ journey: { id: 1, slug: 'luxor', pricing: { age_bands: ageBands, booking_types: bookingTypePayload, bookable: true, configurations, price_on_request_above: 12 } } }),
     () => () => {}, () => {},
   )
   result.dialog.value = { querySelector: () => ({ focus() {} }), scrollTo() {} }
@@ -67,8 +67,6 @@ async function family() {
   const f = form()
   Object.assign(f.state, { bookingType: 'group', children: 2, youngChildren: 2, travelDate: '2100-01-01', fullName: 'Example Guest', phoneNumber: '1012345678' })
   await nextTick()
-  f.childAges.value = [5, 12]
-  f.youngChildAges.value = [0, 4]
   return f
 }
 
@@ -90,27 +88,18 @@ test('age inputs require whole ages in their selected child category', () => {
   for (const age of [null, '', undefined, -1, 5, 12, 13, 0.5, 'bad']) assert.equal(validJourneyChildAge(age, young), false)
 })
 
-test('both child groups retain individual ages and valid state when moving through the form', async () => {
+test('category counts validate and survive steps without individual ages', async () => {
   const f = await family()
   assert.equal(await f.validate(1), true)
-  assert.deepEqual(f.travellers(), { bookingType: 'group', adults: 2, children: [{ age: 5 }, { age: 12 }, { age: 0 }, { age: 4 }] })
+  assert.deepEqual(f.travellers(), { bookingType: 'group', adults: 2, childrenCount: 2, youngChildrenCount: 2 })
   f.state.children++
   await nextTick()
-  assert.deepEqual(f.childAges.value, [5, 12, null])
-  assert.equal(await f.validate(1), false)
-  f.state.children--
-  await nextTick()
-  assert.deepEqual(f.childAges.value, [5, 12])
-  assert.deepEqual(f.youngChildAges.value, [0, 4])
   assert.equal(await f.validate(1), true)
-  await f.open()
-  await nextTick()
-  assert.deepEqual(f.childAges.value, [])
-  assert.deepEqual(f.youngChildAges.value, [])
-  assert.equal(f.state.youngChildren, 0)
+  assert.equal(f.travellers().childrenCount, 3)
+  assert.doesNotMatch(source, /v-model="group.ages/)
 })
 
-test('quotes and submitted bookings send the same real ages and never a frontend price', async () => {
+test('quotes and submitted bookings send the same category counts and never a frontend price', async () => {
   const original = globalThis.$fetch
   const calls = []
   globalThis.$fetch = async (url, options) => {
@@ -131,7 +120,7 @@ test('quotes and submitted bookings send the same real ages and never a frontend
     assert.equal(calls.length, 2)
     // The type is sent on both calls and the total is sent as a CHECK: the
     // backend counts the party itself and refuses a figure that disagrees.
-    const party = { booking_type: 'group', adults_count: 2, children: [{ age: 5 }, { age: 12 }, { age: 0 }, { age: 4 }], travelers_count: 6 }
+    const party = { booking_type: 'group', adults_count: 2, children_count: 2, young_children_count: 2, travelers_count: 6 }
     assert.deepEqual(calls[0].body, { travel_date: '2100-01-01', ...party })
     assert.deepEqual(calls[1].body, { journey_id: 1, full_name: 'Example Guest', phone_country_code: '+20', phone_number: '1012345678', travel_date: '2100-01-01', quote_token: 'token-abc', ...party })
     assert.deepEqual(travellersPayload(f.travellers()), party)
@@ -144,27 +133,23 @@ test('quotes and submitted bookings send the same real ages and never a frontend
   } finally { globalThis.$fetch = original }
 })
 
-test('a five-year-old cannot be submitted as a free young child and a thirteen-year-old cannot use the child category', async () => {
-  const f = await family()
-  f.youngChildAges.value[0] = 5
-  await f.confirm()
-  assert.equal(f.state.currentStep, 1)
-  assert.ok(f.errors.value.childAges)
-  f.youngChildAges.value[0] = 4
-  f.childAges.value[0] = 13
-  assert.equal(await f.validate(1), false)
+test('legacy API callers can still send actual ages', () => {
+  assert.deepEqual(travellersPayload({ bookingType: 'private', adults: 1, children: [{ age: 5 }, { age: 0 }] }), {
+    booking_type: 'private', adults_count: 1, children: [{ age: 5 }, { age: 0 }], travelers_count: 3,
+  })
 })
 
-test('server child validation errors return to the age fields without clearing the family', async () => {
+test('server category validation errors return to the counters without clearing the family', async () => {
   const original = globalThis.$fetch
-  globalThis.$fetch = async () => { throw Object.assign(new Error('422'), { statusCode: 422, data: { errors: { 'children.3.age': ['Check the age.'] } } }) }
+  globalThis.$fetch = async () => { throw Object.assign(new Error('422'), { statusCode: 422, data: { errors: { 'children_count': ['Check the count.'] } } }) }
   try {
     const f = await family()
     f.state.currentStep = 3
     await f.confirm()
     assert.equal(f.state.currentStep, 1)
-    assert.deepEqual(f.childAges.value, [5, 12])
-    assert.deepEqual(f.youngChildAges.value, [0, 4])
+    assert.equal(f.state.children, 2)
+    assert.equal(f.state.youngChildren, 2)
+    assert.equal(f.errors.value.adults, 'Check the count.')
   } finally { globalThis.$fetch = original }
 })
 
@@ -185,12 +170,12 @@ test('the booking types and their party limits come from the API, not from the f
 
   assert.deepEqual(types.map(type => [type.value, type.minTravelers, type.maxTravelers, type.sharesVehicle]), [
     ['private', 1, 3, false],
-    ['group', 4, 16, true],
+    ['group', 4, 255, true],
   ])
 
   // A journey payload that is reshaped or renamed must not silently widen the
   // limits: the fallbacks stay in step with the backend's own config.
-  assert.deepEqual(journeyBookingTypes().map(type => [type.minTravelers, type.maxTravelers]), [[1, 3], [4, 16]])
+  assert.deepEqual(journeyBookingTypes().map(type => [type.minTravelers, type.maxTravelers]), [[1, 3], [4, 255]])
 
   // Sharing is named in the option itself rather than left to the terms.
   assert.match(types[1].detail, /shared vehicle/i)
@@ -202,8 +187,8 @@ test('a party size is accepted only within the chosen type', () => {
 
   for (const size of [1, 2, 3]) assert.equal(journeyPartySizeAccepted(priv, size), true)
   for (const size of [0, 4, 17]) assert.equal(journeyPartySizeAccepted(priv, size), false)
-  for (const size of [4, 8, 9, 16]) assert.equal(journeyPartySizeAccepted(group, size), true)
-  for (const size of [3, 17]) assert.equal(journeyPartySizeAccepted(group, size), false)
+  for (const size of [4, 8, 9, 12, 13, 24, 100]) assert.equal(journeyPartySizeAccepted(group, size), true)
+  for (const size of [3, 256]) assert.equal(journeyPartySizeAccepted(group, size), false)
   assert.equal(journeyPartySizeAccepted(null, 2), false)
 })
 
@@ -222,7 +207,6 @@ test('a private booking of four travellers is refused rather than made a group',
   const f = form()
   Object.assign(f.state, { bookingType: 'private', adults: 3, children: 1, travelDate: '2100-01-01' })
   await nextTick()
-  f.childAges.value = [8]
 
   assert.equal(await f.validate(1), false)
   assert.match(f.errors.value.bookingType, /Too many travelers/)
@@ -346,7 +330,7 @@ test('a quote is not requested for a party the chosen type cannot take', async (
 test('the booking type survives a locale change mid-booking', async () => {
   const { captureJourneyDraft, restoreJourneyDraft } = await import('../services/journeyDraft.js')
   const journey = { id: 1, slug: 'luxor', countryCode: 'EG', pricing: { age_bands: ageBands, booking_types: bookingTypePayload } }
-  const state = { bookingType: 'group', adults: 4, children: 0, youngChildren: 0, travelDate: '2100-01-01', country: 'EG', fullName: 'Guest', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '1012345678', email: '', notes: '', museum: '', currentStep: 2 }
+  const state = { bookingType: 'group', adults: 4, children: 0, youngChildren: 0, travelDate: '2100-01-01', country: 'EG', fullName: 'Guest', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '1012345678', email: '', notes: '', selectedOptions: [], currentStep: 2 }
 
   const draft = captureJourneyDraft(journey, state, [], [])
   const restored = restoreJourneyDraft(journey, draft)
@@ -378,4 +362,102 @@ test('the missing minibus cost message is available in every public language', (
   for (const locale of ['fr', 'de', 'ru', 'zh', 'uk']) {
     assert.ok(translations[message]?.[locale], `Missing ${locale} minibus message`)
   }
+})
+
+test('every chosen extra travels with both quotes and booking submissions', async () => {
+  const original = globalThis.$fetch
+  const bodies = []
+  globalThis.$fetch = async (_, options) => { bodies.push(options.body); return { data: {} } }
+  try {
+    const extras = ['gem', 'boat']
+    await fetchJourneyPrice('http://api.test', 'option-tour', { travelDate: '2100-01-01', bookingType: 'private', adults: 2, selectedOptions: extras })
+    await submitJourneyBooking('http://api.test', { journeyId: 1, travelDate: '2100-01-01', bookingType: 'private', adults: 2, selectedOptions: extras, fullName: 'Test only', phoneCode: '+1', phoneNumber: '2025550123' }, 'en')
+    assert.deepEqual(bodies.map(body => body.selected_options), [extras, extras])
+    for (const body of bodies) assert.equal('cost_egp' in body, false)
+
+    // Nothing chosen sends no key at all, so a journey with extras is
+    // quoted and booked exactly like one without them.
+    bodies.length = 0
+    await fetchJourneyPrice('http://api.test', 'option-tour', { travelDate: '2100-01-01', bookingType: 'private', adults: 2, selectedOptions: [] })
+    await submitJourneyBooking('http://api.test', { journeyId: 1, travelDate: '2100-01-01', bookingType: 'private', adults: 2, selectedOptions: [], fullName: 'Test only', phoneCode: '+1', phoneNumber: '2025550123' }, 'en')
+    for (const body of bodies) assert.equal('selected_options' in body, false)
+  } finally { globalThis.$fetch = original }
+})
+
+
+test('the booking summary retains the server unit and reconciled 405 total', async () => {
+  const original = globalThis.$fetch
+  globalThis.$fetch = async () => ({ data: { total: '405.00', base_adult_price: '202.50', quote_token: 'signed-test-quote', lines: [{ band: 'adult', quantity: 2, unit_price: '202.50', amount: '405.00' }], age_policy: [{ band: 'adult', price: '202.50' }] } })
+  try {
+    const f = form()
+    Object.assign(f.state, { bookingType: 'private', adults: 2, travelDate: '2100-01-01' })
+    await f.refreshQuote()
+    assert.equal(f.quote.value.total, '405.00')
+    assert.equal(f.quote.value.age_policy[0].price, '202.50')
+    assert.equal(formatUSD(f.quote.value.total), '$405')
+  } finally { globalThis.$fetch = original }
+})
+
+test('the extras ticked on the form are the ones the quote is taken for, and they can be unticked', async () => {
+  const original = globalThis.$fetch
+  const bodies = []
+  globalThis.$fetch = async (_, options) => { bodies.push(options.body); return { data: { total: '415.20', quote_token: 'signed-test-quote', lines: [], age_policy: [] } } }
+  try {
+    const f = form()
+    // Any configured optional extra: the form holds keys the API gave it
+    // and names nothing itself.
+    Object.assign(f.state, { bookingType: 'private', adults: 2, travelDate: '2100-01-01' })
+    f.toggleExtra('balloon')
+    f.toggleExtra('boat')
+    await f.refreshQuote()
+
+    assert.deepEqual(bodies.at(-1).selected_options, ['balloon', 'boat'])
+    assert.equal(f.quote.value.total, '415.20')
+
+    // Ticking the same extra again removes it rather than charging it twice.
+    f.toggleExtra('balloon')
+    assert.deepEqual(f.state.selectedOptions, ['boat'])
+    await f.refreshQuote()
+    assert.deepEqual(bodies.at(-1).selected_options, ['boat'])
+
+    // And with none left, the payload carries no extras key.
+    f.toggleExtra('boat')
+    await f.refreshQuote()
+    assert.equal('selected_options' in bodies.at(-1), false)
+  } finally { globalThis.$fetch = original }
+})
+
+test('configured passenger rows include discounted and free travelers and block missing rows', async () => {
+  const configurations = [{ booking_type: 'private', traveler_count: 3 }]
+  const f = form(configurations)
+  Object.assign(f.state, { adults: 1, children: 1, youngChildren: 1, travelDate: '2100-01-01' })
+  assert.equal(journeyConfigurationAvailable(configurations, 'private', f.partySize.value), true)
+  Object.assign(f.state, { children: 0, youngChildren: 0 })
+  assert.equal(journeyConfigurationAvailable(configurations, 'private', f.partySize.value), false)
+  assert.equal(await f.validate(1), false)
+  assert.equal(f.errors.value.bookingType, 'Pricing is not configured for this party size. Choose another size or contact us.')
+  assert.equal(journeyConfigurationAvailable([], 'private', 2), false)
+})
+
+test('large group inquiries keep their party and submit without an automatic price or quote token', async () => {
+  const original = globalThis.$fetch
+  const bodies = []
+  globalThis.$fetch = async (url, options) => {
+    bodies.push(options.body)
+    return url.includes('price-quote')
+      ? { data: { total: null, price_on_request: true, quote_token: null } }
+      : { data: { reference: 'JNY-INQUIRY', price: { calculated_total: null, price_on_request: true } } }
+  }
+  try {
+    const f = form([])
+    Object.assign(f.state, { bookingType: 'group', adults: 100, travelDate: '2100-01-01', fullName: 'Group Guest', phoneNumber: '1012345678' })
+    assert.equal(await f.validate(1), true)
+    await f.refreshQuote()
+    assert.equal(f.quote.value.price_on_request, true)
+    assert.equal(f.quote.value.quote_token, null)
+    await f.confirm()
+    assert.equal(bodies.at(-1).adults_count, 100)
+    assert.equal(bodies.at(-1).quote_token, undefined)
+    assert.equal(f.submitted.value.price.calculated_total, null)
+  } finally { globalThis.$fetch = original }
 })

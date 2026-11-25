@@ -5,7 +5,7 @@ import SiteHeader from './SiteHeader.vue'
 import SiteFooter from './SiteFooter.vue'
 import { useI18n } from '~/utils/i18n'
 import { fetchPageSections, textOr } from '~/services/pageContent'
-import { localizedLegalHTML, sanitizeLegalHTML } from '~/services/legalContent'
+import { sanitizeLegalHTML } from '~/services/legalContent'
 
 // A legal page: its heading, an optional introduction, the body itself and
 // the date it was last updated — all managed in the admin under Website
@@ -39,13 +39,13 @@ const intro = computed(() => textOr(section.value?.data?.intro, props.fallback.i
 // `body` is one of the keys the API lifts out of `data` (see
 // PageSectionResource), alongside the title.
 const html = computed(() => sanitizeLegalHTML(
-  textOr(section.value?.body, localizedLegalHTML(props.fallback, locale.value)),
+  textOr(section.value?.body, ''),
   translate('Table'),
   locale.value,
   runtime.siteUrl,
 ))
 
-const updatedAt = computed(() => section.value?.data?.updated_at || props.fallback.updatedAt || '')
+const updatedAt = computed(() => section.value?.data?.updated_at || '')
 
 const updated = computed(() => {
   if (!updatedAt.value) return ''

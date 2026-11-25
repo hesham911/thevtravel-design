@@ -7,10 +7,7 @@
 // field for one, and the total that ends up on the record is the one the
 // backend worked out for itself.
 //
-// Children are sent one by one, because each is priced on their own age.
-// `age` is the child's age ON THE TRAVEL DATE, which is what the form asks
-// for in as many words: an age by itself carries no birthday and cannot be
-// aged forward without inventing one.
+// Category counts need no exact ages. Older clients can still send ages.
 //
 // Every call returns a `status` rather than throwing:
 //
@@ -47,7 +44,7 @@
 export function journeyBookingTypes(bookingTypes = []) {
   const fallbacks = [
     { value: 'private', minTravelers: 1, maxTravelers: 3, sharesVehicle: false },
-    { value: 'group', minTravelers: 4, maxTravelers: 16, sharesVehicle: true },
+    { value: 'group', minTravelers: 4, maxTravelers: 255, sharesVehicle: true },
   ]
 
   const labels = {
@@ -147,7 +144,16 @@ function errorsOf(error) {
  * silent mismatch — the two sides looking at different parties — into a
  * message somebody can act on.
  */
-export function travellersPayload({ bookingType, adults, children } = {}) {
+export function travellersPayload({ bookingType, adults, children, childrenCount, youngChildrenCount } = {}) {
+  if (childrenCount !== undefined || youngChildrenCount !== undefined) {
+    return {
+      ...(bookingType ? { booking_type: bookingType } : {}),
+      adults_count: Number(adults) || 0,
+      children_count: Number(childrenCount) || 0,
+      young_children_count: Number(youngChildrenCount) || 0,
+      travelers_count: (Number(adults) || 0) + (Number(childrenCount) || 0) + (Number(youngChildrenCount) || 0),
+    }
+  }
   const party = (children ?? [])
     .map(child => (child?.dateOfBirth ? { date_of_birth: child.dateOfBirth } : { age: Number(child?.age) }))
     .filter(child => child.date_of_birth || Number.isInteger(child.age))
@@ -166,7 +172,7 @@ export function travellersPayload({ bookingType, adults, children } = {}) {
  * Creates nothing and reserves nothing — there is no departure inventory —
  * so it is safe to call as the form is filled in.
  */
-export async function fetchJourneyPrice(apiBaseUrl, slug, { travelDate, bookingType, adults, children, language } = {}) {
+export async function fetchJourneyPrice(apiBaseUrl, slug, { travelDate, bookingType, adults, children, childrenCount, youngChildrenCount, selectedOptions, language } = {}) {
   if (!apiBaseUrl) return DEMO
 
   try {
@@ -174,7 +180,7 @@ export async function fetchJourneyPrice(apiBaseUrl, slug, { travelDate, bookingT
       method: 'POST',
       query: { lang: language },
       headers: { Accept: 'application/json' },
-      body: { travel_date: travelDate, ...travellersPayload({ bookingType, adults, children }) },
+      body: { travel_date: travelDate, ...(selectedOptions?.length ? { selected_options: selectedOptions } : {}), ...travellersPayload({ bookingType, adults, children, childrenCount, youngChildrenCount }) },
       retry: 0,
       timeout: 8000,
     })
@@ -206,6 +212,7 @@ export async function submitJourneyBooking(apiBaseUrl, booking, language) {
       headers: { Accept: 'application/json' },
       body: {
         journey_id: booking.journeyId,
+        ...(booking.selectedOptions?.length ? { selected_options: booking.selectedOptions } : {}),
         full_name: booking.fullName,
         phone_country_code: booking.phoneCode,
         phone_number: booking.phoneNumber,
@@ -221,6 +228,8 @@ export async function submitJourneyBooking(apiBaseUrl, booking, language) {
           bookingType: booking.bookingType,
           adults: booking.adults,
           children: booking.children,
+          childrenCount: booking.childrenCount,
+          youngChildrenCount: booking.youngChildrenCount,
         }),
       },
       retry: 0,
@@ -238,4 +247,11 @@ export async function submitJourneyBooking(apiBaseUrl, booking, language) {
 
     return { status: 'error', message: error?.message || String(error) }
   }
+}
+
+/** Missing cost or markup rows cannot be requested. Older API payloads use server validation. */
+export function journeyConfigurationAvailable(configurations, bookingType, travelers, priceOnRequestAbove = null) {
+  if (bookingType === 'group' && Number.isInteger(priceOnRequestAbove) && travelers > priceOnRequestAbove) return true
+  if (!Array.isArray(configurations)) return true
+  return configurations.some(row => row.booking_type === bookingType && row.traveler_count === travelers)
 }

@@ -256,7 +256,7 @@ onBeforeUnmount(() => { mobileQuery?.removeEventListener('change', updateMobileL
         </svg>
       </section>
 
-      <section class="journeys-controls page-container" :aria-label='$t("Journey filters")'>
+      <section id="destinations" class="journeys-controls page-container" :aria-label='$t("Journey filters")'>
         <label class="destination-control">
           <span>{{ $t("Destination") }}</span>
           <span class="select-shell"><AppIcon name="pin" :size="17" /><select v-model="destination"><option v-for="option in destinationOptions" :key="option.slug" :value="option.slug">{{ option.name }}</option></select></span>

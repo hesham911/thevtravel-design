@@ -3,7 +3,7 @@ const lifetime = 24 * 60 * 60 * 1000
 // vehicle, and losing it on a locale change would silently reset them to
 // Private — which is exactly the kind of quiet reclassification the backend
 // refuses to do.
-const fields = ['bookingType', 'adults', 'children', 'youngChildren', 'travelDate', 'country', 'fullName', 'phoneCountry', 'phoneCode', 'phoneNumber', 'email', 'notes', 'museum', 'currentStep']
+const fields = ['bookingType', 'adults', 'children', 'youngChildren', 'travelDate', 'country', 'fullName', 'phoneCountry', 'phoneCode', 'phoneNumber', 'email', 'notes', 'selectedOptions', 'currentStep']
 
 /**
  * What makes a draft belong to this journey as it is now.

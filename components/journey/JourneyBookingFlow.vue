@@ -3,9 +3,9 @@ import { computed, nextTick, reactive, ref, watch } from 'vue'
 import { useRuntimeConfig, useState } from '#imports'
 import { captureJourneyDraft, restoreJourneyDraft } from '~/services/journeyDraft'
 import JourneyIcon from './JourneyIcon.vue'
-import { requiresMuseumChoice, museumBookingNotes } from '~/utils/journeyMuseum'
+
 import { useI18n } from '~/utils/i18n'
-import { fetchJourneyPrice, submitJourneyBooking, journeyTravelerCategories, validJourneyChildAge, journeyBookingTypes, journeyBookingTypeFor, journeyPartySizeAccepted } from '~/services/journeyBookings'
+import { fetchJourneyPrice, submitJourneyBooking, journeyTravelerCategories, journeyBookingTypes, journeyBookingTypeFor, journeyPartySizeAccepted, journeyConfigurationAvailable } from '~/services/journeyBookings'
 import { formatUSD } from '~/utils/currency'
 const { locale } = useI18n()
 const { public: runtime } = useRuntimeConfig()
@@ -25,13 +25,7 @@ const countries = [
   { id: 'AE', name: 'United Arab Emirates', flag: '🇦🇪', code: '+971' },
   { id: 'SA', name: 'Saudi Arabia', flag: '🇸🇦', code: '+966' },
 ]
-const state = reactive({ bookingType: 'private', adults: 2, children: 0, youngChildren: 0, travelDate: '', country: 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', museum: '', currentStep: 1 })
-// One age per child, because the backend prices each child on their own age
-// rather than on a band the form picked. The ages are kept beside the
-// counter rather than replacing it: the counter is how the dialog has always
-// asked, and the ages are what the price actually depends on.
-const childAges = ref([])
-const youngChildAges = ref([])
+const state = reactive({ bookingType: 'private', adults: 2, children: 0, youngChildren: 0, travelDate: '', country: 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', selectedOptions: [], currentStep: 1 })
 const errors = ref({})
 // What the backend says this party pays. The dialog may show it; it never
 // sends it — the booking endpoint has no price field, so the figure a
@@ -61,7 +55,7 @@ const bookingType = computed(() => journeyBookingTypeFor(bookingTypes.value, sta
 // Every traveller counts toward the party and the vehicle, infants included:
 // they occupy a seat whatever they are charged.
 const partySize = computed(() => state.adults + state.children + state.youngChildren)
-const partySizeAccepted = computed(() => journeyPartySizeAccepted(bookingType.value, partySize.value))
+const partySizeAccepted = computed(() => journeyPartySizeAccepted(bookingType.value, partySize.value) && journeyConfigurationAvailable(props.journey.pricing?.configurations, state.bookingType, partySize.value, props.journey.pricing?.price_on_request_above))
 // The counters stop at the chosen type's ceiling rather than letting a
 // customer build a party the backend will refuse.
 const partyFull = computed(() => !!bookingType.value && partySize.value >= bookingType.value.maxTravelers)
@@ -71,31 +65,22 @@ const partyFull = computed(() => !!bookingType.value && partySize.value >= booki
  * instead of offering an obsolete catalogue figure.
  */
 const bookable = computed(() => props.journey.pricing?.bookable !== false)
-const childGroups = computed(() => travelers.value.filter(category => category.key !== 'adults').map(category => ({
-  ...category,
-  ages: category.key === 'children' ? childAges.value : youngChildAges.value,
-})))
 const { openOverlay, closeOverlay: close, overlayClosed: closed } = useRequestOverlay(dialog, value => emit('open-change', value))
 const draft = useState('journey-booking-draft', () => null)
 let activeJourney = props.journey
 let restoring = false
 function saveDraft() {
-  if (!restoring && import.meta.client) draft.value = captureJourneyDraft(activeJourney, state, childAges.value, youngChildAges.value)
+  if (!restoring && import.meta.client) draft.value = captureJourneyDraft(activeJourney, state, [], [])
 }
-watch([state, childAges, youngChildAges], saveDraft, { deep: true, flush: 'sync' })
+watch(state, saveDraft, { deep: true, flush: 'sync' })
 async function open() {
   restoring = true
   activeJourney = props.journey
   const restored = restoreJourneyDraft(activeJourney, draft.value)
-  Object.assign(state, { bookingType: 'private', adults: 2, children: 0, youngChildren: 0, travelDate: '', country: props.journey.countryCode || 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', museum: '', currentStep: 1 })
+  Object.assign(state, { bookingType: 'private', adults: 2, children: 0, youngChildren: 0, travelDate: '', country: props.journey.countryCode || 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', selectedOptions: [], currentStep: 1 })
   if (restored) {
     const { childAges: children, youngChildAges: young, ...values } = restored
     Object.assign(state, values)
-    childAges.value = children
-    youngChildAges.value = young
-  } else {
-    childAges.value = []
-    youngChildAges.value = []
   }
   restoring = false
   saveDraft()
@@ -127,21 +112,19 @@ async function validate(step) {
     // Fixed sentences rather than interpolated ones, so they are
     // translatable keys: the actual numbers are already on screen in the
     // "{count} of {max} travelers" line directly above this message.
-    else if (!partySizeAccepted.value) {
+    else if (!journeyPartySizeAccepted(bookingType.value, partySize.value)) {
       e.bookingType = partySize.value > bookingType.value.maxTravelers
         ? 'Too many travelers for this option. Choose the other one, or remove travelers.'
         : 'Not enough travelers for this option. Add travelers, or choose the other one.'
     }
+    else if (!partySizeAccepted.value) e.bookingType = 'Pricing is not configured for this party size. Choose another size or contact us.'
     if (!state.travelDate || Number.isNaN(new Date(`${state.travelDate}T12:00:00`).getTime())) e.travelDate = 'Choose your travel date.'
     // Any future date is accepted: there is no departure inventory, and the
     // team confirms availability by hand. Only the past is refused.
     else if (state.travelDate < new Date().toISOString().slice(0, 10)) e.travelDate = 'Choose a date in the future.'
-    if (requiresMuseumChoice(props.journey) && !['gem', 'tahrir'].includes(state.museum)) e.museum = 'Choose one museum.'
+    if (props.journey.optionRequired && !selectedExtras.value.some(option => option.available)) e.selectedOptions = 'Choose at least one of the extras.'
     if (!state.country) e.country = 'Select a country.'
-    // Each child is priced on their own age, so an age is asked for each.
-    if (childGroups.value.some(group => group.ages.length !== state[group.key] || group.ages.some(age => !validJourneyChildAge(age, group)))) {
-      e.childAges = 'Enter each child’s age within the selected age range.'
-    }
+
   } else {
     if (!state.fullName.trim()) e.fullName = 'Enter your full name.'
     if (!state.phoneNumber.trim()) e.phoneNumber = 'Enter your phone number.'
@@ -182,7 +165,8 @@ async function confirm() {
       phoneCode: state.phoneCode,
       phoneNumber: state.phoneNumber.trim(),
       email: state.email.trim(),
-      notes: requiresMuseumChoice(props.journey) ? museumBookingNotes(state.museum, state.notes) : state.notes.trim(),
+      notes: state.notes.trim(),
+      selectedOptions: [...state.selectedOptions],
       travelDate: state.travelDate,
       // Proof of the quote on their screen. The backend recalculates and
       // books at its own figure; this can only stop them being charged a
@@ -229,8 +213,8 @@ async function confirm() {
         ...(result.errors.booking_type ? { bookingType: result.errors.booking_type } : {}),
         ...(result.errors.travelers_count ? { bookingType: result.errors.travelers_count } : {}),
         ...(result.errors.adults_count ? { adults: result.errors.adults_count } : {}),
-        ...(Object.keys(result.errors).some(field => field === 'children' || field.startsWith('children.'))
-          ? { childAges: Object.entries(result.errors).find(([field]) => field === 'children' || field.startsWith('children.'))[1] } : {}),
+        ...(Object.keys(result.errors).some(field => ['children', 'children_count', 'young_children_count'].includes(field) || field.startsWith('children.'))
+          ? { adults: Object.entries(result.errors).find(([field]) => ['children', 'children_count', 'young_children_count'].includes(field) || field.startsWith('children.'))[1] } : {}),
       }
       submitError.value = Object.keys(errors.value).length
         ? 'Please check the highlighted details.'
@@ -249,13 +233,6 @@ async function confirm() {
     sending.value = false
   }
 }
-watch(() => state.children, count => {
-  childAges.value = Array.from({ length: count }, (_, index) => childAges.value[index] ?? null)
-})
-watch(() => state.youngChildren, count => {
-  youngChildAges.value = Array.from({ length: count }, (_, index) => youngChildAges.value[index] ?? null)
-})
-
 /**
  * The label and the counter a priced age band belongs to.
  *
@@ -270,15 +247,25 @@ function bandCounterKey(band) {
   return travelers.value.find(category => category.band === band)?.key ?? 'adults'
 }
 
-/** The travellers as the API asks for them: an age for every child. */
+/** The selected age categories, without inferred ages. */
+const selectedExtras = computed(() => (props.journey.bookingOptions ?? []).filter(option => state.selectedOptions.includes(option.key)))
+
+/**
+ * Add or drop one extra. Nothing is selected by default and nothing is
+ * implied: an extra is on the booking only because the customer put it
+ * there, and the backend charges for exactly this list.
+ */
+function toggleExtra(key) {
+  const without = state.selectedOptions.filter(selected => selected !== key)
+  state.selectedOptions = without.length === state.selectedOptions.length ? [...without, key] : without
+}
+
 function travellers() {
   return {
     bookingType: state.bookingType,
     adults: state.adults,
-    children: [
-      ...childAges.value.map(age => ({ age: Number(age) })),
-      ...youngChildAges.value.map(age => ({ age: Number(age) })),
-    ],
+    childrenCount: state.children,
+    youngChildrenCount: state.youngChildren,
   }
 }
 
@@ -293,6 +280,7 @@ async function refreshQuote() {
   try {
     const result = await fetchJourneyPrice(api, props.journey.slug, {
       travelDate: state.travelDate,
+      selectedOptions: [...state.selectedOptions],
       ...travellers(),
       language: locale.value,
     })
@@ -313,7 +301,7 @@ async function refreshQuote() {
 // Changing the party or the type invalidates the figure on screen. The quote
 // is dropped rather than left showing a price for a party that no longer
 // matches, and re-fetched when the customer is back on the review step.
-watch([() => state.bookingType, () => state.adults, () => state.children, () => state.youngChildren, () => state.travelDate], () => {
+watch([() => state.bookingType, () => state.adults, () => state.children, () => state.youngChildren, () => state.travelDate, () => state.selectedOptions.join('|')], () => {
   quote.value = null
   quoteStale.value = false
 
@@ -371,27 +359,25 @@ defineExpose({ open })
                 <span v-if="partyFull"> — {{ $t("{label} takes up to {max}. Choose {other} for a larger party.", { label: $t(bookingType.label), max: bookingType.maxTravelers, other: $t(bookingType.value === 'private' ? 'Group' : 'Private') }) }}</span>
               </p>
               <p v-if="errors.adults" class="jb-error">{{ $t(errors.adults) }}</p>
-              <div v-for="group in childGroups.filter(group => state[group.key])" :key="group.key" class="jb-child-ages">
-                <p class="jb-section-label">{{ $t(group.label) }} — {{ $t("Age on the journey") }}</p>
-                <div class="jb-child-age-rows">
-                  <label v-for="(age, index) in group.ages" :key="index" class="jb-field jb-child-age">
-                    <span>{{ $t(group.key === 'children' ? "Child" : "Young child") }} {{ $t(index + 1) }}</span>
-                    <input
-                      v-model="group.ages[index]"
-                      type="number"
-                      inputmode="numeric"
-                      :min="group.minAge"
-                      :max="group.maxAge"
-                      required
-                      :aria-invalid="!!errors.childAges"
-                      :aria-describedby="errors.childAges ? 'jb-child-ages-error' : undefined"
-                    />
-                  </label>
-                </div>
-              </div>
-              <small v-if="errors.childAges" id="jb-child-ages-error" class="jb-error">{{ $t(errors.childAges) }}</small></section>
+</section>
             <label class="jb-field jb-icon-field" for="jb-date"><span><JourneyIcon name="calendar" />{{ $t("Travel date") }}</span><input id="jb-date" v-model="state.travelDate" type="date" required :aria-invalid="!!errors.travelDate" :aria-describedby="errors.travelDate ? 'jb-date-error' : undefined" /><small v-if="errors.travelDate" id="jb-date-error" class="jb-error">{{ $t(errors.travelDate) }}</small></label>
-            <label v-if="requiresMuseumChoice(journey)" class="jb-field" for="jb-museum"><span>{{ $t('Choose one museum') }}</span><select id="jb-museum" v-model="state.museum" required :aria-invalid="!!errors.museum" aria-describedby="jb-museum-note"><option value="" disabled>{{ $t('Choose one museum') }}</option><option value="gem">{{ $t('Grand Egyptian Museum') }}</option><option value="tahrir">{{ $t('Egyptian Museum in Tahrir') }}</option></select><small id="jb-museum-note">{{ $t('One museum is included, not both.') }}</small><small v-if="errors.museum" role="alert" class="jb-error">{{ $t('Choose one museum.') }}</small></label>
+<fieldset v-if="journey.bookingOptions?.length" class="jb-field jb-extras">
+              <legend>{{ $t('Optional extras') }}</legend>
+              <p class="jb-extras-hint">{{ journey.optionRequired ? $t('Choose at least one of these to add to your journey.') : $t('Add anything you would like. Nothing is added unless you choose it.') }}</p>
+              <label v-for="option in journey.bookingOptions" :key="option.key" class="jb-extra">
+                <input
+                  type="checkbox"
+                  :value="option.key"
+                  :disabled="!option.available"
+                  :checked="state.selectedOptions.includes(option.key)"
+                  :aria-invalid="!!errors.selectedOptions"
+                  @change="toggleExtra(option.key)"
+                />
+                <span class="jb-extra-name">{{ option.label }}</span>
+                <span v-if="option.price" class="jb-extra-price">{{ formatUSD(option.price) }}<small>{{ option.basis === 'per_traveler' ? $t('per traveler') : $t('once per booking') }}</small></span>
+              </label>
+              <small v-if="errors.selectedOptions" role="alert" class="jb-error">{{ $t(errors.selectedOptions) }}</small>
+            </fieldset>
             <label class="jb-field jb-icon-field" for="jb-country"><span><JourneyIcon name="pin" />{{ $t("Country") }}</span><span class="jb-country-control"><select id="jb-country" v-model="state.country" required :aria-invalid="!!errors.country" :aria-describedby="errors.country ? 'jb-country-error' : undefined"><option value="" disabled>{{ $t("Select a country") }}</option><option v-for="c in countries" :key="c.id" :value="c.id">{{ $t(c.flag) }} {{ $t(c.name) }}</option><option v-if="!countries.some(c => c.id === state.country)" :value="state.country">{{ $t(state.country) }}</option></select><JourneyIcon name="chevron-down" :size="20" /></span><small v-if="errors.country" id="jb-country-error" class="jb-error">{{ $t(errors.country) }}</small></label>
           </div>
           <div v-else-if="state.currentStep === 2" class="jb-contact">
@@ -408,6 +394,7 @@ defineExpose({ open })
             </div>
             <dl>
               <div><dt>{{ $t("Reference") }}</dt><dd>{{ submitted?.reference }}</dd></div>
+              <div v-if="selectedExtras.length"><dt>{{ $t("Optional extras") }}</dt><dd><div v-for="option in selectedExtras" :key="option.key">{{ option.label }}</div></dd></div>
               <div><dt>{{ $t("Journey") }}</dt><dd>{{ $t(journey.title) }}</dd></div>
               <div><dt>{{ $t("Date") }}</dt><dd>{{ $t(dateLabel) }}</dd></div>
               <div v-if="submitted?.price?.calculated_total">
@@ -420,7 +407,7 @@ defineExpose({ open })
           <div v-else class="jb-review">
             <div class="jb-review-intro"><h3>{{ $t("Review your request") }}</h3><p>{{ $t("Please check your details below before submitting your request.") }}</p></div>
             <JourneyBookingSummary class="jb-mobile" :journey="journey" review />
-            <section><div class="jb-review-heading"><h3><JourneyIcon name="calendar" />{{ $t("Trip details") }}</h3><button type="button" @click="go(1)">{{ $t("Edit") }}<span class="jb-sr-only"> {{ $t("trip details") }}</span></button></div><dl><div><dt>{{ $t("Date") }}</dt><dd>{{ $t(dateLabel) }}</dd></div><div><dt>{{ $t("Country") }}</dt><dd>{{ $t(countryName) }}</dd></div><div v-if="bookingType"><dt>{{ $t("How you travel") }}</dt><dd>{{ $t(bookingType.label) }}<small> — {{ $t(bookingType.summary) }}</small></dd></div><div><dt>{{ $t("Travelers") }}</dt><dd><div v-for="category in travelers" :key="category.key">{{ $t(state[category.key]) }} {{ $t(category.label) }}<small v-if="category.key !== 'adults' && state[category.key]"> — {{ $t("Ages") }}: {{ (category.key === 'children' ? childAges : youngChildAges).join(', ') }}</small></div></dd></div></dl></section>
+            <section><div class="jb-review-heading"><h3><JourneyIcon name="calendar" />{{ $t("Trip details") }}</h3><button type="button" @click="go(1)">{{ $t("Edit") }}<span class="jb-sr-only"> {{ $t("trip details") }}</span></button></div><dl><div><dt>{{ $t("Date") }}</dt><dd>{{ $t(dateLabel) }}</dd></div><div v-if="selectedExtras.length"><dt>{{ $t("Optional extras") }}</dt><dd><div v-for="option in selectedExtras" :key="option.key">{{ option.label }}</div></dd></div><div><dt>{{ $t("Country") }}</dt><dd>{{ $t(countryName) }}</dd></div><div v-if="bookingType"><dt>{{ $t("How you travel") }}</dt><dd>{{ $t(bookingType.label) }}<small> — {{ $t(bookingType.summary) }}</small></dd></div><div><dt>{{ $t("Travelers") }}</dt><dd><div v-for="category in travelers" :key="category.key">{{ $t(state[category.key]) }} {{ $t(category.label) }}</div></dd></div></dl></section>
             <!--
               The price, as the backend worked it out. Every figure here comes
               from its answer: nothing on this page multiplies, adds or
@@ -444,6 +431,9 @@ defineExpose({ open })
                     <dd>
                       {{ $t(state[bandCounterKey(line.band)] ?? 0) }} × {{ line.price === '0.00' ? $t("Free") : formatUSD(line.price) }}
                     </dd>
+                  </div>
+                  <div v-for="line in quote.lines?.filter(row => row.band === 'extra') || []" :key="`${line.key}-${line.age_band || 'booking'}`">
+                    <dt>{{ line.label }}<template v-if="line.age_band && line.age_band !== 'booking'"> · {{ $t(bandLabel(line.age_band)) }}</template></dt><dd>{{ line.quantity }} × {{ formatUSD(line.unit_price) }}</dd>
                   </div>
                   <div class="jb-quote-total"><dt>{{ $t("Estimated total") }}</dt><dd><strong>{{ formatUSD(quote.total) }}</strong></dd></div>
                 </template>

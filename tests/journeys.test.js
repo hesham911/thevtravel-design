@@ -251,3 +251,13 @@ test('every content card list carries its uploaded icon, and none falls back to 
   assert.equal(detail.goodToKnow[0].iconImageDarkUrl, '')
   assert.equal(detail.goodToKnow[0].icon, null)
 })
+
+
+test('starting price and party context come from the full-price backend configuration', () => {
+  const card = toCard({ id: 1, price: { amount: '108.00', currency: 'USD', context: { travelers: 8, booking_type: 'group' } }, pricing: { age_bands: [{ band: 'infant', price: '0.00' }, { band: 'child', price: '54.00' }] } })
+  assert.equal(card.price, 108)
+  assert.deepEqual(card.priceContext, { travelers: 8, booking_type: 'group' })
+  assert.equal(card.priceContextLabel, 'In a group of {count}')
+  assert.equal(toCard({ price: { amount: null } }).price, null)
+  assert.equal(toCard({ price: { amount: '202.50', context: { travelers: 2, booking_type: 'private' } } }).priceContextLabel, 'Private party of {count}')
+})

@@ -2,7 +2,7 @@
 definePageMeta({"name": "journey-details", "key": route => `journey-${route.params.slug}`, "title": "Journey Details — TheVTravel"})
 import { formatUSD } from '~/utils/currency'
 import { computed, ref, nextTick, watch } from 'vue'
-import { useRoute, useRouter, useRuntimeConfig, useAsyncData, useHead, useSeoMeta, setResponseStatus } from '#imports'
+import { useRoute, useRouter, useRuntimeConfig, useAsyncData, useHead, useSeoMeta, setResponseStatus, useResponseHeader } from '#imports'
 import SiteHeader from '~/components/SiteHeader.vue'
 import JourneyHero from '~/components/journey/JourneyHero.vue'
 import JourneySectionContent from '~/components/journey/JourneySectionContent.vue'
@@ -22,6 +22,10 @@ const { locale, translate } = useI18n()
 const { public: runtime } = useRuntimeConfig()
 const api = runtime.apiBaseUrl
 const route = useRoute(), router = useRouter()
+if (route.query.preview_token) {
+  useResponseHeader('Cache-Control').value = 'private, no-store'
+  useResponseHeader('Referrer-Policy').value = 'no-referrer'
+}
 
 /** How many reviews the tab shows before its own pagination is needed. */
 const REVIEWS_PER_PAGE = 10
@@ -31,9 +35,9 @@ const REVIEWS_PER_PAGE = 10
 // rather than quietly showing the built-in demo copy: a draft must never leak
 // its content through a fixture.
 const { data: result, refresh } = await useAsyncData(
-  () => `journey-${route.params.slug}`,
-  () => fetchJourney(api, String(route.params.slug), locale.value),
-  { watch: [locale, () => route.params.slug], default: () => null },
+  () => `journey-${route.params.slug}-${route.query.preview_token ? 'preview' : 'public'}`,
+  () => fetchJourney(api, String(route.params.slug), locale.value, typeof route.query.preview_token === 'string' ? route.query.preview_token : undefined),
+  { watch: [locale, () => route.params.slug, () => route.query.preview_token], default: () => null },
 )
 
 // The journey's published reviews, and the Traveler Moments collage, are
@@ -171,6 +175,7 @@ useSeoMeta({
 })
 
 useHead(() => ({
+  meta: route.query.preview_token ? [{ name: 'referrer', content: 'no-referrer' }] : [],
   link: [
     ...(journey.value?.seo?.canonical_url ? [{ rel: 'canonical', href: journey.value.seo.canonical_url }] : []),
     ...(journey.value?.seo?.alternates || []).map(item => ({ rel: 'alternate', hreflang: item.hreflang, href: item.url })),
@@ -204,6 +209,7 @@ function showPhotos(items, index = 0) { galleryViewer.value?.open(items, index) 
   <div class="journey-details-page">
     <SiteHeader />
     <main v-if="journey" class="jd-main">
+      <p v-if="journey.isPreview" role="status" class="page-container">{{ $t('Saved draft preview. Booking is disabled.') }}</p>
       <JourneyHero :journey="journey" @reviews="select('reviews')" @request="requestJourney" />
       <nav v-if="!journey.catalogOnly" class="jd-desktop-nav" :aria-label='$t("Journey sections")'><button v-for="[id, label] in sections" :key="id" :class="{ active: active === id }" :aria-current="active === id ? 'true' : undefined" @click="select(id)">{{ $t(label) }}</button></nav>
       <JourneySectionContent v-if="!journey.catalogOnly" :journey="journey" :active="active" :gallery-mode="galleryMode" :can-load-more-reviews="canLoadMoreReviews" :loading-more-reviews="loadingMoreReviews" :load-more-error="loadMoreError" @gallery-mode="setGallery" @photo="showPhotos" @load-more-reviews="loadMoreReviews" />
@@ -214,7 +220,7 @@ function showPhotos(items, index = 0) { galleryViewer.value?.open(items, index) 
       </section>
       <RelatedJourneys v-if="recommendations.length" :items="recommendations" />
       <MobileJourneyControls v-if="!journey.catalogOnly" :active="active" :journey="journey" :booking-open="bookingOpen" @select="select" @request="requestJourney" />
-      <div v-if="journey.catalogOnly && !bookingOpen" class="jd-mobile-controls"><div class="jd-booking-bar"><p v-if="formatUSD(journey.price)">{{ $t('From') }} <strong>{{ formatUSD(journey.price) }}</strong><span>{{ $t('per adult') }}</span></p><p v-else>{{ $t('Price on request') }}</p><button class="jd-button jd-primary" @click="requestJourney">{{ $t('Request') }}</button></div></div>
+      <div v-if="journey.catalogOnly && !bookingOpen" class="jd-mobile-controls"><div class="jd-booking-bar"><p v-if="formatUSD(journey.price)">{{ $t('From') }} <strong>{{ formatUSD(journey.price) }}</strong><span v-if="journey.priceContext">{{ $t(journey.priceContextLabel, { count: journey.priceContext?.travelers }) }}</span></p><p v-else>{{ $t('Price on request') }}</p><button class="jd-button jd-primary" @click="requestJourney">{{ $t('Request') }}</button></div></div>
     </main>
     <main v-else-if="failed" class="jd-not-found">
       <h1>{{ $t("This journey is unavailable right now") }}</h1>

@@ -1,5 +1,14 @@
 <script setup>
 import AppIcon from '../AppIcon.vue'
-defineProps({ name: String, size: { type: Number, default: 24 } })
+import ContentIcon from '../ContentIcon.vue'
+defineProps({
+  name: { type: String, default: 'help-circle' },
+  size: { type: Number, default: 24 },
+  imageUrl: { type: String, default: '' },
+  imageDarkUrl: { type: String, default: '' },
+})
 </script>
-<template><AppIcon :name="name" :size="size" /></template>
+<template>
+  <ContentIcon v-if="imageUrl" :image-url="imageUrl" :image-dark-url="imageDarkUrl" :size="size" />
+  <AppIcon v-else :name="name || 'help-circle'" :size="size" />
+</template>

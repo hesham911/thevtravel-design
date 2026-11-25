@@ -132,8 +132,8 @@ function toCardIcon(item) {
 }
 
 /** One journey by slug. A draft answers 404 exactly as an unknown slug does. */
-export async function fetchJourney(apiBaseUrl, slug, language) {
-  const result = await request(apiBaseUrl, `/journeys/${encodeURIComponent(slug)}`, { lang: language }, `journey ${slug}`)
+export async function fetchJourney(apiBaseUrl, slug, language, previewToken) {
+  const result = await request(apiBaseUrl, `/journeys/${encodeURIComponent(slug)}`, { lang: language, ...(previewToken ? { preview_token: previewToken } : {}) }, `journey ${slug}`)
 
   if (result.status !== 'ok') return result
 
@@ -161,6 +161,8 @@ export function toCard(journey) {
     // rather than an obsolete catalogue figure.
     price: journey.price?.amount == null ? null : Number(journey.price.amount),
     currency: journey.price?.currency ?? 'USD',
+    priceContext: journey.price?.context ?? null,
+    priceContextLabel: journey.price?.context?.booking_type === 'private' ? 'Private party of {count}' : 'In a group of {count}',
     // A "from" price: the per-head figure falls as a group grows, because
     // the vehicle and the guide are shared by more people.
     priceIsFrom: journey.price?.is_from_price !== false,
@@ -210,6 +212,7 @@ export function toDetail(journey) {
     itineraryIntro: journey.itinerary?.intro || '',
     itinerary: (journey.itinerary?.stops ?? []).map(stop => [stop.time ?? '', stop.title ?? '', stop.description ?? '']),
     itineraryMedia: toMedia(journey.itinerary?.media),
+    excluded: (journey.excluded ?? []).map(item => ({ ...toCardIcon(item), title: item.title, text: item.description })),
     includedHeading: journey.included?.heading || '',
     includedIntro: journey.included?.intro || '',
     included: (journey.included?.items ?? []).map(item => ({ ...toCardIcon(item), title: item.title, text: item.description })),
@@ -219,6 +222,9 @@ export function toDetail(journey) {
     goodToKnowIntro: journey.good_to_know?.intro || '',
     goodToKnow: (journey.good_to_know?.items ?? []).map(item => ({ ...toCardIcon(item), title: item.title, text: item.description })),
     pricing: journey.pricing ?? null,
+    isPreview: Boolean(journey.is_preview),
+    bookingOptions: journey.booking_options ?? [],
+    optionRequired: Boolean(journey.option_required),
     related: (journey.related ?? []).map(toCard),
     seo: journey.seo ?? null,
     // The summary of PUBLISHED reviews, as the API counted them, so the

@@ -34,12 +34,14 @@ defineProps({
       </div>
       <div class="listing-card-footer">
         <!--
-          "From $X per adult" — the lowest price the journey can be booked at,
-          which is the full vehicle. A journey with no operating costs
-          configured has no bookable price at all and says so, rather than
-          advertising a catalogue figure the booking form would refuse.
+          "From $X · In a group of 8" — the lowest full-price unit the
+          journey can actually be booked at, with the party size that buys
+          it, because the per-head price falls as the vehicle fills. Never a
+          discounted child or free infant fare. A journey with no operating
+          costs configured has no bookable price at all and says so, rather
+          than advertising a catalogue figure the booking form would refuse.
         -->
-        <div v-if="formatUSD(journey.price)" class="listing-card-price">{{ $t("From") }} <strong>{{ formatUSD(journey.price) }}</strong> <span>{{ $t("per adult") }}</span></div>
+        <div v-if="formatUSD(journey.price)" class="listing-card-price">{{ $t("From") }} <strong>{{ formatUSD(journey.price) }}</strong> <span v-if="journey.priceContext">{{ $t(journey.priceContextLabel, { count: journey.priceContext?.travelers }) }}</span></div>
         <div v-else class="listing-card-price listing-card-price--request">{{ $t("Price on request") }}</div>
         <PublicLink :to="journey.detailsHref" :aria-label="`${$t('View journey')}: ${$t(journey.title)}`">
           {{ $t("View journey") }} <AppIcon name="arrow" :size="15" />

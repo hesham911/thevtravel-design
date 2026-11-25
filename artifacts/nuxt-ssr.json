@@ -38,13 +38,13 @@
   {
     "route": "/privacy-policy",
     "status": 200,
-    "title": "Privacy Policy | TheVTravel",
+    "title": "Privacy Policy",
     "hasSSRContent": true
   },
   {
     "route": "/terms-and-conditions",
     "status": 200,
-    "title": "Terms &amp; Conditions | TheVTravel",
+    "title": "Terms &amp; Conditions",
     "hasSSRContent": true
   },
   {

@@ -98,7 +98,7 @@
   --transfer-image-fade: linear-gradient(90deg, #002040 0%, #002040 9%, rgba(0,32,64,.9) 14%, rgba(0,32,64,.66) 21%, rgba(0,32,64,.34) 29%, rgba(0,32,64,.12) 36%, rgba(0,32,64,0) 43%);
   --route-filter: none;
   --hero-overlay: linear-gradient(90deg, #faf6f2 0%, #faf6f2 20%, rgba(250,246,242,.97) 27%, rgba(250,246,242,.82) 35%, rgba(250,246,242,.55) 43%, rgba(250,246,242,.24) 51%, rgba(250,246,242,0) 62%);
-  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-display: var(--font-body);
   --font-body: 'DM Sans', 'Manrope', Arial, sans-serif;
   --font-ui: var(--font-body);
   --content-max: 1304px;

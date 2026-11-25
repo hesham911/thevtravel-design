@@ -89,3 +89,28 @@
 @media (max-width: 767px) {
   .jb-booking-type-rows, .jb-party-limit { padding-left: 14px; }
 }
+
+/*
+  Optional extras — one checkbox per extra, with the charge the backend
+  quoted beside it. Nothing here computes a total: the figure on each row is
+  the per-unit charge from the API, and the only total on the screen is the
+  quote's own.
+
+  The fieldset carries .jb-field so it inherits the form's spacing and label
+  weight, which means the field's full-width input sizing has to be undone
+  for the checkbox. Spacing is logical (inline-start, not left) so the rows
+  read correctly in Arabic.
+*/
+.jb-extras { border:0; padding:0; }
+.jb-extras legend { padding:0; font-size:14px; font-weight:600; }
+.jb-extras-hint { margin:2px 0 4px; color:var(--muted); font-size:13px; font-weight:400; }
+.jb-extra { display:flex; gap:12px; align-items:center; padding:11px 14px; border:1px solid var(--line); border-radius:6px; background:var(--field-bg); font-weight:500; cursor:pointer; }
+.jb-extra input[type="checkbox"] { width:18px; height:18px; flex:0 0 auto; padding:0; margin:0; accent-color:var(--brand-orange); cursor:pointer; }
+.jb-extra-name { flex:1 1 auto; min-width:0; }
+.jb-extra-price { flex:0 0 auto; display:flex; gap:6px; align-items:baseline; font-variant-numeric:tabular-nums; }
+.jb-extra-price small { color:var(--muted); font-weight:400; font-size:12px; }
+.jb-extra:has(input:disabled) { opacity:.55; cursor:not-allowed; }
+@media(max-width:767px) {
+  .jb-extra { padding:13px 14px; flex-wrap:wrap; }
+  .jb-extra-price { flex-basis:100%; margin-inline-start:30px; }
+}

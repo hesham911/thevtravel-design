@@ -18,7 +18,7 @@ defineEmits(['reviews', 'request'])
         free, so "per person" would be a figure nobody actually pays. And
         "from", because the price per head falls as the vehicle fills.
       -->
-      <p v-if="formatUSD(journey.price)" class="jd-price">{{ $t("From") }} <strong>{{ formatUSD(journey.price) }}</strong> <span>{{ $t("per adult, in a full vehicle") }}</span></p>
+      <p v-if="formatUSD(journey.price)" class="jd-price">{{ $t("From") }} <strong>{{ formatUSD(journey.price) }}</strong> <span v-if="journey.priceContext">{{ $t(journey.priceContextLabel, { count: journey.priceContext?.travelers }) }}</span></p>
       <p v-else class="jd-price">{{ $t("Price on request") }}</p>
       <div class="jd-actions"><button class="jd-button jd-primary" @click="$emit('request')">{{ $t("Request this journey") }}</button><PublicLink class="jd-button" :to="{ path: '/contact', query: { journey: journey.title, subject: 'question' }, hash: '#contact-form' }">{{ $t("Ask a question") }}</PublicLink></div>
       <p class="jd-payment"><JourneyIcon name="shield" :size="23" />{{ $t("No online payment. Pay at the start of your trip.") }}</p>

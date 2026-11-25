@@ -5720,5 +5720,103 @@
     "ru": "Стоимость этой поездки пока нельзя рассчитать. Ещё нужно указать: стоимость миниавтобуса с водителем за выезд (EGP).",
     "zh": "暂时无法计算此行程的价格。尚需配置：每次出发的中巴及司机费用（EGP）。",
     "uk": "Вартість цієї поїздки поки неможливо розрахувати. Ще потрібно вказати: вартість мініавтобуса з водієм за виїзд (EGP)."
+  },
+  "Optional extras": {
+    "fr": "Suppléments en option",
+    "de": "Optionale Zusatzleistungen",
+    "ru": "Дополнительные опции",
+    "zh": "可选附加项目",
+    "uk": "Додаткові опції"
+  },
+  "Add anything you would like. Nothing is added unless you choose it.": {
+    "fr": "Ajoutez ce que vous souhaitez. Rien n'est ajouté sans votre choix.",
+    "de": "Fügen Sie hinzu, was Sie möchten. Ohne Ihre Auswahl wird nichts hinzugefügt.",
+    "ru": "Добавьте то, что пожелаете. Без вашего выбора ничего не добавляется.",
+    "zh": "您可以随意添加。未经您选择，不会添加任何项目。",
+    "uk": "Додайте те, що бажаєте. Без вашого вибору нічого не додається."
+  },
+  "Choose at least one of these to add to your journey.": {
+    "fr": "Choisissez au moins l'un de ces suppléments pour votre voyage.",
+    "de": "Wählen Sie mindestens eine dieser Zusatzleistungen für Ihre Reise.",
+    "ru": "Выберите хотя бы одну из этих опций для вашей поездки.",
+    "zh": "请为您的行程至少选择一个附加项目。",
+    "uk": "Виберіть щонайменше одну з цих опцій для вашої подорожі."
+  },
+  "Choose at least one of the extras.": {
+    "fr": "Choisissez au moins un supplément.",
+    "de": "Wählen Sie mindestens eine Zusatzleistung.",
+    "ru": "Выберите хотя бы одну опцию.",
+    "zh": "请至少选择一个附加项目。",
+    "uk": "Виберіть щонайменше одну опцію."
+  },
+  "per traveler": {
+    "fr": "par voyageur",
+    "de": "pro Reisenden",
+    "ru": "за человека",
+    "zh": "每位旅客",
+    "uk": "за особу"
+  },
+  "once per booking": {
+    "fr": "une fois par réservation",
+    "de": "einmal pro Buchung",
+    "ru": "один раз за бронирование",
+    "zh": "每笔预订一次",
+    "uk": "один раз за бронювання"
+  },
+  "Journey option": {
+    "fr": "Option du voyage",
+    "de": "Reiseoption",
+    "ru": "Вариант экскурсии",
+    "zh": "行程选项",
+    "uk": "Варіант екскурсії"
+  },
+  "Choose an option": {
+    "fr": "Choisissez une option",
+    "de": "Option auswählen",
+    "ru": "Выберите вариант",
+    "zh": "请选择选项",
+    "uk": "Оберіть варіант"
+  },
+  "Choose an available option.": {
+    "fr": "Choisissez une option disponible.",
+    "de": "Wählen Sie eine verfügbare Option.",
+    "ru": "Выберите доступный вариант.",
+    "zh": "请选择可用选项。",
+    "uk": "Оберіть доступний варіант."
+  },
+  "Not included": {
+    "fr": "Non inclus",
+    "de": "Nicht enthalten",
+    "ru": "Не включено",
+    "zh": "不包含",
+    "uk": "Не включено"
+  },
+  "Saved draft preview. Booking is disabled.": {
+    "fr": "Aperçu du brouillon enregistré. La réservation est désactivée.",
+    "de": "Vorschau des gespeicherten Entwurfs. Buchung ist deaktiviert.",
+    "ru": "Предпросмотр сохранённого черновика. Бронирование отключено.",
+    "zh": "已保存草稿的预览。预订已禁用。",
+    "uk": "Перегляд збереженої чернетки. Бронювання вимкнено."
+  },
+  "In a group of {count}": {
+    "ru": "В группе из {count}",
+    "fr": "En groupe de {count}",
+    "de": "In einer Gruppe von {count}",
+    "zh": "{count}人团体",
+    "uk": "У групі з {count}"
+  },
+  "Private party of {count}": {
+    "ru": "Частная группа из {count}",
+    "fr": "Groupe privé de {count}",
+    "de": "Private Gruppe mit {count}",
+    "zh": "{count}人私人团",
+    "uk": "Приватна група з {count}"
+  },
+  "Pricing is not configured for this party size. Choose another size or contact us.": {
+    "ru": "Цена для такого количества путешественников не настроена. Выберите другой размер группы или свяжитесь с нами.",
+    "fr": "Le tarif pour ce nombre de voyageurs n’est pas configuré. Choisissez un autre nombre ou contactez-nous.",
+    "de": "Für diese Gruppengröße ist kein Preis festgelegt. Wählen Sie eine andere Größe oder kontaktieren Sie uns.",
+    "zh": "此出行人数的价格尚未设置。请选择其他人数或联系我们。",
+    "uk": "Ціну для такої кількості мандрівників не налаштовано. Виберіть інший розмір групи або зв’яжіться з нами."
   }
 }
