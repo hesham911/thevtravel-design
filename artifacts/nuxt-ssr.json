@@ -2,49 +2,49 @@
   {
     "route": "/",
     "status": 200,
-    "title": "TheVTravel — Journeys across Egypt",
+    "title": "TheVTravel | Journeys across Egypt",
     "hasSSRContent": true
   },
   {
     "route": "/journeys",
     "status": 200,
-    "title": "All Journeys — TheVTravel",
+    "title": "All Journeys | TheVTravel",
     "hasSSRContent": true
   },
   {
     "route": "/contact",
     "status": 200,
-    "title": "Contact Us — TheVTravel",
+    "title": "Contact Us | TheVTravel",
     "hasSSRContent": true
   },
   {
     "route": "/about",
     "status": 200,
-    "title": "About TheVTravel — Egypt, planned with local care",
+    "title": "About TheVTravel | Egypt, planned with local care",
     "hasSSRContent": true
   },
   {
     "route": "/faq",
     "status": 200,
-    "title": "Frequently Asked Questions — TheVTravel",
+    "title": "Frequently Asked Questions | TheVTravel",
     "hasSSRContent": true
   },
   {
     "route": "/how-booking-works",
     "status": 200,
-    "title": "How Booking Works — TheVTravel",
+    "title": "How Booking Works | TheVTravel",
     "hasSSRContent": true
   },
   {
     "route": "/privacy-policy",
     "status": 200,
-    "title": "Privacy Policy",
+    "title": "Privacy Policy | TheVTravel",
     "hasSSRContent": true
   },
   {
     "route": "/terms-and-conditions",
     "status": 200,
-    "title": "Terms &amp; Conditions",
+    "title": "Terms &amp; Conditions | TheVTravel",
     "hasSSRContent": true
   },
   {

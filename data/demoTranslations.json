@@ -5580,5 +5580,145 @@
     "ru": "Включён один музей, не оба.",
     "zh": "仅包含其中一座博物馆，并非两座。",
     "uk": "Включено один музей, а не обидва."
+  },
+  "per adult": {
+    "ru": "за взрослого",
+    "fr": "par adulte",
+    "de": "pro Erwachsenem",
+    "zh": "每位成人",
+    "uk": "за дорослого"
+  },
+  "per adult, in a full vehicle": {
+    "ru": "за взрослого при полной загрузке транспорта",
+    "fr": "par adulte, en véhicule complet",
+    "de": "pro Erwachsenem bei voll belegtem Fahrzeug",
+    "zh": "车辆满载时每位成人",
+    "uk": "за дорослого за повного завантаження транспорту"
+  },
+  "This journey is not available to book online yet. Please message us on WhatsApp and we will arrange it with you.": {
+    "ru": "Эту поездку пока нельзя забронировать онлайн. Напишите нам в WhatsApp, и мы всё организуем.",
+    "fr": "Ce voyage n’est pas encore réservable en ligne. Écrivez-nous sur WhatsApp et nous l’organiserons avec vous.",
+    "de": "Diese Reise ist noch nicht online buchbar. Schreiben Sie uns auf WhatsApp, und wir organisieren sie mit Ihnen.",
+    "zh": "此行程暂时无法在线预订。请通过 WhatsApp 联系我们，我们将为您安排。",
+    "uk": "Цю подорож поки не можна забронювати онлайн. Напишіть нам у WhatsApp, і ми все організуємо."
+  },
+  "How would you like to travel?": {
+    "ru": "Как вы хотите путешествовать?",
+    "fr": "Comment souhaitez-vous voyager ?",
+    "de": "Wie möchten Sie reisen?",
+    "zh": "您希望以哪种方式出行？",
+    "uk": "Як ви хочете подорожувати?"
+  },
+  "{min} to {max} travelers": {
+    "ru": "от {min} до {max} путешественников",
+    "fr": "de {min} à {max} voyageurs",
+    "de": "{min} bis {max} Reisende",
+    "zh": "{min} 至 {max} 位旅客",
+    "uk": "від {min} до {max} подорожніх"
+  },
+  "{count} of {max} travelers": {
+    "ru": "{count} из {max} путешественников",
+    "fr": "{count} sur {max} voyageurs",
+    "de": "{count} von {max} Reisenden",
+    "zh": "{count} / {max} 位旅客",
+    "uk": "{count} з {max} подорожніх"
+  },
+  "{label} takes up to {max}. Choose {other} for a larger party.": {
+    "ru": "{label} вмещает до {max}. Для большей группы выберите {other}.",
+    "fr": "{label} accueille jusqu’à {max}. Choisissez {other} pour un groupe plus grand.",
+    "de": "{label} fasst bis zu {max}. Für eine größere Gruppe wählen Sie {other}.",
+    "zh": "{label} 最多可容纳 {max} 人。人数更多请选择 {other}。",
+    "uk": "{label} вміщує до {max}. Для більшої групи виберіть {other}."
+  },
+  "Group": {
+    "ru": "Групповая",
+    "fr": "Groupe",
+    "de": "Gruppe",
+    "zh": "拼团",
+    "uk": "Групова"
+  },
+  "Private": {
+    "ru": "Индивидуальная",
+    "fr": "Privé",
+    "de": "Privat",
+    "zh": "独立包车",
+    "uk": "Індивідуальна"
+  },
+  "How you travel": {
+    "ru": "Способ поездки",
+    "fr": "Mode de voyage",
+    "de": "Art der Reise",
+    "zh": "出行方式",
+    "uk": "Спосіб подорожі"
+  },
+  "The price for this journey has been updated. Please review the new price before confirming.": {
+    "ru": "Цена этой поездки обновилась. Пожалуйста, проверьте новую цену перед подтверждением.",
+    "fr": "Le prix de ce voyage a été mis à jour. Veuillez vérifier le nouveau prix avant de confirmer.",
+    "de": "Der Preis für diese Reise wurde aktualisiert. Bitte prüfen Sie den neuen Preis, bevor Sie bestätigen.",
+    "zh": "此行程的价格已更新。请在确认前查看新价格。",
+    "uk": "Ціну цієї подорожі оновлено. Перевірте нову ціну перед підтвердженням."
+  },
+  "A vehicle for your party alone": {
+    "ru": "Транспорт только для вашей группы",
+    "fr": "Un véhicule réservé à votre groupe",
+    "de": "Ein Fahrzeug nur für Ihre Gruppe",
+    "zh": "车辆仅供您的团队使用",
+    "uk": "Транспорт лише для вашої групи"
+  },
+  "Share transportation with other travellers": {
+    "ru": "Поездка в транспорте вместе с другими путешественниками",
+    "fr": "Partagez le véhicule avec d’autres voyageurs",
+    "de": "Sie teilen das Fahrzeug mit anderen Reisenden",
+    "zh": "与其他旅客共乘车辆",
+    "uk": "Спільна поїздка з іншими подорожніми"
+  },
+  "Your own vehicle and driver. Nobody else joins your journey.": {
+    "ru": "Собственный транспорт и водитель. К вашей поездке никто не присоединится.",
+    "fr": "Votre propre véhicule et chauffeur. Personne d’autre ne se joint à votre voyage.",
+    "de": "Ihr eigenes Fahrzeug mit Fahrer. Niemand sonst nimmt an Ihrer Reise teil.",
+    "zh": "专属车辆和司机，不会有其他人加入您的行程。",
+    "uk": "Власний транспорт і водій. До вашої подорожі ніхто не долучиться."
+  },
+  "You travel in a shared vehicle with other bookings on the same day. A lower price per person, and the company of other travellers.": {
+    "ru": "Вы едете в общем транспорте с другими бронированиями на тот же день. Цена за человека ниже, а в компании — другие путешественники.",
+    "fr": "Vous voyagez dans un véhicule partagé avec d’autres réservations du même jour. Un prix par personne plus bas, et la compagnie d’autres voyageurs.",
+    "de": "Sie reisen in einem gemeinsamen Fahrzeug mit anderen Buchungen am selben Tag. Ein niedrigerer Preis pro Person und die Gesellschaft anderer Reisenden.",
+    "zh": "您将与当天的其他预订共乘一辆车。每人价格更低，还能结识其他旅客。",
+    "uk": "Ви подорожуєте у спільному транспорті з іншими бронюваннями того самого дня. Нижча ціна за особу та компанія інших подорожніх."
+  },
+  "Choose Private or Group.": {
+    "ru": "Выберите индивидуальную или групповую поездку.",
+    "fr": "Choisissez Privé ou Groupe.",
+    "de": "Wählen Sie Privat oder Gruppe.",
+    "zh": "请选择独立包车或拼团。",
+    "uk": "Виберіть індивідуальну або групову поїздку."
+  },
+  "Too many travelers for this option. Choose the other one, or remove travelers.": {
+    "ru": "Слишком много путешественников для этого варианта. Выберите другой вариант или уменьшите число путешественников.",
+    "fr": "Trop de voyageurs pour cette option. Choisissez l’autre option ou retirez des voyageurs.",
+    "de": "Zu viele Reisende für diese Option. Wählen Sie die andere Option oder entfernen Sie Reisende.",
+    "zh": "该选项的旅客人数过多。请选择另一个选项或减少人数。",
+    "uk": "Занадто багато подорожніх для цього варіанта. Виберіть інший варіант або зменшіть кількість."
+  },
+  "Not enough travelers for this option. Add travelers, or choose the other one.": {
+    "ru": "Слишком мало путешественников для этого варианта. Добавьте путешественников или выберите другой вариант.",
+    "fr": "Pas assez de voyageurs pour cette option. Ajoutez des voyageurs ou choisissez l’autre option.",
+    "de": "Zu wenige Reisende für diese Option. Fügen Sie Reisende hinzu oder wählen Sie die andere Option.",
+    "zh": "该选项的旅客人数不足。请增加人数或选择另一个选项。",
+    "uk": "Занадто мало подорожніх для цього варіанта. Додайте подорожніх або виберіть інший варіант."
+  },
+  "We cannot price this party online yet. Please message us on WhatsApp.": {
+    "ru": "Мы пока не можем рассчитать цену для такой группы онлайн. Напишите нам в WhatsApp.",
+    "fr": "Nous ne pouvons pas encore calculer le prix de ce groupe en ligne. Écrivez-nous sur WhatsApp.",
+    "de": "Für diese Gruppengröße können wir online noch keinen Preis berechnen. Schreiben Sie uns auf WhatsApp.",
+    "zh": "我们暂时无法在线计算该人数的价格。请通过 WhatsApp 联系我们。",
+    "uk": "Ми поки не можемо розрахувати ціну для такої групи онлайн. Напишіть нам у WhatsApp."
+  },
+  "This journey cannot be quoted yet. Still to be configured: Minibus and driver, per departure (EGP).": {
+    "fr": "Le tarif de ce voyage ne peut pas encore être calculé. Il reste à configurer : le minibus avec chauffeur, par départ (EGP).",
+    "de": "Für diese Reise kann noch kein Preis berechnet werden. Noch zu konfigurieren: Minibus mit Fahrer pro Abfahrt (EGP).",
+    "ru": "Стоимость этой поездки пока нельзя рассчитать. Ещё нужно указать: стоимость миниавтобуса с водителем за выезд (EGP).",
+    "zh": "暂时无法计算此行程的价格。尚需配置：每次出发的中巴及司机费用（EGP）。",
+    "uk": "Вартість цієї поїздки поки неможливо розрахувати. Ще потрібно вказати: вартість мініавтобуса з водієм за виїзд (EGP)."
   }
 }

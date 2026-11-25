@@ -1,9 +1,15 @@
+// The demo record for the flagship journey.
+//
+// `price: null` on purpose. This fixture renders only in demo mode, with no
+// API behind it, so there is no cost-based price to show; the old 3 200 was
+// a per-person catalogue figure from before the model changed. See
+// data/journeys.js for the full reasoning.
 const photo = (file, alt) => ({ type: 'image', src: `/assets/photos/${file}.png`, alt })
 const colossi = photo('hero-colossi-wide', 'The Colossi of Memnon in the warm morning light')
 const nile = photo('journey-felucca', 'A traditional felucca sailing on the Nile at sunset')
 const temple = photo('journey-karnak', 'Sunlight between the columns of Karnak Temple')
 export const luxorJourney = {
-  slug: 'luxor-west-bank-at-dawn', title: 'Luxor, west bank at dawn', location: 'Luxor, Egypt', duration: 'Half-day journey ~ 4 hours', group: 'Private for you and your companions', language: 'English', price: 3200, currency: 'USD', rating: 4.9, reviewCount: 128, image: colossi,
+  slug: 'luxor-west-bank-at-dawn', title: 'Luxor, west bank at dawn', location: 'Luxor, Egypt', duration: 'Half-day journey ~ 4 hours', group: 'Private for you and your companions', language: 'English', price: null, currency: 'USD', rating: 4.9, reviewCount: 128, image: colossi,
   overview: 'Begin your day as the sun rises over the desert. Cross gently to the west bank and explore ancient tombs and temples in the soft morning light, before the day grows warm. A calm, unhurried journey through stories that endure.',
   features: [
     { icon: 'sun', title: 'Iconic sites', text: 'World-famous tombs and temples' },

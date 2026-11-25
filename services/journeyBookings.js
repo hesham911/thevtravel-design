@@ -17,10 +17,80 @@
 //   'ok'      — the API answered.
 //   'invalid' — the API rejected the values (422). `errors` names one
 //               message per field, under the form's own field names.
+//   'stale'   — the price moved while the form was open (409). Nothing the
+//               customer typed is wrong and nothing was recorded; the page
+//               shows them the new figure and asks again. A separate status
+//               from 'invalid' because the remedy is different.
 //   'demo'    — no API base URL is configured. Deliberate demo mode (see
 //               .env.example). Nothing was sent, and the page says so
 //               rather than confirming a booking that went nowhere.
 //   'error'   — the API could not be reached or answered with a fault.
+//
+// Private and Group are different promises about the vehicle — an exclusive
+// car, or a seat shared with other bookings — so the type is always sent and
+// never inferred from the party size. The backend refuses a mismatch rather
+// than reclassifying, and this module's job is to make sure the page asks
+// the question before it gets that far.
+
+/**
+ * The booking types and their party limits.
+ *
+ * Read from the journey detail payload (`pricing.booking_types`), so the
+ * form validates the same bounds the backend enforces. The fallbacks below
+ * exist only for demo journeys with no API payload and must stay in step
+ * with config('journeys.party') on the backend — which is why the real
+ * numbers travel with the payload rather than living here.
+ *
+ * `sharesVehicle` is the whole difference, and the page has to say it: a
+ * Group customer is agreeing to travel with other people's bookings.
+ */
+export function journeyBookingTypes(bookingTypes = []) {
+  const fallbacks = [
+    { value: 'private', minTravelers: 1, maxTravelers: 3, sharesVehicle: false },
+    { value: 'group', minTravelers: 4, maxTravelers: 16, sharesVehicle: true },
+  ]
+
+  const labels = {
+    private: {
+      label: 'Private',
+      summary: 'A vehicle for your party alone',
+      detail: 'Your own vehicle and driver. Nobody else joins your journey.',
+    },
+    group: {
+      label: 'Group',
+      summary: 'Share transportation with other travellers',
+      detail: 'You travel in a shared vehicle with other bookings on the same day. A lower price per person, and the company of other travellers.',
+    },
+  }
+
+  return fallbacks.map(fallback => {
+    const supplied = bookingTypes.find(type => type.value === fallback.value)
+
+    return {
+      ...fallback,
+      ...(supplied
+        ? {
+            minTravelers: supplied.min_travelers,
+            maxTravelers: supplied.max_travelers,
+            sharesVehicle: Boolean(supplied.shares_vehicle),
+          }
+        : {}),
+      ...labels[fallback.value],
+    }
+  })
+}
+
+/** The type a party of this size may be sold, or null when it may not. */
+export function journeyBookingTypeFor(types, value) {
+  return types.find(type => type.value === value) ?? null
+}
+
+/** Whether this party size suits the chosen type. */
+export function journeyPartySizeAccepted(type, travelers) {
+  if (!type) return false
+
+  return travelers >= type.minTravelers && travelers <= type.maxTravelers
+}
 
 // Bounds come from AgeBandPricing through the journey detail API. The
 // fallbacks keep the same policy for demo journeys without an API payload.
@@ -51,6 +121,12 @@ function statusCodeOf(error) {
   return error?.response?.status ?? error?.statusCode ?? error?.status ?? null
 }
 
+function messageOf(error) {
+  const payload = error?.response?._data ?? error?.data ?? {}
+
+  return typeof payload.message === 'string' ? payload.message : ''
+}
+
 function errorsOf(error) {
   const payload = error?.response?._data ?? error?.data ?? {}
   const fields = payload.errors ?? {}
@@ -63,13 +139,24 @@ function errorsOf(error) {
   return messages
 }
 
-/** The travellers, in the shape the API's contract names. */
-export function travellersPayload({ adults, children } = {}) {
+/**
+ * The travellers, in the shape the API's contract names.
+ *
+ * `travelers_count` is sent as a CHECK, not as the total: the backend counts
+ * the party itself and refuses a figure that disagrees. Sending it turns a
+ * silent mismatch — the two sides looking at different parties — into a
+ * message somebody can act on.
+ */
+export function travellersPayload({ bookingType, adults, children } = {}) {
+  const party = (children ?? [])
+    .map(child => (child?.dateOfBirth ? { date_of_birth: child.dateOfBirth } : { age: Number(child?.age) }))
+    .filter(child => child.date_of_birth || Number.isInteger(child.age))
+
   return {
+    ...(bookingType ? { booking_type: bookingType } : {}),
     adults_count: Number(adults) || 0,
-    children: (children ?? [])
-      .map(child => (child?.dateOfBirth ? { date_of_birth: child.dateOfBirth } : { age: Number(child?.age) }))
-      .filter(child => child.date_of_birth || Number.isInteger(child.age)),
+    children: party,
+    travelers_count: (Number(adults) || 0) + party.length,
   }
 }
 
@@ -79,7 +166,7 @@ export function travellersPayload({ adults, children } = {}) {
  * Creates nothing and reserves nothing — there is no departure inventory —
  * so it is safe to call as the form is filled in.
  */
-export async function fetchJourneyPrice(apiBaseUrl, slug, { travelDate, adults, children, language } = {}) {
+export async function fetchJourneyPrice(apiBaseUrl, slug, { travelDate, bookingType, adults, children, language } = {}) {
   if (!apiBaseUrl) return DEMO
 
   try {
@@ -87,14 +174,17 @@ export async function fetchJourneyPrice(apiBaseUrl, slug, { travelDate, adults, 
       method: 'POST',
       query: { lang: language },
       headers: { Accept: 'application/json' },
-      body: { travel_date: travelDate, ...travellersPayload({ adults, children }) },
+      body: { travel_date: travelDate, ...travellersPayload({ bookingType, adults, children }) },
       retry: 0,
       timeout: 8000,
     })
 
     return { status: 'ok', quote: response?.data ?? null }
   } catch (error) {
-    if (statusCodeOf(error) === 422) return { status: 'invalid', errors: errorsOf(error) }
+    // A journey with no operating costs configured for this party size, or
+    // no exchange rate set, answers 422 with a message and no field errors.
+    // Reported as given rather than rendered as a price of zero.
+    if (statusCodeOf(error) === 422) return { status: 'invalid', errors: errorsOf(error), message: messageOf(error) }
     if (import.meta.server) console.warn(`[journey-bookings] quote ${slug}: ${error?.message || error}`)
 
     return { status: 'error', message: error?.message || String(error) }
@@ -122,7 +212,16 @@ export async function submitJourneyBooking(apiBaseUrl, booking, language) {
         ...(booking.email ? { email: booking.email } : {}),
         ...(booking.notes ? { notes: booking.notes } : {}),
         travel_date: booking.travelDate,
-        ...travellersPayload({ adults: booking.adults, children: booking.children }),
+        // Evidence of which quote the customer was looking at. It cannot set
+        // a price — the backend recalculates and books at its own figure —
+        // and can only cause a refusal, so the customer is never charged a
+        // number they did not see.
+        ...(booking.quoteToken ? { quote_token: booking.quoteToken } : {}),
+        ...travellersPayload({
+          bookingType: booking.bookingType,
+          adults: booking.adults,
+          children: booking.children,
+        }),
       },
       retry: 0,
       timeout: 12000,
@@ -130,7 +229,11 @@ export async function submitJourneyBooking(apiBaseUrl, booking, language) {
 
     return { status: 'ok', booking: response?.data ?? null, message: response?.message ?? '' }
   } catch (error) {
-    if (statusCodeOf(error) === 422) return { status: 'invalid', errors: errorsOf(error) }
+    // 409: the price moved while the form was open. Nothing was recorded and
+    // nothing the customer typed is wrong, so this is not a validation
+    // failure — the page fetches the new figure and asks them to accept it.
+    if (statusCodeOf(error) === 409) return { status: 'stale', message: messageOf(error) }
+    if (statusCodeOf(error) === 422) return { status: 'invalid', errors: errorsOf(error), message: messageOf(error) }
     if (import.meta.server) console.warn(`[journey-bookings] submit: ${error?.message || error}`)
 
     return { status: 'error', message: error?.message || String(error) }

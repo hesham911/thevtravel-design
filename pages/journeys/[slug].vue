@@ -214,7 +214,7 @@ function showPhotos(items, index = 0) { galleryViewer.value?.open(items, index) 
       </section>
       <RelatedJourneys v-if="recommendations.length" :items="recommendations" />
       <MobileJourneyControls v-if="!journey.catalogOnly" :active="active" :journey="journey" :booking-open="bookingOpen" @select="select" @request="requestJourney" />
-      <div v-if="journey.catalogOnly && !bookingOpen" class="jd-mobile-controls"><div class="jd-booking-bar"><p v-if="formatUSD(journey.price)">{{ $t('From') }} <strong>{{ formatUSD(journey.price) }}</strong><span>{{ $t('per person') }}</span></p><p v-else>{{ $t('Price on request') }}</p><button class="jd-button jd-primary" @click="requestJourney">{{ $t('Request') }}</button></div></div>
+      <div v-if="journey.catalogOnly && !bookingOpen" class="jd-mobile-controls"><div class="jd-booking-bar"><p v-if="formatUSD(journey.price)">{{ $t('From') }} <strong>{{ formatUSD(journey.price) }}</strong><span>{{ $t('per adult') }}</span></p><p v-else>{{ $t('Price on request') }}</p><button class="jd-button jd-primary" @click="requestJourney">{{ $t('Request') }}</button></div></div>
     </main>
     <main v-else-if="failed" class="jd-not-found">
       <h1>{{ $t("This journey is unavailable right now") }}</h1>

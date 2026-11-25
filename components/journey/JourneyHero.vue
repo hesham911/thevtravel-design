@@ -13,7 +13,12 @@ defineEmits(['reviews', 'request'])
       <h1 id="journey-title">{{ $t(journey.title) }}</h1>
       <button v-if="journey.reviewCount > 0 && journey.rating != null" class="jd-rating" @click="$emit('reviews')" :aria-label="$t('{rating} out of 5, {count} reviews. Read reviews', { rating: journey.rating, count: journey.reviewCount })"><span class="jd-stars" aria-hidden="true"><JourneyIcon v-for="n in 5" :key="n" name="star" :size="19" /></span><span><strong>{{ $t(journey.rating) }}</strong> ({{ $t(journey.reviewCount) }} {{ $t("reviews)") }}</span></button>
       <ul class="jd-facts"><li v-for="[icon, text] in [['pin', journey.location], ['clock', journey.duration], ['community', journey.group], ['globe', journey.language]].filter(([, text]) => text)" :key="icon"><JourneyIcon :name="icon" :size="23" />{{ $t(text) }}</li></ul>
-      <p v-if="formatUSD(journey.price)" class="jd-price">{{ $t("From") }} <strong>{{ formatUSD(journey.price) }}</strong> <span>{{ $t("per person") }}</span></p>
+      <!--
+        Per ADULT, not per person: children travel at half and under-fives
+        free, so "per person" would be a figure nobody actually pays. And
+        "from", because the price per head falls as the vehicle fills.
+      -->
+      <p v-if="formatUSD(journey.price)" class="jd-price">{{ $t("From") }} <strong>{{ formatUSD(journey.price) }}</strong> <span>{{ $t("per adult, in a full vehicle") }}</span></p>
       <p v-else class="jd-price">{{ $t("Price on request") }}</p>
       <div class="jd-actions"><button class="jd-button jd-primary" @click="$emit('request')">{{ $t("Request this journey") }}</button><PublicLink class="jd-button" :to="{ path: '/contact', query: { journey: journey.title, subject: 'question' }, hash: '#contact-form' }">{{ $t("Ask a question") }}</PublicLink></div>
       <p class="jd-payment"><JourneyIcon name="shield" :size="23" />{{ $t("No online payment. Pay at the start of your trip.") }}</p>

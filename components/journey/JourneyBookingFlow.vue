@@ -5,7 +5,7 @@ import { captureJourneyDraft, restoreJourneyDraft } from '~/services/journeyDraf
 import JourneyIcon from './JourneyIcon.vue'
 import { requiresMuseumChoice, museumBookingNotes } from '~/utils/journeyMuseum'
 import { useI18n } from '~/utils/i18n'
-import { fetchJourneyPrice, submitJourneyBooking, journeyTravelerCategories, validJourneyChildAge } from '~/services/journeyBookings'
+import { fetchJourneyPrice, submitJourneyBooking, journeyTravelerCategories, validJourneyChildAge, journeyBookingTypes, journeyBookingTypeFor, journeyPartySizeAccepted } from '~/services/journeyBookings'
 import { formatUSD } from '~/utils/currency'
 const { locale } = useI18n()
 const { public: runtime } = useRuntimeConfig()
@@ -25,7 +25,7 @@ const countries = [
   { id: 'AE', name: 'United Arab Emirates', flag: '🇦🇪', code: '+971' },
   { id: 'SA', name: 'Saudi Arabia', flag: '🇸🇦', code: '+966' },
 ]
-const state = reactive({ adults: 2, children: 0, youngChildren: 0, travelDate: '', country: 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', museum: '', currentStep: 1 })
+const state = reactive({ bookingType: 'private', adults: 2, children: 0, youngChildren: 0, travelDate: '', country: 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', museum: '', currentStep: 1 })
 // One age per child, because the backend prices each child on their own age
 // rather than on a band the form picked. The ages are kept beside the
 // counter rather than replacing it: the counter is how the dialog has always
@@ -38,14 +38,39 @@ const errors = ref({})
 // customer sees and the figure that is stored come from the same place.
 const quote = ref(null)
 const quoting = ref(false)
+// Why the last quote could not be shown — a journey with no costs configured
+// for this party, say. Reported in the API's own words rather than as a
+// missing price.
+const quoteError = ref('')
+// Set when the backend refused the submission because the price moved while
+// the form was open. The customer is shown the new figure and asked again;
+// nothing was recorded.
+const quoteStale = ref(false)
 // The request, once it has been sent and acknowledged.
 const submitted = ref(null)
 const submitError = ref('')
 const sending = ref(false)
 const countryName = computed(() => countries.find(c => c.id === state.country)?.name || state.country)
 const dateLabel = computed(() => state.travelDate ? new Intl.DateTimeFormat(locale.value, { month: 'long', day: 'numeric', year: 'numeric' }).format(new Date(`${state.travelDate}T12:00:00`)) : '')
-const mobileTitle = computed(() => ['Plan your journey', 'Your contact details', 'Review your request'][state.currentStep - 1])
+const mobileTitle = computed(() => ['Plan your journey', 'Your contact details', 'Review your request', 'Thank you — your request is with us.'][state.currentStep - 1])
 const travelers = computed(() => journeyTravelerCategories(props.journey.pricing?.age_bands))
+// The types and their party limits as the backend reports them, so the form
+// enforces the same bounds rather than a copy of them that can drift.
+const bookingTypes = computed(() => journeyBookingTypes(props.journey.pricing?.booking_types ?? []))
+const bookingType = computed(() => journeyBookingTypeFor(bookingTypes.value, state.bookingType))
+// Every traveller counts toward the party and the vehicle, infants included:
+// they occupy a seat whatever they are charged.
+const partySize = computed(() => state.adults + state.children + state.youngChildren)
+const partySizeAccepted = computed(() => journeyPartySizeAccepted(bookingType.value, partySize.value))
+// The counters stop at the chosen type's ceiling rather than letting a
+// customer build a party the backend will refuse.
+const partyFull = computed(() => !!bookingType.value && partySize.value >= bookingType.value.maxTravelers)
+/**
+ * Whether this journey can be booked at all. A journey with no operating
+ * costs configured has no price anybody can act on, and the form says so
+ * instead of offering an obsolete catalogue figure.
+ */
+const bookable = computed(() => props.journey.pricing?.bookable !== false)
 const childGroups = computed(() => travelers.value.filter(category => category.key !== 'adults').map(category => ({
   ...category,
   ages: category.key === 'children' ? childAges.value : youngChildAges.value,
@@ -62,7 +87,7 @@ async function open() {
   restoring = true
   activeJourney = props.journey
   const restored = restoreJourneyDraft(activeJourney, draft.value)
-  Object.assign(state, { adults: 2, children: 0, youngChildren: 0, travelDate: '', country: props.journey.countryCode || 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', museum: '', currentStep: 1 })
+  Object.assign(state, { bookingType: 'private', adults: 2, children: 0, youngChildren: 0, travelDate: '', country: props.journey.countryCode || 'EG', fullName: '', phoneCountry: 'EG', phoneCode: '+20', phoneNumber: '', email: '', notes: '', museum: '', currentStep: 1 })
   if (restored) {
     const { childAges: children, youngChildAges: young, ...values } = restored
     Object.assign(state, values)
@@ -76,6 +101,8 @@ async function open() {
   saveDraft()
   errors.value = {}
   quote.value = null
+  quoteError.value = ''
+  quoteStale.value = false
   submitted.value = null
   submitError.value = ''
   if (state.currentStep === 3) refreshQuote()
@@ -93,6 +120,18 @@ async function validate(step) {
   const e = {}
   if (step === 1) {
     if (state.adults < 1) e.adults = 'Include at least one adult.'
+    // The type is the customer's choice and is never substituted: a party of
+    // five that asked for Private is told the rule rather than quietly moved
+    // onto a shared vehicle.
+    if (!bookingType.value) e.bookingType = 'Choose Private or Group.'
+    // Fixed sentences rather than interpolated ones, so they are
+    // translatable keys: the actual numbers are already on screen in the
+    // "{count} of {max} travelers" line directly above this message.
+    else if (!partySizeAccepted.value) {
+      e.bookingType = partySize.value > bookingType.value.maxTravelers
+        ? 'Too many travelers for this option. Choose the other one, or remove travelers.'
+        : 'Not enough travelers for this option. Add travelers, or choose the other one.'
+    }
     if (!state.travelDate || Number.isNaN(new Date(`${state.travelDate}T12:00:00`).getTime())) e.travelDate = 'Choose your travel date.'
     // Any future date is accepted: there is no departure inventory, and the
     // team confirms availability by hand. Only the past is refused.
@@ -145,6 +184,10 @@ async function confirm() {
       email: state.email.trim(),
       notes: requiresMuseumChoice(props.journey) ? museumBookingNotes(state.museum, state.notes) : state.notes.trim(),
       travelDate: state.travelDate,
+      // Proof of the quote on their screen. The backend recalculates and
+      // books at its own figure; this can only stop them being charged a
+      // price they never saw.
+      quoteToken: quote.value?.quote_token ?? null,
       ...travellers(),
     }
 
@@ -162,6 +205,18 @@ async function confirm() {
       return
     }
 
+    if (result.status === 'stale') {
+      // The price moved while the form was open. Nothing was recorded. The
+      // customer is shown the new figure and has to accept it, which is the
+      // whole point: they are never booked at a price they did not see.
+      quoteStale.value = true
+      submitError.value = result.message || 'The price for this journey has been updated. Please review the new price before confirming.'
+      await refreshQuote()
+      go(3, false)
+
+      return
+    }
+
     if (result.status === 'invalid') {
       // The API's rules, mapped back onto the fields the dialog shows. A
       // rejection naming nothing here would leave the customer reading
@@ -171,13 +226,16 @@ async function confirm() {
         ...(result.errors.phone_number ? { phoneNumber: result.errors.phone_number } : {}),
         ...(result.errors.email ? { email: result.errors.email } : {}),
         ...(result.errors.travel_date ? { travelDate: result.errors.travel_date } : {}),
+        ...(result.errors.booking_type ? { bookingType: result.errors.booking_type } : {}),
+        ...(result.errors.travelers_count ? { bookingType: result.errors.travelers_count } : {}),
+        ...(result.errors.adults_count ? { adults: result.errors.adults_count } : {}),
         ...(Object.keys(result.errors).some(field => field === 'children' || field.startsWith('children.'))
           ? { childAges: Object.entries(result.errors).find(([field]) => field === 'children' || field.startsWith('children.'))[1] } : {}),
       }
       submitError.value = Object.keys(errors.value).length
         ? 'Please check the highlighted details.'
         : 'We couldn’t send your request. Please try again, or message us on WhatsApp.'
-      go(Object.keys(errors.value).some(field => field === 'travelDate' || field === 'childAges') ? 1 : 2, false)
+      go(Object.keys(errors.value).some(field => ['travelDate', 'childAges', 'bookingType', 'adults'].includes(field)) ? 1 : 2, false)
 
       return
     }
@@ -198,9 +256,24 @@ watch(() => state.youngChildren, count => {
   youngChildAges.value = Array.from({ length: count }, (_, index) => youngChildAges.value[index] ?? null)
 })
 
+/**
+ * The label and the counter a priced age band belongs to.
+ *
+ * The bands come from the API, so the dialog does not restate the policy —
+ * it only needs to know which of its own counters each band corresponds to.
+ */
+function bandLabel(band) {
+  return travelers.value.find(category => category.band === band)?.label ?? band
+}
+
+function bandCounterKey(band) {
+  return travelers.value.find(category => category.band === band)?.key ?? 'adults'
+}
+
 /** The travellers as the API asks for them: an age for every child. */
 function travellers() {
   return {
+    bookingType: state.bookingType,
     adults: state.adults,
     children: [
       ...childAges.value.map(age => ({ age: Number(age) })),
@@ -212,8 +285,9 @@ function travellers() {
 /** Asks the backend what this party would pay, for the review step. */
 async function refreshQuote() {
   quote.value = null
+  quoteError.value = ''
 
-  if (!api || !state.travelDate) return
+  if (!api || !state.travelDate || !partySizeAccepted.value) return
 
   quoting.value = true
   try {
@@ -222,11 +296,29 @@ async function refreshQuote() {
       ...travellers(),
       language: locale.value,
     })
+
     quote.value = result.status === 'ok' ? result.quote : null
+
+    // A journey that cannot be costed for this party says why. Shown in the
+    // API's own words rather than as a blank price, because "we have not
+    // priced a minibus yet" is a different thing from "price on request".
+    if (result.status === 'invalid') {
+      quoteError.value = result.message || 'We cannot price this party online yet. Please message us on WhatsApp.'
+    }
   } finally {
     quoting.value = false
   }
 }
+
+// Changing the party or the type invalidates the figure on screen. The quote
+// is dropped rather than left showing a price for a party that no longer
+// matches, and re-fetched when the customer is back on the review step.
+watch([() => state.bookingType, () => state.adults, () => state.children, () => state.youngChildren, () => state.travelDate], () => {
+  quote.value = null
+  quoteStale.value = false
+
+  if (state.currentStep === 3) refreshQuote()
+})
 
 watch(() => props.journey.slug, close)
 defineExpose({ open })
@@ -242,7 +334,43 @@ defineExpose({ open })
         <form novalidate @submit.prevent="state.currentStep === 3 ? confirm() : next()">
           <JourneyBookingSummary v-if="state.currentStep < 3" class="jb-desktop-summary" :journey="journey" />
           <div v-if="state.currentStep === 1" class="jb-trip">
-            <section><h3 class="jb-section-label"><JourneyIcon name="community" />{{ $t("Travelers") }}</h3><div class="jb-traveler-rows"><div v-for="{ key, label, single, description, min } in travelers" :key="key" class="jb-traveler"><div>{{ $t(label) }}<small>{{ $t(description) }}</small></div><div class="jb-counter"><button type="button" :aria-label="$t(`Remove one ${single}`)" :disabled="state[key] <= min" @click="state[key]--"><JourneyIcon name="minus" :size="18" /></button><output :aria-label="$t(`${label} count`)" aria-live="polite">{{ $t(state[key]) }}</output><button type="button" :aria-label="$t(`Add one ${single}`)" @click="state[key]++"><JourneyIcon name="plus" :size="18" /></button></div></div></div><p v-if="errors.adults" class="jb-error">{{ $t(errors.adults) }}</p>
+            <p v-if="!bookable" class="jb-error jb-not-bookable" role="status">{{ $t("This journey is not available to book online yet. Please message us on WhatsApp and we will arrange it with you.") }}</p>
+            <!--
+              Private or Group, asked before the party size.
+
+              The two are different promises about the vehicle, so the choice
+              is the customer's and the backend refuses a party that does not
+              suit it rather than reclassifying. The sharing is named in the
+              option itself, not left to the terms: a Group customer is
+              agreeing to travel with other people's bookings.
+            -->
+            <section class="jb-booking-types">
+              <h3 class="jb-section-label"><JourneyIcon name="shield" />{{ $t("How would you like to travel?") }}</h3>
+              <div class="jb-booking-type-rows" role="radiogroup" :aria-label='$t("How would you like to travel?")'>
+                <label v-for="type in bookingTypes" :key="type.value" class="jb-booking-type" :class="{ selected: state.bookingType === type.value }">
+                  <input
+                    v-model="state.bookingType"
+                    type="radio"
+                    name="jb-booking-type"
+                    :value="type.value"
+                    :aria-describedby="`jb-booking-type-${type.value}-detail`"
+                  />
+                  <span class="jb-booking-type-body">
+                    <strong>{{ $t(type.label) }}</strong>
+                    <span class="jb-booking-type-summary">{{ $t(type.summary) }}</span>
+                    <small :id="`jb-booking-type-${type.value}-detail`">{{ $t(type.detail) }}</small>
+                    <small class="jb-booking-type-range">{{ $t("{min} to {max} travelers", { min: type.minTravelers, max: type.maxTravelers }) }}</small>
+                  </span>
+                </label>
+              </div>
+              <small v-if="errors.bookingType" id="jb-booking-type-error" role="alert" class="jb-error">{{ $t(errors.bookingType) }}</small>
+            </section>
+            <section><h3 class="jb-section-label"><JourneyIcon name="community" />{{ $t("Travelers") }}</h3><div class="jb-traveler-rows"><div v-for="{ key, label, single, description, min } in travelers" :key="key" class="jb-traveler"><div>{{ $t(label) }}<small>{{ $t(description) }}</small></div><div class="jb-counter"><button type="button" :aria-label="$t(`Remove one ${single}`)" :disabled="state[key] <= min" @click="state[key]--"><JourneyIcon name="minus" :size="18" /></button><output :aria-label="$t(`${label} count`)" aria-live="polite">{{ $t(state[key]) }}</output><button type="button" :aria-label="$t(`Add one ${single}`)" :disabled="partyFull" :aria-describedby="partyFull ? 'jb-party-limit' : undefined" @click="state[key]++"><JourneyIcon name="plus" :size="18" /></button></div></div></div>
+              <p v-if="bookingType" id="jb-party-limit" class="jb-party-limit" aria-live="polite">
+                {{ $t("{count} of {max} travelers", { count: partySize, max: bookingType.maxTravelers }) }}
+                <span v-if="partyFull"> — {{ $t("{label} takes up to {max}. Choose {other} for a larger party.", { label: $t(bookingType.label), max: bookingType.maxTravelers, other: $t(bookingType.value === 'private' ? 'Group' : 'Private') }) }}</span>
+              </p>
+              <p v-if="errors.adults" class="jb-error">{{ $t(errors.adults) }}</p>
               <div v-for="group in childGroups.filter(group => state[group.key])" :key="group.key" class="jb-child-ages">
                 <p class="jb-section-label">{{ $t(group.label) }} — {{ $t("Age on the journey") }}</p>
                 <div class="jb-child-age-rows">
@@ -275,7 +403,7 @@ defineExpose({ open })
           </div>
           <div v-else-if="state.currentStep === 4" class="jb-review jb-sent">
             <div class="jb-review-intro">
-              <h3>{{ $t("Thank you — your request is with us.") }}</h3>
+              <h3 class="jb-desktop">{{ $t("Thank you — your request is with us.") }}</h3>
               <p>{{ $t("Our team will message you on WhatsApp to confirm the date, the price and the details. Nothing is charged until you have agreed them.") }}</p>
             </div>
             <dl>
@@ -292,25 +420,41 @@ defineExpose({ open })
           <div v-else class="jb-review">
             <div class="jb-review-intro"><h3>{{ $t("Review your request") }}</h3><p>{{ $t("Please check your details below before submitting your request.") }}</p></div>
             <JourneyBookingSummary class="jb-mobile" :journey="journey" review />
-            <section><div class="jb-review-heading"><h3><JourneyIcon name="calendar" />{{ $t("Trip details") }}</h3><button type="button" @click="go(1)">{{ $t("Edit") }}<span class="jb-sr-only"> {{ $t("trip details") }}</span></button></div><dl><div><dt>{{ $t("Date") }}</dt><dd>{{ $t(dateLabel) }}</dd></div><div><dt>{{ $t("Country") }}</dt><dd>{{ $t(countryName) }}</dd></div><div><dt>{{ $t("Travelers") }}</dt><dd><div v-for="category in travelers" :key="category.key">{{ $t(state[category.key]) }} {{ $t(category.label) }}<small v-if="category.key !== 'adults' && state[category.key]"> — {{ $t("Ages") }}: {{ (category.key === 'children' ? childAges : youngChildAges).join(', ') }}</small></div></dd></div></dl></section>
-            <section v-if="quote || quoting">
+            <section><div class="jb-review-heading"><h3><JourneyIcon name="calendar" />{{ $t("Trip details") }}</h3><button type="button" @click="go(1)">{{ $t("Edit") }}<span class="jb-sr-only"> {{ $t("trip details") }}</span></button></div><dl><div><dt>{{ $t("Date") }}</dt><dd>{{ $t(dateLabel) }}</dd></div><div><dt>{{ $t("Country") }}</dt><dd>{{ $t(countryName) }}</dd></div><div v-if="bookingType"><dt>{{ $t("How you travel") }}</dt><dd>{{ $t(bookingType.label) }}<small> — {{ $t(bookingType.summary) }}</small></dd></div><div><dt>{{ $t("Travelers") }}</dt><dd><div v-for="category in travelers" :key="category.key">{{ $t(state[category.key]) }} {{ $t(category.label) }}<small v-if="category.key !== 'adults' && state[category.key]"> — {{ $t("Ages") }}: {{ (category.key === 'children' ? childAges : youngChildAges).join(', ') }}</small></div></dd></div></dl></section>
+            <!--
+              The price, as the backend worked it out. Every figure here comes
+              from its answer: nothing on this page multiplies, adds or
+              rounds anything, so what the customer reads is what gets
+              stored.
+            -->
+            <section v-if="quote || quoting || quoteError">
               <div class="jb-review-heading"><h3><JourneyIcon name="card" />{{ $t("Estimated total") }}</h3></div>
+              <p v-if="quoteStale" class="jb-error jb-quote-stale" role="alert">{{ $t("The price for this journey has been updated. Please review the new price before confirming.") }}</p>
               <dl>
                 <div v-if="quoting"><dt>{{ $t("Estimated total") }}</dt><dd>{{ $t("Calculating…") }}</dd></div>
+                <template v-else-if="quoteError">
+                  <div><dt>{{ $t("Estimated total") }}</dt><dd>{{ $t("Price on request") }}</dd></div>
+                </template>
                 <template v-else-if="quote?.price_on_request">
                   <div><dt>{{ $t("Estimated total") }}</dt><dd>{{ $t("Price on request") }}</dd></div>
                 </template>
                 <template v-else>
-                  <div><dt>{{ $t("Estimated total") }}</dt><dd>{{ formatUSD(quote.total) }}</dd></div>
-                  <div><dt>{{ $t("Adults") }}</dt><dd>{{ $t(state.adults) }} × {{ formatUSD(quote.base_adult_price) }}</dd></div>
+                  <div v-for="line in quote.age_policy" :key="line.band">
+                    <dt>{{ $t(bandLabel(line.band)) }}</dt>
+                    <dd>
+                      {{ $t(state[bandCounterKey(line.band)] ?? 0) }} × {{ line.price === '0.00' ? $t("Free") : formatUSD(line.price) }}
+                    </dd>
+                  </div>
+                  <div class="jb-quote-total"><dt>{{ $t("Estimated total") }}</dt><dd><strong>{{ formatUSD(quote.total) }}</strong></dd></div>
                 </template>
               </dl>
+              <p v-if="quoteError" class="jb-error">{{ $t(quoteError) }}</p>
               <p class="jb-quote-note">{{ $t("Worked out by our team's own pricing. We confirm the final amount with you before anything is agreed.") }}</p>
             </section>
             <section><div class="jb-review-heading"><h3><JourneyIcon name="person" />{{ $t("Contact details") }}</h3><button type="button" @click="go(2)">{{ $t("Edit") }}<span class="jb-sr-only"> {{ $t("contact details") }}</span></button></div><dl><div><dt>{{ $t("Full name") }}</dt><dd>{{ state.fullName }}</dd></div><div><dt>{{ $t("Phone number") }}</dt><dd>{{ state.phoneCode }} {{ state.phoneNumber }}</dd></div><div><dt>{{ $t("Email") }}</dt><dd>{{ $t(state.email || 'Not provided') }}</dd></div></dl></section>
           </div>
           <footer v-if="state.currentStep === 4" class="jb-actions"><button class="jd-button jd-primary" type="button" @click="close">{{ $t("Done") }}</button></footer>
-          <footer v-else class="jb-actions"><button v-if="state.currentStep > 1" class="jd-button jb-back" type="button" @click="go(state.currentStep - 1)"><JourneyIcon name="arrow" />{{ $t("Back") }}</button><button class="jd-button jd-primary" type="submit" :disabled="sending" :aria-busy="sending">{{ $t(state.currentStep === 3 ? (sending ? 'Sending…' : 'Confirm request') : 'Continue') }}<JourneyIcon name="arrow" /></button><button v-if="state.currentStep === 3" type="button" class="jd-button jb-mobile jb-edit-details" @click="go(1)">{{ $t("Edit details") }}</button></footer>
+          <footer v-else class="jb-actions"><button v-if="state.currentStep > 1" class="jd-button jb-back" type="button" @click="go(state.currentStep - 1)"><JourneyIcon name="arrow" />{{ $t("Back") }}</button><button class="jd-button jd-primary" type="submit" :disabled="sending || !bookable" :aria-busy="sending">{{ $t(state.currentStep === 3 ? (sending ? 'Sending…' : 'Confirm request') : 'Continue') }}<JourneyIcon name="arrow" /></button><button v-if="state.currentStep === 3" type="button" class="jd-button jb-mobile jb-edit-details" @click="go(1)">{{ $t("Edit details") }}</button></footer>
           <p v-if="submitError" class="jb-error jb-submit-error" role="status" aria-live="polite">{{ $t(submitError) }}</p>
         </form>
       </div>

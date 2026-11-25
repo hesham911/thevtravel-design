@@ -155,8 +155,16 @@ export function toCard(journey) {
     destination: journey.destination?.name ?? journey.location ?? '',
     destinationSlug: journey.destination?.slug ?? null,
     duration: journey.duration ?? '',
+    // The lowest adult price the journey can actually be booked at, derived
+    // by the backend from its operating costs. Null means it is not
+    // configured for any party size, and the card shows "Price on request"
+    // rather than an obsolete catalogue figure.
     price: journey.price?.amount == null ? null : Number(journey.price.amount),
     currency: journey.price?.currency ?? 'USD',
+    // A "from" price: the per-head figure falls as a group grows, because
+    // the vehicle and the guide are shared by more people.
+    priceIsFrom: journey.price?.is_from_price !== false,
+    bookable: journey.price?.bookable !== false,
     interest: journey.interest?.name ?? '',
     interestSlug: journey.interest?.slug ?? null,
     interestIconImageUrl: journey.interest?.icon_image_url || '',

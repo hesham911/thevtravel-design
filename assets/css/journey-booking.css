@@ -13,6 +13,7 @@
 .jb-section-label { display:flex; align-items:center; gap:18px; font:600 16px/1.4 var(--font-ui)!important; margin-bottom:5px!important; }.jb-traveler-rows { padding-left:42px; }.jb-traveler { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:8px 0; border-bottom:1px solid var(--line); font-size:14px; line-height:1.4; }.jb-traveler small { display:block; color:var(--muted); font-size:12px; }.jb-counter { display:grid; grid-template-columns:44px 58px 44px; height:44px; border:1px solid var(--line); border-radius:5px; overflow:hidden; }.jb-counter button { border:0; background:transparent; color:inherit; font-size:24px; cursor:pointer; }.jb-counter button:disabled { opacity:.4; cursor:default; }.jb-counter output { border-inline:1px solid var(--line); display:grid; place-items:center; font-weight:600; font-variant-numeric:tabular-nums; }
 .jb-field { display:grid; gap:7px; margin:20px 0; font-size:14px; font-weight:600; }.jb-field>span { display:flex; gap:18px; align-items:center; }.jb-field input,.jb-field select,.jb-phone select { width:100%; height:46px; min-width:0; border:1px solid var(--line); border-radius:6px; padding:0 14px; background:var(--field-bg); color:inherit; font:400 14px var(--font-ui); color-scheme:inherit; }.jb-field option { background:var(--card); color:var(--text); }.jb-field input::placeholder { color:var(--placeholder); opacity:1; }.jb-icon-field>input,.jb-icon-field>select,.jb-icon-field>.jb-error { width:calc(100% - 42px); margin-left:42px; }.jb-phone { display:grid; grid-template-columns:135px minmax(0,1fr); gap:8px; }.jb-optional { color:var(--muted); font-weight:400; }.jb-contact-intro { display:flex; gap:18px; margin-bottom:30px; }.jb-contact-intro h3 { font-size:25px; }.jb-contact-intro p { margin:7px 0 0; font-size:13px; }.jb-contact .jb-field { margin:24px 0; }
 .jb-review-intro { border-block:1px solid var(--line); padding:20px 0 14px; }.jb-review-intro h3 { font-size:26px; }.jb-review-intro p { font-size:12px; line-height:1.5; margin:7px 0 0; }.jb-review section { margin:18px 0 28px; }.jb-review-heading { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }.jb-review-heading h3 { display:flex; align-items:center; gap:18px; font-size:23px; }.jb-review-heading button { color:inherit; background:transparent; border:0; font:500 13px var(--font-ui); cursor:pointer; padding:8px; text-decoration:underline; text-underline-offset:3px; }.jb-review dl { padding:18px 22px; border:1px solid var(--line); border-radius:9px; margin:0; display:grid; gap:12px; font-size:13px; }.jb-review dl>div { display:grid; grid-template-columns:35% minmax(0,1fr); gap:8px; }.jb-review dt { color:var(--muted); }.jb-review dd { margin:0; overflow-wrap:anywhere; }
+.jb-sent .jb-review-intro { display:block; }
 .jb-actions { display:flex; gap:18px; padding-top:4px; position:sticky; bottom:-26px; background:var(--card); padding-bottom:12px; }.jb-actions .jd-button { gap:12px; min-height:52px; white-space:nowrap; flex-shrink:0; }.jb-actions .jd-primary { flex:1; color:white; }.jb-actions .jb-edit-details { display:none; }.jb-back { min-width:130px; }.jb-back svg { transform:rotate(180deg); }.jb-dialog button:hover:not(:disabled):not(.jd-primary) { background:var(--surface-hover); }.jb-dialog :is(button,input,select):focus-visible { outline:3px solid var(--brand-orange); outline-offset:2px; }.jb-dialog [aria-invalid='true'] { border-color:var(--error); }.jb-error { color:var(--error); font-size:12px; font-weight:400; line-height:1.4; }.jb-sr-only { position:absolute; width:1px; height:1px; clip-path:inset(50%); overflow:hidden; }
 @keyframes jb-enter { from { transform:translateX(100%); } to { transform:translateX(0); } }
 @media(max-width:1023px) {
@@ -57,3 +58,34 @@
    needs: its own height and a resize handle. */
 .jb-field textarea { width: 100%; min-height: 96px; min-width: 0; padding: 12px 14px; border: 1px solid var(--line); border-radius: 6px; background: var(--field-bg); color: inherit; font: 400 14px var(--font-ui); color-scheme: inherit; resize: vertical; }
 .jb-field textarea::placeholder { color: var(--placeholder); opacity: 1; }
+
+/* Private or Group — the first thing the dialog asks, because the two are
+   different promises about the vehicle and the party size cannot answer it.
+
+   Cards rather than a select: the difference that matters is a sentence
+   ("you share transportation with other bookings"), and a dropdown has
+   nowhere to put a sentence. The native radio stays in the markup and is
+   only visually hidden, so the group remains keyboard-operable and
+   announced as a radiogroup. */
+.jb-booking-types { margin-bottom: 26px; }
+.jb-booking-type-rows { display: grid; gap: 10px; margin-top: 10px; padding-left: 42px; }
+.jb-booking-type { display: flex; gap: 12px; align-items: flex-start; padding: 14px; border: 1px solid var(--line); border-radius: 8px; cursor: pointer; background: var(--field-bg); }
+.jb-booking-type.selected { border-color: var(--brand-orange); box-shadow: inset 0 0 0 1px var(--brand-orange); }
+.jb-booking-type input { flex-shrink: 0; width: 18px; height: 18px; margin-top: 2px; accent-color: var(--brand-orange); }
+.jb-booking-type-body { display: grid; gap: 3px; font-size: 14px; line-height: 1.45; }
+.jb-booking-type-body strong { font-size: 15px; }
+.jb-booking-type-summary { font-weight: 600; color: var(--text); }
+.jb-booking-type-body small { color: var(--muted); font-size: 12px; }
+.jb-booking-type-range { font-variant-numeric: tabular-nums; }
+/* "4 of 16 travelers", and why the plus button stopped. Announced politely
+   rather than as an error: reaching the ceiling is not a mistake. */
+.jb-party-limit { margin: 10px 0 0; padding-left: 42px; font-size: 12px; line-height: 1.5; color: var(--muted); font-variant-numeric: tabular-nums; }
+/* The price moved while the form was open. The customer has not been charged
+   anything and nothing was recorded; this asks them to look again. */
+.jb-quote-stale { margin: 0 0 10px; font-weight: 600; }
+.jb-not-bookable { margin: 0 0 20px; font-weight: 600; }
+.jb-quote-total dt, .jb-quote-total dd { padding-top: 6px; border-top: 1px solid var(--line); }
+
+@media (max-width: 767px) {
+  .jb-booking-type-rows, .jb-party-limit { padding-left: 14px; }
+}
