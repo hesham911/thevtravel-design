@@ -259,5 +259,16 @@ test('starting price and party context come from the full-price backend configur
   assert.deepEqual(card.priceContext, { travelers: 8, booking_type: 'group' })
   assert.equal(card.priceContextLabel, 'In a group of {count}')
   assert.equal(toCard({ price: { amount: null } }).price, null)
-  assert.equal(toCard({ price: { amount: '202.50', context: { travelers: 2, booking_type: 'private' } } }).priceContextLabel, 'Private party of {count}')
+  assert.equal(toCard({ price: { amount: '203.00', context: { travelers: 2, booking_type: 'private' } } }).priceContextLabel, 'Private party of {count}')
+})
+
+
+test('cards and details preserve the rounded full-price starting amount and passenger context', () => {
+  const payload = { slug: 'rounded', price: { amount: '113.00', currency: 'USD', context: { travelers: 8, booking_type: 'group' } } }
+  for (const journey of [toCard(payload), toDetail(payload)]) {
+    assert.equal(journey.price, 113)
+    assert.deepEqual(journey.priceContext, { travelers: 8, booking_type: 'group' })
+    assert.equal(journey.priceContextLabel, 'In a group of {count}')
+    assert.doesNotMatch(journey.priceContextLabel, /adult/i)
+  }
 })

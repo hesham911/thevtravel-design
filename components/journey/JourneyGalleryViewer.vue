@@ -1,6 +1,7 @@
 <script setup>
 import { computed, nextTick, onBeforeUnmount, ref, watch } from 'vue'
 import JourneyIcon from './JourneyIcon.vue'
+defineProps({ label: { type: String, default: 'Journey photo gallery' } })
 const dialog = ref(null)
 const photos = ref([])
 const index = ref(0)
@@ -22,7 +23,7 @@ onBeforeUnmount(unlock)
 defineExpose({ open })
 </script>
 <template>
-  <dialog ref="dialog" class="jd-gallery-viewer" :aria-label='$t("Journey photo gallery")' @close="closed" @keydown="keys">
+  <dialog ref="dialog" class="jd-gallery-viewer" :aria-label='$t(label)' @close="closed" @keydown="keys">
     <template v-if="current"><header class="jd-gallery-top"><span>{{ $t(current.source || 'TheVTravel · Journey gallery') }}</span><button class="jd-gallery-close" :aria-label='$t("Close photo viewer")' @click="close"><JourneyIcon name="close" :size="26" /></button></header>
       <div class="jd-gallery-stage" @touchstart.passive="startSwipe" @touchend.passive="endSwipe"><button class="jd-gallery-prev" :disabled="photos.length < 2" :aria-label='$t("Previous photo")' @click="move(-1)"><JourneyIcon name="chevron-left" :size="30" /></button><img :src="current.src" :srcset="current.srcset || undefined" sizes="90vw" :alt="$t(current.alt)" draggable="false" /><button class="jd-gallery-next" :disabled="photos.length < 2" :aria-label='$t("Next photo")' @click="move(1)"><JourneyIcon name="chevron-right" :size="30" /></button></div>
       <div class="jd-gallery-caption"><div><p>{{ current.caption || $t(current.alt) }}</p><small v-if="current.credit"><a :href="current.credit.source_url" target="_blank" rel="noopener noreferrer">{{ current.credit.author }}</a> · <a :href="current.credit.license_url" target="_blank" rel="noopener noreferrer">{{ current.credit.license }}</a> · {{ $t('Resized · WebP') }}</small></div><span aria-live="polite">{{ $t(index + 1) }} / {{ $t(photos.length) }}</span></div>

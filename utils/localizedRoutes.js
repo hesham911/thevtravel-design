@@ -1,7 +1,7 @@
 export const publicLocales = Object.freeze(['en', 'fr', 'de', 'ru', 'zh', 'uk'])
 const localePattern = new RegExp(`^/(${[...publicLocales, 'ar'].join('|')})(?=/|$)`)
-const publicRouteNames = new Set(['home', 'journeys', 'journey-details', 'about', 'contact', 'faq', 'how-booking-works', 'privacy-policy', 'terms-and-conditions'])
-const staticPaths = new Set(['/', '/about', '/contact', '/faq', '/how-booking-works', '/privacy-policy', '/terms-and-conditions', '/journeys'])
+const publicRouteNames = new Set(['home', 'transfers', 'journeys', 'journey-details', 'about', 'contact', 'faq', 'how-booking-works', 'privacy-policy', 'terms-and-conditions'])
+const staticPaths = new Set(['/', '/transfers', '/about', '/contact', '/faq', '/how-booking-works', '/privacy-policy', '/terms-and-conditions', '/journeys'])
 
 export function localeFromPath(path = '') {
   const locale = path.match(localePattern)?.[1]

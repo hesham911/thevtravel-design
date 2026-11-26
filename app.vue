@@ -21,7 +21,7 @@ const { theme } = useTheme()
 // own head (the journey pages) or has no CMS page behind it.
 const cmsPageKeys = {
   home: 'home', journeys: 'journeys', about: 'about-us', contact: 'contact-us',
-  faq: 'faq', 'how-booking-works': 'how-booking-works',
+  transfers: 'transfers', faq: 'faq', 'how-booking-works': 'how-booking-works',
   'privacy-policy': 'privacy-policy', 'terms-and-conditions': 'terms-and-conditions',
 }
 // The built-in description for each page, used only in demo mode or while
@@ -32,6 +32,7 @@ const descriptions = {
   home: 'Journeys across Egypt. You choose the date. We take care of the rest. Handpicked private journeys, locally planned and paid at the start of your trip.',
   journeys: 'Handpicked private experiences across Egypt. You choose the date, we take care of the rest. Browse journeys by destination and interest.',
   about: 'Private journeys and transfers across Egypt, planned by a local team that confirms every detail before you travel. No online payment, no deposit.',
+  transfers: 'Airport transfers, city to city or private car with driver.',
   contact: 'Plan your Egypt journey with a local team. Message us on WhatsApp or by email — real people, real replies, every day.',
   faq: 'Answers to the most common questions about booking a private journey in Egypt: dates, payment, transfers, changes and what is included.',
   'how-booking-works': 'Booking your private journey with TheVTravel is simple and flexible: explore journeys, request your date, and we take care of the rest. No online payment required.',

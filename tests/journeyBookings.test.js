@@ -461,3 +461,25 @@ test('large group inquiries keep their party and submit without an automatic pri
     assert.equal(f.submitted.value.price.calculated_total, null)
   } finally { globalThis.$fetch = original }
 })
+
+
+test('booking review preserves rounded base fares and cents in discounted fares and extras', async () => {
+  const original = globalThis.$fetch
+  const quoted = {
+    base_adult_price: '203.00', total: '319.75', quote_token: 'rounded-quote',
+    age_policy: [{ band: 'adult', price: '203.00' }, { band: 'child', price: '101.50' }],
+    lines: [{ band: 'extra', key: 'boat', quantity: 1, unit_price: '15.25', amount: '15.25' }],
+  }
+  globalThis.$fetch = async () => ({ data: quoted })
+  try {
+    const f = form()
+    Object.assign(f.state, { bookingType: 'private', adults: 1, children: 1, travelDate: '2100-01-01' })
+    await nextTick()
+    await f.refreshQuote()
+    assert.deepEqual(f.quote.value, quoted)
+    assert.equal(formatUSD(f.quote.value.base_adult_price), '$203')
+    assert.equal(formatUSD(f.quote.value.age_policy[1].price), '$101.50')
+    assert.equal(formatUSD(f.quote.value.lines[0].unit_price), '$15.25')
+    assert.equal(formatUSD(f.quote.value.total), '$319.75')
+  } finally { globalThis.$fetch = original }
+})

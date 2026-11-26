@@ -5818,5 +5818,54 @@
     "de": "Für diese Gruppengröße ist kein Preis festgelegt. Wählen Sie eine andere Größe oder kontaktieren Sie uns.",
     "zh": "此出行人数的价格尚未设置。请选择其他人数或联系我们。",
     "uk": "Ціну для такої кількості мандрівників не налаштовано. Виберіть інший розмір групи або зв’яжіться з нами."
+  },
+  "Book Your Transfer": {
+    "fr": "Réservez votre transfert",
+    "de": "Transfer anfragen",
+    "ru": "Заказать трансфер",
+    "zh": "预订接送",
+    "uk": "Замовити трансфер"
+  },
+  "Transfer Prices": {
+    "fr": "Tarifs des transferts",
+    "de": "Transferpreise",
+    "ru": "Цены на трансферы",
+    "zh": "接送价格",
+    "uk": "Ціни на трансфери"
+  },
+  "View full-size price list": {
+    "fr": "Voir la liste des tarifs en taille réelle",
+    "de": "Preisliste in Originalgröße öffnen",
+    "ru": "Открыть прайс-лист в полном размере",
+    "zh": "查看原尺寸价目表",
+    "uk": "Відкрити прайс-лист у повному розмірі"
+  },
+  "Open original image": {
+    "fr": "Ouvrir l’image originale",
+    "de": "Originalbild öffnen",
+    "ru": "Открыть оригинал изображения",
+    "zh": "打开原始图片",
+    "uk": "Відкрити оригінал зображення"
+  },
+  "Ready to book your transfer?": {
+    "fr": "Prêt à réserver votre transfert ?",
+    "de": "Bereit, Ihren Transfer anzufragen?",
+    "ru": "Готовы заказать трансфер?",
+    "zh": "准备预订接送了吗？",
+    "uk": "Готові замовити трансфер?"
+  },
+  "Share your pickup, destination and travel date. Our team will confirm the details with you.": {
+    "fr": "Indiquez votre lieu de départ, votre destination et votre date de voyage. Notre équipe confirmera les détails avec vous.",
+    "de": "Teilen Sie uns Abholort, Ziel und Reisedatum mit. Unser Team bestätigt die Einzelheiten mit Ihnen.",
+    "ru": "Укажите место подачи, пункт назначения и дату поездки. Наша команда согласует с вами детали.",
+    "zh": "请提供上车地点、目的地和出行日期。我们的团队将与您确认详情。",
+    "uk": "Вкажіть місце подачі, пункт призначення та дату поїздки. Наша команда узгодить з вами деталі."
+  },
+  "Private Transfers — TheVTravel": {
+    "fr": "Transferts privés — TheVTravel",
+    "de": "Private Transfers — TheVTravel",
+    "ru": "Частные трансферы — TheVTravel",
+    "zh": "私人接送 — TheVTravel",
+    "uk": "Приватні трансфери — TheVTravel"
   }
 }

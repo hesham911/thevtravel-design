@@ -19,7 +19,7 @@ export const TRANSFER_TARGET = '#transfer'
  */
 const FALLBACK_NAV = [
   { key: 'journeys', title: 'Journeys', link: '/journeys' },
-  { key: 'transfers', title: 'Private Transfers', link: TRANSFER_TARGET },
+  { key: 'transfers', title: 'Private Transfers', link: '/transfers' },
   { key: 'how-booking-works', title: 'How booking works', link: '/how-booking-works' },
   { key: 'faq', title: 'FAQ', link: '/faq' },
   { key: 'about', title: 'About us', link: '/about' },
@@ -76,9 +76,11 @@ export function useSiteContent() {
       return FALLBACK_NAV.map(item => ({ ...item, title: translate(item.title) }))
     }
 
+    // Existing CMS transfer links now lead to the landing page. Booking
+    // buttons elsewhere keep using the original drawer state.
     return rows
       .filter(row => row.title)
-      .map(row => ({ key: row.key, title: row.title, link: row.link }))
+      .map(row => ({ key: row.key, title: row.title, link: row.link === TRANSFER_TARGET ? '/transfers' : row.link }))
   })
 
   // The buttons the site draws outside any one page: the transfer entry

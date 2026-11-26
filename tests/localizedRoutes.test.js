@@ -32,3 +32,12 @@ test('same-site absolute CMS links preserve the selected locale', () => {
   assert.equal(localizePath('https://elsewhere.test/about', 'uk', 'https://thevtravel.com'), 'https://elsewhere.test/about')
   assert.equal(localizePath('https://thevtravel.com/api/public', 'uk', 'https://thevtravel.com'), 'https://thevtravel.com/api/public')
 })
+
+test('private transfers uses the shared public path for all supported locales', () => {
+  for (const locale of ['en', 'fr', 'de', 'ru', 'zh', 'uk']) {
+    assert.equal(isPublicPath(`/${locale}/transfers`), true)
+    assert.equal(localizePath('/transfers', locale), `/${locale}/transfers`)
+    assert.equal(localizePath('/en/transfers#transfer-prices-title', locale), `/${locale}/transfers#transfer-prices-title`)
+    assert.deepEqual(localizeDestination({ name: 'transfers' }, locale), { name: 'transfers', params: { locale } })
+  }
+})
